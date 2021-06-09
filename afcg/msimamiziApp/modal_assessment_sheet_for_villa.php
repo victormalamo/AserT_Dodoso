@@ -64,20 +64,20 @@
 						  
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_location.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_building.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_front_office.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_lobby_lounge_other_public_areas.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_function_rooms.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_restaurants.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_bar.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_kitchen.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_guest_rooms.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_guest_bathrooms.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_suites.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_hygiene_and_sanitation.php');?>		
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vill_safety_and_security.php');?> 
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_sundry_services.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_human_resources.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_general.php');?-->
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_front_office.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_lobby_lounge_other_public_areas.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_function_rooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_restaurants.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_bar.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_kitchen.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_guest_rooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_guest_bathrooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_suites.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_hygiene_and_sanitation.php');?>		
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vill_safety_and_security.php');?> 
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_sundry_services.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_human_resources.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_general.php');?>
 						  
 						  </tbody>
 						</table>

@@ -1,9 +1,9 @@
-app.villa_ctrl = function($timeout, $scope, $http, focus){
+app.apartment_ctrl = function($timeout, $scope, $http, focus){
 
-	$scope.fetch_villa_items = function(assessment_id, assessor_category){
+	$scope.fetch_apartment_items = function(assessment_id, assessor_category){
 			$http({
 			method:"POST",
-			url:"msimamiziApp/sajili_mtumiaji/fetch_villa_items.php",
+			url:"msimamiziApp/sajili_mtumiaji/fetch_apartment_items.php",
 			data:{'assessment_id':assessment_id, 'assessor_category':assessor_category }
 			}).success(function(data){
 			
@@ -117,28 +117,28 @@ app.villa_ctrl = function($timeout, $scope, $http, focus){
 	
 	<!---------- End Interchanging Selected Marks Custom Marks ------------>
 	
-	$scope.open_assessment_sheet_for_villa = function(){
-		var modal_popup = angular.element('#assessment_sheet_for_villa_panel');
+	$scope.open_assessment_sheet_for_apartment = function(){
+		var modal_popup = angular.element('#assessment_sheet_for_apartment_panel');
 		modal_popup.modal('show');
 	};
-	$scope.close_assessment_sheet_for_villa = function(){
-		var modal_popup = angular.element('#assessment_sheet_for_villa_panel');
+	$scope.close_assessment_sheet_for_apartment = function(){
+		var modal_popup = angular.element('#assessment_sheet_for_apartment_panel');
 		modal_popup.modal('hide');
 	};
-	$scope.check_for_assessment_form_changes_villa = function(){
-		if($scope.show_asteric_villa == '*'){ $scope.assessment_villa_form_changes = true; $scope.open_save_changes(); }else{ $scope.close_assessment_sheet_for_villa(); };
+	$scope.check_for_assessment_form_changes_apartment = function(){
+		if($scope.show_asteric_apartment == '*'){ $scope.assessment_apartment_form_changes = true; $scope.open_save_changes(); }else{ $scope.close_assessment_sheet_for_apartment(); };
 	};
-	$scope.save_and_exit_villa= function(){
-	$scope.from_save_villa = 'save_and_exit';
-	$scope.submit_assessment_villa_form();
+	$scope.save_and_exit_apartment= function(){
+	$scope.from_save_apartment = 'save_and_exit';
+	$scope.submit_assessment_apartment_form();
 	};
-	$scope.close_without_save_villa= function(){
-	$scope.close_assessment_sheet_for_villa();
+	$scope.close_without_save_apartment= function(){
+	$scope.close_assessment_sheet_for_apartment();
 	$scope.close_save_changes();
 	};
 	
-	$scope.submit_assessment_villa_form = function(){
-		if($scope.from_save_villa == 'save_and_exit') { $scope.close_save_changes(); }else{ $scope.from_save_villa = ''; };		
+	$scope.submit_assessment_apartment_form = function(){
+		if($scope.from_save_apartment == 'save_and_exit') { $scope.close_save_changes(); }else{ $scope.from_save_apartment = ''; };		
 		$scope.submitting_in_progress = true;
 		$scope.submitted_successfully = false;
 		$scope.submitted_unsuccessfully = false;
@@ -147,12 +147,12 @@ app.villa_ctrl = function($timeout, $scope, $http, focus){
 		$scope.show_funika_kurasa_with_status();
 		$http({
 			method:"POST",
-			url:"msimamiziApp/sajili_mtumiaji/insert_assessment_villa.php",
+			url:"msimamiziApp/sajili_mtumiaji/insert_assessment_apartment.php",
 			data:{					
 				'facility_id':$scope.facility_id,
 				'assessor_category':$scope.assessor_category,
 				'assessment_id':$scope.assessment_id,
-				'assessment_score_villa':$scope.assessment_score_villa,
+				'assessment_score_apartment':$scope.assessment_score_apartment,
 				//LOCATION 1.0
 				//1.1
 				//1.1.1
@@ -236,7 +236,7 @@ app.villa_ctrl = function($timeout, $scope, $http, focus){
 			}
 			else
 			{
-			$scope.show_asteric_villa = ''; 
+			$scope.show_asteric_apartment = ''; 
 			$scope.status_success_message = 'Saved!';
 			$scope.action = 'edit_record';
 			$scope.assessment_id = data.assessment_id;
@@ -246,9 +246,9 @@ app.villa_ctrl = function($timeout, $scope, $http, focus){
 			$scope.fetchStatus();
 				$timeout(function()
 				{ 
-					if($scope.from_save_villa =='save_and_exit')
+					if($scope.from_save_apartment =='save_and_exit')
 					{ 
-					$scope.close_assessment_sheet_for_villa(); $scope.close_funika_kurasa_with_status(); $scope.from_save_villa = ''; 
+					$scope.close_assessment_sheet_for_apartment(); $scope.close_funika_kurasa_with_status(); $scope.from_save_apartment = ''; 
 					}
 					else
 					{ 
@@ -261,7 +261,7 @@ app.villa_ctrl = function($timeout, $scope, $http, focus){
 	};
 	
 
-	$scope.futa_radio_check_values_villa = function(){
+	$scope.futa_radio_check_values_apartment = function(){
 		//LOCATION 1.0
 			//1.1
 				//1.1.1

@@ -1,9 +1,9 @@
-app.villa_tallying_ctrl = function($timeout, $scope, $http, focus){
+app.cottage_tallying_ctrl = function($timeout, $scope, $http, focus){
 
-		 $scope.fetch_villa_items_for_tallying = function(assessment_id, assessor_category){
+		 $scope.fetch_cottage_items_for_tallying = function(assessment_id, assessor_category){
 			$http({
 			method:"POST",
-			url:"msimamiziApp/sajili_mtumiaji/fetch_villa_items_for_tallying.php",
+			url:"msimamiziApp/sajili_mtumiaji/fetch_cottage_items_for_tallying.php",
 			data:{'assessment_id':assessment_id, 'assessor_category':assessor_category }
 			}).success(function(data){
 			$scope.scores_columns = 6;
@@ -252,18 +252,18 @@ app.villa_tallying_ctrl = function($timeout, $scope, $http, focus){
 			
 												
 			//OPEN SHEET							
-			$scope.open_tallying_sheet_for_villa();	
+			$scope.open_tallying_sheet_for_cottage();	
 			
 			});
 	};
 	
 	
-	$scope.open_tallying_sheet_for_villa = function(){
-		var modal_popup = angular.element('#tallying_sheet_for_villa_panel');
+	$scope.open_tallying_sheet_for_cottage = function(){
+		var modal_popup = angular.element('#tallying_sheet_for_cottage_panel');
 		modal_popup.modal('show');
 	};
-	$scope.close_tallying_sheet_for_villa = function(){
-		var modal_popup = angular.element('#tallying_sheet_for_villa_panel');
+	$scope.close_tallying_sheet_for_cottage = function(){
+		var modal_popup = angular.element('#tallying_sheet_for_cottage_panel');
 		modal_popup.modal('hide');
 	};
 	
