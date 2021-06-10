@@ -463,7 +463,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Excellent (<span class="marks_weight">(10)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Excellent <span class="marks_weight">(10)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
@@ -893,7 +893,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="functions_room_6_3_1_B_b" class="sum_villa" type="radio"  name="functions_room_6_3_1_B" ng-model="functions_room_6_3_1_B" value="7" ng-checked="functions_room_6_3_1_B_b" ng-focus="check_functions_room_6_3_1_B_cm()" />
+		<input id="functions_room_6_3_1_B_b" class="sum_villa" type="radio"  name="functions_room_6_3_1_B" ng-model="functions_room_6_3_1_B" value="4" ng-checked="functions_room_6_3_1_B_b" ng-focus="check_functions_room_6_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

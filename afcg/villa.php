@@ -120,7 +120,7 @@
 						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_restaurants.php');?>
 						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_bar.php');?>
 						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_suites.php');?>		
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_human_resources.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_human_resources.php');?-->
 		
 						  
 						  </tbody>

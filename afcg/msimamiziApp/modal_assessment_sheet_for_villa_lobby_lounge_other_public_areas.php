@@ -288,7 +288,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="lobby_lounge_other_public_areas_3_1_1_E_b" class="sum_villa" type="radio"  name="lobby_lounge_other_public_areas_3_1_1_E" ng-model="lobby_lounge_other_public_areas_3_1_1_E" value="5" ng-checked="lobby_lounge_other_public_areas_3_1_1_E_b" ng-focus="check_lobby_lounge_other_public_areas_3_1_1_E_cm()" />
+		<input id="lobby_lounge_other_public_areas_3_1_1_E_b" class="sum_villa" type="radio"  name="lobby_lounge_other_public_areas_3_1_1_E" ng-model="lobby_lounge_other_public_areas_3_1_1_E" value="2" ng-checked="lobby_lounge_other_public_areas_3_1_1_E_b" ng-focus="check_lobby_lounge_other_public_areas_3_1_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -304,7 +304,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="lobby_lounge_other_public_areas_3_1_1_E_c" class="sum_villa" type="radio"  name="lobby_lounge_other_public_areas_3_1_1_E" ng-model="lobby_lounge_other_public_areas_3_1_1_E" value="8" ng-checked="lobby_lounge_other_public_areas_3_1_1_E_c" ng-focus="check_lobby_lounge_other_public_areas_3_1_1_E_cm()" />
+		<input id="lobby_lounge_other_public_areas_3_1_1_E_c" class="sum_villa" type="radio"  name="lobby_lounge_other_public_areas_3_1_1_E" ng-model="lobby_lounge_other_public_areas_3_1_1_E" value="4" ng-checked="lobby_lounge_other_public_areas_3_1_1_E_c" ng-focus="check_lobby_lounge_other_public_areas_3_1_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
