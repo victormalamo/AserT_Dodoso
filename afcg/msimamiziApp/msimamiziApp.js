@@ -1,0 +1,1 @@
+var app = angular.module('msimamiziApp', ['datatables', 'ngSanitize', 'ui.select', 'widget.scrollbar']);
