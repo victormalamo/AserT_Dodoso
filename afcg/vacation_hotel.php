@@ -120,6 +120,7 @@
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_sundry_services.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_human_resources.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_general.php');?>
+						  <!--telegram notify comment->
 						  
 						  </tbody>
 						</table>
