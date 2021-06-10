@@ -1,57 +1,15 @@
-﻿<!DOCTYPE html>
-<html ng-app="msimamiziApp" ng-controller="watumiajiController" class="restade" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>AserT</title>
+<div class="modal left fade" id="assessment_sheet_for_vacation_hotel_panel" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
 
-<!--link href="../../css/spinner_full_page.css" rel="stylesheet">
-<link href="../../css/font-awesome.css" rel="stylesheet">
-<link href="../../css/font_krona_one.css" rel="stylesheet">
-<link href="../../css/font_rajdhani.css" rel="stylesheet">
-<link href="../../css/font_sansation.css" rel="stylesheet"-->
-<link href="../../css/font_restade_icons_1.css" rel="stylesheet">
-<link rel="stylesheet" href="../../css/font_merriweather.css" type="text/css" media="all">
-<link rel="stylesheet" href="../../css/font_source_sans_pro.css" type="text/css" media="all">
-<link href="../../css/coreui-docs.css" rel="stylesheet">
-<link href="../../css/coreui-icons.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="../../css/mnrt-resp-main.css">
-<link rel="stylesheet" href="../../bootstrap/dist/css/bootstrap.min.css" />
-<link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="../../css/pandisha_faili_wateja.css">
-
-<!-- checkbox, radio, icons -->
-<link href="../../css/pretty-checkbox.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="../../css/font_mdi.css" rel="stylesheet" type="text/css" media="all"/>
-<!-- end checkbox, radio, icons -->
-
-<script>(function(e,t,n){var r=e.querySelectorAll("html")[0];r.className=r.className.replace(/(^|\s)restade(\s|$)/,"$1js$2")})(document,window,0);</script>
-
-<link rel="stylesheet" type="text/css" href="../../css/w3.css">
-<script src="../../js/jquery-1.11.1.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="../../css/resp_form.css">
-
-<script src="../../js/angular_1_3_15.js"></script>
-<script src="../../js/jquery_002.js"></script>
-<script src="../../js/angular-datatables.js"></script>
-<script src="../../js/bootstrap.js"></script>
-<link rel="stylesheet" href="../../css/datatables.css">
-<link rel="stylesheet" href="../../css/ng_form_validation_style.css">
-
-<script src="../../js/angular-sanitize.js"></script>
-<!-- ui-select files -->
-<script src="../../js/select.js"></script>
-<link rel="stylesheet" href="../../css/select.css">
-
-</head>
-
-<body>
-<!--div class="modal left fade" id="assessment_sheet_for_vacation_hotel_panel" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
     <div class="modal-dialog" role="document"> 
-      <div class="modal-content" style="background-color:#ffffff"-->
+      <div class="modal-content" style="background-color:#ffffff">
 
 	   <div class="fixed-top" style="width:100%; margin-top:0px; padding:15px 15px 12px 15px; height:59px; background-color: rgba(255,255,255,1); border-bottom:1px solid #f1f1f1"> 
+			<!--span>
+			<button class="rstdnavbar-toggler rstdsidebar-toggler" type="button" ng-click="show_mteja_menu()">
+			<span class="rstdnavbar-toggler-icon_hamburger"></span>
+			</button>
+			</span-->
+			
 			<div class="pull-right">
 				<div class="btn_text top_menu_item_button_text" style="width:115px; text-align:left; color:rgba(0,0,0,.5); font-weight:normal">Scores:&nbsp;<span id="total_vacation_hotel" ng-bind="assessment_score_vacation_hotel" style="font-size:1.125rem!important">0</span><span ng-class="(assessment_score_vacation_hotel >= 75)?'custom_green_text':'custom_red_text'"></span></div>
 				<div class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_left" ng-click="submit_assessment_vacation_hotel_form()">Save <span id="form_save_status_vacation_hotel" ng-bind="show_asteric_vacation_hotel"></span></div>
@@ -102,10 +60,9 @@
 							  <th data-orderable="false" style="vertical-align:middle; width:150px!important" class="border-mdblue">ASSESSOR'S COMMENTS</th>
 							</tr>							
 						  </thead>
-<<<<<<< HEAD
 						  <tbody style="font-size:15px">
 						  
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_town_hotel_lobby_lounge_other_public_areas.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_location.php');?>
 						  <!--php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_building.php');?>
 						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_front_office.php');?>
 						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_lobby_lounge_other_public_areas.php');?>
@@ -114,9 +71,6 @@
 						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_bar.php');?>
 						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_kitchen.php');?>
 						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_guest_rooms.php');?>
-=======
-
->>>>>>> edf6dad6bddd18e9b7a9afeef91c686febb95bf5
 						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_guest_bathrooms.php');?>
 						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_suites.php');?>
 						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_hygiene_and_sanitation.php');?>		
@@ -145,19 +99,7 @@
 
             </div>
           </div>
-        <!--/div>
+        </div>
       </div>
-    </div-->
+    </div>
 </div>
-
-<!--app-->
-<script src="msimamiziApp/msimamiziApp.js"></script>
-<!--controllers-->
-<script src="msimamiziApp/controllers/watumiaji_Ctrl.js"></script>
-<!--vacation_hotel-->
-<script src="msimamiziApp/controllers/vacation_hotel_ctrl.js"></script>
-<script src="msimamiziApp/controllers/vacation_hotel_tallying_ctrl.js"></script>
-<script src="msimamiziApp/controllers/vacation_hotel_custom_marks_filter.js"></script>
-<!--</body></html-->
-</body>
-</html>
