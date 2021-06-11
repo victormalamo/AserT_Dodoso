@@ -47,16 +47,16 @@
 </head>
 
 <body>
-<!--div class="modal left fade" id="assessment_sheet_for_villa_panel" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+<!--div class="modal left fade" id="assessment_sheet_for_cottage_panel" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
     <div class="modal-dialog" role="document"> 
       <div class="modal-content" style="background-color:#ffffff"-->
 
 	   <div class="fixed-top" style="width:100%; margin-top:0px; padding:15px 15px 12px 15px; height:59px; background-color: rgba(255,255,255,1); border-bottom:1px solid #f1f1f1"> 
 			<div class="pull-right">
-				<div class="btn_text top_menu_item_button_text" style="width:115px; text-align:left; color:rgba(0,0,0,.5); font-weight:normal">Scores:&nbsp;<span id="total_villa" ng-bind="assessment_score_villa" style="font-size:1.125rem!important">0</span><span ng-class="(assessment_score_villa >= 75)?'custom_green_text':'custom_red_text'"></span></div>
-				<div class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_left" ng-click="submit_assessment_villa_form()">Save <span id="form_save_status_villa" ng-bind="show_asteric_villa"></span></div>
-				<div id="reset_btn_villa" class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_right" ng-click="futa_radio_check_values_vi()">Reset</div>
-				<button class="rstdnavbar-toggler rstdsidebar-toggler" type="button" ng-click="check_for_assessment_form_changes_villa()">
+				<div class="btn_text top_menu_item_button_text" style="width:115px; text-align:left; color:rgba(0,0,0,.5); font-weight:normal">Scores:&nbsp;<span id="total_cottage" ng-bind="assessment_score_cottage" style="font-size:1.125rem!important">0</span><span ng-class="(assessment_score_cottage >= 75)?'custom_green_text':'custom_red_text'"></span></div>
+				<div class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_left" ng-click="submit_assessment_cottage_form()">Save <span id="form_save_status_cottage" ng-bind="show_asteric_cottage"></span></div>
+				<div id="reset_btn_cottage" class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_right" ng-click="futa_radio_check_values_vi()">Reset</div>
+				<button class="rstdnavbar-toggler rstdsidebar-toggler" type="button" ng-click="check_for_assessment_form_changes_cottage()">
 				<span class="rstdnavbar-toggler-icon_close"></span>
 				</button>				
 			</div>
@@ -66,7 +66,7 @@
 		<center>
             <!--div class="dawati_logo" style="margin:0px 0px 28px 0px;"></div-->
 			<div class="page-header__subtitle w3-text-black" style="font-size:30px">ASSESSMENT SHEET</div>
-			<div class="footer__site__title w3-text-black" style="margin:0px 0px 28px 0px; color:">(Villas, Cottages and Services Apartments)</div>
+			<div class="footer__site__title w3-text-black" style="margin:0px 0px 28px 0px; color:">(Cottages)</div>
             <span class="dividerTTT" style="margin-bottom:7px"> 
             <hr style="width:100px; border:4px solid;">
             </span>  
@@ -86,7 +86,7 @@
             <div class="" style="max-width:850px; border:1px solid #fff; border-radius:2px; padding: 0px 0px 20px 0px; margin-left:auto; margin-right:auto"> 
               
                 		
-                  <form  id="assessment_sheet_villa_form" name="assessment_sheet_villa_form" ng-submit="submit_assessment_villa_form()" enctype="multipart/form-data" novalidate>
+                  <form  id="assessment_sheet_cottage_form" name="assessment_sheet_cottage_form" ng-submit="submit_assessment_cottage_form()" enctype="multipart/form-data" novalidate>
 
 				  
 				  
@@ -104,23 +104,23 @@
 						  </thead>
 						  <tbody style="font-size:15px">
 						  
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_location.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_building.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_lobby_lounge_other_public_areas.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_guest_rooms.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_kitchen.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_function_rooms.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_guest_bathrooms.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_hygiene_and_sanitation.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_safety_and_security.php');?> 
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_sundry_services.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_human_resources.php');?>
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_villa_general.php');?>
-						  <!--php include('msimamiziApp/modal_assessment_sheet_for_villa_front_office.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_restaurants.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_bar.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_suites.php');?>		
-						  <php include('msimamiziApp/modal_assessment_sheet_for_villa_human_resources.php');?-->
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_location.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_building.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_lobby_lounge_other_public_areas.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_guest_rooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_kitchen.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_function_rooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_guest_bathrooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_hygiene_and_sanitation.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_safety_and_security.php');?> 
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_sundry_services.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_human_resources.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_cottage_general.php');?>
+						  <!--php include('msimamiziApp/modal_assessment_sheet_for_cottage_front_office.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_cottage_restaurants.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_cottage_bar.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_cottage_suites.php');?>		
+						  <php include('msimamiziApp/modal_assessment_sheet_for_cottage_human_resources.php');?-->
 		
 						  
 						  </tbody>
@@ -128,13 +128,13 @@
 						
                     <div class="form-group wateja_request_form_buttons_margin" align="center">
 					<div class="btn_ukubwa_wrap" style="margin-top:40px!important">
-					  <input type="text" class="" id="assessment_score_villa" name="assessment_score_villa" ng-model="assessment_score_villa" style="display: none;"/>
-					  <input type="text" class="" id="show_asteric_villa" name="show_asteric_villa" ng-model="show_asteric_villa" value="" style="display: none;"/>
-					  <input class="sum_villa" type="checkbox" ng-model="for_checkbox" value="0" ng-checked="true" style="display: none;"/>
+					  <input type="text" class="" id="assessment_score_cottage" name="assessment_score_cottage" ng-model="assessment_score_cottage" style="display: none;"/>
+					  <input type="text" class="" id="show_asteric_cottage" name="show_asteric_cottage" ng-model="show_asteric_cottage" value="" style="display: none;"/>
+					  <input class="sum_cottage" type="checkbox" ng-model="for_checkbox" value="0" ng-checked="true" style="display: none;"/>
 					  <!--the above is for miss-behaving last unchecked checkbox when nothing is checked-->
 					  <button type="submit" class="btn btn-success btn_ukubwa" style="border-color:#fff" id="btn_send_request">Save</button>
-                      <button type="button" id="reset_btn_bottom_villa" class="btn btn-warning btn_ukubwa" style="border-color:#fff" ng-click="futa_radio_check_values_villa()">Reset</button>
-                      <button type="button" class="btn btn-warning btn_ukubwa" style="border-color:#fff" ng-click="check_for_assessment_form_changes_villa()">Cancel</button>
+                      <button type="button" id="reset_btn_bottom_cottage" class="btn btn-warning btn_ukubwa" style="border-color:#fff" ng-click="futa_radio_check_values_cottage()">Reset</button>
+                      <button type="button" class="btn btn-warning btn_ukubwa" style="border-color:#fff" ng-click="check_for_assessment_form_changes_cottage()">Cancel</button>
                     </div>
                     </div>
                   </form>				
@@ -151,11 +151,11 @@
 <!--app-->
 <script src="msimamiziApp/msimamiziApp.js"></script>
 <!--controllers-->
-<script src="msimamiziApp/controllers/watumiaji_Ctrl.js"></script>
-<!--villa-->
-<script src="msimamiziApp/controllers/villa_ctrl.js"></script>
-<script src="msimamiziApp/controllers/villa_tallying_ctrl.js"></script>
-<script src="msimamiziApp/controllers/villa_custom_marks_filter.js"></script>
+<script src="msimamiziApp/controllers/Cottagewatumiaji_Ctrl.js"></script>
+<!--cottage-->
+<script src="msimamiziApp/controllers/cottage_ctrl.js"></script>
+<script src="msimamiziApp/controllers/cottage_tallying_ctrl.js"></script>
+<script src="msimamiziApp/controllers/cottage_custom_marks_filter.js"></script>
 <!--</body></html-->
 </body>
 </html>
