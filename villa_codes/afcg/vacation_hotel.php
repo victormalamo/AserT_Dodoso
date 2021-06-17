@@ -47,16 +47,16 @@
 </head>
 
 <body>
-<!--div class="modal left fade" id="assessment_sheet_for_restaurant_panel" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+<!--div class="modal left fade" id="assessment_sheet_for_vacation_hotel_panel" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
     <div class="modal-dialog" role="document"> 
       <div class="modal-content" style="background-color:#ffffff"-->
 
 	   <div class="fixed-top" style="width:100%; margin-top:0px; padding:15px 15px 12px 15px; height:59px; background-color: rgba(255,255,255,1); border-bottom:1px solid #f1f1f1"> 
 			<div class="pull-right">
-				<div class="btn_text top_menu_item_button_text" style="width:115px; text-align:left; color:rgba(0,0,0,.5); font-weight:normal">Scores:&nbsp;<span id="total_restaurant" ng-bind="assessment_score_restaurant" style="font-size:1.125rem!important">0</span><span ng-class="(assessment_score_restaurant >= 75)?'custom_green_text':'custom_red_text'"></span></div>
-				<div class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_left" ng-click="submit_assessment_restaurant_form()">Save <span id="form_save_status_restaurant" ng-bind="show_asteric_restaurant"></span></div>
-				<div id="reset_btn_restaurant" class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_right" ng-click="futa_radio_check_values_restaurant()">Reset</div>
-				<button class="rstdnavbar-toggler rstdsidebar-toggler" type="button" ng-click="check_for_assessment_form_changes_restaurant()">
+				<div class="btn_text top_menu_item_button_text" style="width:115px; text-align:left; color:rgba(0,0,0,.5); font-weight:normal">Scores:&nbsp;<span id="total_vacation_hotel" ng-bind="assessment_score_vacation_hotel" style="font-size:1.125rem!important">0</span><span ng-class="(assessment_score_vacation_hotel >= 75)?'custom_green_text':'custom_red_text'"></span></div>
+				<div class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_left" ng-click="submit_assessment_vacation_hotel_form()">Save <span id="form_save_status_vacation_hotel" ng-bind="show_asteric_vacation_hotel"></span></div>
+				<div id="reset_btn_vacation_hotel" class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_right" ng-click="futa_radio_check_values_vacation_hotel()">Reset</div>
+				<button class="rstdnavbar-toggler rstdsidebar-toggler" type="button" ng-click="check_for_assessment_form_changes_vacation_hotel()">
 				<span class="rstdnavbar-toggler-icon_close"></span>
 				</button>				
 			</div>
@@ -66,7 +66,7 @@
 		<center>
             <!--div class="dawati_logo" style="margin:0px 0px 28px 0px;"></div-->
 			<div class="page-header__subtitle w3-text-black" style="font-size:30px">ASSESSMENT SHEET</div>
-			<div class="footer__site__title w3-text-black" style="margin:0px 0px 28px 0px; color:">(Restaurant)</div>
+			<div class="footer__site__title w3-text-black" style="margin:0px 0px 28px 0px; color:">(Vacation Hotel)</div>
             <span class="dividerTTT" style="margin-bottom:7px"> 
             <hr style="width:100px; border:4px solid;">
             </span>  
@@ -86,8 +86,10 @@
             <div class="" style="max-width:850px; border:1px solid #fff; border-radius:2px; padding: 0px 0px 20px 0px; margin-left:auto; margin-right:auto"> 
               
                 		
-                  <form  id="assessment_sheet_restaurant_form" name="assessment_sheet_restaurant_form" ng-submit="submit_assessment_restaurant_form()" enctype="multipart/form-data" novalidate>
+                  <form  id="assessment_sheet_vacation_hotel_form" name="assessment_sheet_vacation_hotel_form" ng-submit="submit_assessment_vacation_hotel_form()" enctype="multipart/form-data" novalidate>
 
+				  
+				  
 					<table id="" class="table table-bordered border-mdblue">
 						  <thead>						  	
 						  	<tr style="height:80px"> 
@@ -102,35 +104,35 @@
 						  </thead>
 						  <tbody style="font-size:15px">
 						  
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_location.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_building.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_reception.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_lobby_lounge_other_public_areas.php');?-->
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_service.php');?>
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_dining_area.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_bar.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_kitchen.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_guest_rooms.php');?>
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_guest_bathrooms.php');?-->
-						  <!--php include('msimamiziApp/modal_assessment_sheet_for_restaurant_suites.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_hygiene_and_sanitation.php');?-->		
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_safety_and_security.php');?> 
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_sundry_services.php');?-->
-						  <!--php include('msimamiziApp/modal_assessment_sheet_for_restaurant_human_resources.php');?-->
-						  <!---?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_general.php');?-->
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_town_hotel_location.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_town_hotel_building.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_town_hotel_front_office.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_town_hotel_lobby_lounge_other_public_areas.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_town_hotel_guest_rooms.php');?>
+						  <!--php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_function_rooms.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_restaurants.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_bar.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_kitchen.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_guest_bathrooms.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_suites.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_hygiene_and_sanitation.php');?>		
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_safety_and_security.php');?> 
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_sundry_services.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_human_resources.php');?>
+						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_general.php');?-->
 						  
 						  </tbody>
 						</table>
 						
                     <div class="form-group wateja_request_form_buttons_margin" align="center">
 					<div class="btn_ukubwa_wrap" style="margin-top:40px!important">
-					  <input type="text" class="" id="assessment_score_restaurant" name="assessment_score_restaurant" ng-model="assessment_score_restaurant" style="display: none;"/>
-					  <input type="text" class="" id="show_asteric_restaurant" name="show_asteric_restaurant" ng-model="show_asteric_restaurant" value="" style="display: none;"/>
-					  <input class="sum_restaurant" type="checkbox" ng-model="for_checkbox" value="0" ng-checked="true" style="display: none;"/>
+					  <input type="text" class="" id="assessment_score_vacation_hotel" name="assessment_score_vacation_hotel" ng-model="assessment_score_vacation_hotel" style="display: none;"/>
+					  <input type="text" class="" id="show_asteric_vacation_hotel" name="show_asteric_vacation_hotel" ng-model="show_asteric_vacation_hotel" value="" style="display: none;"/>
+					  <input class="sum_vacation_hotel" type="checkbox" ng-model="for_checkbox" value="0" ng-checked="true" style="display: none;"/>
 					  <!--the above is for miss-behaving last unchecked checkbox when nothing is checked-->
 					  <button type="submit" class="btn btn-success btn_ukubwa" style="border-color:#fff" id="btn_send_request">Save</button>
-                      <button type="button" id="reset_btn_bottom_restaurant" class="btn btn-warning btn_ukubwa" style="border-color:#fff" ng-click="futa_radio_check_values_restaurant()">Reset</button>
-                      <button type="button" class="btn btn-warning btn_ukubwa" style="border-color:#fff" ng-click="check_for_assessment_form_changes_restaurant()">Cancel</button>
+                      <button type="button" id="reset_btn_bottom_vacation_hotel" class="btn btn-warning btn_ukubwa" style="border-color:#fff" ng-click="futa_radio_check_values_vacation_hotel()">Reset</button>
+                      <button type="button" class="btn btn-warning btn_ukubwa" style="border-color:#fff" ng-click="check_for_assessment_form_changes_vacation_hotel()">Cancel</button>
                     </div>
                     </div>
                   </form>				
@@ -148,10 +150,10 @@
 <script src="msimamiziApp/msimamiziApp.js"></script>
 <!--controllers-->
 <script src="msimamiziApp/controllers/watumiaji_Ctrl.js"></script>
-<!--restaurant-->
-<script src="msimamiziApp/controllers/restaurant_ctrl.js"></script>
-<script src="msimamiziApp/controllers/restaurant_tallying_ctrl.js"></script>
-<script src="msimamiziApp/controllers/restaurant_custom_marks_filter.js"></script>
+<!--vacation_hotel-->
+<script src="msimamiziApp/controllers/vacation_hotel_ctrl.js"></script>
+<script src="msimamiziApp/controllers/vacation_hotel_tallying_ctrl.js"></script>
+<script src="msimamiziApp/controllers/vacation_hotel_custom_marks_filter.js"></script>
 <!--</body></html-->
 </body>
 </html>

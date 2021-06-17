@@ -406,7 +406,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="location_1_2_4_text" name="location_1_2_4_text" ng-model="location_1_2_4_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="10" placeholder="Type here.." class=""></textarea>
+  <textarea id="location_1_1_4_text" name="location_1_1_4_text" ng-model="location_1_1_4_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="10" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
