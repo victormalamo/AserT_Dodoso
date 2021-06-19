@@ -1,0 +1,51 @@
+Technloangular: material + bootstrap5
+
+apps
+==page
+	==home-mod(home)
+		--home(component)
+	==menu-mod(for module)
+		--menu-comp-name (for components)
+			...components
+			ng g c page/search
+		--home_slider
+		--home_latest_news
+	==news
+	
+	==search
+
+==share(components)
+
+NAMING CONVENTION
+
+naming of directory should be consistency
+i. file feature.type.ts
+ii.folder small letters
+iii. modules name-mod (small)
+iv. compone  modulename-comp-name
+V. commit message naming standard ("date module action_performed") "15-06-21 homepage footer_inserted"
+GIT CONCEPTS
+
+-login
+-create reposite with read me file
+-create branches
+-Git Editor (Gitbash Installer), VS Code integrated BASH, GitHub Desktop.
+
+GitHub Desktop
+---You can create directory.
+
+TELEGRAM GIT BOT 
+
+-Create telegram group
+-Add Githubbot
+-type /start.
+
+
+
+
+
+
+
+
+
+

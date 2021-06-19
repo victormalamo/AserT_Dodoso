@@ -1,0 +1,73 @@
+=== IMPORTANT GIT COMMANDS ===
+*-Tracked files => known by git repos (green colored); even first cloned files are tracked. 
+*-Untracked files => found by git workspace but not in local repo (red colored). 
+
+*-Stagged => a file that has been added to git local repo waiting a commite (is also tracked)
+		-*once a file is stagged can be modified and commited without git add again.
+*-HEAD => a reference to the most commit of the current branch. (git show HEAD)  
+01. git init =>initializing workspace into local repo.
+02. git config --global =>setting username, email & password
+	==OPTIONS= 
+		=>git config --global user.name "<tag>"
+		=>git config --global user.email "<tag>"
+		=>git config --global user.password "<tag>"
+03. git clone =>used to create a copy of a target repo.
+	==OPTIONS=
+		=>git clone <repo>
+		=>git clone --branch <branch_name> <repo>
+		
+04. git add filename =>command used to track file
+	==OPTIONS=
+		=>git add . used to stage all files
+		=>git add all -used to add all changed files
+		=>git add -A  -used to add all changed files
+05. git status  =>command used to check the status(staged waiting for commit or repo tree)
+	==OPTIONS=
+		=>git status -s - give shortest form of status
+		
+06. git commit  -m "message" =>command used to track file/keep into a local repo.
+	==OPTIONS=
+		=>git commit -a -m "message"                  -use to commit the modified file without git add.
+		=>git commit --amend HEAD~3             -used to change the commit message (in text editor; {append -m "The New Message" if your using gitbash cli})
+		=>git commit --amend --no-edit    -used to commit another file or changes using the previous commit message.
+	*NB: Do not ammend commits that you had pushed to shared or someone else branch.*
+07. git push =>pushing the commits to the working branch
+	==OPTIONS=
+		=>git push --set-upstream origin feature (create streaming for a locally created branch)
+		=>git add all
+		=>git add -A
+08. git pull filename =>command used to track file
+	==OPTIONS=
+		=>git add .
+		=>git add all
+		=>git add -A
+09. git branch   =>command used to SHOW ALL BRACHES OF A REPO
+	==OPTIONS=
+		=>git branch       -used to list all branches of a repo.
+		=>git branch <tag> -used to create a new branch.
+		=>git branch -d <tag> -used to delete branch (make sure you have merged).
+		
+10. git checkout <branch tag> => traversing (moving accross branches)
+	==OPTIONS=
+		=>git checkout <HEAD ID>       -temporarily detache the most current HEAD.
+11. git merge  branch =>(Don't merge other branches commits---refer FETCH HEADS in .git file of a repo)
+	==OPTIONS=
+		=>git git merge --squash feature then add the message.
+12. git diff =>initializing workspace into local repo.
+
+13. git log =>shows a list of all commit made in a repo.
+	==OPTIONS=
+		=>git log --oneline --graph --all
+		=>git log --oneline           -few descriptions in one li
+		=>git log --graph	      -gives more descriptions
+		=>git log -n 3	              -gives 3 commits in desc. (you can change the value you want)
+	
+14. git reset HEAD;=>Undo commit and unstage all files.
+	==OPTIONS=
+		=>git reset --soft <HEAD>;     -Undo commit and keep all files staged
+		=>git reset --hard <HEAD>;     -Undo the commit and completely remove all changes
+	
+14. git revert =>used to reverse pushed commits.	
+15. git rebase =>initializing workspace into local repo.
+16. git restore =>used to unstage file/(removing a file from staged)/remove modified changes.
+17.  git rm =>used to delete the file. 
