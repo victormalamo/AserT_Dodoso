@@ -2600,7 +2600,6 @@
   <input id="hygiene_and_sanitation_10_7_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="hygiene_and_sanitation_10_7_1_B_cm" ng-model="hygiene_and_sanitation_10_7_1_B_cm" ng-focus="check_hygiene_and_sanitation_10_7_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2638,11 +2637,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(d)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Five days  <span class="marks_weight">(35)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Five days  <span class="marks_weight">(30)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="hygiene_and_sanitation_10_7_1_B_d" class="sum_motel" type="radio"  name="hygiene_and_sanitation_10_7_1_B" ng-model="hygiene_and_sanitation_10_7_1_B" value="35" ng-checked="hygiene_and_sanitation_10_7_1_B_d" ng-focus="check_hygiene_and_sanitation_10_7_1_B_cm()" />
+		<input id="hygiene_and_sanitation_10_7_1_B_d" class="sum_motel" type="radio"  name="hygiene_and_sanitation_10_7_1_B" ng-model="hygiene_and_sanitation_10_7_1_B" value="30" ng-checked="hygiene_and_sanitation_10_7_1_B_d" ng-focus="check_hygiene_and_sanitation_10_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2654,11 +2653,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(e)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Seven days  <span class="marks_weight">(45)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Seven days  <span class="marks_weight">(35)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="hygiene_and_sanitation_10_7_1_B_e" class="sum_motel" type="radio"  name="hygiene_and_sanitation_10_7_1_B" ng-model="hygiene_and_sanitation_10_7_1_B" value="45" ng-checked="hygiene_and_sanitation_10_7_1_B_e" ng-focus="check_hygiene_and_sanitation_10_7_1_B_cm()" />
+		<input id="hygiene_and_sanitation_10_7_1_B_e" class="sum_motel" type="radio"  name="hygiene_and_sanitation_10_7_1_B" ng-model="hygiene_and_sanitation_10_7_1_B" value="35" ng-checked="hygiene_and_sanitation_10_7_1_B_e" ng-focus="check_hygiene_and_sanitation_10_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

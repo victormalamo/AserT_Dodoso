@@ -1920,6 +1920,12 @@ app.controller('watumiajiController', function($timeout, $scope, $http, focus){
 	$scope.show_asteric_town_hotel = '';
 	$scope.assessment_vacation_hotel_form_changes = false;
 	$scope.show_asteric_vacation_hotel = '';
+	$scope.assessment_lodge_form_changes = false;
+	$scope.show_asteric_lodge = '';
+	$scope.assessment_villa_form_changes = false;
+	$scope.show_asteric_villa = '';
+	$scope.assessment_motel_form_changes = false;
+	$scope.show_asteric_motel = '';
 		var modal_popup = angular.element('#save_changes');
 		modal_popup.modal('hide');
 	};
@@ -2263,6 +2269,12 @@ app.controller('watumiajiController', function($timeout, $scope, $http, focus){
 app.town_hotel_ctrl($timeout, $scope, $http, focus);
 //Vacation Hotel
 app.vacation_hotel_ctrl($timeout, $scope, $http, focus);
+//Lodge
+app.lodge_ctrl($timeout, $scope, $http, focus);
+//Villa
+app.villa_ctrl($timeout, $scope, $http, focus);
+//Motel
+app.motel_ctrl($timeout, $scope, $http, focus);
 
 //////////////////////////// END ASSESSMENT SHEETS  ////////////////////////////////////////////////////////
 
@@ -2475,5 +2487,166 @@ $('#reset_btn_vacation_hotel, #reset_btn_bottom_vacation_hotel').on('click', fun
 	$('#show_asteric_vacation_hotel').val('*');
 	$('#show_asteric_vacation_hotel').trigger('input');
 });
+
+//ASSESSMENT SHEET - LODGE
+
+$('.sum_lodge').on('click', function(){
+    var sum_total_lodge = 0;
+	var sum_checked_lodge = 0;
+    $('.sum_lodge:checked').each(function(){
+        sum_checked_lodge += Number(this.value);
+			var sum_cm_lodge = 0;
+			$('.sum_lodge_cm').each(function(){
+			sum_cm_lodge += +$(this).val();
+			});
+		sum_total_lodge = sum_cm_lodge + sum_checked_lodge;			
+		$('#total_lodge').text(sum_total_lodge);
+		$('#assessment_score_lodge').val(sum_total_lodge);
+		$('#assessment_score_lodge').trigger('input');
+		//form changes
+		$('#form_save_status_lodge').text('*');
+		$('#show_asteric_lodge').val('*');
+		$('#show_asteric_lodge').trigger('input');
+    });	
+});
+$(document).on("click keyup", ".sum_lodge_cm", function() {
+    var sum_total_lodge = 0;
+	var sum_cm_lodge = 0;
+	$(".sum_lodge_cm").each(function(){
+		sum_cm_lodge += +$(this).val();
+			var sum_checked_lodge = 0;
+			$('.sum_lodge:checked').each(function(){
+			sum_checked_lodge += Number(this.value);
+			});			
+		sum_total_lodge = sum_cm_lodge + sum_checked_lodge;
+		$('#total_lodge').text(sum_total_lodge);
+		$('#assessment_score_lodge').val(sum_total_lodge);
+		$('#assessment_score_lodge').trigger('input');	
+		//form changes
+		$('#form_save_status_lodge').text('*');
+		$('#show_asteric_lodge').val('*');
+		$('#show_asteric_lodge').trigger('input');
+	});	
+});
+
+$('#reset_btn_lodge, #reset_btn_bottom_lodge').on('click', function(){
+	$('.sum_lodge').prop('checked', false);
+	var total_lodge = 0;
+	$('#total_lodge').text(total_lodge);
+	$('#assessment_score_lodge').val(total_lodge);
+	$('#assessment_score_lodge').trigger('input');
+	//form changes
+	$('#form_save_status_lodge').text('*');
+	$('#show_asteric_lodge').val('*');
+	$('#show_asteric_lodge').trigger('input');
+});
+
+//ASSESSMENT SHEET - VILLA
+
+$('.sum_villa').on('click', function(){
+    var sum_total_villa = 0;
+	var sum_checked_villa = 0;
+    $('.sum_villa:checked').each(function(){
+        sum_checked_villa += Number(this.value);
+			var sum_cm_villa = 0;
+			$('.sum_villa_cm').each(function(){
+			sum_cm_villa += +$(this).val();
+			});
+		sum_total_villa = sum_cm_villa + sum_checked_villa;			
+		$('#total_villa').text(sum_total_villa);
+		$('#assessment_score_villa').val(sum_total_villa);
+		$('#assessment_score_villa').trigger('input');
+		//form changes
+		$('#form_save_status_villa').text('*');
+		$('#show_asteric_villa').val('*');
+		$('#show_asteric_villa').trigger('input');
+    });	
+});
+$(document).on("click keyup", ".sum_villa_cm", function() {
+    var sum_total_villa = 0;
+	var sum_cm_villa = 0;
+	$(".sum_villa_cm").each(function(){
+		sum_cm_villa += +$(this).val();
+			var sum_checked_villa = 0;
+			$('.sum_villa:checked').each(function(){
+			sum_checked_villa += Number(this.value);
+			});			
+		sum_total_villa = sum_cm_villa + sum_checked_villa;
+		$('#total_villa').text(sum_total_villa);
+		$('#assessment_score_villa').val(sum_total_villa);
+		$('#assessment_score_villa').trigger('input');	
+		//form changes
+		$('#form_save_status_villa').text('*');
+		$('#show_asteric_villa').val('*');
+		$('#show_asteric_villa').trigger('input');
+	});	
+});
+
+$('#reset_btn_villa, #reset_btn_bottom_villa').on('click', function(){
+	$('.sum_villa').prop('checked', false);
+	var total_villa = 0;
+	$('#total_villa').text(total_villa);
+	$('#assessment_score_villa').val(total_villa);
+	$('#assessment_score_villa').trigger('input');
+	//form changes
+	$('#form_save_status_villa').text('*');
+	$('#show_asteric_villa').val('*');
+	$('#show_asteric_villa').trigger('input');
+});
+
+//ASSESSMENT SHEET - MOTEL
+
+$('.sum_motel').on('click', function(){
+    var sum_total_motel = 0;
+	var sum_checked_motel = 0;
+    $('.sum_motel:checked').each(function(){
+        sum_checked_motel += Number(this.value);
+			var sum_cm_motel = 0;
+			$('.sum_motel_cm').each(function(){
+			sum_cm_motel += +$(this).val();
+			});
+		sum_total_motel = sum_cm_motel + sum_checked_motel;			
+		$('#total_motel').text(sum_total_motel);
+		$('#assessment_score_motel').val(sum_total_motel);
+		$('#assessment_score_motel').trigger('input');
+		//form changes
+		$('#form_save_status_motel').text('*');
+		$('#show_asteric_motel').val('*');
+		$('#show_asteric_motel').trigger('input');
+    });	
+});
+$(document).on("click keyup", ".sum_motel_cm", function() {
+    var sum_total_motel = 0;
+	var sum_cm_motel = 0;
+	$(".sum_motel_cm").each(function(){
+		sum_cm_motel += +$(this).val();
+			var sum_checked_motel = 0;
+			$('.sum_motel:checked').each(function(){
+			sum_checked_motel += Number(this.value);
+			});			
+		sum_total_motel = sum_cm_motel + sum_checked_motel;
+		$('#total_motel').text(sum_total_motel);
+		$('#assessment_score_motel').val(sum_total_motel);
+		$('#assessment_score_motel').trigger('input');	
+		//form changes
+		$('#form_save_status_motel').text('*');
+		$('#show_asteric_motel').val('*');
+		$('#show_asteric_motel').trigger('input');
+	});	
+});
+
+$('#reset_btn_motel, #reset_btn_bottom_motel').on('click', function(){
+	$('.sum_motel').prop('checked', false);
+	var total_motel = 0;
+	$('#total_motel').text(total_motel);
+	$('#assessment_score_motel').val(total_motel);
+	$('#assessment_score_motel').trigger('input');
+	//form changes
+	$('#form_save_status_motel').text('*');
+	$('#show_asteric_motel').val('*');
+	$('#show_asteric_motel').trigger('input');
+});
+
+
 
 <!---------------------------------------->

@@ -47,16 +47,16 @@
 </head>
 
 <body>
-<!--div class="modal left fade" id="assessment_sheet_for_motel_panel" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+<!--div class="modal left fade" id="assessment_sheet_for_vacation_hotel_panel" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
     <div class="modal-dialog" role="document"> 
       <div class="modal-content" style="background-color:#ffffff"-->
 
 	   <div class="fixed-top" style="width:100%; margin-top:0px; padding:15px 15px 12px 15px; height:59px; background-color: rgba(255,255,255,1); border-bottom:1px solid #f1f1f1"> 
 			<div class="pull-right">
-				<div class="btn_text top_menu_item_button_text" style="width:115px; text-align:left; color:rgba(0,0,0,.5); font-weight:normal">Scores:&nbsp;<span id="total_motel" ng-bind="assessment_score_motel" style="font-size:1.125rem!important">0</span><span ng-class="(assessment_score_motel >= 75)?'custom_green_text':'custom_red_text'"></span></div>
-				<div class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_left" ng-click="submit_assessment_motel_form()">Save <span id="form_save_status_motel" ng-bind="show_asteric_motel"></span></div>
-				<div id="reset_btn_motel" class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_right" ng-click="futa_radio_check_values_motel()">Reset</div>
-				<button class="rstdnavbar-toggler rstdsidebar-toggler" type="button" ng-click="check_for_assessment_form_changes_motel()">
+				<div class="btn_text top_menu_item_button_text" style="width:115px; text-align:left; color:rgba(0,0,0,.5); font-weight:normal">Scores:&nbsp;<span id="total_vacation_hotel" ng-bind="assessment_score_vacation_hotel" style="font-size:1.125rem!important">0</span><span ng-class="(assessment_score_vacation_hotel >= 75)?'custom_green_text':'custom_red_text'"></span></div>
+				<div class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_left" ng-click="submit_assessment_vacation_hotel_form()">Save <span id="form_save_status_vacation_hotel" ng-bind="show_asteric_vacation_hotel"></span></div>
+				<div id="reset_btn_vacation_hotel" class="rstdbtn rstdbtn-outline-brown top_menu_item_button top_menu_item_button_right" ng-click="futa_radio_check_values_vacation_hotel()">Reset</div>
+				<button class="rstdnavbar-toggler rstdsidebar-toggler" type="button" ng-click="check_for_assessment_form_changes_vacation_hotel()">
 				<span class="rstdnavbar-toggler-icon_close"></span>
 				</button>				
 			</div>
@@ -86,7 +86,7 @@
             <div class="" style="max-width:850px; border:1px solid #fff; border-radius:2px; padding: 0px 0px 20px 0px; margin-left:auto; margin-right:auto"> 
               
                 		
-                  <form  id="assessment_sheet_motel_form" name="assessment_sheet_motel_form" ng-submit="submit_assessment_motel_form()" enctype="multipart/form-data" novalidate>
+                  <form  id="assessment_sheet_vacation_hotel_form" name="assessment_sheet_vacation_hotel_form" ng-submit="submit_assessment_vacation_hotel_form()" enctype="multipart/form-data" novalidate>
 
 				  
 				  
@@ -104,7 +104,6 @@
 						  </thead>
 						  <tbody style="font-size:15px">
 						  
-<<<<<<< HEAD
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_motel_location.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_motel_building.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_motel_front_office.php');?>
@@ -120,23 +119,6 @@
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_motel_safety_and_security.php');?> 
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_motel_sundry_services.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_motel_human_resources.php');?>
-=======
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_location.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_building.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_front_office.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_lobby_lounge_other_public_areas.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_function_rooms.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_restaurants.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_bar.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_kitchen.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_guest_rooms.php');?>
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_guest_bathrooms.php');?-->
-						  <!--php include('msimamiziApp/modal_assessment_sheet_for_motel_suites.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_hygiene_and_sanitation.php');?-->		
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_safety_and_security.php');?> 
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_motel_sundry_services.php');?-->
-						  <!--php include('msimamiziApp/modal_assessment_sheet_for_motel_human_resources.php');?-->
->>>>>>> edf6dad6bddd18e9b7a9afeef91c686febb95bf5
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_motel_general.php');?>
 						  
 						  </tbody>

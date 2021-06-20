@@ -59,8 +59,8 @@
 <tr ng-class="">
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">No <span class="marks_weight">(0)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue">No <span class="marks_weight">(0)</span></td>
 
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
@@ -180,18 +180,17 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="2" style="vertical-align:middle; width:24px!important; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <td rowspan="2" style="vertical-align:middle; width:24px!important; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="location_1_1_1_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="location_1_1_1_A_cm" ng-model="location_1_1_1_A_cm" ng-focus="check_location_1_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class="">
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">No <span class="marks_weight">(0)</span></td>
 
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="location_1_1_1_A_b" class="sum_motel" type="radio"  name="location_1_1_1_A" ng-model="location_1_1_1_A" ng-focus="check_location_1_1_1_A_cm()" value="0" ng-checked="location_1_1_1_A_b" />
 		<div class="state p-success-o" style="width:13px!important">
@@ -242,7 +241,7 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="location_1_1_2_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="location_1_1_2_A_cm" ng-model="location_1_1_2_A_cm" ng-focus="check_location_1_1_2_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -267,10 +266,10 @@
 <tr ng-class="">
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Excellent <span class="marks_weight">(3)</span> </td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Excellent <span class="marks_weight">(3)</span> </td>
 
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="location_1_1_2_A_c" class="sum_motel" type="radio"  name="location_1_1_2_A" ng-model="location_1_1_2_A" value="3" ng-checked="location_1_1_2_A_c" ng-focus="check_location_1_1_2_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
@@ -380,7 +379,6 @@
   <input id="location_1_1_3_B_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="location_1_1_3_B_a_cm" ng-model="location_1_1_3_B_a_cm" ng-focus="check_location_1_1_3_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -425,7 +423,7 @@
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(d)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Security<span class="marks_weight">(1)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-icon p-curve p-pulse">
 		<input id="location_1_1_3_B_d" class="sum_motel" type="checkbox"  name="location_1_1_3_B_d" ng-model="location_1_1_3_B_d" value="1" ng-checked="location_1_1_3_B_dTT" ng-focus="check_location_1_1_3_B_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
@@ -434,7 +432,7 @@
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="location_1_1_3_B_d_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="location_1_1_3_B_d_cm" ng-model="location_1_1_3_B_d_cm" ng-focus="check_location_1_1_3_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -548,7 +546,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 1.2.4.C -->
+<!-- 1.1.4.C -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -732,7 +730,6 @@
   <input id="location_1_1_5_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="location_1_1_5_C_cm" ng-model="location_1_1_5_C_cm" ng-focus="check_location_1_1_5_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -779,14 +776,13 @@
   <input id="location_1_1_5_D_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="location_1_1_5_D_cm" ng-model="location_1_1_5_D_cm" ng-focus="check_location_1_1_5_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes<span class="marks_weight">(1)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="location_1_1_5_D_b" class="sum_motel" type="radio"  name="location_1_1_5_D" ng-model="location_1_1_5_D" value="1" ng-checked="location_1_1_5_D_b" ng-focus="check_location_1_1_5_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
@@ -837,18 +833,18 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="2" style="vertical-align:middle; width:24px!important; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <td rowspan="2" style="vertical-align:middle; width:24px!important; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="location_1_2_1_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="location_1_2_1_A_cm" ng-model="location_1_2_1_A_cm" ng-focus="check_location_1_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
 <tr ng-class="">
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_ror_col">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_ror_col">A filling station<span class="marks_weight">(30)</span></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">A filling station<span class="marks_weight">(30)</span></td>
 
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_ror_col">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="location_1_2_1_A_b" class="sum_motel" type="radio"  name="location_1_2_1_A" ng-model="location_1_2_1_A" ng-focus="check_location_1_2_1_A_cm()" value="30" ng-checked="location_1_2_1_A_b" />
 		<div class="state p-success-o" style="width:13px!important">

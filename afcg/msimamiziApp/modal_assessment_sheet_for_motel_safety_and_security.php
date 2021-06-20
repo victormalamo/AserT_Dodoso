@@ -1357,7 +1357,7 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="safety_and_security_11_4_1_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="safety_and_security_11_4_1_C_cm" ng-model="safety_and_security_11_4_1_C_cm" ng-focus="check_safety_and_security_11_4_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -1379,11 +1379,11 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Lighting to all areas of the Hotel including power supply to cover the entire functions of the Hotel <span class="marks_weight">(10)</span></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Lighting to all areas of the Hotel including power supply to cover the entire functions of the Hotel <span class="marks_weight">(10)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="safety_and_security_11_4_1_C_c" class="sum_motel" type="radio"  name="safety_and_security_11_4_1_C" ng-model="safety_and_security_11_4_1_C" value="10" ng-checked="safety_and_security_11_4_1_C_c" ng-focus="check_safety_and_security_11_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
@@ -1393,9 +1393,6 @@
   </td>
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
-
-
-
 
 
 
@@ -1662,7 +1659,7 @@
   </td>
 </tr>
 <tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes <span class="marks_weight">(6)</span></td>
@@ -1699,7 +1696,7 @@
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Safety of Swimmers</td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td rowspan="17" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
+  <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="safety_and_security_11_6_1_text" name="safety_and_security_11_6_1_text" ng-model="safety_and_security_11_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
@@ -1825,17 +1822,17 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="safety_and_security_11_6_1_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="safety_and_security_11_6_1_C_cm" ng-model="safety_and_security_11_6_1_C_cm" ng-focus="check_safety_and_security_11_6_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col_sub_section"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col_sub_section"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Yes <span class="marks_weight">(10)</span></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes <span class="marks_weight">(10)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="safety_and_security_11_6_1_C_b" class="sum_motel" type="radio"  name="safety_and_security_11_6_1_C" ng-model="safety_and_security_11_6_1_C" value="10" ng-checked="safety_and_security_11_6_1_C_b" ng-focus="check_safety_and_security_11_6_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">

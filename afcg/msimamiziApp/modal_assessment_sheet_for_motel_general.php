@@ -745,8 +745,6 @@
 
 
 <!-- 14_6_1_A -->
-<!-- 14_6_1_A -->
-
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -794,8 +792,6 @@
 
 
 <!-- 14_6_1_B -->
-<!-- 14_6_1_B -->
-
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -820,7 +816,7 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="general_14_6_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="general_14_6_1_B_cm" ng-model="general_14_6_1_B_cm" ng-focus="check_general_14_6_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -842,11 +838,11 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col_sub_section"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Excellent range of activities and services <span class="marks_weight">(7)</span></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Excellent range of activities and services <span class="marks_weight">(7)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="general_14_6_1_B_c" class="sum_motel" type="radio"  name="general_14_6_1_B" ng-model="general_14_6_1_B" value="7" ng-checked="general_14_6_1_B_c" ng-focus="check_general_14_6_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
