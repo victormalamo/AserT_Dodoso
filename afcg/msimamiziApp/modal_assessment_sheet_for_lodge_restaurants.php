@@ -1431,7 +1431,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="30" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="restaurants_6_4_1_text" name="restaurants_6_4_1_text" ng-model="restaurants_6_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="restaurants_6_5_1_text" name="restaurants_6_5_1_text" ng-model="restaurants_6_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2072,7 +2072,7 @@
   </td>
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
-<!-- 6.6.1.J-->
+<!-- 6.6.1.D-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2091,14 +2091,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_J_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_J" ng-model="restaurants_6_6_1_J" value="1" ng-checked="restaurants_6_6_1_J_a" ng-focus="check_restaurants_6_6_1_J_cm()" />
+		<input id="restaurants_6_6_1_D_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_D" ng-model="restaurants_6_6_1_D" value="1" ng-checked="restaurants_6_6_1_D_a" ng-focus="check_restaurants_6_6_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="restaurants_6_6_1_J_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_J_cm" ng-model="restaurants_6_6_1_J_cm" ng-focus="check_restaurants_6_6_1_J()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_D_cm" ng-model="restaurants_6_6_1_D_cm" ng-focus="check_restaurants_6_6_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2109,7 +2109,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_J_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_J" ng-model="restaurants_6_6_1_J" value="3" ng-checked="restaurants_6_6_1_J_b" ng-focus="check_restaurants_6_6_1_J_cm()" />
+		<input id="restaurants_6_6_1_D_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_D" ng-model="restaurants_6_6_1_D" value="3" ng-checked="restaurants_6_6_1_D_b" ng-focus="check_restaurants_6_6_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2125,7 +2125,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_J_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_J" ng-model="restaurants_6_6_1_J" value="5" ng-checked="restaurants_6_6_1_J_c" ng-focus="check_restaurants_6_6_1_J_cm()" />
+		<input id="restaurants_6_6_1_D_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_D" ng-model="restaurants_6_6_1_D" value="5" ng-checked="restaurants_6_6_1_D_c" ng-focus="check_restaurants_6_6_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2135,7 +2135,7 @@
 </tr>
 
 
-<!-- 6.6.1.D-->
+<!-- 6.6.1.E-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2154,14 +2154,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_D_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_D" ng-model="restaurants_6_6_1_D" value="2" ng-checked="restaurants_6_6_1_D_a" ng-focus="check_restaurants_6_6_1_D_cm()" />
+		<input id="restaurants_6_6_1_E_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_E" ng-model="restaurants_6_6_1_E" value="2" ng-checked="restaurants_6_6_1_E_a" ng-focus="check_restaurants_6_6_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="restaurants_6_6_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_D_cm" ng-model="restaurants_6_6_1_D_cm" ng-focus="check_restaurants_6_6_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_E_cm" ng-model="restaurants_6_6_1_E_cm" ng-focus="check_restaurants_6_6_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2172,7 +2172,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_D_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_D" ng-model="restaurants_6_6_1_D" value="3" ng-checked="restaurants_6_6_1_D_b" ng-focus="check_restaurants_6_6_1_D_cm()" />
+		<input id="restaurants_6_6_1_E_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_E" ng-model="restaurants_6_6_1_E" value="3" ng-checked="restaurants_6_6_1_E_b" ng-focus="check_restaurants_6_6_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2188,7 +2188,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_D_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_D" ng-model="restaurants_6_6_1_D" value="5" ng-checked="restaurants_6_6_1_D_c" ng-focus="check_restaurants_6_6_1_D_cm()" />
+		<input id="restaurants_6_6_1_E_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_E" ng-model="restaurants_6_6_1_E" value="5" ng-checked="restaurants_6_6_1_E_c" ng-focus="check_restaurants_6_6_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2197,7 +2197,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.6.1.E-->
+<!-- 6.6.1.F-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2216,7 +2216,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="restaurants_6_6_1_E_a" class="sum_lodge" type="checkbox" name="restaurants_6_6_1_E_a" ng-model="restaurants_6_6_1_E_a" value="2" ng-checked="restaurants_6_6_1_E_aTT" ng-focus="check_restaurants_6_6_1_E_a_cm()"/>
+		<input id="restaurants_6_6_1_F_a" class="sum_lodge" type="checkbox" name="restaurants_6_6_1_F_a" ng-model="restaurants_6_6_1_F_a" value="2" ng-checked="restaurants_6_6_1_F_aTT" ng-focus="check_restaurants_6_6_1_F_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2232,7 +2232,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="restaurants_6_6_1_E_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_E_a_cm" ng-model="restaurants_6_6_1_E_a_cm" ng-focus="check_restaurants_6_6_1_E_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_F_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_F_a_cm" ng-model="restaurants_6_6_1_F_a_cm" ng-focus="check_restaurants_6_6_1_F_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -2244,7 +2244,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="restaurants_6_6_1_E_b" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_E_b" ng-model="restaurants_6_6_1_E_b" value="2" ng-checked="restaurants_6_6_1_E_bTT" ng-focus="check_restaurants_6_6_1_E_b_cm()"/>
+		<input id="restaurants_6_6_1_F_b" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_F_b" ng-model="restaurants_6_6_1_F_b" value="2" ng-checked="restaurants_6_6_1_F_bTT" ng-focus="check_restaurants_6_6_1_F_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2252,7 +2252,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="restaurants_6_6_1_E_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_E_b_cm" ng-model="restaurants_6_6_1_E_b_cm" ng-focus="check_restaurants_6_6_1_E_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_F_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_F_b_cm" ng-model="restaurants_6_6_1_F_b_cm" ng-focus="check_restaurants_6_6_1_F_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2264,7 +2264,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="restaurants_6_6_1_E_c" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_E_c" ng-model="restaurants_6_6_1_E_c" value="2" ng-checked="restaurants_6_6_1_E_cTT" ng-focus="check_restaurants_6_6_1_E_c_cm()"/>
+		<input id="restaurants_6_6_1_F_c" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_F_c" ng-model="restaurants_6_6_1_F_c" value="2" ng-checked="restaurants_6_6_1_F_cTT" ng-focus="check_restaurants_6_6_1_F_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2272,7 +2272,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="restaurants_6_6_1_E_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_E_c_cm" ng-model="restaurants_6_6_1_E_c_cm" ng-focus="check_restaurants_6_6_1_E_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_F_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_F_c_cm" ng-model="restaurants_6_6_1_F_c_cm" ng-focus="check_restaurants_6_6_1_F_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2283,7 +2283,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="restaurants_6_6_1_E_d" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_E_d" ng-model="restaurants_6_6_1_E_d" value="2" ng-checked="restaurants_6_6_1_E_dTT" ng-focus="check_restaurants_6_6_1_E_d_cm()" />
+		<input id="restaurants_6_6_1_F_d" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_F_d" ng-model="restaurants_6_6_1_F_d" value="2" ng-checked="restaurants_6_6_1_F_dTT" ng-focus="check_restaurants_6_6_1_F_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2291,11 +2291,11 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="restaurants_6_6_1_E_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_E_d_cm" ng-model="restaurants_6_6_1_E_d_cm" ng-focus="check_restaurants_6_6_1_E_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_F_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_F_d_cm" ng-model="restaurants_6_6_1_F_d_cm" ng-focus="check_restaurants_6_6_1_F_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
-<!-- 6.6.1.F-->
+<!-- 6.6.1.G-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2314,14 +2314,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_F_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_F" ng-model="restaurants_6_6_1_F" value="2" ng-checked="restaurants_6_6_1_F_a" ng-focus="check_restaurants_6_6_1_F_cm()" />
+		<input id="restaurants_6_6_1_G_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_G" ng-model="restaurants_6_6_1_G" value="2" ng-checked="restaurants_6_6_1_G_a" ng-focus="check_restaurants_6_6_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="restaurants_6_6_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_F_cm" ng-model="restaurants_6_6_1_F_cm" ng-focus="check_restaurants_6_6_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_G_cm" ng-model="restaurants_6_6_1_G_cm" ng-focus="check_restaurants_6_6_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2332,7 +2332,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_F_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_F" ng-model="restaurants_6_6_1_F" value="3" ng-checked="restaurants_6_6_1_F_b" ng-focus="check_restaurants_6_6_1_F_cm()" />
+		<input id="restaurants_6_6_1_G_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_G" ng-model="restaurants_6_6_1_G" value="3" ng-checked="restaurants_6_6_1_G_b" ng-focus="check_restaurants_6_6_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2348,7 +2348,66 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_F_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_F" ng-model="restaurants_6_6_1_F" value="5" ng-checked="restaurants_6_6_1_F_c" ng-focus="check_restaurants_6_6_1_F_cm()" />
+		<input id="restaurants_6_6_1_G_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_G" ng-model="restaurants_6_6_1_G" value="5" ng-checked="restaurants_6_6_1_G_c" ng-focus="check_restaurants_6_6_1_G_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the a la carte menu?</td>
+  
+  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Simple <span class="marks_weight">(2)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="restaurants_6_6_1_G_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_G" ng-model="restaurants_6_6_1_G" value="2" ng-checked="restaurants_6_6_1_G_a" ng-focus="check_restaurants_6_6_1_G_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="restaurants_6_6_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_G_cm" ng-model="restaurants_6_6_1_G_cm" ng-focus="check_restaurants_6_6_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Modest<span class="marks_weight">(3)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="restaurants_6_6_1_G_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_G" ng-model="restaurants_6_6_1_G" value="3" ng-checked="restaurants_6_6_1_G_b" ng-focus="check_restaurants_6_6_1_G_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Rich<span class="marks_weight">(5)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="restaurants_6_6_1_G_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_G" ng-model="restaurants_6_6_1_G" value="5" ng-checked="restaurants_6_6_1_G_c" ng-focus="check_restaurants_6_6_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2357,7 +2416,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.6.1.G-->
+<!-- 6.6.1.H-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2376,7 +2435,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="restaurants_6_6_1_G_a" class="sum_lodge" type="checkbox" name="restaurants_6_6_1_G_a" ng-model="restaurants_6_6_1_G_a" value="2" ng-checked="restaurants_6_6_1_G_aTT" ng-focus="check_restaurants_6_6_1_G_a_cm()"/>
+		<input id="restaurants_6_6_1_H_a" class="sum_lodge" type="checkbox" name="restaurants_6_6_1_H_a" ng-model="restaurants_6_6_1_H_a" value="2" ng-checked="restaurants_6_6_1_H_aTT" ng-focus="check_restaurants_6_6_1_H_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2392,7 +2451,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="restaurants_6_6_1_G_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_G_a_cm" ng-model="restaurants_6_6_1_G_a_cm" ng-focus="check_restaurants_6_6_1_G_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_H_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_H_a_cm" ng-model="restaurants_6_6_1_H_a_cm" ng-focus="check_restaurants_6_6_1_H_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -2404,7 +2463,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="restaurants_6_6_1_G_b" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_G_b" ng-model="restaurants_6_6_1_G_b" value="3" ng-checked="restaurants_6_6_1_G_bTT" ng-focus="check_restaurants_6_6_1_G_b_cm()"/>
+		<input id="restaurants_6_6_1_H_b" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_H_b" ng-model="restaurants_6_6_1_H_b" value="3" ng-checked="restaurants_6_6_1_H_bTT" ng-focus="check_restaurants_6_6_1_H_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2412,7 +2471,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="restaurants_6_6_1_G_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_G_b_cm" ng-model="restaurants_6_6_1_G_b_cm" ng-focus="check_restaurants_6_6_1_G_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_H_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_H_b_cm" ng-model="restaurants_6_6_1_H_b_cm" ng-focus="check_restaurants_6_6_1_H_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2424,7 +2483,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="restaurants_6_6_1_G_c" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_G_c" ng-model="restaurants_6_6_1_G_c" value="2" ng-checked="restaurants_6_6_1_G_cTT" ng-focus="check_restaurants_6_6_1_G_c_cm()"/>
+		<input id="restaurants_6_6_1_H_c" class="sum_lodge" type="checkbox"  name="restaurants_6_6_1_H_c" ng-model="restaurants_6_6_1_H_c" value="2" ng-checked="restaurants_6_6_1_H_cTT" ng-focus="check_restaurants_6_6_1_H_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2432,12 +2491,12 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="restaurants_6_6_1_G_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_G_c_cm" ng-model="restaurants_6_6_1_G_c_cm" ng-focus="check_restaurants_6_6_1_G_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_H_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_H_c_cm" ng-model="restaurants_6_6_1_H_c_cm" ng-focus="check_restaurants_6_6_1_H_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
 
-<!-- 6.6.1.H-->
+<!-- 6.6.1.I-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2456,14 +2515,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_H_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_H" ng-model="restaurants_6_6_1_H" value="2" ng-checked="restaurants_6_6_1_H_a" ng-focus="check_restaurants_6_6_1_H_cm()" />
+		<input id="restaurants_6_6_1_I_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_I" ng-model="restaurants_6_6_1_I" value="2" ng-checked="restaurants_6_6_1_I_a" ng-focus="check_restaurants_6_6_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="restaurants_6_6_1_H_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_H_cm" ng-model="restaurants_6_6_1_H_cm" ng-focus="check_restaurants_6_6_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_I_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_I_cm" ng-model="restaurants_6_6_1_I_cm" ng-focus="check_restaurants_6_6_1_I()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2474,7 +2533,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_H_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_H" ng-model="restaurants_6_6_1_H" value="3" ng-checked="restaurants_6_6_1_H_b" ng-focus="check_restaurants_6_6_1_H_cm()" />
+		<input id="restaurants_6_6_1_I_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_I" ng-model="restaurants_6_6_1_I" value="3" ng-checked="restaurants_6_6_1_I_b" ng-focus="check_restaurants_6_6_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2490,7 +2549,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_H_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_H" ng-model="restaurants_6_6_1_H" value="5" ng-checked="restaurants_6_6_1_H_c" ng-focus="check_restaurants_6_6_1_H_cm()" />
+		<input id="restaurants_6_6_1_I_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_I" ng-model="restaurants_6_6_1_I" value="5" ng-checked="restaurants_6_6_1_I_c" ng-focus="check_restaurants_6_6_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2500,7 +2559,7 @@
 </tr>
 
 
-<!-- 6.6.1.I-->
+<!-- 6.6.1.J-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2519,14 +2578,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_I_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_I" ng-model="restaurants_6_6_1_I" value="2" ng-checked="restaurants_6_6_1_I_a" ng-focus="check_restaurants_6_6_1_I_cm()" />
+		<input id="restaurants_6_6_1_J_a" class="sum_lodge" type="radio" name="restaurants_6_6_1_J" ng-model="restaurants_6_6_1_J" value="2" ng-checked="restaurants_6_6_1_J_a" ng-focus="check_restaurants_6_6_1_J_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="restaurants_6_6_1_I_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_I_cm" ng-model="restaurants_6_6_1_I_cm" ng-focus="check_restaurants_6_6_1_I()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="restaurants_6_6_1_J_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="restaurants_6_6_1_J_cm" ng-model="restaurants_6_6_1_J_cm" ng-focus="check_restaurants_6_6_1_J()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2537,7 +2596,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_I_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_I" ng-model="restaurants_6_6_1_I" value="3" ng-checked="restaurants_6_6_1_I_b" ng-focus="check_restaurants_6_6_1_I_cm()" />
+		<input id="restaurants_6_6_1_J_b" class="sum_lodge" type="radio"  name="restaurants_6_6_1_J" ng-model="restaurants_6_6_1_J" value="3" ng-checked="restaurants_6_6_1_J_b" ng-focus="check_restaurants_6_6_1_J_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2553,7 +2612,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="restaurants_6_6_1_I_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_I" ng-model="restaurants_6_6_1_I" value="5" ng-checked="restaurants_6_6_1_I_c" ng-focus="check_restaurants_6_6_1_I_cm()" />
+		<input id="restaurants_6_6_1_J_c" class="sum_lodge" type="radio"  name="restaurants_6_6_1_J" ng-model="restaurants_6_6_1_J" value="5" ng-checked="restaurants_6_6_1_J_c" ng-focus="check_restaurants_6_6_1_J_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
