@@ -739,7 +739,7 @@
 
 
 
-<!-- 7.2.1.G -->
+<!-- 7.2.1.D -->
 
 
 <tr ng-class=""> 
@@ -759,14 +759,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_G_a" class="sum_lodge" type="radio" name="bar_7_2_1_G" ng-model="bar_7_2_1_G" value="0" ng-checked="bar_7_2_1_G_a" ng-focus="check_bar_7_2_1_G_cm()" />
+		<input id="bar_7_2_1_F_a" class="sum_lodge" type="radio" name="bar_7_2_1_F" ng-model="bar_7_2_1_F" value="0" ng-checked="bar_7_2_1_F_a" ng-focus="check_bar_7_2_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_7_2_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="bar_7_2_1_G_cm" ng-model="bar_7_2_1_G_cm" ng-focus="check_bar_7_2_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_7_2_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="bar_7_2_1_F_cm" ng-model="bar_7_2_1_F_cm" ng-focus="check_bar_7_2_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -777,7 +777,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_G_b" class="sum_lodge" type="radio"  name="bar_7_2_1_G" ng-model="bar_7_2_1_G" value="1" ng-checked="bar_7_2_1_G_b" ng-focus="check_bar_7_2_1_G_cm()" />
+		<input id="bar_7_2_1_F_b" class="sum_lodge" type="radio"  name="bar_7_2_1_F" ng-model="bar_7_2_1_F" value="1" ng-checked="bar_7_2_1_F_b" ng-focus="check_bar_7_2_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -793,7 +793,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_G_c" class="sum_lodge" type="radio"  name="bar_7_2_1_G" ng-model="bar_7_2_1_G" value="3" ng-checked="bar_7_2_1_G_c" ng-focus="check_bar_7_2_1_G_cm()" />
+		<input id="bar_7_2_1_F_c" class="sum_lodge" type="radio"  name="bar_7_2_1_F" ng-model="bar_7_2_1_F" value="3" ng-checked="bar_7_2_1_F_c" ng-focus="check_bar_7_2_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -809,7 +809,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_G_d" class="sum_lodge" type="radio"  name="bar_7_2_1_G" ng-model="bar_7_2_1_G" value="5" ng-checked="bar_7_2_1_G_d" ng-focus="check_bar_7_2_1_G_cm()" />
+		<input id="bar_7_2_1_F_d" class="sum_lodge" type="radio"  name="bar_7_2_1_F" ng-model="bar_7_2_1_F" value="5" ng-checked="bar_7_2_1_F_d" ng-focus="check_bar_7_2_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -818,7 +818,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 7.2.1.H -->
+<!-- 7.2.1.G -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -837,14 +837,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_H_a" class="sum_lodge" type="radio" name="bar_7_2_1_H" ng-model="bar_7_2_1_H" value="1" ng-checked="bar_7_2_1_H_a" ng-focus="check_bar_7_2_1_H_cm()" />
+		<input id="bar_7_2_1_G_a" class="sum_lodge" type="radio" name="bar_7_2_1_G" ng-model="bar_7_2_1_G" value="1" ng-checked="bar_7_2_1_G_a" ng-focus="check_bar_7_2_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_7_2_1_H_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="bar_7_2_1_H_cm" ng-model="bar_7_2_1_H_cm" ng-focus="check_bar_7_2_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_7_2_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="bar_7_2_1_G_cm" ng-model="bar_7_2_1_G_cm" ng-focus="check_bar_7_2_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -855,7 +855,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_H_b" class="sum_lodge" type="radio"  name="bar_7_2_1_H" ng-model="bar_7_2_1_H" value="3" ng-checked="bar_7_2_1_H_b" ng-focus="check_bar_7_2_1_H_cm()" />
+		<input id="bar_7_2_1_G_b" class="sum_lodge" type="radio"  name="bar_7_2_1_G" ng-model="bar_7_2_1_G" value="3" ng-checked="bar_7_2_1_G_b" ng-focus="check_bar_7_2_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -871,7 +871,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_H_c" class="sum_lodge" type="radio"  name="bar_7_2_1_H" ng-model="bar_7_2_1_H" value="5" ng-checked="bar_7_2_1_H_c" ng-focus="check_bar_7_2_1_H_cm()" />
+		<input id="bar_7_2_1_G_c" class="sum_lodge" type="radio"  name="bar_7_2_1_G" ng-model="bar_7_2_1_G" value="5" ng-checked="bar_7_2_1_G_c" ng-focus="check_bar_7_2_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -880,7 +880,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 7.2.1.I -->
+<!-- 7.2.1.H -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -899,13 +899,75 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_I_a" class="sum_lodge" type="radio" name="bar_7_2_1_I" ng-model="bar_7_2_1_I" value="0" ng-checked="bar_7_2_1_I_a" ng-focus="check_bar_7_2_1_I_cm()" />
+		<input id="bar_7_2_1_H_a" class="sum_lodge" type="radio" name="bar_7_2_1_H" ng-model="bar_7_2_1_H" value="0" ng-checked="bar_7_2_1_H_a" ng-focus="check_bar_7_2_1_H_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="bar_7_2_1_H_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="bar_7_2_1_H_cm" ng-model="bar_7_2_1_H_cm" ng-focus="check_bar_7_2_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Reasonable<span class="marks_weight">(2)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="bar_7_2_1_H_b" class="sum_lodge" type="radio"  name="bar_7_2_1_H" ng-model="bar_7_2_1_H" value="2" ng-checked="bar_7_2_1_H_b" ng-focus="check_bar_7_2_1_H_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Well maintained  <span class="marks_weight">(5)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="bar_7_2_1_H_c" class="sum_lodge" type="radio"  name="bar_7_2_1_H" ng-model="bar_7_2_1_H" value="5" ng-checked="bar_7_2_1_H_c" ng-focus="check_bar_7_2_1_H_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+
+<!-- 7.2.1.I -->
+
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of cleanliness?</td>
+  
+  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Neglected<span class="marks_weight">(0)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="bar_7_2_1_I_a" class="sum_lodge" type="radio" name="bar_7_2_1_I" ng-model="bar_7_2_1_I" value="0" ng-checked="bar_7_2_1_I_a" ng-focus="check_bar_7_2_1_I_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="bar_7_2_1_I_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="bar_7_2_1_I_cm" ng-model="bar_7_2_1_I_cm" ng-focus="check_bar_7_2_1_I()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -927,75 +989,13 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Well maintained  <span class="marks_weight">(5)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_I_c" class="sum_lodge" type="radio"  name="bar_7_2_1_I" ng-model="bar_7_2_1_I" value="5" ng-checked="bar_7_2_1_I_c" ng-focus="check_bar_7_2_1_I_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-
-<!-- 7.2.1.J -->
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of cleanliness?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Neglected<span class="marks_weight">(0)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_J_a" class="sum_lodge" type="radio" name="bar_7_2_1_J" ng-model="bar_7_2_1_J" value="0" ng-checked="bar_7_2_1_J_a" ng-focus="check_bar_7_2_1_J_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="bar_7_2_1_J_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="bar_7_2_1_J_cm" ng-model="bar_7_2_1_J_cm" ng-focus="check_bar_7_2_1_J()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Reasonable<span class="marks_weight">(2)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_J_b" class="sum_lodge" type="radio"  name="bar_7_2_1_J" ng-model="bar_7_2_1_J" value="2" ng-checked="bar_7_2_1_J_b" ng-focus="check_bar_7_2_1_J_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Very clean <span class="marks_weight">(5)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_7_2_1_J_c" class="sum_lodge" type="radio"  name="bar_7_2_1_J" ng-model="bar_7_2_1_J" value="5" ng-checked="bar_7_2_1_J_c" ng-focus="check_bar_7_2_1_J_cm()" />
+		<input id="bar_7_2_1_I_c" class="sum_lodge" type="radio"  name="bar_7_2_1_I" ng-model="bar_7_2_1_I" value="5" ng-checked="bar_7_2_1_I_c" ng-focus="check_bar_7_2_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
