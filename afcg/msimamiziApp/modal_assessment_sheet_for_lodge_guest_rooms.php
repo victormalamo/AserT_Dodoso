@@ -400,7 +400,7 @@
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Fittings, Furniture and Equipment</td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td rowspan="37" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
+  <td rowspan="38" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="guest_rooms_9_4_1_text" name="guest_rooms_9_4_1_text" ng-model="guest_rooms_9_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
@@ -1600,7 +1600,7 @@
 
 
 <!-- 9_7_1_B -->
-<!-- ES NO-->
+
 
 <!-- guest_rooms_9_7_1_B -->
 
@@ -2815,19 +2815,19 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue">One other internationally recognized language  <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">One other internationally recognized language <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-
-	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_rooms_9_11_1_B_c" class="sum_lodge" type="radio"  name="guest_rooms_9_11_1_B" ng-model="guest_rooms_9_11_1_B" value="2" ng-checked="guest_rooms_9_11_1_B_c" ng-focus="check_guest_rooms_9_11_1_B_cm()"/>
-		<div class="state p-success-o" style="width:13px!important">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="guest_rooms_9_11_1_B_c" class="sum_lodge" type="checkbox"  name="guest_rooms_9_11_1_B_c" ng-model="guest_rooms_9_11_1_B_c" value="2" ng-checked="guest_rooms_9_11_1_B_cTT" ng-focus="check_guest_rooms_9_11_1_B_c_cm()"/>
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
 		<label></label>
 		</div>
 	</div>
   </td>
-  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_rooms_9_11_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_rooms_9_11_1_B_cm" ng-model="guest_rooms_9_11_1_B_cm" ng-focus="check_guest_rooms_9_11_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="guest_rooms_9_11_1_B_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_rooms_9_11_1_B_c_cm" ng-model="guest_rooms_9_11_1_B_c_cm" ng-focus="check_guest_rooms_9_11_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2837,14 +2837,17 @@
   <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">More than one other internationally recognized languages  <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_rooms_9_11_1_B_d" class="sum_lodge" type="radio"  name="guest_rooms_9_11_1_B" ng-model="guest_rooms_9_11_1_B" value="2" ng-checked="guest_rooms_9_11_1_B_d" ng-focus="check_guest_rooms_9_11_1_B_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="guest_rooms_9_11_1_B_d" class="sum_lodge" type="checkbox"  name="guest_rooms_9_11_1_B_d" ng-model="guest_rooms_9_11_1_B_d" value="2" ng-checked="guest_rooms_9_11_1_B_dTT" ng-focus="check_guest_rooms_9_11_1_B_d_cm()"/>
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
 		<label></label>
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="guest_rooms_9_11_1_B_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_rooms_9_11_1_B_d_cm" ng-model="guest_rooms_9_11_1_B_d_cm" ng-focus="check_guest_rooms_9_11_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
 </tr>
 
 

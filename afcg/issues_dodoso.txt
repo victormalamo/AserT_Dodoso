@@ -4,3 +4,6 @@ Issue! with dodoso
 1.2.1 G  marks unavailable; checkboxes codes
 1.2. Total max verification 47/50
 8.11 MARKS
+9.4 total marks error
+9.7 (90) marks interchanged with (60)
+9.11. MARKS DIFFER 22/20
