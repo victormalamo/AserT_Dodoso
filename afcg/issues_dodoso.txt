@@ -7,3 +7,11 @@ Issue! with dodoso
 9.4 total marks error
 9.7 (90) marks interchanged with (60)
 9.11. MARKS DIFFER 22/20
+11.5 MARKS DIFFER 102/70
+11.10 MARKS DIFFER 51/50
+11.11 MARKS DIFFER 54/50--solved by changing the checkbox to radio
+11.16 MARKS DIFFER 97/80
+11.18 MARKS DIFFER 45/50
+16.2  MARKS DIFFER 34/50
+16.3  MARKS DIFFER 34/50
+

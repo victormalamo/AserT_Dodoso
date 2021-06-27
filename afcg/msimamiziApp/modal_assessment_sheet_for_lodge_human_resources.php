@@ -1782,8 +1782,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 15_9_1_F -->
-<!-- 15_9_1_F -->
+<!-- 15_9_1_F-->
 
 
 <tr ng-class=""> 
@@ -1802,27 +1801,17 @@
   <td style="vertical-align:middle" class="border-mdblue">Untidy<span class="marks_weight">(0)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="human_resources_15_9_1_F_a" class="sum_lodge" type="checkbox" name="human_resources_15_9_1_F_a" ng-model="human_resources_15_9_1_F_a" value="0" ng-checked="human_resources_15_9_1_F_aTT" ng-focus="check_human_resources_15_9_1_F_a_cm()"/>
-		<!--div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div-->
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+	<div class="pretty p-default p-round p-pulse">
+		<input id="human_resources_15_9_1_F_a" class="sum_lodge" type="radio" name="human_resources_15_9_1_F" ng-model="human_resources_15_9_1_F" value="0" ng-checked="human_resources_15_9_1_F_a" ng-focus="check_human_resources_15_9_1_F_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
-		<!--div class="state" style="width:13px!important; margin-left:2px">
-		<i class="icon mdi mdi-close"></i>
-		<label></label>
-		</div-->
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="human_resources_15_9_1_F_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="human_resources_15_9_1_F_a_cm" ng-model="human_resources_15_9_1_F_a_cm" ng-focus="check_human_resources_15_9_1_F_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="human_resources_15_9_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="human_resources_15_9_1_F_cm" ng-model="human_resources_15_9_1_F_cm" ng-focus="check_human_resources_15_9_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1830,37 +1819,30 @@
   <td style="vertical-align:middle" class="border-mdblue">Reasonable<span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="human_resources_15_9_1_F_b" class="sum_lodge" type="checkbox"  name="human_resources_15_9_1_F_b" ng-model="human_resources_15_9_1_F_b" value="2" ng-checked="human_resources_15_9_1_F_bTT" ng-focus="check_human_resources_15_9_1_F_b_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+	<div class="pretty p-default p-round p-pulse">
+		<input id="human_resources_15_9_1_F_b" class="sum_lodge" type="radio"  name="human_resources_15_9_1_F" ng-model="human_resources_15_9_1_F" value="2" ng-checked="human_resources_15_9_1_F_b" ng-focus="check_human_resources_15_9_1_F_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="human_resources_15_9_1_F_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="human_resources_15_9_1_F_b_cm" ng-model="human_resources_15_9_1_F_b_cm" ng-focus="check_human_resources_15_9_1_F_b()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Very Clean <span class="marks_weight">(5)</span></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Very clean <span class="marks_weight">(5)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
-
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="human_resources_15_9_1_F_c" class="sum_lodge" type="checkbox"  name="human_resources_15_9_1_F_c" ng-model="human_resources_15_9_1_F_c" value="5" ng-checked="human_resources_15_9_1_F_cTT" ng-focus="check_human_resources_15_9_1_F_c_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="human_resources_15_9_1_F_c" class="sum_lodge" type="radio"  name="human_resources_15_9_1_F" ng-model="human_resources_15_9_1_F" value="5" ng-checked="human_resources_15_9_1_F_c" ng-focus="check_human_resources_15_9_1_F_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="human_resources_15_9_1_F_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="human_resources_15_9_1_F_c_cm" ng-model="human_resources_15_9_1_F_c_cm" ng-focus="check_human_resources_15_9_1_F_c()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
@@ -2405,7 +2387,7 @@
 </tr>
 
 <!-- 15_11_1_B -->
-<!-- 15_11_1_B -->
+
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2423,51 +2405,63 @@
   <td style="vertical-align:middle" class="border-mdblue">None<span class="marks_weight">(0)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_15_11_1_B_a" class="sum_lodge" type="radio" name="human_resources_15_11_1_B" ng-model="human_resources_15_11_1_B" value="0" ng-checked="human_resources_15_11_1_B_a" ng-focus="check_human_resources_15_11_1_B_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="human_resources_15_11_1_B_a" class="sum_lodge" type="checkbox" name="human_resources_15_11_1_B_a" ng-model="human_resources_15_11_1_B_a" value="0" ng-checked="human_resources_15_11_1_B_aTT" ng-focus="check_human_resources_15_11_1_B_a_cm()"/>
+		<!--div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div-->
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
 		<label></label>
 		</div>
+		<!--div class="state" style="width:13px!important; margin-left:2px">
+		<i class="icon mdi mdi-close"></i>
+		<label></label>
+		</div-->
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="human_resources_15_11_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="human_resources_15_11_1_B_cm" ng-model="human_resources_15_11_1_B_cm" ng-focus="check_human_resources_15_11_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="human_resources_15_11_1_B_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="human_resources_15_11_1_B_a_cm" ng-model="human_resources_15_11_1_B_a_cm" ng-focus="check_human_resources_15_11_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
+
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Indoor<span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Indoors<span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_15_11_1_B_b" class="sum_lodge" type="radio"  name="human_resources_15_11_1_B" ng-model="human_resources_15_11_1_B" value="2" ng-checked="human_resources_15_11_1_B_b" ng-focus="check_human_resources_15_11_1_B_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="human_resources_15_11_1_B_b" class="sum_lodge" type="checkbox"  name="human_resources_15_11_1_B_b" ng-model="human_resources_15_11_1_B_b" value="2" ng-checked="human_resources_15_11_1_B_bTT" ng-focus="check_human_resources_15_11_1_B_b_cm()"/>
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
 		<label></label>
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="human_resources_15_11_1_B_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="human_resources_15_11_1_B_b_cm" ng-model="human_resources_15_11_1_B_b_cm" ng-focus="check_human_resources_15_11_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
 </tr>
 <tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Outdoors <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Outdoors <span class="marks_weight">(2)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_15_11_1_B_c" class="sum_lodge" type="radio"  name="human_resources_15_11_1_B" ng-model="human_resources_15_11_1_B" value="2" ng-checked="human_resources_15_11_1_B_c" ng-focus="check_human_resources_15_11_1_B_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="human_resources_15_11_1_B_c" class="sum_lodge" type="checkbox"  name="human_resources_15_11_1_B_c" ng-model="human_resources_15_11_1_B_c" value="2" ng-checked="human_resources_15_11_1_B_cTT" ng-focus="check_human_resources_15_11_1_B_c_cm()"/>
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
 		<label></label>
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="human_resources_15_11_1_B_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="human_resources_15_11_1_B_c_cm" ng-model="human_resources_15_11_1_B_c_cm" ng-focus="check_human_resources_15_11_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
 </tr>
-
-
-
-
-	

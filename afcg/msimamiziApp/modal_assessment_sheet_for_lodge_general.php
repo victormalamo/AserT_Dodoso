@@ -98,9 +98,9 @@
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">16.2</td>
   <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
-  <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Parking Space</td>
+  <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Parking Facilities</td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="8" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
@@ -229,108 +229,25 @@
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">16.3</td>
   <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">General Stores </td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td rowspan="22" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
+  <td rowspan="18" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="general_16_3_1_text" name="general_16_3_1_text" ng-model="general_16_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-
 <!-- 16_3_1_A -->
 <!-- 16_3_1_A -->
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the provision for receiving of supplies?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Off-loading area <span class="marks_weight">(1)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_A_a" class="sum_lodge" type="checkbox" name="general_16_3_1_A_a" ng-model="general_16_3_1_A_a" value="1" ng-checked="general_16_3_1_A_aTT" ng-focus="check_general_16_3_1_A_a_cm()"/>
-		<!--div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div-->
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-		<!--div class="state" style="width:13px!important; margin-left:2px">
-		<i class="icon mdi mdi-close"></i>
-		<label></label>
-		</div-->
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="general_16_3_1_A_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_A_a_cm" ng-model="general_16_3_1_A_a_cm" ng-focus="check_general_16_3_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Inspection mechanisms <span class="marks_weight">(2)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_A_b" class="sum_lodge" type="checkbox"  name="general_16_3_1_A_b" ng-model="general_16_3_1_A_b" value="2" ng-checked="general_16_3_1_A_bTT" ng-focus="check_general_16_3_1_A_b_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="general_16_3_1_A_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_A_b_cm" ng-model="general_16_3_1_A_b_cm" ng-focus="check_general_16_3_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Cleaning area <span class="marks_weight">(2)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_A_c" class="sum_lodge" type="checkbox"  name="general_16_3_1_A_c" ng-model="general_16_3_1_A_c" value="2" ng-checked="general_16_3_1_A_cTT" ng-focus="check_general_16_3_1_A_c_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="general_16_3_1_A_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_A_c_cm" ng-model="general_16_3_1_A_c_cm" ng-focus="check_general_16_3_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-
-
-
-<!-- 16_3_1_B -->
-<!-- 16_3_1_B -->
 
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate provision for general storage of supplies? </td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the provision for general storage of supplies? </td>
   
   <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
@@ -343,14 +260,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="general_16_3_1_B_a" class="sum_lodge" type="radio" name="general_16_3_1_B" ng-model="general_16_3_1_B" value="2" ng-checked="general_16_3_1_B_a" ng-focus="check_general_16_3_1_B_cm()" />
+		<input id="general_16_3_1_A_a" class="sum_lodge" type="radio" name="general_16_3_1_A" ng-model="general_16_3_1_A" value="2" ng-checked="general_16_3_1_A_a" ng-focus="check_general_16_3_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="general_16_3_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_B_cm" ng-model="general_16_3_1_B_cm" ng-focus="check_general_16_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="general_16_3_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_A_cm" ng-model="general_16_3_1_A_cm" ng-focus="check_general_16_3_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -361,7 +278,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="general_16_3_1_B_b" class="sum_lodge" type="radio"  name="general_16_3_1_B" ng-model="general_16_3_1_B" value="4" ng-checked="general_16_3_1_B_b" ng-focus="check_general_16_3_1_B_cm()" />
+		<input id="general_16_3_1_A_b" class="sum_lodge" type="radio"  name="general_16_3_1_A" ng-model="general_16_3_1_A" value="4" ng-checked="general_16_3_1_A_b" ng-focus="check_general_16_3_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -377,7 +294,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="general_16_3_1_B_c" class="sum_lodge" type="radio"  name="general_16_3_1_B" ng-model="general_16_3_1_B" value="7" ng-checked="general_16_3_1_B_c" ng-focus="check_general_16_3_1_B_cm()" />
+		<input id="general_16_3_1_A_c" class="sum_lodge" type="radio"  name="general_16_3_1_A" ng-model="general_16_3_1_A" value="7" ng-checked="general_16_3_1_A_c" ng-focus="check_general_16_3_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -388,8 +305,8 @@
 
 
 
-<!-- 16_3_1_C -->
-<!-- 16_3_1_C -->
+
+<!-- 16_3_1_B -->
 
 
 <tr ng-class=""> 
@@ -406,6 +323,127 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
   <td style="vertical-align:middle" class="border-mdblue">Segregation of different types of supplies <span class="marks_weight">(2)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="general_16_3_1_B_a" class="sum_lodge" type="checkbox" name="general_16_3_1_B_a" ng-model="general_16_3_1_B_a" value="2" ng-checked="general_16_3_1_B_aTT" ng-focus="check_general_16_3_1_B_a_cm()"/>
+		<!--div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div-->
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div>
+		<!--div class="state" style="width:13px!important; margin-left:2px">
+		<i class="icon mdi mdi-close"></i>
+		<label></label>
+		</div-->
+	</div>
+  </td>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="general_16_3_1_B_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_B_a_cm" ng-model="general_16_3_1_B_a_cm" ng-focus="check_general_16_3_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Clear labelling of stores and items  <span class="marks_weight">(2)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="general_16_3_1_B_b" class="sum_lodge" type="checkbox"  name="general_16_3_1_B_b" ng-model="general_16_3_1_B_b" value="2" ng-checked="general_16_3_1_B_bTT" ng-focus="check_general_16_3_1_B_b_cm()"/>
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="general_16_3_1_B_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_B_b_cm" ng-model="general_16_3_1_B_b_cm" ng-focus="check_general_16_3_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Provision of adequate and appropriate shelving ( <span class="marks_weight">(2)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="general_16_3_1_B_c" class="sum_lodge" type="checkbox"  name="general_16_3_1_B_c" ng-model="general_16_3_1_B_c" value="2" ng-checked="general_16_3_1_B_cTT" ng-focus="check_general_16_3_1_B_c_cm()"/>
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="general_16_3_1_B_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_B_c_cm" ng-model="general_16_3_1_B_c_cm" ng-focus="check_general_16_3_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(d)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Proper pallet(s)  <span class="marks_weight">(2)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue ">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="general_16_3_1_B_d" class="sum_lodge" type="checkbox"  name="general_16_3_1_B_d" ng-model="general_16_3_1_B_d" value="2" ng-checked="general_16_3_1_B_dTT" ng-focus="check_general_16_3_1_B_d_cm()" />
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="general_16_3_1_B_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_B_d_cm" ng-model="general_16_3_1_B_d_cm" ng-focus="check_general_16_3_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(e)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Cabinets  <span class="marks_weight">(2)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="general_16_3_1_B_e" class="sum_lodge" type="checkbox"  name="general_16_3_1_B_e" ng-model="general_16_3_1_B_e" value="2" ng-checked="general_16_3_1_B_eTT" ng-focus="check_general_16_3_1_B_e_cm()" />
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="general_16_3_1_B_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_B_e_cm" ng-model="general_16_3_1_B_e_cm" ng-focus="check_general_16_3_1_B_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+
+
+
+<!-- 16_3_1_C -->
+
+
+
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the aeration mechanism in the storage?</td>
+  
+  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Natural aeration <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
@@ -432,133 +470,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Clear labelling of stores and items  <span class="marks_weight">(2)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_C_b" class="sum_lodge" type="checkbox"  name="general_16_3_1_C_b" ng-model="general_16_3_1_C_b" value="2" ng-checked="general_16_3_1_C_bTT" ng-focus="check_general_16_3_1_C_b_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="general_16_3_1_C_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_C_b_cm" ng-model="general_16_3_1_C_b_cm" ng-focus="check_general_16_3_1_C_b()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Provision of adequate and appropriate shelving ( <span class="marks_weight">(2)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_C_c" class="sum_lodge" type="checkbox"  name="general_16_3_1_C_c" ng-model="general_16_3_1_C_c" value="2" ng-checked="general_16_3_1_C_cTT" ng-focus="check_general_16_3_1_C_c_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="general_16_3_1_C_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_C_c_cm" ng-model="general_16_3_1_C_c_cm" ng-focus="check_general_16_3_1_C_c()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(d)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Proper pallet(s)  <span class="marks_weight">(2)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue ">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_C_d" class="sum_lodge" type="checkbox"  name="general_16_3_1_C_d" ng-model="general_16_3_1_C_d" value="2" ng-checked="general_16_3_1_C_dTT" ng-focus="check_general_16_3_1_C_d_cm()" />
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="general_16_3_1_C_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_C_d_cm" ng-model="general_16_3_1_C_d_cm" ng-focus="check_general_16_3_1_C_d()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(e)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Cabinets  <span class="marks_weight">(2)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_C_e" class="sum_lodge" type="checkbox"  name="general_16_3_1_C_e" ng-model="general_16_3_1_C_e" value="2" ng-checked="general_16_3_1_C_eTT" ng-focus="check_general_16_3_1_C_e_cm()" />
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="general_16_3_1_C_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_C_e_cm" ng-model="general_16_3_1_C_e_cm" ng-focus="check_general_16_3_1_C_e()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-
-
-
-<!-- 16_3_1_D -->
-<!-- 16_3_1_D -->
-
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the aeration mechanism in the storage?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Natural aeration <span class="marks_weight">(2)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_D_a" class="sum_lodge" type="checkbox" name="general_16_3_1_D_a" ng-model="general_16_3_1_D_a" value="2" ng-checked="general_16_3_1_D_aTT" ng-focus="check_general_16_3_1_D_a_cm()"/>
-		<!--div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div-->
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-		<!--div class="state" style="width:13px!important; margin-left:2px">
-		<i class="icon mdi mdi-close"></i>
-		<label></label>
-		</div-->
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="general_16_3_1_D_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_D_a_cm" ng-model="general_16_3_1_D_a_cm" ng-focus="check_general_16_3_1_D_a()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Mechanical aeration with appropriate regulators <span class="marks_weight">(5)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_D_b" class="sum_lodge" type="checkbox"  name="general_16_3_1_D_b" ng-model="general_16_3_1_D_b" value="5" ng-checked="general_16_3_1_D_bTT" ng-focus="check_general_16_3_1_D_b_cm()"/>
+		<input id="general_16_3_1_C_b" class="sum_lodge" type="checkbox"  name="general_16_3_1_C_b" ng-model="general_16_3_1_C_b" value="5" ng-checked="general_16_3_1_C_bTT" ng-focus="check_general_16_3_1_C_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -566,14 +483,14 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="general_16_3_1_D_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_D_b_cm" ng-model="general_16_3_1_D_b_cm" ng-focus="check_general_16_3_1_D_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="general_16_3_1_C_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_C_b_cm" ng-model="general_16_3_1_C_b_cm" ng-focus="check_general_16_3_1_C_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
 
 
-<!-- 16_3_1_E -->
-<!-- 16_3_1_E -->
+<!-- 16_3_1_D -->
+
 
 
 <tr ng-class=""> 
@@ -593,14 +510,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue ">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="general_16_3_1_E_a" class="sum_lodge" type="radio" name="general_16_3_1_E" ng-model="general_16_3_1_E" value="0" ng-checked="general_16_3_1_E_a" ng-focus="check_general_16_3_1_E_cm()" />
+		<input id="general_16_3_1_D_a" class="sum_lodge" type="radio" name="general_16_3_1_D" ng-model="general_16_3_1_D" value="0" ng-checked="general_16_3_1_D_a" ng-focus="check_general_16_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="general_16_3_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_E_cm" ng-model="general_16_3_1_E_cm" ng-focus="check_general_16_3_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="general_16_3_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="general_16_3_1_D_cm" ng-model="general_16_3_1_D_cm" ng-focus="check_general_16_3_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -611,7 +528,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="general_16_3_1_E_b" class="sum_lodge" type="radio"  name="general_16_3_1_E" ng-model="general_16_3_1_E" value="3" ng-checked="general_16_3_1_E_b" ng-focus="check_general_16_3_1_E_cm()" />
+		<input id="general_16_3_1_D_b" class="sum_lodge" type="radio"  name="general_16_3_1_D" ng-model="general_16_3_1_D" value="3" ng-checked="general_16_3_1_D_b" ng-focus="check_general_16_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -627,7 +544,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="general_16_3_1_E_c" class="sum_lodge" type="radio"  name="general_16_3_1_E" ng-model="general_16_3_1_E" value="5" ng-checked="general_16_3_1_E_c" ng-focus="check_general_16_3_1_E_cm()" />
+		<input id="general_16_3_1_D_c" class="sum_lodge" type="radio"  name="general_16_3_1_D" ng-model="general_16_3_1_D" value="5" ng-checked="general_16_3_1_D_c" ng-focus="check_general_16_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1136,11 +1053,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes <span class="marks_weight">(10)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="general_16_6_1_A_b" class="sum_lodge" type="radio"  name="general_16_6_1_A" ng-model="general_16_6_1_A" value="3" ng-checked="general_16_6_1_A_b" ng-focus="check_general_16_6_1_A_cm()" />
+		<input id="general_16_6_1_A_b" class="sum_lodge" type="radio"  name="general_16_6_1_A" ng-model="general_16_6_1_A" value="10" ng-checked="general_16_6_1_A_b" ng-focus="check_general_16_6_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2443,11 +2360,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Very Good <span class="marks_weight">(5)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Very Good <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="general_16_11_1_E_c" class="sum_lodge" type="radio"  name="general_16_11_1_E" ng-model="general_16_11_1_E" value="5" ng-checked="general_16_11_1_E_c" ng-focus="check_general_16_11_1_E_cm()" />
+		<input id="general_16_11_1_E_c" class="sum_lodge" type="radio"  name="general_16_11_1_E" ng-model="general_16_11_1_E" value="2" ng-checked="general_16_11_1_E_c" ng-focus="check_general_16_11_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
