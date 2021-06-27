@@ -54,14 +54,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_1_1_A_a" class="sum_villa" type="radio" name="function_rooms_6_1_1_A" ng-model="function_rooms_6_1_1_A" value="20" ng-checked="function_rooms_6_1_1_A_a" ng-focus="check_function_rooms_6_1_1_A_cm()" />
+		<input id="function_rooms_6_1_1_A_a" class="sum_cottage" type="radio" name="function_rooms_6_1_1_A" ng-model="function_rooms_6_1_1_A" value="20" ng-checked="function_rooms_6_1_1_A_a" ng-focus="check_function_rooms_6_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="function_rooms_6_1_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_1_1_A_cm" ng-model="function_rooms_6_1_1_A_cm" ng-focus="check_function_rooms_6_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_1_1_A_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_1_1_A_cm" ng-model="function_rooms_6_1_1_A_cm" ng-focus="check_function_rooms_6_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -72,7 +72,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_1_1_A_b" class="sum_villa" type="radio"  name="function_rooms_6_1_1_A" ng-model="function_rooms_6_1_1_A" value="30" ng-checked="function_rooms_6_1_1_A_b" ng-focus="check_function_rooms_6_1_1_A_cm()" />
+		<input id="function_rooms_6_1_1_A_b" class="sum_cottage" type="radio"  name="function_rooms_6_1_1_A" ng-model="function_rooms_6_1_1_A" value="30" ng-checked="function_rooms_6_1_1_A_b" ng-focus="check_function_rooms_6_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -88,7 +88,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_1_1_A_c" class="sum_villa" type="radio"  name="function_rooms_6_1_1_A" ng-model="function_rooms_6_1_1_A" value="40" ng-checked="function_rooms_6_1_1_A_c" ng-focus="check_function_rooms_6_1_1_A_cm()" />
+		<input id="function_rooms_6_1_1_A_c" class="sum_cottage" type="radio"  name="function_rooms_6_1_1_A" ng-model="function_rooms_6_1_1_A" value="40" ng-checked="function_rooms_6_1_1_A_c" ng-focus="check_function_rooms_6_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -104,7 +104,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_1_1_A_d" class="sum_villa" type="radio"  name="function_rooms_6_1_1_A" ng-model="function_rooms_6_1_1_A" value="50" ng-checked="function_rooms_6_1_1_A_d" ng-focus="check_function_rooms_6_1_1_A_cm()" />
+		<input id="function_rooms_6_1_1_A_d" class="sum_cottage" type="radio"  name="function_rooms_6_1_1_A" ng-model="function_rooms_6_1_1_A" value="50" ng-checked="function_rooms_6_1_1_A_d" ng-focus="check_function_rooms_6_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -159,14 +159,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_2_1_A_a" class="sum_villa" type="radio" name="function_rooms_6_2_1_A" ng-model="function_rooms_6_2_1_A" value="5" ng-checked="function_rooms_6_2_1_A_a" ng-focus="check_function_rooms_6_2_1_A_cm()" />
+		<input id="function_rooms_6_2_1_A_a" class="sum_cottage" type="radio" name="function_rooms_6_2_1_A" ng-model="function_rooms_6_2_1_A" value="5" ng-checked="function_rooms_6_2_1_A_a" ng-focus="check_function_rooms_6_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_2_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_A_cm" ng-model="function_rooms_6_2_1_A_cm" ng-focus="check_function_rooms_6_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_A_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_A_cm" ng-model="function_rooms_6_2_1_A_cm" ng-focus="check_function_rooms_6_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -177,7 +177,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_2_1_A_b" class="sum_villa" type="radio"  name="function_rooms_6_2_1_A" ng-model="function_rooms_6_2_1_A" value="8" ng-checked="function_rooms_6_2_1_A_b" ng-focus="check_function_rooms_6_2_1_A_cm()" />
+		<input id="function_rooms_6_2_1_A_b" class="sum_cottage" type="radio"  name="function_rooms_6_2_1_A" ng-model="function_rooms_6_2_1_A" value="8" ng-checked="function_rooms_6_2_1_A_b" ng-focus="check_function_rooms_6_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -193,7 +193,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_2_1_A_c" class="sum_villa" type="radio"  name="function_rooms_6_2_1_A" ng-model="function_rooms_6_2_1_A" value="15" ng-checked="function_rooms_6_2_1_A_c" ng-focus="check_function_rooms_6_2_1_A_cm()" />
+		<input id="function_rooms_6_2_1_A_c" class="sum_cottage" type="radio"  name="function_rooms_6_2_1_A" ng-model="function_rooms_6_2_1_A" value="15" ng-checked="function_rooms_6_2_1_A_c" ng-focus="check_function_rooms_6_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -224,7 +224,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_2_1_B_a" class="sum_villa" type="checkbox" name="function_rooms_6_2_1_B_a" ng-model="function_rooms_6_2_1_B_a" value="3" ng-checked="function_rooms_6_2_1_B_aTT" ng-focus="check_function_rooms_6_2_1_B_a_cm()"/>
+		<input id="function_rooms_6_2_1_B_a" class="sum_cottage" type="checkbox" name="function_rooms_6_2_1_B_a" ng-model="function_rooms_6_2_1_B_a" value="3" ng-checked="function_rooms_6_2_1_B_aTT" ng-focus="check_function_rooms_6_2_1_B_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -240,7 +240,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_2_1_B_a_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_a_cm" ng-model="function_rooms_6_2_1_B_a_cm" ng-focus="check_function_rooms_6_2_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_B_a_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_a_cm" ng-model="function_rooms_6_2_1_B_a_cm" ng-focus="check_function_rooms_6_2_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -252,7 +252,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_2_1_B_b" class="sum_villa" type="checkbox"  name="function_rooms_6_2_1_B_b" ng-model="function_rooms_6_2_1_B_b" value="3" ng-checked="function_rooms_6_2_1_B_bTT" ng-focus="check_function_rooms_6_2_1_B_b_cm()"/>
+		<input id="function_rooms_6_2_1_B_b" class="sum_cottage" type="checkbox"  name="function_rooms_6_2_1_B_b" ng-model="function_rooms_6_2_1_B_b" value="3" ng-checked="function_rooms_6_2_1_B_bTT" ng-focus="check_function_rooms_6_2_1_B_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -260,7 +260,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_2_1_B_b_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_b_cm" ng-model="function_rooms_6_2_1_B_b_cm" ng-focus="check_function_rooms_6_2_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_B_b_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_b_cm" ng-model="function_rooms_6_2_1_B_b_cm" ng-focus="check_function_rooms_6_2_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -272,7 +272,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_2_1_B_c" class="sum_villa" type="checkbox"  name="function_rooms_6_2_1_B_c" ng-model="function_rooms_6_2_1_B_c" value="3" ng-checked="function_rooms_6_2_1_B_cTT" ng-focus="check_function_rooms_6_2_1_B_c_cm()"/>
+		<input id="function_rooms_6_2_1_B_c" class="sum_cottage" type="checkbox"  name="function_rooms_6_2_1_B_c" ng-model="function_rooms_6_2_1_B_c" value="3" ng-checked="function_rooms_6_2_1_B_cTT" ng-focus="check_function_rooms_6_2_1_B_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -280,7 +280,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_2_1_B_c_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_c_cm" ng-model="function_rooms_6_2_1_B_c_cm" ng-focus="check_function_rooms_6_2_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_B_c_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_c_cm" ng-model="function_rooms_6_2_1_B_c_cm" ng-focus="check_function_rooms_6_2_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -291,7 +291,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_2_1_B_d" class="sum_villa" type="checkbox"  name="function_rooms_6_2_1_B_d" ng-model="function_rooms_6_2_1_B_d" value="2" ng-checked="function_rooms_6_2_1_B_dTT" ng-focus="check_function_rooms_6_2_1_B_d_cm()" />
+		<input id="function_rooms_6_2_1_B_d" class="sum_cottage" type="checkbox"  name="function_rooms_6_2_1_B_d" ng-model="function_rooms_6_2_1_B_d" value="2" ng-checked="function_rooms_6_2_1_B_dTT" ng-focus="check_function_rooms_6_2_1_B_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -299,7 +299,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_2_1_B_d_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_d_cm" ng-model="function_rooms_6_2_1_B_d_cm" ng-focus="check_function_rooms_6_2_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_B_d_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_d_cm" ng-model="function_rooms_6_2_1_B_d_cm" ng-focus="check_function_rooms_6_2_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -312,7 +312,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_2_1_B_e" class="sum_villa" type="checkbox"  name="function_rooms_6_2_1_B_e" ng-model="function_rooms_6_2_1_B_e" value="2" ng-checked="function_rooms_6_2_1_B_eTT" ng-focus="check_function_rooms_6_2_1_B_e_cm()" />
+		<input id="function_rooms_6_2_1_B_e" class="sum_cottage" type="checkbox"  name="function_rooms_6_2_1_B_e" ng-model="function_rooms_6_2_1_B_e" value="2" ng-checked="function_rooms_6_2_1_B_eTT" ng-focus="check_function_rooms_6_2_1_B_e_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -320,7 +320,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_2_1_B_e_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_e_cm" ng-model="function_rooms_6_2_1_B_e_cm" ng-focus="check_function_rooms_6_2_1_B_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_B_e_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_e_cm" ng-model="function_rooms_6_2_1_B_e_cm" ng-focus="check_function_rooms_6_2_1_B_e()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -333,7 +333,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_2_1_B_f" class="sum_villa" type="checkbox"  name="function_rooms_6_2_1_B_f" ng-model="function_rooms_6_2_1_B_f" value="3" ng-checked="function_rooms_6_2_1_B_fTT" ng-focus="check_function_rooms_6_2_1_B_f_cm()" />
+		<input id="function_rooms_6_2_1_B_f" class="sum_cottage" type="checkbox"  name="function_rooms_6_2_1_B_f" ng-model="function_rooms_6_2_1_B_f" value="3" ng-checked="function_rooms_6_2_1_B_fTT" ng-focus="check_function_rooms_6_2_1_B_f_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -341,7 +341,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_2_1_B_fe_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_f_cm" ng-model="function_rooms_6_2_1_B_f_cm" ng-focus="check_function_rooms_6_2_1_B_f()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_B_fe_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_f_cm" ng-model="function_rooms_6_2_1_B_f_cm" ng-focus="check_function_rooms_6_2_1_B_f()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -369,7 +369,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_2_1_C_a" class="sum_villa" type="checkbox" name="function_rooms_6_2_1_C_a" ng-model="function_rooms_6_2_1_C_a" value="4" ng-checked="function_rooms_6_2_1_C_aTT" ng-focus="check_function_rooms_6_2_1_C_a_cm()"/>
+		<input id="function_rooms_6_2_1_C_a" class="sum_cottage" type="checkbox" name="function_rooms_6_2_1_C_a" ng-model="function_rooms_6_2_1_C_a" value="4" ng-checked="function_rooms_6_2_1_C_aTT" ng-focus="check_function_rooms_6_2_1_C_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -385,7 +385,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_2_1_C_a_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_C_a_cm" ng-model="function_rooms_6_2_1_C_a_cm" ng-focus="check_function_rooms_6_2_1_C_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_C_a_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_C_a_cm" ng-model="function_rooms_6_2_1_C_a_cm" ng-focus="check_function_rooms_6_2_1_C_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -398,7 +398,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_2_1_C_b" class="sum_villa" type="checkbox"  name="function_rooms_6_2_1_C_b" ng-model="function_rooms_6_2_1_C_b" value="5" ng-checked="function_rooms_6_2_1_C_bTT" ng-focus="check_function_rooms_6_2_1_C_b_cm()" />
+		<input id="function_rooms_6_2_1_C_b" class="sum_cottage" type="checkbox"  name="function_rooms_6_2_1_C_b" ng-model="function_rooms_6_2_1_C_b" value="5" ng-checked="function_rooms_6_2_1_C_bTT" ng-focus="check_function_rooms_6_2_1_C_b_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -406,7 +406,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_2_1_C_be_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_C_b_cm" ng-model="function_rooms_6_2_1_C_b_cm" ng-focus="check_function_rooms_6_2_1_C_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_C_be_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_C_b_cm" ng-model="function_rooms_6_2_1_C_b_cm" ng-focus="check_function_rooms_6_2_1_C_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -433,14 +433,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_2_1_D_a" class="sum_villa" type="radio" name="function_rooms_6_2_1_D" ng-model="function_rooms_6_2_1_D" value="5" ng-checked="function_rooms_6_2_1_D_a" ng-focus="check_function_rooms_6_2_1_D_cm()" />
+		<input id="function_rooms_6_2_1_D_a" class="sum_cottage" type="radio" name="function_rooms_6_2_1_D" ng-model="function_rooms_6_2_1_D" value="5" ng-checked="function_rooms_6_2_1_D_a" ng-focus="check_function_rooms_6_2_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="function_rooms_6_2_1_D_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_D_cm" ng-model="function_rooms_6_2_1_D_cm" ng-focus="check_function_rooms_6_2_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_D_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_D_cm" ng-model="function_rooms_6_2_1_D_cm" ng-focus="check_function_rooms_6_2_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -451,7 +451,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_2_1_D_b" class="sum_villa" type="radio"  name="function_rooms_6_2_1_D" ng-model="function_rooms_6_2_1_D" value="8" ng-checked="function_rooms_6_2_1_D_b" ng-focus="check_function_rooms_6_2_1_D_cm()" />
+		<input id="function_rooms_6_2_1_D_b" class="sum_cottage" type="radio"  name="function_rooms_6_2_1_D" ng-model="function_rooms_6_2_1_D" value="8" ng-checked="function_rooms_6_2_1_D_b" ng-focus="check_function_rooms_6_2_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -463,11 +463,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Excellent <span class="marks_weight">(10)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Excellent (<span class="marks_weight">(10)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_2_1_D_c" class="sum_villa" type="radio"  name="function_rooms_6_2_1_D" ng-model="function_rooms_6_2_1_D" value="10" ng-checked="function_rooms_6_2_1_D_c" ng-focus="check_function_rooms_6_2_1_D_cm()" />
+		<input id="function_rooms_6_2_1_D_c" class="sum_cottage" type="radio"  name="function_rooms_6_2_1_D" ng-model="function_rooms_6_2_1_D" value="10" ng-checked="function_rooms_6_2_1_D_c" ng-focus="check_function_rooms_6_2_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -523,7 +523,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_a" class="sum_villa" type="checkbox" name="functions_room_6_3_1_A_a" ng-model="functions_room_6_3_1_A_a" value="5" ng-checked="functions_room_6_3_1_A_aTT" ng-focus="check_functions_room_6_3_1_A_a_cm()"/>
+		<input id="functions_room_6_3_1_A_a" class="sum_cottage" type="checkbox" name="functions_room_6_3_1_A_a" ng-model="functions_room_6_3_1_A_a" value="5" ng-checked="functions_room_6_3_1_A_aTT" ng-focus="check_functions_room_6_3_1_A_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -539,7 +539,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_a_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_a_cm" ng-model="functions_room_6_3_1_A_a_cm" ng-focus="check_functions_room_6_3_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_a_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_a_cm" ng-model="functions_room_6_3_1_A_a_cm" ng-focus="check_functions_room_6_3_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -551,7 +551,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_b" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_b" ng-model="functions_room_6_3_1_A_b" value="5" ng-checked="functions_room_6_3_1_A_bTT" ng-focus="check_functions_room_6_3_1_A_b_cm()"/>
+		<input id="functions_room_6_3_1_A_b" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_b" ng-model="functions_room_6_3_1_A_b" value="5" ng-checked="functions_room_6_3_1_A_bTT" ng-focus="check_functions_room_6_3_1_A_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -559,7 +559,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_b_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_b_cm" ng-model="functions_room_6_3_1_A_b_cm" ng-focus="check_functions_room_6_3_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_b_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_b_cm" ng-model="functions_room_6_3_1_A_b_cm" ng-focus="check_functions_room_6_3_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -571,7 +571,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_c" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_c" ng-model="functions_room_6_3_1_A_c" value="5" ng-checked="functions_room_6_3_1_A_cTT" ng-focus="check_functions_room_6_3_1_A_c_cm()"/>
+		<input id="functions_room_6_3_1_A_c" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_c" ng-model="functions_room_6_3_1_A_c" value="5" ng-checked="functions_room_6_3_1_A_cTT" ng-focus="check_functions_room_6_3_1_A_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -579,7 +579,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_c_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_c_cm" ng-model="functions_room_6_3_1_A_c_cm" ng-focus="check_functions_room_6_3_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_c_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_c_cm" ng-model="functions_room_6_3_1_A_c_cm" ng-focus="check_functions_room_6_3_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -590,7 +590,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_d" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_d" ng-model="functions_room_6_3_1_A_d" value="4" ng-checked="functions_room_6_3_1_A_dTT" ng-focus="check_functions_room_6_3_1_A_d_cm()" />
+		<input id="functions_room_6_3_1_A_d" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_d" ng-model="functions_room_6_3_1_A_d" value="4" ng-checked="functions_room_6_3_1_A_dTT" ng-focus="check_functions_room_6_3_1_A_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -598,7 +598,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_d_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_d_cm" ng-model="functions_room_6_3_1_A_d_cm" ng-focus="check_functions_room_6_3_1_A_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_d_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_d_cm" ng-model="functions_room_6_3_1_A_d_cm" ng-focus="check_functions_room_6_3_1_A_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -609,7 +609,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_e" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_e" ng-model="functions_room_6_3_1_A_e" value="3" ng-checked="functions_room_6_3_1_A_eTT" ng-focus="check_functions_room_6_3_1_A_e_cm()" />
+		<input id="functions_room_6_3_1_A_e" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_e" ng-model="functions_room_6_3_1_A_e" value="3" ng-checked="functions_room_6_3_1_A_eTT" ng-focus="check_functions_room_6_3_1_A_e_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -617,7 +617,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_e_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_e_cm" ng-model="functions_room_6_3_1_A_e_cm" ng-focus="check_functions_room_6_3_1_A_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_e_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_e_cm" ng-model="functions_room_6_3_1_A_e_cm" ng-focus="check_functions_room_6_3_1_A_e()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -628,7 +628,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_f" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_f" ng-model="functions_room_6_3_1_A_f" value="4" ng-checked="functions_room_6_3_1_A_fTT" ng-focus="check_functions_room_6_3_1_A_f_cm()" />
+		<input id="functions_room_6_3_1_A_f" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_f" ng-model="functions_room_6_3_1_A_f" value="4" ng-checked="functions_room_6_3_1_A_fTT" ng-focus="check_functions_room_6_3_1_A_f_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -636,7 +636,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_f_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_f_cm" ng-model="functions_room_6_3_1_A_f_cm" ng-focus="check_functions_room_6_3_1_A_f()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_f_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_f_cm" ng-model="functions_room_6_3_1_A_f_cm" ng-focus="check_functions_room_6_3_1_A_f()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -647,7 +647,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_g" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_g" ng-model="functions_room_6_3_1_A_g" value="4" ng-checked="functions_room_6_3_1_A_gTT" ng-focus="check_functions_room_6_3_1_A_g_cm()" />
+		<input id="functions_room_6_3_1_A_g" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_g" ng-model="functions_room_6_3_1_A_g" value="4" ng-checked="functions_room_6_3_1_A_gTT" ng-focus="check_functions_room_6_3_1_A_g_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -655,7 +655,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_g_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_g_cm" ng-model="functions_room_6_3_1_A_g_cm" ng-focus="check_functions_room_6_3_1_A_g()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_g_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_g_cm" ng-model="functions_room_6_3_1_A_g_cm" ng-focus="check_functions_room_6_3_1_A_g()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -666,7 +666,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_h" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_h" ng-model="functions_room_6_3_1_A_h" value="4" ng-checked="functions_room_6_3_1_A_hTT" ng-focus="check_functions_room_6_3_1_A_h_cm()" />
+		<input id="functions_room_6_3_1_A_h" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_h" ng-model="functions_room_6_3_1_A_h" value="4" ng-checked="functions_room_6_3_1_A_hTT" ng-focus="check_functions_room_6_3_1_A_h_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -674,7 +674,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_h_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_h_cm" ng-model="functions_room_6_3_1_A_h_cm" ng-focus="check_functions_room_6_3_1_A_h()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_h_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_h_cm" ng-model="functions_room_6_3_1_A_h_cm" ng-focus="check_functions_room_6_3_1_A_h()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -685,7 +685,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_i" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_i" ng-model="functions_room_6_3_1_A_i" value="4" ng-checked="functions_room_6_3_1_A_iTT" ng-focus="check_functions_room_6_3_1_A_i_cm()" />
+		<input id="functions_room_6_3_1_A_i" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_i" ng-model="functions_room_6_3_1_A_i" value="4" ng-checked="functions_room_6_3_1_A_iTT" ng-focus="check_functions_room_6_3_1_A_i_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -693,7 +693,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_i_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_i_cm" ng-model="functions_room_6_3_1_A_i_cm" ng-focus="check_functions_room_6_3_1_A_i()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_i_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_i_cm" ng-model="functions_room_6_3_1_A_i_cm" ng-focus="check_functions_room_6_3_1_A_i()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -704,7 +704,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_j" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_j" ng-model="functions_room_6_3_1_A_j" value="2" ng-checked="functions_room_6_3_1_A_jTT" ng-focus="check_functions_room_6_3_1_A_j_cm()" />
+		<input id="functions_room_6_3_1_A_j" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_j" ng-model="functions_room_6_3_1_A_j" value="2" ng-checked="functions_room_6_3_1_A_jTT" ng-focus="check_functions_room_6_3_1_A_j_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -712,7 +712,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_j_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_j_cm" ng-model="functions_room_6_3_1_A_j_cm" ng-focus="check_functions_room_6_3_1_A_j()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_j_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_j_cm" ng-model="functions_room_6_3_1_A_j_cm" ng-focus="check_functions_room_6_3_1_A_j()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -723,7 +723,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_k" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_k" ng-model="functions_room_6_3_1_A_k" value="2" ng-checked="functions_room_6_3_1_A_kTT" ng-focus="check_functions_room_6_3_1_A_k_cm()" />
+		<input id="functions_room_6_3_1_A_k" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_k" ng-model="functions_room_6_3_1_A_k" value="2" ng-checked="functions_room_6_3_1_A_kTT" ng-focus="check_functions_room_6_3_1_A_k_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -731,7 +731,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_k_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_k_cm" ng-model="functions_room_6_3_1_A_k_cm" ng-focus="check_functions_room_6_3_1_A_k()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_k_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_k_cm" ng-model="functions_room_6_3_1_A_k_cm" ng-focus="check_functions_room_6_3_1_A_k()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -742,7 +742,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_l" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_l" ng-model="functions_room_6_3_1_A_l" value="3" ng-checked="functions_room_6_3_1_A_lTT" ng-focus="check_functions_room_6_3_1_A_l_cm()" />
+		<input id="functions_room_6_3_1_A_l" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_l" ng-model="functions_room_6_3_1_A_l" value="3" ng-checked="functions_room_6_3_1_A_lTT" ng-focus="check_functions_room_6_3_1_A_l_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -750,7 +750,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_l_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_l_cm" ng-model="functions_room_6_3_1_A_l_cm" ng-focus="check_functions_room_6_3_1_A_l()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_l_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_l_cm" ng-model="functions_room_6_3_1_A_l_cm" ng-focus="check_functions_room_6_3_1_A_l()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -762,7 +762,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_m" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_m" ng-model="functions_room_6_3_1_A_m" value="5" ng-checked="functions_room_6_3_1_A_mTT" ng-focus="check_functions_room_6_3_1_A_m_cm()" />
+		<input id="functions_room_6_3_1_A_m" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_m" ng-model="functions_room_6_3_1_A_m" value="5" ng-checked="functions_room_6_3_1_A_mTT" ng-focus="check_functions_room_6_3_1_A_m_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -770,7 +770,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_m_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_m_cm" ng-model="functions_room_6_3_1_A_m_cm" ng-focus="check_functions_room_6_3_1_A_m()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_m_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_m_cm" ng-model="functions_room_6_3_1_A_m_cm" ng-focus="check_functions_room_6_3_1_A_m()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -782,7 +782,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_n" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_n" ng-model="functions_room_6_3_1_A_n" value="4" ng-checked="functions_room_6_3_1_A_nTT" ng-focus="check_functions_room_6_3_1_A_n_cm()" />
+		<input id="functions_room_6_3_1_A_n" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_n" ng-model="functions_room_6_3_1_A_n" value="4" ng-checked="functions_room_6_3_1_A_nTT" ng-focus="check_functions_room_6_3_1_A_n_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -790,7 +790,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_n_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_n_cm" ng-model="functions_room_6_3_1_A_n_cm" ng-focus="check_functions_room_6_3_1_A_n()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_n_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_n_cm" ng-model="functions_room_6_3_1_A_n_cm" ng-focus="check_functions_room_6_3_1_A_n()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -802,7 +802,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_o" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_o" ng-model="functions_room_6_3_1_A_o" value="5" ng-checked="functions_room_6_3_1_A_oTT" ng-focus="check_functions_room_6_3_1_A_o_cm()" />
+		<input id="functions_room_6_3_1_A_o" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_o" ng-model="functions_room_6_3_1_A_o" value="5" ng-checked="functions_room_6_3_1_A_oTT" ng-focus="check_functions_room_6_3_1_A_o_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -810,7 +810,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_o_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_o_cm" ng-model="functions_room_6_3_1_A_o_cm" ng-focus="check_functions_room_6_3_1_A_o()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_o_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_o_cm" ng-model="functions_room_6_3_1_A_o_cm" ng-focus="check_functions_room_6_3_1_A_o()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -822,7 +822,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_p" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_p" ng-model="functions_room_6_3_1_A_p" value="5" ng-checked="functions_room_6_3_1_A_pTT" ng-focus="check_functions_room_6_3_1_A_p_cm()" />
+		<input id="functions_room_6_3_1_A_p" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_p" ng-model="functions_room_6_3_1_A_p" value="5" ng-checked="functions_room_6_3_1_A_pTT" ng-focus="check_functions_room_6_3_1_A_p_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -830,7 +830,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_p_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_p_cm" ng-model="functions_room_6_3_1_A_p_cm" ng-focus="check_functions_room_6_3_1_A_p()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_p_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_p_cm" ng-model="functions_room_6_3_1_A_p_cm" ng-focus="check_functions_room_6_3_1_A_p()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -842,7 +842,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_q" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_q" ng-model="functions_room_6_3_1_A_q" value="5" ng-checked="functions_room_6_3_1_A_qTT" ng-focus="check_functions_room_6_3_1_A_q_cm()" />
+		<input id="functions_room_6_3_1_A_q" class="sum_cottage" type="checkbox"  name="functions_room_6_3_1_A_q" ng-model="functions_room_6_3_1_A_q" value="5" ng-checked="functions_room_6_3_1_A_qTT" ng-focus="check_functions_room_6_3_1_A_q_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -850,7 +850,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="functions_room_6_3_1_A_q_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_q_cm" ng-model="functions_room_6_3_1_A_q_cm" ng-focus="check_functions_room_6_3_1_A_q()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_A_q_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_q_cm" ng-model="functions_room_6_3_1_A_q_cm" ng-focus="check_functions_room_6_3_1_A_q()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -875,14 +875,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="functions_room_6_3_1_B_a" class="sum_villa" type="radio" name="functions_room_6_3_1_B" ng-model="functions_room_6_3_1_B" value="2" ng-checked="functions_room_6_3_1_B_a" ng-focus="check_functions_room_6_3_1_B_cm()" />
+		<input id="functions_room_6_3_1_B_a" class="sum_cottage" type="radio" name="functions_room_6_3_1_B" ng-model="functions_room_6_3_1_B" value="2" ng-checked="functions_room_6_3_1_B_a" ng-focus="check_functions_room_6_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="functions_room_6_3_1_B_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_B_cm" ng-model="functions_room_6_3_1_B_cm" ng-focus="check_functions_room_6_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="functions_room_6_3_1_B_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_B_cm" ng-model="functions_room_6_3_1_B_cm" ng-focus="check_functions_room_6_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -893,7 +893,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="functions_room_6_3_1_B_b" class="sum_villa" type="radio"  name="functions_room_6_3_1_B" ng-model="functions_room_6_3_1_B" value="4" ng-checked="functions_room_6_3_1_B_b" ng-focus="check_functions_room_6_3_1_B_cm()" />
+		<input id="functions_room_6_3_1_B_b" class="sum_cottage" type="radio"  name="functions_room_6_3_1_B" ng-model="functions_room_6_3_1_B" value="7" ng-checked="functions_room_6_3_1_B_b" ng-focus="check_functions_room_6_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -909,7 +909,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="functions_room_6_3_1_B_c" class="sum_villa" type="radio"  name="functions_room_6_3_1_B" ng-model="functions_room_6_3_1_B" value="6" ng-checked="functions_room_6_3_1_B_c" ng-focus="check_functions_room_6_3_1_B_cm()" />
+		<input id="functions_room_6_3_1_B_c" class="sum_cottage" type="radio"  name="functions_room_6_3_1_B" ng-model="functions_room_6_3_1_B" value="6" ng-checked="functions_room_6_3_1_B_c" ng-focus="check_functions_room_6_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -979,14 +979,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_A_a" class="sum_villa" type="radio" name="function_rooms_6_4_1_A" ng-model="function_rooms_6_4_1_A" value="2" ng-checked="function_rooms_6_4_1_A_a" ng-focus="check_function_rooms_6_4_1_A_cm()" />
+		<input id="function_rooms_6_4_1_A_a" class="sum_cottage" type="radio" name="function_rooms_6_4_1_A" ng-model="function_rooms_6_4_1_A" value="2" ng-checked="function_rooms_6_4_1_A_a" ng-focus="check_function_rooms_6_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_4_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_A_cm" ng-model="function_rooms_6_4_1_A_cm" ng-focus="check_function_rooms_6_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_4_1_A_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_A_cm" ng-model="function_rooms_6_4_1_A_cm" ng-focus="check_function_rooms_6_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -999,7 +999,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_A_b" class="sum_villa" type="radio" name="function_rooms_6_4_1_A" ng-model="function_rooms_6_4_1_A" value="10" ng-checked="function_rooms_6_4_1_A_b" ng-focus="check_function_rooms_6_4_1_A_cm()" />
+		<input id="function_rooms_6_4_1_A_b" class="sum_cottage" type="radio" name="function_rooms_6_4_1_A" ng-model="function_rooms_6_4_1_A" value="10" ng-checked="function_rooms_6_4_1_A_b" ng-focus="check_function_rooms_6_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1017,7 +1017,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_A_c" class="sum_villa" type="radio"  name="function_rooms_6_4_1_A" ng-model="function_rooms_6_4_1_A" value="15" ng-checked="function_rooms_6_4_1_A_c" ng-focus="check_function_rooms_6_4_1_A_cm()" />
+		<input id="function_rooms_6_4_1_A_c" class="sum_cottage" type="radio"  name="function_rooms_6_4_1_A" ng-model="function_rooms_6_4_1_A" value="15" ng-checked="function_rooms_6_4_1_A_c" ng-focus="check_function_rooms_6_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1047,7 +1047,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_4_1_B_a" class="sum_villa" type="checkbox" name="function_rooms_6_4_1_B_a" ng-model="function_rooms_6_4_1_B_a" value="5" ng-checked="function_rooms_6_4_1_B_aTT" ng-focus="check_function_rooms_6_4_1_B_a_cm()"/>
+		<input id="function_rooms_6_4_1_B_a" class="sum_cottage" type="checkbox" name="function_rooms_6_4_1_B_a" ng-model="function_rooms_6_4_1_B_a" value="5" ng-checked="function_rooms_6_4_1_B_aTT" ng-focus="check_function_rooms_6_4_1_B_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1063,7 +1063,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_4_1_B_a_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_a_cm" ng-model="function_rooms_6_4_1_B_a_cm" ng-focus="check_function_rooms_6_4_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_4_1_B_a_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_a_cm" ng-model="function_rooms_6_4_1_B_a_cm" ng-focus="check_function_rooms_6_4_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1075,7 +1075,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_4_1_B_b" class="sum_villa" type="checkbox"  name="function_rooms_6_4_1_B_b" ng-model="function_rooms_6_4_1_B_b" value="5" ng-checked="function_rooms_6_4_1_B_bTT" ng-focus="check_function_rooms_6_4_1_B_b_cm()"/>
+		<input id="function_rooms_6_4_1_B_b" class="sum_cottage" type="checkbox"  name="function_rooms_6_4_1_B_b" ng-model="function_rooms_6_4_1_B_b" value="5" ng-checked="function_rooms_6_4_1_B_bTT" ng-focus="check_function_rooms_6_4_1_B_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1083,7 +1083,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_4_1_B_b_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_b_cm" ng-model="function_rooms_6_4_1_B_b_cm" ng-focus="check_function_rooms_6_4_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_4_1_B_b_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_b_cm" ng-model="function_rooms_6_4_1_B_b_cm" ng-focus="check_function_rooms_6_4_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1095,7 +1095,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_4_1_B_c" class="sum_villa" type="checkbox"  name="function_rooms_6_4_1_B_c" ng-model="function_rooms_6_4_1_B_c" value="5" ng-checked="function_rooms_6_4_1_B_cTT" ng-focus="check_function_rooms_6_4_1_B_c_cm()"/>
+		<input id="function_rooms_6_4_1_B_c" class="sum_cottage" type="checkbox"  name="function_rooms_6_4_1_B_c" ng-model="function_rooms_6_4_1_B_c" value="5" ng-checked="function_rooms_6_4_1_B_cTT" ng-focus="check_function_rooms_6_4_1_B_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1103,7 +1103,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_4_1_B_c_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_c_cm" ng-model="function_rooms_6_4_1_B_c_cm" ng-focus="check_function_rooms_6_4_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_4_1_B_c_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_c_cm" ng-model="function_rooms_6_4_1_B_c_cm" ng-focus="check_function_rooms_6_4_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1115,7 +1115,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_4_1_B_d" class="sum_villa" type="checkbox"  name="function_rooms_6_4_1_B_d" ng-model="function_rooms_6_4_1_B_d" value="5" ng-checked="function_rooms_6_4_1_B_dTT" ng-focus="check_function_rooms_6_4_1_B_d_cm()" />
+		<input id="function_rooms_6_4_1_B_d" class="sum_cottage" type="checkbox"  name="function_rooms_6_4_1_B_d" ng-model="function_rooms_6_4_1_B_d" value="5" ng-checked="function_rooms_6_4_1_B_dTT" ng-focus="check_function_rooms_6_4_1_B_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1123,7 +1123,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_4_1_B_de_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_d_cm" ng-model="function_rooms_6_4_1_B_d_cm" ng-focus="check_function_rooms_6_4_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_4_1_B_de_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_d_cm" ng-model="function_rooms_6_4_1_B_d_cm" ng-focus="check_function_rooms_6_4_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1148,14 +1148,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_C_a" class="sum_villa" type="radio" name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="0" ng-checked="function_rooms_6_4_1_C_a" ng-focus="check_function_rooms_6_4_1_C_cm()" />
+		<input id="function_rooms_6_4_1_C_a" class="sum_cottage" type="radio" name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="0" ng-checked="function_rooms_6_4_1_C_a" ng-focus="check_function_rooms_6_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="5" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_4_1_C_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_C_cm" ng-model="function_rooms_6_4_1_C_cm" ng-focus="check_function_rooms_6_4_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_4_1_C_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_C_cm" ng-model="function_rooms_6_4_1_C_cm" ng-focus="check_function_rooms_6_4_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1168,7 +1168,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_C_b" class="sum_villa" type="radio" name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="5" ng-checked="function_rooms_6_4_1_C_b" ng-focus="check_function_rooms_6_4_1_C_cm()" />
+		<input id="function_rooms_6_4_1_C_b" class="sum_cottage" type="radio" name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="5" ng-checked="function_rooms_6_4_1_C_b" ng-focus="check_function_rooms_6_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1185,7 +1185,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_C_c" class="sum_villa" type="radio" name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="10" ng-checked="function_rooms_6_4_1_C_c" ng-focus="check_function_rooms_6_4_1_C_cm()" />
+		<input id="function_rooms_6_4_1_C_c" class="sum_cottage" type="radio" name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="10" ng-checked="function_rooms_6_4_1_C_c" ng-focus="check_function_rooms_6_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1202,7 +1202,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_C_d" class="sum_villa" type="radio" name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="15" ng-checked="function_rooms_6_4_1_C_d" ng-focus="check_function_rooms_6_4_1_C_cm()" />
+		<input id="function_rooms_6_4_1_C_d" class="sum_cottage" type="radio" name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="15" ng-checked="function_rooms_6_4_1_C_d" ng-focus="check_function_rooms_6_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1219,7 +1219,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_C_e" class="sum_villa" type="radio"  name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="20" ng-checked="function_rooms_6_4_1_C_e" ng-focus="check_function_rooms_6_4_1_C_cm()" />
+		<input id="function_rooms_6_4_1_C_e" class="sum_cottage" type="radio"  name="function_rooms_6_4_1_C" ng-model="function_rooms_6_4_1_C" value="20" ng-checked="function_rooms_6_4_1_C_e" ng-focus="check_function_rooms_6_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1251,14 +1251,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_D_a" class="sum_villa" type="radio" name="function_rooms_6_4_1_D" ng-model="function_rooms_6_4_1_D" value="5" ng-checked="function_rooms_6_4_1_D_a" ng-focus="check_function_rooms_6_4_1_D_cm()" />
+		<input id="function_rooms_6_4_1_D_a" class="sum_cottage" type="radio" name="function_rooms_6_4_1_D" ng-model="function_rooms_6_4_1_D" value="5" ng-checked="function_rooms_6_4_1_D_a" ng-focus="check_function_rooms_6_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="function_rooms_6_4_1_D_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_D_cm" ng-model="function_rooms_6_4_1_D_cm" ng-focus="check_function_rooms_6_4_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_4_1_D_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_D_cm" ng-model="function_rooms_6_4_1_D_cm" ng-focus="check_function_rooms_6_4_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1269,7 +1269,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_D_b" class="sum_villa" type="radio"  name="function_rooms_6_4_1_D" ng-model="function_rooms_6_4_1_D" value="10" ng-checked="function_rooms_6_4_1_D_b" ng-focus="check_function_rooms_6_4_1_D_cm()" />
+		<input id="function_rooms_6_4_1_D_b" class="sum_cottage" type="radio"  name="function_rooms_6_4_1_D" ng-model="function_rooms_6_4_1_D" value="10" ng-checked="function_rooms_6_4_1_D_b" ng-focus="check_function_rooms_6_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1285,7 +1285,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_4_1_D_c" class="sum_villa" type="radio"  name="function_rooms_6_4_1_D" ng-model="function_rooms_6_4_1_D" value="15" ng-checked="function_rooms_6_4_1_D_c" ng-focus="check_function_rooms_6_4_1_D_cm()" />
+		<input id="function_rooms_6_4_1_D_c" class="sum_cottage" type="radio"  name="function_rooms_6_4_1_D" ng-model="function_rooms_6_4_1_D" value="15" ng-checked="function_rooms_6_4_1_D_c" ng-focus="check_function_rooms_6_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1341,14 +1341,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_5_1_A_a" class="sum_villa" type="radio" name="function_rooms_6_5_1_A" ng-model="function_rooms_6_5_1_A" value="10" ng-checked="function_rooms_6_5_1_A_a" ng-focus="check_function_rooms_6_5_1_A_cm()" />
+		<input id="function_rooms_6_5_1_A_a" class="sum_cottage" type="radio" name="function_rooms_6_5_1_A" ng-model="function_rooms_6_5_1_A" value="10" ng-checked="function_rooms_6_5_1_A_a" ng-focus="check_function_rooms_6_5_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_5_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_5_1_A_cm" ng-model="function_rooms_6_5_1_A_cm" ng-focus="check_function_rooms_6_5_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_5_1_A_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_5_1_A_cm" ng-model="function_rooms_6_5_1_A_cm" ng-focus="check_function_rooms_6_5_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1359,7 +1359,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_5_1_A_b" class="sum_villa" type="radio"  name="function_rooms_6_5_1_A" ng-model="function_rooms_6_5_1_A" value="20" ng-checked="function_rooms_6_5_1_A_b" ng-focus="check_function_rooms_6_5_1_A_cm()" />
+		<input id="function_rooms_6_5_1_A_b" class="sum_cottage" type="radio"  name="function_rooms_6_5_1_A" ng-model="function_rooms_6_5_1_A" value="20" ng-checked="function_rooms_6_5_1_A_b" ng-focus="check_function_rooms_6_5_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1390,14 +1390,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_5_1_B_a" class="sum_villa" type="radio" name="function_rooms_6_5_1_B" ng-model="function_rooms_6_5_1_B" value="2" ng-checked="function_rooms_6_5_1_B_a" ng-focus="check_function_rooms_6_5_1_B_cm()" />
+		<input id="function_rooms_6_5_1_B_a" class="sum_cottage" type="radio" name="function_rooms_6_5_1_B" ng-model="function_rooms_6_5_1_B" value="2" ng-checked="function_rooms_6_5_1_B_a" ng-focus="check_function_rooms_6_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="function_rooms_6_5_1_B_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_5_1_B_cm" ng-model="function_rooms_6_5_1_B_cm" ng-focus="check_function_rooms_6_5_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_5_1_B_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_5_1_B_cm" ng-model="function_rooms_6_5_1_B_cm" ng-focus="check_function_rooms_6_5_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1408,7 +1408,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_5_1_B_b" class="sum_villa" type="radio"  name="function_rooms_6_5_1_B" ng-model="function_rooms_6_5_1_B" value="5" ng-checked="function_rooms_6_5_1_B_b" ng-focus="check_function_rooms_6_5_1_B_cm()" />
+		<input id="function_rooms_6_5_1_B_b" class="sum_cottage" type="radio"  name="function_rooms_6_5_1_B" ng-model="function_rooms_6_5_1_B" value="5" ng-checked="function_rooms_6_5_1_B_b" ng-focus="check_function_rooms_6_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1424,7 +1424,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_5_1_B_c" class="sum_villa" type="radio"  name="function_rooms_6_5_1_B" ng-model="function_rooms_6_5_1_B" value="10" ng-checked="function_rooms_6_5_1_B_c" ng-focus="check_function_rooms_6_5_1_B_cm()" />
+		<input id="function_rooms_6_5_1_B_c" class="sum_cottage" type="radio"  name="function_rooms_6_5_1_B" ng-model="function_rooms_6_5_1_B" value="10" ng-checked="function_rooms_6_5_1_B_c" ng-focus="check_function_rooms_6_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1479,14 +1479,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_A_a" class="sum_villa" type="radio" name="function_rooms_6_6_1_A" ng-model="function_rooms_6_6_1_A" value="2" ng-checked="function_rooms_6_6_1_A_a" ng-focus="check_function_rooms_6_6_1_A_cm()" />
+		<input id="function_rooms_6_6_1_A_a" class="sum_cottage" type="radio" name="function_rooms_6_6_1_A" ng-model="function_rooms_6_6_1_A" value="2" ng-checked="function_rooms_6_6_1_A_a" ng-focus="check_function_rooms_6_6_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_6_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_A_cm" ng-model="function_rooms_6_6_1_A_cm" ng-focus="check_function_rooms_6_6_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_6_1_A_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_A_cm" ng-model="function_rooms_6_6_1_A_cm" ng-focus="check_function_rooms_6_6_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1497,7 +1497,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_A_b" class="sum_villa" type="radio"  name="function_rooms_6_6_1_A" ng-model="function_rooms_6_6_1_A" value="5" ng-checked="function_rooms_6_6_1_A_b" ng-focus="check_function_rooms_6_6_1_A_cm()" />
+		<input id="function_rooms_6_6_1_A_b" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_A" ng-model="function_rooms_6_6_1_A" value="5" ng-checked="function_rooms_6_6_1_A_b" ng-focus="check_function_rooms_6_6_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1513,7 +1513,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_A_c" class="sum_villa" type="radio"  name="function_rooms_6_6_1_A" ng-model="function_rooms_6_6_1_A" value="10" ng-checked="function_rooms_6_6_1_A_c" ng-focus="check_function_rooms_6_6_1_A_cm()" />
+		<input id="function_rooms_6_6_1_A_c" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_A" ng-model="function_rooms_6_6_1_A" value="10" ng-checked="function_rooms_6_6_1_A_c" ng-focus="check_function_rooms_6_6_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1547,14 +1547,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_B_a" class="sum_villa" type="radio" name="function_rooms_6_6_1_B" ng-model="function_rooms_6_6_1_B" value="0" ng-checked="function_rooms_6_6_1_B_a" ng-focus="check_function_rooms_6_6_1_B_cm()" />
+		<input id="function_rooms_6_6_1_B_a" class="sum_cottage" type="radio" name="function_rooms_6_6_1_B" ng-model="function_rooms_6_6_1_B" value="0" ng-checked="function_rooms_6_6_1_B_a" ng-focus="check_function_rooms_6_6_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_6_1_B_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_B_cm" ng-model="function_rooms_6_6_1_B_cm" ng-focus="check_function_rooms_6_6_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_6_1_B_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_B_cm" ng-model="function_rooms_6_6_1_B_cm" ng-focus="check_function_rooms_6_6_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1565,7 +1565,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_B_b" class="sum_villa" type="radio"  name="function_rooms_6_6_1_B" ng-model="function_rooms_6_6_1_B" value="5" ng-checked="function_rooms_6_6_1_B_b" ng-focus="check_function_rooms_6_6_1_B_cm()" />
+		<input id="function_rooms_6_6_1_B_b" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_B" ng-model="function_rooms_6_6_1_B" value="5" ng-checked="function_rooms_6_6_1_B_b" ng-focus="check_function_rooms_6_6_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1599,14 +1599,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_C_a" class="sum_villa" type="radio" name="function_rooms_6_6_1_C" ng-model="function_rooms_6_6_1_C" value="5" ng-checked="function_rooms_6_6_1_C_a" ng-focus="check_function_rooms_6_6_1_C_cm()" />
+		<input id="function_rooms_6_6_1_C_a" class="sum_cottage" type="radio" name="function_rooms_6_6_1_C" ng-model="function_rooms_6_6_1_C" value="5" ng-checked="function_rooms_6_6_1_C_a" ng-focus="check_function_rooms_6_6_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_6_1_C_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_C_cm" ng-model="function_rooms_6_6_1_C_cm" ng-focus="check_function_rooms_6_6_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_6_1_C_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_C_cm" ng-model="function_rooms_6_6_1_C_cm" ng-focus="check_function_rooms_6_6_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1617,7 +1617,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_C_b" class="sum_villa" type="radio"  name="function_rooms_6_6_1_C" ng-model="function_rooms_6_6_1_C" value="10" ng-checked="function_rooms_6_6_1_C_b" ng-focus="check_function_rooms_6_6_1_C_cm()" />
+		<input id="function_rooms_6_6_1_C_b" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_C" ng-model="function_rooms_6_6_1_C" value="10" ng-checked="function_rooms_6_6_1_C_b" ng-focus="check_function_rooms_6_6_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1633,7 +1633,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_C_c" class="sum_villa" type="radio"  name="function_rooms_6_6_1_C" ng-model="function_rooms_6_6_1_C" value="15" ng-checked="function_rooms_6_6_1_C_c" ng-focus="check_function_rooms_6_6_1_C_cm()" />
+		<input id="function_rooms_6_6_1_C_c" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_C" ng-model="function_rooms_6_6_1_C" value="15" ng-checked="function_rooms_6_6_1_C_c" ng-focus="check_function_rooms_6_6_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1663,14 +1663,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_D_a" class="sum_villa" type="radio" name="function_rooms_6_6_1_D" ng-model="function_rooms_6_6_1_D" value="0" ng-checked="function_rooms_6_6_1_D_a" ng-focus="check_function_rooms_6_6_1_D_cm()" />
+		<input id="function_rooms_6_6_1_D_a" class="sum_cottage" type="radio" name="function_rooms_6_6_1_D" ng-model="function_rooms_6_6_1_D" value="0" ng-checked="function_rooms_6_6_1_D_a" ng-focus="check_function_rooms_6_6_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_6_1_D_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_D_cm" ng-model="function_rooms_6_6_1_D_cm" ng-focus="check_function_rooms_6_6_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_6_1_D_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_D_cm" ng-model="function_rooms_6_6_1_D_cm" ng-focus="check_function_rooms_6_6_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1681,7 +1681,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_D_b" class="sum_villa" type="radio"  name="function_rooms_6_6_1_D" ng-model="function_rooms_6_6_1_D" value="3" ng-checked="function_rooms_6_6_1_D_b" ng-focus="check_function_rooms_6_6_1_D_cm()" />
+		<input id="function_rooms_6_6_1_D_b" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_D" ng-model="function_rooms_6_6_1_D" value="3" ng-checked="function_rooms_6_6_1_D_b" ng-focus="check_function_rooms_6_6_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1697,7 +1697,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_D_c" class="sum_villa" type="radio"  name="function_rooms_6_6_1_D" ng-model="function_rooms_6_6_1_D" value="8" ng-checked="function_rooms_6_6_1_D_c" ng-focus="check_function_rooms_6_6_1_D_cm()" />
+		<input id="function_rooms_6_6_1_D_c" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_D" ng-model="function_rooms_6_6_1_D" value="8" ng-checked="function_rooms_6_6_1_D_c" ng-focus="check_function_rooms_6_6_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1713,7 +1713,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_D_d" class="sum_villa" type="radio"  name="function_rooms_6_6_1_D" ng-model="function_rooms_6_6_1_D" value="15" ng-checked="function_rooms_6_6_1_D_d" ng-focus="check_function_rooms_6_6_1_D_cm()" />
+		<input id="function_rooms_6_6_1_D_d" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_D" ng-model="function_rooms_6_6_1_D" value="15" ng-checked="function_rooms_6_6_1_D_d" ng-focus="check_function_rooms_6_6_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1745,14 +1745,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_E_a" class="sum_villa" type="radio" name="function_rooms_6_6_1_E" ng-model="function_rooms_6_6_1_E" value="5" ng-checked="function_rooms_6_6_1_E_a" ng-focus="check_function_rooms_6_6_1_E_cm()" />
+		<input id="function_rooms_6_6_1_E_a" class="sum_cottage" type="radio" name="function_rooms_6_6_1_E" ng-model="function_rooms_6_6_1_E" value="5" ng-checked="function_rooms_6_6_1_E_a" ng-focus="check_function_rooms_6_6_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="function_rooms_6_6_1_E_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_E_cm" ng-model="function_rooms_6_6_1_E_cm" ng-focus="check_function_rooms_6_6_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_6_1_E_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_6_1_E_cm" ng-model="function_rooms_6_6_1_E_cm" ng-focus="check_function_rooms_6_6_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1763,7 +1763,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_E_b" class="sum_villa" type="radio"  name="function_rooms_6_6_1_E" ng-model="function_rooms_6_6_1_E" value="8" ng-checked="function_rooms_6_6_1_E_b" ng-focus="check_function_rooms_6_6_1_E_cm()" />
+		<input id="function_rooms_6_6_1_E_b" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_E" ng-model="function_rooms_6_6_1_E" value="8" ng-checked="function_rooms_6_6_1_E_b" ng-focus="check_function_rooms_6_6_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1779,7 +1779,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_6_1_E_c" class="sum_villa" type="radio"  name="function_rooms_6_6_1_E" ng-model="function_rooms_6_6_1_E" value="15" ng-checked="function_rooms_6_6_1_E_c" ng-focus="check_function_rooms_6_6_1_E_cm()" />
+		<input id="function_rooms_6_6_1_E_c" class="sum_cottage" type="radio"  name="function_rooms_6_6_1_E" ng-model="function_rooms_6_6_1_E" value="15" ng-checked="function_rooms_6_6_1_E_c" ng-focus="check_function_rooms_6_6_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1835,14 +1835,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_A_a" class="sum_villa" type="radio" name="function_rooms_6_7_1_A" ng-model="function_rooms_6_7_1_A" value="4" ng-checked="function_rooms_6_7_1_A_a" ng-focus="check_function_rooms_6_7_1_A_cm()" />
+		<input id="function_rooms_6_7_1_A_a" class="sum_cottage" type="radio" name="function_rooms_6_7_1_A" ng-model="function_rooms_6_7_1_A" value="4" ng-checked="function_rooms_6_7_1_A_a" ng-focus="check_function_rooms_6_7_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_7_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_A_cm" ng-model="function_rooms_6_7_1_A_cm" ng-focus="check_function_rooms_6_7_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_7_1_A_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_A_cm" ng-model="function_rooms_6_7_1_A_cm" ng-focus="check_function_rooms_6_7_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1853,7 +1853,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_A_b" class="sum_villa" type="radio"  name="function_rooms_6_7_1_A" ng-model="function_rooms_6_7_1_A" value="8" ng-checked="function_rooms_6_7_1_A_b" ng-focus="check_function_rooms_6_7_1_A_cm()" />
+		<input id="function_rooms_6_7_1_A_b" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_A" ng-model="function_rooms_6_7_1_A" value="8" ng-checked="function_rooms_6_7_1_A_b" ng-focus="check_function_rooms_6_7_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1869,7 +1869,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_A_c" class="sum_villa" type="radio"  name="function_rooms_6_7_1_A" ng-model="function_rooms_6_7_1_A" value="15" ng-checked="function_rooms_6_7_1_A_c" ng-focus="check_function_rooms_6_7_1_A_cm()" />
+		<input id="function_rooms_6_7_1_A_c" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_A" ng-model="function_rooms_6_7_1_A" value="15" ng-checked="function_rooms_6_7_1_A_c" ng-focus="check_function_rooms_6_7_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1897,14 +1897,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_B_a" class="sum_villa" type="radio" name="function_rooms_6_7_1_B" ng-model="function_rooms_6_7_1_B" value="3" ng-checked="function_rooms_6_7_1_B_a" ng-focus="check_function_rooms_6_7_1_B_cm()" />
+		<input id="function_rooms_6_7_1_B_a" class="sum_cottage" type="radio" name="function_rooms_6_7_1_B" ng-model="function_rooms_6_7_1_B" value="3" ng-checked="function_rooms_6_7_1_B_a" ng-focus="check_function_rooms_6_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_7_1_B_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_B_cm" ng-model="function_rooms_6_7_1_B_cm" ng-focus="check_function_rooms_6_7_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_7_1_B_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_B_cm" ng-model="function_rooms_6_7_1_B_cm" ng-focus="check_function_rooms_6_7_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1915,7 +1915,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_B_b" class="sum_villa" type="radio"  name="function_rooms_6_7_1_B" ng-model="function_rooms_6_7_1_B" value="6" ng-checked="function_rooms_6_7_1_B_b" ng-focus="check_function_rooms_6_7_1_B_cm()" />
+		<input id="function_rooms_6_7_1_B_b" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_B" ng-model="function_rooms_6_7_1_B" value="6" ng-checked="function_rooms_6_7_1_B_b" ng-focus="check_function_rooms_6_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1931,7 +1931,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_B_c" class="sum_villa" type="radio"  name="function_rooms_6_7_1_B" ng-model="function_rooms_6_7_1_B" value="15" ng-checked="function_rooms_6_7_1_B_c" ng-focus="check_function_rooms_6_7_1_B_cm()" />
+		<input id="function_rooms_6_7_1_B_c" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_B" ng-model="function_rooms_6_7_1_B" value="15" ng-checked="function_rooms_6_7_1_B_c" ng-focus="check_function_rooms_6_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1959,14 +1959,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_C_a" class="sum_villa" type="radio" name="function_rooms_6_7_1_C" ng-model="function_rooms_6_7_1_C" value="3" ng-checked="function_rooms_6_7_1_C_a" ng-focus="check_function_rooms_6_7_1_C_cm()" />
+		<input id="function_rooms_6_7_1_C_a" class="sum_cottage" type="radio" name="function_rooms_6_7_1_C" ng-model="function_rooms_6_7_1_C" value="3" ng-checked="function_rooms_6_7_1_C_a" ng-focus="check_function_rooms_6_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_7_1_C_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_C_cm" ng-model="function_rooms_6_7_1_C_cm" ng-focus="check_function_rooms_6_7_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_7_1_C_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_C_cm" ng-model="function_rooms_6_7_1_C_cm" ng-focus="check_function_rooms_6_7_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1977,7 +1977,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_C_b" class="sum_villa" type="radio"  name="function_rooms_6_7_1_C" ng-model="function_rooms_6_7_1_C" value="6" ng-checked="function_rooms_6_7_1_C_b" ng-focus="check_function_rooms_6_7_1_C_cm()" />
+		<input id="function_rooms_6_7_1_C_b" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_C" ng-model="function_rooms_6_7_1_C" value="6" ng-checked="function_rooms_6_7_1_C_b" ng-focus="check_function_rooms_6_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1993,7 +1993,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_C_c" class="sum_villa" type="radio"  name="function_rooms_6_7_1_C" ng-model="function_rooms_6_7_1_C" value="10" ng-checked="function_rooms_6_7_1_C_c" ng-focus="check_function_rooms_6_7_1_C_cm()" />
+		<input id="function_rooms_6_7_1_C_c" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_C" ng-model="function_rooms_6_7_1_C" value="10" ng-checked="function_rooms_6_7_1_C_c" ng-focus="check_function_rooms_6_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2022,14 +2022,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_D_a" class="sum_villa" type="radio" name="function_rooms_6_7_1_D" ng-model="function_rooms_6_7_1_D" value="0" ng-checked="function_rooms_6_7_1_D_a" ng-focus="check_function_rooms_6_7_1_D_cm()" />
+		<input id="function_rooms_6_7_1_D_a" class="sum_cottage" type="radio" name="function_rooms_6_7_1_D" ng-model="function_rooms_6_7_1_D" value="0" ng-checked="function_rooms_6_7_1_D_a" ng-focus="check_function_rooms_6_7_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_7_1_D_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_D_cm" ng-model="function_rooms_6_7_1_D_cm" ng-focus="check_function_rooms_6_7_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_7_1_D_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_D_cm" ng-model="function_rooms_6_7_1_D_cm" ng-focus="check_function_rooms_6_7_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2040,7 +2040,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_D_b" class="sum_villa" type="radio"  name="function_rooms_6_7_1_D" ng-model="function_rooms_6_7_1_D" value="5" ng-checked="function_rooms_6_7_1_D_b" ng-focus="check_function_rooms_6_7_1_D_cm()" />
+		<input id="function_rooms_6_7_1_D_b" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_D" ng-model="function_rooms_6_7_1_D" value="5" ng-checked="function_rooms_6_7_1_D_b" ng-focus="check_function_rooms_6_7_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2056,7 +2056,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_D_c" class="sum_villa" type="radio"  name="function_rooms_6_7_1_D" ng-model="function_rooms_6_7_1_D" value="10" ng-checked="function_rooms_6_7_1_D_c" ng-focus="check_function_rooms_6_7_1_D_cm()" />
+		<input id="function_rooms_6_7_1_D_c" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_D" ng-model="function_rooms_6_7_1_D" value="10" ng-checked="function_rooms_6_7_1_D_c" ng-focus="check_function_rooms_6_7_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2084,14 +2084,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_E_a" class="sum_villa" type="radio" name="function_rooms_6_7_1_E" ng-model="function_rooms_6_7_1_E" value="0" ng-checked="function_rooms_6_7_1_E_a" ng-focus="check_function_rooms_6_7_1_E_cm()" />
+		<input id="function_rooms_6_7_1_E_a" class="sum_cottage" type="radio" name="function_rooms_6_7_1_E" ng-model="function_rooms_6_7_1_E" value="0" ng-checked="function_rooms_6_7_1_E_a" ng-focus="check_function_rooms_6_7_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="function_rooms_6_7_1_E_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_E_cm" ng-model="function_rooms_6_7_1_E_cm" ng-focus="check_function_rooms_6_7_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_7_1_E_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_7_1_E_cm" ng-model="function_rooms_6_7_1_E_cm" ng-focus="check_function_rooms_6_7_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2102,7 +2102,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_E_b" class="sum_villa" type="radio"  name="function_rooms_6_7_1_E" ng-model="function_rooms_6_7_1_E" value="5" ng-checked="function_rooms_6_7_1_E_b" ng-focus="check_function_rooms_6_7_1_E_cm()" />
+		<input id="function_rooms_6_7_1_E_b" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_E" ng-model="function_rooms_6_7_1_E" value="5" ng-checked="function_rooms_6_7_1_E_b" ng-focus="check_function_rooms_6_7_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2118,7 +2118,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_7_1_E_c" class="sum_villa" type="radio"  name="function_rooms_6_7_1_E" ng-model="function_rooms_6_7_1_E" value="10" ng-checked="function_rooms_6_7_1_E_c" ng-focus="check_function_rooms_6_7_1_E_cm()" />
+		<input id="function_rooms_6_7_1_E_c" class="sum_cottage" type="radio"  name="function_rooms_6_7_1_E" ng-model="function_rooms_6_7_1_E" value="10" ng-checked="function_rooms_6_7_1_E_c" ng-focus="check_function_rooms_6_7_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2173,14 +2173,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_8_1_A_a" class="sum_villa" type="radio" name="function_rooms_6_8_1_A" ng-model="function_rooms_6_8_1_A" value="1" ng-checked="function_rooms_6_8_1_A_a" ng-focus="check_function_rooms_6_8_1_A_cm()" />
+		<input id="function_rooms_6_8_1_A_a" class="sum_cottage" type="radio" name="function_rooms_6_8_1_A" ng-model="function_rooms_6_8_1_A" value="1" ng-checked="function_rooms_6_8_1_A_a" ng-focus="check_function_rooms_6_8_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_8_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_A_cm" ng-model="function_rooms_6_8_1_A_cm" ng-focus="check_function_rooms_6_8_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_8_1_A_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_A_cm" ng-model="function_rooms_6_8_1_A_cm" ng-focus="check_function_rooms_6_8_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2191,7 +2191,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_8_1_A_b" class="sum_villa" type="radio"  name="function_rooms_6_8_1_A" ng-model="function_rooms_6_8_1_A" value="3" ng-checked="function_rooms_6_8_1_A_b" ng-focus="check_function_rooms_6_8_1_A_cm()" />
+		<input id="function_rooms_6_8_1_A_b" class="sum_cottage" type="radio"  name="function_rooms_6_8_1_A" ng-model="function_rooms_6_8_1_A" value="3" ng-checked="function_rooms_6_8_1_A_b" ng-focus="check_function_rooms_6_8_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2207,7 +2207,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_8_1_A_c" class="sum_villa" type="radio"  name="function_rooms_6_8_1_A" ng-model="function_rooms_6_8_1_A" value="5" ng-checked="function_rooms_6_8_1_A_c" ng-focus="check_function_rooms_6_8_1_A_cm()" />
+		<input id="function_rooms_6_8_1_A_c" class="sum_cottage" type="radio"  name="function_rooms_6_8_1_A" ng-model="function_rooms_6_8_1_A" value="5" ng-checked="function_rooms_6_8_1_A_c" ng-focus="check_function_rooms_6_8_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2239,7 +2239,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_8_1_B_a" class="sum_villa" type="checkbox" name="function_rooms_6_8_1_B_a" ng-model="function_rooms_6_8_1_B_a" value="2" ng-checked="function_rooms_6_8_1_B_aTT" ng-focus="check_function_rooms_6_8_1_B_a_cm()"/>
+		<input id="function_rooms_6_8_1_B_a" class="sum_cottage" type="checkbox" name="function_rooms_6_8_1_B_a" ng-model="function_rooms_6_8_1_B_a" value="2" ng-checked="function_rooms_6_8_1_B_aTT" ng-focus="check_function_rooms_6_8_1_B_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2255,7 +2255,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_8_1_B_a_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_B_a_cm" ng-model="function_rooms_6_8_1_B_a_cm" ng-focus="check_function_rooms_6_8_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_8_1_B_a_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_B_a_cm" ng-model="function_rooms_6_8_1_B_a_cm" ng-focus="check_function_rooms_6_8_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -2267,7 +2267,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_8_1_B_b" class="sum_villa" type="checkbox"  name="function_rooms_6_8_1_B_b" ng-model="function_rooms_6_8_1_B_b" value="3" ng-checked="function_rooms_6_8_1_B_bTT" ng-focus="check_function_rooms_6_8_1_B_b_cm()"/>
+		<input id="function_rooms_6_8_1_B_b" class="sum_cottage" type="checkbox"  name="function_rooms_6_8_1_B_b" ng-model="function_rooms_6_8_1_B_b" value="3" ng-checked="function_rooms_6_8_1_B_bTT" ng-focus="check_function_rooms_6_8_1_B_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2275,7 +2275,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="function_rooms_6_8_1_B_b_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_B_b_cm" ng-model="function_rooms_6_8_1_B_b_cm" ng-focus="check_function_rooms_6_8_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_8_1_B_b_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_B_b_cm" ng-model="function_rooms_6_8_1_B_b_cm" ng-focus="check_function_rooms_6_8_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2286,7 +2286,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="function_rooms_6_8_1_B_c" class="sum_villa" type="checkbox"  name="function_rooms_6_8_1_B_c" ng-model="function_rooms_6_8_1_B_c" value="4" ng-checked="function_rooms_6_8_1_B_cTT" ng-focus="check_function_rooms_6_8_1_B_c_cm()" />
+		<input id="function_rooms_6_8_1_B_c" class="sum_cottage" type="checkbox"  name="function_rooms_6_8_1_B_c" ng-model="function_rooms_6_8_1_B_c" value="4" ng-checked="function_rooms_6_8_1_B_cTT" ng-focus="check_function_rooms_6_8_1_B_c_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2294,7 +2294,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_4_1_B_c_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_c_cm" ng-model="function_rooms_6_4_1_B_c_cm" ng-focus="check_function_rooms_6_4_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_4_1_B_c_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_c_cm" ng-model="function_rooms_6_4_1_B_c_cm" ng-focus="check_function_rooms_6_4_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -2318,14 +2318,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_8_1_C_a" class="sum_villa" type="radio" name="function_rooms_6_8_1_C" ng-model="function_rooms_6_8_1_C" value="2" ng-checked="function_rooms_6_8_1_C_a" ng-focus="check_function_rooms_6_8_1_C_cm()" />
+		<input id="function_rooms_6_8_1_C_a" class="sum_cottage" type="radio" name="function_rooms_6_8_1_C" ng-model="function_rooms_6_8_1_C" value="2" ng-checked="function_rooms_6_8_1_C_a" ng-focus="check_function_rooms_6_8_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="function_rooms_6_8_1_C_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_C_cm" ng-model="function_rooms_6_8_1_C_cm" ng-focus="check_function_rooms_6_8_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_8_1_C_cm" class="sum_cottage_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_C_cm" ng-model="function_rooms_6_8_1_C_cm" ng-focus="check_function_rooms_6_8_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2336,7 +2336,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_8_1_C_b" class="sum_villa" type="radio"  name="function_rooms_6_8_1_C" ng-model="function_rooms_6_8_1_C" value="4" ng-checked="function_rooms_6_8_1_C_b" ng-focus="check_function_rooms_6_8_1_C_cm()" />
+		<input id="function_rooms_6_8_1_C_b" class="sum_cottage" type="radio"  name="function_rooms_6_8_1_C" ng-model="function_rooms_6_8_1_C" value="4" ng-checked="function_rooms_6_8_1_C_b" ng-focus="check_function_rooms_6_8_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2352,7 +2352,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="function_rooms_6_8_1_C_c" class="sum_villa" type="radio"  name="function_rooms_6_8_1_C" ng-model="function_rooms_6_8_1_C" value="6" ng-checked="function_rooms_6_8_1_C_c" ng-focus="check_function_rooms_6_8_1_C_cm()" />
+		<input id="function_rooms_6_8_1_C_c" class="sum_cottage" type="radio"  name="function_rooms_6_8_1_C" ng-model="function_rooms_6_8_1_C" value="6" ng-checked="function_rooms_6_8_1_C_c" ng-focus="check_function_rooms_6_8_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
