@@ -11,7 +11,7 @@
 
 
 
-<!-- 1.0 -->
+<!-- 1.0.1 -->
 
 <tr ng-class="">
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -23,8 +23,6 @@
   <textarea id="location_1_0_1_text" name="location_1_0_1_text" ng-model="location_1_0_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
-
-<!-- 1.0.1 -->
 
 <!-- 1.0.1.A -->
 
@@ -499,7 +497,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 1.2.4.B -->
+<!-- 1.1.4.B -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>

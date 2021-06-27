@@ -835,11 +835,10 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="45" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_2_1_text" name="guest_bathrooms_10_2_1_text" ng-model="guest_bathrooms_10_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_2_1_text" name="hygiene_and_sanitation_10_2_1_text" ng-model="hygiene_and_sanitation_10_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 10_2_1_A -->
 <!-- 10_2_1_A -->
 
 
@@ -887,7 +886,6 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 10_2_1_B -->
 <!-- 10_2_1_B -->
 
 
@@ -1067,7 +1065,6 @@
 </tr>
 
 
-<!-- 10_2_1_E -->
 <!-- 10_2_1_E -->
 
 
@@ -1631,7 +1628,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="22" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_3_1_text" name="guest_bathrooms_10_3_1_text" ng-model="guest_bathrooms_10_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_3_1_text" name="hygiene_and_sanitation_10_3_1_text" ng-model="hygiene_and_sanitation_10_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1997,7 +1994,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="12" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_4_1_text" name="guest_bathrooms_10_4_1_text" ng-model="guest_bathrooms_10_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_4_1_text" name="hygiene_and_sanitation_10_4_1_text" ng-model="hygiene_and_sanitation_10_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2201,7 +2198,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="8" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_5_1_text" name="guest_bathrooms_10_5_1_text" ng-model="guest_bathrooms_10_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_5_1_text" name="hygiene_and_sanitation_10_5_1_text" ng-model="hygiene_and_sanitation_10_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2342,7 +2339,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_6_1_text" name="guest_bathrooms_10_6_1_text" ng-model="guest_bathrooms_10_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_6_1_text" name="hygiene_and_sanitation_10_6_1_text" ng-model="hygiene_and_sanitation_10_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2515,7 +2512,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_7_1_text" name="guest_bathrooms_10_7_1_text" ng-model="guest_bathrooms_10_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_7_1_text" name="hygiene_and_sanitation_10_7_1_text" ng-model="hygiene_and_sanitation_10_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 

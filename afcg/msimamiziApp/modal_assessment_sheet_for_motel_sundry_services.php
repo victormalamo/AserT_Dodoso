@@ -35,7 +35,6 @@
 </tr>
 
 <!-- 12_1_1_A -->
-<!-- 12_1_1_A -->
 
 
 <tr ng-class=""> 
@@ -83,7 +82,6 @@
 </tr>
 
 <!-- 12_1_1_B -->
-<!-- 12_1_1_B -->
 
 
 <tr ng-class=""> 
@@ -130,7 +128,6 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 12_1_1_C -->
 <!-- 12_1_1_C -->
 
 

@@ -1725,14 +1725,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_9_5_1_B_a" class="sum_motel" type="radio" name="guest_bathrooms_9_5_1_B" ng-model="guest_bathrooms_9_5_1_B" value="0" ng-checked="guest_bathrooms_9_5_1_B_a" ng-focus="check_guest_bathrooms_9_5_1_B_bm()" />
+		<input id="guest_bathrooms_9_5_1_B_a" class="sum_motel" type="radio" name="guest_bathrooms_9_5_1_B" ng-model="guest_bathrooms_9_5_1_B" value="0" ng-checked="guest_bathrooms_9_5_1_B_a" ng-focus="check_guest_bathrooms_9_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_9_5_1_B_bm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_9_5_1_B_bm" ng-model="guest_bathrooms_9_5_1_B_bm" ng-focus="check_guest_bathrooms_9_5_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="guest_bathrooms_9_5_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_9_5_1_B_cm" ng-model="guest_bathrooms_9_5_1_B_cm" ng-focus="check_guest_bathrooms_9_5_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1743,7 +1743,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_9_5_1_B_b" class="sum_motel" type="radio"  name="guest_bathrooms_9_5_1_B" ng-model="guest_bathrooms_9_5_1_B" value="5" ng-checked="guest_bathrooms_9_5_1_B_b" ng-focus="check_guest_bathrooms_9_5_1_B_bm()" />
+		<input id="guest_bathrooms_9_5_1_B_b" class="sum_motel" type="radio"  name="guest_bathrooms_9_5_1_B" ng-model="guest_bathrooms_9_5_1_B" value="5" ng-checked="guest_bathrooms_9_5_1_B_b" ng-focus="check_guest_bathrooms_9_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

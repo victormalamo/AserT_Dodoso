@@ -160,60 +160,13 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 4.0.1.C1 -->
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Is the lobby conveniently located in relation to the Front Office area?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">No<span class="marks_weight">(0)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="lobby_lounge_other_public_areas_4_0_1_C1_a" class="sum_motel" type="radio" name="lobby_lounge_other_public_areas_4_0_1_C1" ng-model="lobby_lounge_other_public_areas_4_0_1_C1" value="0" ng-checked="lobby_lounge_other_public_areas_4_0_1_C1_a" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_C1_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="lobby_lounge_other_public_areas_4_0_1_C1_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="lobby_lounge_other_public_areas_4_0_1_C1_cm" ng-model="lobby_lounge_other_public_areas_4_0_1_C1_cm" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_C1()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Yes<span class="marks_weight">(5)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="lobby_lounge_other_public_areas_4_0_1_C1_b" class="sum_motel" type="radio"  name="lobby_lounge_other_public_areas_4_0_1_C1" ng-model="lobby_lounge_other_public_areas_4_0_1_C1" value="5" ng-checked="lobby_lounge_other_public_areas_4_0_1_C1_b" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_C1_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-
-
 <!-- 4.0.1.C -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are there clear directional signs</td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Is the lobby conveniently located in relation to the Front Office area?</td>
   
   <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
@@ -260,7 +213,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of repair? </td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are there clear directional signs</td>
   
   <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
@@ -269,7 +222,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Neglected <span class="marks_weight">(0)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">No<span class="marks_weight">(0)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
@@ -279,17 +232,17 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
   <input id="lobby_lounge_other_public_areas_4_0_1_D_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="lobby_lounge_other_public_areas_4_0_1_D_cm" ng-model="lobby_lounge_other_public_areas_4_0_1_D_cm" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Reasonable<span class="marks_weight">(5)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Yes<span class="marks_weight">(5)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="lobby_lounge_other_public_areas_4_0_1_D_b" class="sum_motel" type="radio"  name="lobby_lounge_other_public_areas_4_0_1_D" ng-model="lobby_lounge_other_public_areas_4_0_1_D" value="5" ng-checked="lobby_lounge_other_public_areas_4_0_1_D_b" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
@@ -299,22 +252,7 @@
   </td>
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Well maintained <span class="marks_weight">(7)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="lobby_lounge_other_public_areas_4_0_1_D_c" class="sum_motel" type="radio"  name="lobby_lounge_other_public_areas_4_0_1_D" ng-model="lobby_lounge_other_public_areas_4_0_1_D" value="7" ng-checked="lobby_lounge_other_public_areas_4_0_1_D_c" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_D_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
+
 
 <!-- 4.0.1.E -->
 
@@ -322,7 +260,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of General cleanliness </td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of repair? </td>
   
   <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
@@ -341,7 +279,7 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
   <input id="lobby_lounge_other_public_areas_4_0_1_E_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="lobby_lounge_other_public_areas_4_0_1_E_cm" ng-model="lobby_lounge_other_public_areas_4_0_1_E_cm" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -363,13 +301,75 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Well maintained <span class="marks_weight">(7)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="lobby_lounge_other_public_areas_4_0_1_E_c" class="sum_motel" type="radio"  name="lobby_lounge_other_public_areas_4_0_1_E" ng-model="lobby_lounge_other_public_areas_4_0_1_E" value="7" ng-checked="lobby_lounge_other_public_areas_4_0_1_E_c" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_E_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+
+<!-- 4.0.1.F -->
+
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of General cleanliness </td>
+  
+  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Neglected <span class="marks_weight">(0)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="lobby_lounge_other_public_areas_4_0_1_F_a" class="sum_motel" type="radio" name="lobby_lounge_other_public_areas_4_0_1_F" ng-model="lobby_lounge_other_public_areas_4_0_1_F" value="0" ng-checked="lobby_lounge_other_public_areas_4_0_1_F_a" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_F_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
+  <input id="lobby_lounge_other_public_areas_4_0_1_F_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="lobby_lounge_other_public_areas_4_0_1_F_cm" ng-model="lobby_lounge_other_public_areas_4_0_1_F_cm" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Reasonable<span class="marks_weight">(5)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="lobby_lounge_other_public_areas_4_0_1_F_b" class="sum_motel" type="radio"  name="lobby_lounge_other_public_areas_4_0_1_F" ng-model="lobby_lounge_other_public_areas_4_0_1_F" value="5" ng-checked="lobby_lounge_other_public_areas_4_0_1_F_b" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_F_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Well cleaned <span class="marks_weight">(8)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="lobby_lounge_other_public_areas_4_0_1_E_c" class="sum_motel" type="radio"  name="lobby_lounge_other_public_areas_4_0_1_E" ng-model="lobby_lounge_other_public_areas_4_0_1_E" value="8" ng-checked="lobby_lounge_other_public_areas_4_0_1_E_c" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_E_cm()" />
+		<input id="lobby_lounge_other_public_areas_4_0_1_F_c" class="sum_motel" type="radio"  name="lobby_lounge_other_public_areas_4_0_1_F" ng-model="lobby_lounge_other_public_areas_4_0_1_F" value="8" ng-checked="lobby_lounge_other_public_areas_4_0_1_F_c" ng-focus="check_lobby_lounge_other_public_areas_4_0_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

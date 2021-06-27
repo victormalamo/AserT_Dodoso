@@ -451,7 +451,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_13_2_1_A_c" class="sum_motel" type="radio"  name="human_resources_13_2_1_A" ng-model="human_resources_13_2_1_A" value="20" ng-checked="human_resources_13_2_1_A_c" ng-focus="check_human_resources_13_2_1_A_cm()" />
+		<input id="human_resources_13_2_1_A_b" class="sum_motel" type="radio"  name="human_resources_13_2_1_A" ng-model="human_resources_13_2_1_A" value="20" ng-checked="human_resources_13_2_1_A_b" ng-focus="check_human_resources_13_2_1_A_bm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -603,7 +603,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_13_3_1_A_c" class="sum_motel" type="radio"  name="human_resources_13_3_1_A" ng-model="human_resources_13_3_1_A" value="15" ng-checked="human_resources_13_3_1_A_c" ng-focus="check_human_resources_13_3_1_A_cm()" />
+		<input id="human_resources_13_3_1_A_b" class="sum_motel" type="radio"  name="human_resources_13_3_1_A" ng-model="human_resources_13_3_1_A" value="15" ng-checked="human_resources_13_3_1_A_b" ng-focus="check_human_resources_13_3_1_A_bm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -645,7 +645,6 @@
 </tr>
 
 
-<!-- 13_3_1_B -->
 <!-- 13_3_1_B -->
 
 
@@ -800,7 +799,6 @@
 </tr>
 
 <!-- 13_4_1_B -->
-<!-- 13_4_1_B -->
 
 
 <tr ng-class=""> 
@@ -879,7 +877,6 @@
   </td>
 </tr>
 
-<!-- 13_4_1_C -->
 <!-- 13_4_1_C -->
 
 
@@ -1059,7 +1056,6 @@
 </tr>
 
 <!-- 13_6_1_A-->
-<!-- 13_6_1_A -->
 
 
 <tr ng-class=""> 
@@ -1405,7 +1401,6 @@
 </tr>
 
 
-<!-- 13_7_1_C -->
 <!-- 13_7_1_C -->
 
 <tr ng-class=""> 
