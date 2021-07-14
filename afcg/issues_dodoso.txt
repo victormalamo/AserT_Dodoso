@@ -1,8 +1,9 @@
-Issue! with dodoso
+MARKS ERROR IN LODGE
 
 1.2.1 D marekebisho ya checkboxes.
 1.2.1 G  marks unavailable; checkboxes codes
 1.2. Total max verification 47/50
+4.1. Total max verification 60/40
 8.11 MARKS
 9.4 total marks error
 9.7 (90) marks interchanged with (60)
@@ -13,5 +14,15 @@ Issue! with dodoso
 11.16 MARKS DIFFER 97/80
 11.18 MARKS DIFFER 45/50
 16.2  MARKS DIFFER 34/50
-16.3  MARKS DIFFER 34/50
+16.3  MARKS DIFFER 36/50
+
+TENTED CAMP 
+3.1 MARKS DIFFER 45/40
+3.8 MARKS DIFFER 10/20 rectified to as town hotel (marks reached 20).
+4.5 MARKS DIFFER 10/20
+6.8 MARKS DIFFER 40/10
+8.11 MARKS DIFFER 47/30
+
+
+
 
