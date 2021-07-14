@@ -454,7 +454,6 @@
 </tr>
 
 <!-- 9_4_1_B -->
-<!-- guest_rooms_9_4_1_B -->
 
 
 <tr ng-class=""> 
@@ -813,7 +812,7 @@
 
 
 <!-- 9_4_1_D -->
-<!-- guest_rooms_9_4_1_D -->
+
 
 
 <tr ng-class=""> 
@@ -988,7 +987,7 @@
 </tr>
 
 <!-- 9_4_1_G -->
-<!-- guest_rooms_9_4_1_G -->
+
 
 
 <tr ng-class=""> 
@@ -1202,7 +1201,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_rooms_9_5_1_B_d" class="sum_lodge" type="checkbox"  name="guest_rooms_9_5_1_B_d" ng-model="guest_rooms_9_5_1_B_d" value="5" ng-checked="guest_rooms_9_5_1_B_dTT" ng-focus="check_guest_rooms_9_5_1_B_d_cm()" />
+		<input id="guest_rooms_9_5_1_B_c" class="sum_lodge" type="checkbox"  name="guest_rooms_9_5_1_B_c" ng-model="guest_rooms_9_5_1_B_c" value="5" ng-checked="guest_rooms_9_5_1_B_cTT" ng-focus="check_guest_rooms_9_5_1_B_c_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1210,7 +1209,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_rooms_9_5_1_B_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_rooms_9_5_1_B_d_cm" ng-model="guest_rooms_9_5_1_B_d_cm" ng-focus="check_guest_rooms_9_5_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="guest_rooms_9_5_1_B_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_rooms_9_5_1_B_c_cm" ng-model="guest_rooms_9_5_1_B_c_cm" ng-focus="check_guest_rooms_9_5_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1221,7 +1220,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_rooms_9_5_1_B_e" class="sum_lodge" type="checkbox"  name="guest_rooms_9_5_1_B_e" ng-model="guest_rooms_9_5_1_B_e" value="5" ng-checked="guest_rooms_9_5_1_B_eTT" ng-focus="check_guest_rooms_9_5_1_B_e_cm()" />
+		<input id="guest_rooms_9_5_1_B_d" class="sum_lodge" type="checkbox"  name="guest_rooms_9_5_1_B_d" ng-model="guest_rooms_9_5_1_B_d" value="5" ng-checked="guest_rooms_9_5_1_B_dTT" ng-focus="check_guest_rooms_9_5_1_B_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1229,7 +1228,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_rooms_9_5_1_B_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_rooms_9_5_1_B_e_cm" ng-model="guest_rooms_9_5_1_B_e_cm" ng-focus="check_guest_rooms_9_5_1_B_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="guest_rooms_9_5_1_B_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_rooms_9_5_1_B_d_cm" ng-model="guest_rooms_9_5_1_B_d_cm" ng-focus="check_guest_rooms_9_5_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1535,7 +1534,7 @@
 </tr>
 
 <!-- 9_7_1_A -->
-<!-- guest_rooms_9_7_1_A -->
+
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>

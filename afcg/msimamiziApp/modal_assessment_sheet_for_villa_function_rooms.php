@@ -341,7 +341,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_2_1_B_fe_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_f_cm" ng-model="function_rooms_6_2_1_B_f_cm" ng-focus="check_function_rooms_6_2_1_B_f()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_2_1_B_f_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_2_1_B_f_cm" ng-model="function_rooms_6_2_1_B_f_cm" ng-focus="check_function_rooms_6_2_1_B_f()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -393,7 +393,7 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(f)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Bedside switch  <span class="marks_weight">(5)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
@@ -515,53 +515,46 @@
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
+
+
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Minimum bed size 190 cms X 90 cms. Take Measurement<span class="marks_weight">(5)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Minimum bed size 190 cms X 90 cms. Take Measurement <span class="marks_weight">(5)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_a" class="sum_villa" type="checkbox" name="functions_room_6_3_1_A_a" ng-model="functions_room_6_3_1_A_a" value="5" ng-checked="functions_room_6_3_1_A_aTT" ng-focus="check_functions_room_6_3_1_A_a_cm()"/>
-		<!--div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div-->
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+	<div class="pretty p-default p-round p-pulse">
+		<input id="function_rooms_6_3_1_A_a" class="sum_villa" type="radio" name="function_rooms_6_3_1_A" ng-model="function_rooms_6_3_1_A" value="5" ng-checked="function_rooms_6_3_1_A_a" ng-focus="check_function_rooms_6_3_1_A_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
-		<!--div class="state" style="width:13px!important; margin-left:2px">
-		<i class="icon mdi mdi-close"></i>
-		<label></label>
-		</div-->
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_a_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_a_cm" ng-model="functions_room_6_3_1_A_a_cm" ng-focus="check_functions_room_6_3_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="function_rooms_6_3_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_3_1_A_cm" ng-model="function_rooms_6_3_1_A_cm" ng-focus="check_function_rooms_6_3_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Two twin beds measuring 120 cms x 190 cms  <span class="marks_weight">(5)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Two twin beds measuring 120 cms x 190 cms <span class="marks_weight">(5)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="functions_room_6_3_1_A_b" class="sum_villa" type="checkbox"  name="functions_room_6_3_1_A_b" ng-model="functions_room_6_3_1_A_b" value="5" ng-checked="functions_room_6_3_1_A_bTT" ng-focus="check_functions_room_6_3_1_A_b_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="function_rooms_6_3_1_A_b" class="sum_villa" type="radio"  name="function_rooms_6_3_1_A" ng-model="function_rooms_6_3_1_A" value="5" ng-checked="function_rooms_6_3_1_A_b" ng-focus="check_function_rooms_6_3_1_A_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="functions_room_6_3_1_A_b_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="functions_room_6_3_1_A_b_cm" ng-model="functions_room_6_3_1_A_b_cm" ng-focus="check_functions_room_6_3_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
+
+
+
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2294,7 +2287,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="function_rooms_6_4_1_B_c_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_4_1_B_c_cm" ng-model="function_rooms_6_4_1_B_c_cm" ng-focus="check_function_rooms_6_4_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="function_rooms_6_8_1_B_c_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="function_rooms_6_8_1_B_c_cm" ng-model="function_rooms_6_8_1_B_c_cm" ng-focus="check_function_rooms_6_8_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 

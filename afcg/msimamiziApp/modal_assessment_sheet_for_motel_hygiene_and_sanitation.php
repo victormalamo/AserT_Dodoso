@@ -835,11 +835,10 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="45" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_2_1_text" name="guest_bathrooms_10_2_1_text" ng-model="guest_bathrooms_10_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_2_1_text" name="hygiene_and_sanitation_10_2_1_text" ng-model="hygiene_and_sanitation_10_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 10_2_1_A -->
 <!-- 10_2_1_A -->
 
 
@@ -887,7 +886,6 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 10_2_1_B -->
 <!-- 10_2_1_B -->
 
 
@@ -1067,7 +1065,6 @@
 </tr>
 
 
-<!-- 10_2_1_E -->
 <!-- 10_2_1_E -->
 
 
@@ -1631,7 +1628,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="22" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_3_1_text" name="guest_bathrooms_10_3_1_text" ng-model="guest_bathrooms_10_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_3_1_text" name="hygiene_and_sanitation_10_3_1_text" ng-model="hygiene_and_sanitation_10_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1997,7 +1994,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="12" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_4_1_text" name="guest_bathrooms_10_4_1_text" ng-model="guest_bathrooms_10_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_4_1_text" name="hygiene_and_sanitation_10_4_1_text" ng-model="hygiene_and_sanitation_10_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2201,7 +2198,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="8" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_5_1_text" name="guest_bathrooms_10_5_1_text" ng-model="guest_bathrooms_10_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_5_1_text" name="hygiene_and_sanitation_10_5_1_text" ng-model="hygiene_and_sanitation_10_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2342,7 +2339,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_6_1_text" name="guest_bathrooms_10_6_1_text" ng-model="guest_bathrooms_10_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_6_1_text" name="hygiene_and_sanitation_10_6_1_text" ng-model="hygiene_and_sanitation_10_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2515,7 +2512,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_7_1_text" name="guest_bathrooms_10_7_1_text" ng-model="guest_bathrooms_10_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_10_7_1_text" name="hygiene_and_sanitation_10_7_1_text" ng-model="hygiene_and_sanitation_10_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2600,7 +2597,6 @@
   <input id="hygiene_and_sanitation_10_7_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="hygiene_and_sanitation_10_7_1_B_cm" ng-model="hygiene_and_sanitation_10_7_1_B_cm" ng-focus="check_hygiene_and_sanitation_10_7_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2638,11 +2634,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(d)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Five days  <span class="marks_weight">(35)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Five days  <span class="marks_weight">(30)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="hygiene_and_sanitation_10_7_1_B_d" class="sum_motel" type="radio"  name="hygiene_and_sanitation_10_7_1_B" ng-model="hygiene_and_sanitation_10_7_1_B" value="35" ng-checked="hygiene_and_sanitation_10_7_1_B_d" ng-focus="check_hygiene_and_sanitation_10_7_1_B_cm()" />
+		<input id="hygiene_and_sanitation_10_7_1_B_d" class="sum_motel" type="radio"  name="hygiene_and_sanitation_10_7_1_B" ng-model="hygiene_and_sanitation_10_7_1_B" value="30" ng-checked="hygiene_and_sanitation_10_7_1_B_d" ng-focus="check_hygiene_and_sanitation_10_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2654,11 +2650,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(e)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Seven days  <span class="marks_weight">(45)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Seven days  <span class="marks_weight">(35)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="hygiene_and_sanitation_10_7_1_B_e" class="sum_motel" type="radio"  name="hygiene_and_sanitation_10_7_1_B" ng-model="hygiene_and_sanitation_10_7_1_B" value="45" ng-checked="hygiene_and_sanitation_10_7_1_B_e" ng-focus="check_hygiene_and_sanitation_10_7_1_B_cm()" />
+		<input id="hygiene_and_sanitation_10_7_1_B_e" class="sum_motel" type="radio"  name="hygiene_and_sanitation_10_7_1_B" ng-model="hygiene_and_sanitation_10_7_1_B" value="35" ng-checked="hygiene_and_sanitation_10_7_1_B_e" ng-focus="check_hygiene_and_sanitation_10_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

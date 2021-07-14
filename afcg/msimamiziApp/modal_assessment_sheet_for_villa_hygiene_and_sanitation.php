@@ -29,7 +29,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="22" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_8_1_1_text" name="guest_bathrooms_8_1_1_text" ng-model="guest_bathrooms_8_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_8_1_1_text" name="hygiene_and_sanitation_8_1_1_text" ng-model="hygiene_and_sanitation_8_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -394,7 +394,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="12" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_8_2_1_text" name="guest_bathrooms_8_2_1_text" ng-model="guest_bathrooms_8_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_8_2_1_text" name="hygiene_and_sanitation_8_2_1_text" ng-model="hygiene_and_sanitation_8_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -597,7 +597,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="8" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_8_3_1_text" name="guest_bathrooms_8_3_1_text" ng-model="guest_bathrooms_8_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_8_3_1_text" name="hygiene_and_sanitation_8_3_1_text" ng-model="hygiene_and_sanitation_8_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -737,7 +737,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_8_4_1_text" name="guest_bathrooms_8_4_1_text" ng-model="guest_bathrooms_8_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_8_4_1_text" name="hygiene_and_sanitation_8_4_1_text" ng-model="hygiene_and_sanitation_8_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -910,7 +910,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_8_5_1_text" name="guest_bathrooms_8_5_1_text" ng-model="guest_bathrooms_8_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="hygiene_and_sanitation_8_5_1_text" name="hygiene_and_sanitation_8_5_1_text" ng-model="hygiene_and_sanitation_8_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 

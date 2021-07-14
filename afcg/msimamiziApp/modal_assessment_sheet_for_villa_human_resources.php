@@ -423,7 +423,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_11_2_1_text" name="sundry_services_11_2_1_text" ng-model="sundry_services_11_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_11_2_1_text" name="human_resources_11_2_1_text" ng-model="human_resources_11_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -580,7 +580,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="13" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_11_3_1_text" name="sundry_services_11_3_1_text" ng-model="sundry_services_11_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_11_3_1_text" name="human_resources_11_3_1_text" ng-model="human_resources_11_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -849,7 +849,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="4" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_11_4_1_text" name="sundry_services_11_4_1_text" ng-model="sundry_services_11_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_11_4_1_text" name="human_resources_11_4_1_text" ng-model="human_resources_11_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1011,11 +1011,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Fair<span class="marks_weight">()</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Fair<span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_11_5_1_B_a" class="sum_villa" type="radio" name="human_resources_11_5_1_B" ng-model="human_resources_11_5_1_B" value="" ng-checked="human_resources_11_5_1_B_a" ng-focus="check_human_resources_11_5_1_B_cm()" />
+		<input id="human_resources_11_5_1_B_a" class="sum_villa" type="radio" name="human_resources_11_5_1_B" ng-model="human_resources_11_5_1_B" value="2" ng-checked="human_resources_11_5_1_B_a" ng-focus="check_human_resources_11_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

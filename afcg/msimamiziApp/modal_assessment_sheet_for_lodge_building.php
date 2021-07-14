@@ -4,38 +4,28 @@
 <tr> 
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue borderless-bottom row_1_0"><div ng-class="{number_pre:true}">2.0</div></td>
   <td colspan="5"style="vertical-align:top; font-weight:bold" class="border-mdblue row_1_0">BUILDING</td>
-  
-  <!--td rowspan="" style="vertical-align:middle" class="border-mdblue first_row_col"></td-->
   <td style="vertical-align:top" class="border-mdblue first_row_col borderless-bottom"></td>
 </tr>
 
 <!-- 2.1 -->
-
 <!-- 2.1.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">2.1</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_2_1_1">Design and Architectural Features</td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="38" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="building_2_1_2_text" name="building_2_1_2_text" ng-model="building_2_1_2_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
+  <textarea id="building_2_1_1_text" name="building_2_1_1_text" ng-model="building_2_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
+
 <!-- 2.1.1.A -->
-
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the Lodge have entrance canopy designed to allow vehicles and protect guest from weather elements?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -70,7 +60,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -86,23 +75,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.1.1.B -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the Lodge allow for separation of traffic flow for guests, staff and supplies?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -137,21 +118,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
 <!-- 2.1.1.C -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the Lodge have approved building plan from the relevant authority?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -186,22 +161,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
 <!-- 2.1.1.D -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Is structure in conformity with the Approved Plan?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -236,22 +204,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
 <!-- 2.1.1.E -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the building have a valid aoccupation certificate?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -286,24 +247,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.1.1.F -->
-
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the quality of external and internal finishing materials?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -338,7 +290,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -354,22 +305,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
 <!-- 2.1.1.G -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the Lodge building convey a theme in its features?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -404,23 +348,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.1.1.H -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Do the Lodge building incorporate aesthetic feature that are in harmony with the narual and social environment?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -455,23 +391,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.1.1.I -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Do the architectural features of the Lodge incorporate use of loca heritage?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -506,24 +434,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
-
 <!-- 2.1.1.J -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How  would you rate the state of repair and maintenance?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -558,7 +477,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -574,23 +492,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.1.1.K -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of cleanliness?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -625,7 +535,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -641,43 +550,28 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
-
-
-
 <!-- 2.2-->
-
 <!-- 2.2.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">2.2</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_2_2_1">Capacity</td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="4" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="building_2_2_1_text" name="building_2_2_1_text" ng-model="building_2_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
+
 <!-- 2.2.1.A -->
-
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the Lodge have at least the lettable rooms?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -712,44 +606,28 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
-
-
-
-
-
 <!-- 2.3-->
-
 <!-- 2.3.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">2.3</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_2_3_1">Corridors, Hallwayas, Staircases and Walkways</td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="26" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="building_2_3_1_text" name="building_2_3_1_text" ng-model="building_2_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 2.3.1.A -->
 
+<!-- 2.3.1.A -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Is the gradient of the staircases and ramp in conformity with the building code?(Staircase 550mm<2R+T<610):(Ramp 1 in 12 max.</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -784,22 +662,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
 <!-- 2.3.1.B -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are hallways/walkways appropriate lit?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -834,23 +705,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.3.1.C -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are the walkways well protected from animals and rain?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -885,33 +748,25 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.3.1.D -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are hallways/walkways appropriately decorated with the natural and indigeneous materials?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Modest<span class="marks_weight">(0)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Modest<span class="marks_weight">(1)</span></td>
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_D_a" class="sum_lodge" type="radio" name="building_2_3_1_D" ng-model="building_2_3_1_D" value="0" ng-checked="building_2_3_1_D_a" ng-focus="check_building_2_3_1_D_cm()" />
+		<input id="building_2_3_1_D_a" class="sum_lodge" type="radio" name="building_2_3_1_D" ng-model="building_2_3_1_D" value="1" ng-checked="building_2_3_1_D_a" ng-focus="check_building_2_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -936,7 +791,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -952,33 +806,25 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.3.1.E -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">What is the quality of finish?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Fair quality<span class="marks_weight">(0)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Fair quality<span class="marks_weight">(1)</span></td>
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_E_a" class="sum_lodge" type="radio" name="building_2_3_1_E" ng-model="building_2_3_1_E" value="0" ng-checked="building_2_3_1_E_a" ng-focus="check_building_2_3_1_E_cm()" />
+		<input id="building_2_3_1_E_a" class="sum_lodge" type="radio" name="building_2_3_1_E" ng-model="building_2_3_1_E" value="1" ng-checked="building_2_3_1_E_a" ng-focus="check_building_2_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1003,7 +849,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1019,23 +864,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.3.1.F-->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of repair and maintenance?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1070,7 +907,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1086,23 +922,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.3.1.G-->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of cleanliness?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1137,7 +965,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1153,46 +980,28 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
-
-
 <!-- 2.4-->
-
 <!-- 2.4.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">2.4</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_2_4_1">Site signage and Notice</td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="building_2_3_1_text" name="building_2_4_1_text" ng-model="building_2_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
+  <textarea id="building_2_4_1_text" name="building_2_4_1_text" ng-model="building_2_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
 
-
-
-
-
 <!-- 2.4.1.A-->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Is there signage that clearly indicate areas of interest and distances?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1227,7 +1036,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1243,23 +1051,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
-
-
 <!-- 2.4.1.B-->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are there notice that clearly indicate restrictions?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1294,7 +1094,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1310,5 +1109,4 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>

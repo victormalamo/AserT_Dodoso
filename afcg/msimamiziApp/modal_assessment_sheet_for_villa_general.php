@@ -358,8 +358,8 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="general_12_3_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="general_12_3_1_A_cm" ng-model="general_12_3_1_A_cm" ng-focus="check_general_12_3_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+ <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="guest_bathrooms_7_2_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_7_2_1_A_cm" ng-model="guest_bathrooms_7_2_1_A_cm" ng-focus="check_guest_bathrooms_7_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 

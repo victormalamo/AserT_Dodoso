@@ -2127,11 +2127,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Good<span class="marks_weight">(1)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Good<span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_15_10_1_E_b" class="sum_lodge" type="radio"  name="human_resources_15_10_1_E" ng-model="human_resources_15_10_1_E" value="1" ng-checked="human_resources_15_10_1_E_b" ng-focus="check_human_resources_15_10_1_E_cm()" />
+		<input id="human_resources_15_10_1_E_b" class="sum_lodge" type="radio"  name="human_resources_15_10_1_E" ng-model="human_resources_15_10_1_E" value="2" ng-checked="human_resources_15_10_1_E_b" ng-focus="check_human_resources_15_10_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2177,7 +2177,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_15_10_1_F_a" class="sum_lodge" type="radio" name="human_resources_15_10_1_F" ng-model="human_resources_15_10_1_F" value="1" ng-checked="human_resources_15_10_1_F_a" ng-focus="check_human_resources_15_10_1_F_cm()" />
+		<input id="human_resources_15_10_1_F_a" class="sum_lodge" type="radio" name="human_resources_15_10_1_F" ng-model="human_resources_15_10_1_F" value="0" ng-checked="human_resources_15_10_1_F_a" ng-focus="check_human_resources_15_10_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

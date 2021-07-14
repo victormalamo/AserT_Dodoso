@@ -89,7 +89,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_2_1_text" name="guest_bathrooms_11_2_1_text" ng-model="guest_bathrooms_11_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_2_1_text" name="suites_11_2_1_text" ng-model="suites_11_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -239,7 +239,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="6" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_3_1_text" name="guest_bathrooms_11_3_1_text" ng-model="guest_bathrooms_11_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_3_1_text" name="suites_11_3_1_text" ng-model="suites_11_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -357,7 +357,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_4_1_text" name="guest_bathrooms_11_4_1_text" ng-model="guest_bathrooms_11_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_4_1_text" name="suites_11_4_1_text" ng-model="suites_11_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -504,7 +504,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="40" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_5_1_text" name="guest_bathrooms_11_5_1_text" ng-model="guest_bathrooms_11_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_5_1_text" name="suites_11_5_1_text" ng-model="suites_11_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -819,7 +819,26 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_5_1_B_m" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_m" ng-model="suites_11_5_1_B_m" value="2" ng-checked="suites_11_5_1_B_mTT" ng-focus="check_suites_11_5_1_B_m_cm()" />
+		<input id="suites_11_5_1_B_l" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_l" ng-model="suites_11_5_1_B_l" value="2" ng-checked="suites_11_5_1_B_lTT" ng-focus="check_suites_11_5_1_B_l_cm()" />
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="suites_11_5_1_B_l_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_5_1_B_l_cm" ng-model="suites_11_5_1_B_l_cm" ng-focus="check_suites_11_5_1_B_l()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(m)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Computer data point  <span class="marks_weight">(3)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="suites_11_5_1_B_m" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_m" ng-model="suites_11_5_1_B_m" value="3" ng-checked="suites_11_5_1_B_mTT" ng-focus="check_suites_11_5_1_B_m_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -833,12 +852,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(m)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Computer data point  <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(n)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Dinning table, with a minimum of four chairs  <span class="marks_weight">(4)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_5_1_B_n" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_n" ng-model="suites_11_5_1_B_n" value="3" ng-checked="suites_11_5_1_B_nTT" ng-focus="check_suites_11_5_1_B_n_cm()" />
+		<input id="suites_11_5_1_B_n" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_n" ng-model="suites_11_5_1_B_n" value="4" ng-checked="suites_11_5_1_B_nTT" ng-focus="check_suites_11_5_1_B_n_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -852,12 +871,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(n)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Dinning table, with a minimum of four chairs  <span class="marks_weight">(4)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(o)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Full length mirror  <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_5_1_B_o" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_o" ng-model="suites_11_5_1_B_o" value="4" ng-checked="suites_11_5_1_B_oTT" ng-focus="check_suites_11_5_1_B_o_cm()" />
+		<input id="suites_11_5_1_B_o" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_o" ng-model="suites_11_5_1_B_o" value="2" ng-checked="suites_11_5_1_B_oTT" ng-focus="check_suites_11_5_1_B_o_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -871,12 +890,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(o)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Full length mirror  <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(p)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Coffee table  <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_5_1_B_p" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_p" ng-model="suites_11_5_1_B_p" value="2" ng-checked="suites_11_5_1_B_pTT" ng-focus="check_suites_11_5_1_B_p_cm()" />
+		<input id="suites_11_5_1_B_p" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_p" ng-model="suites_11_5_1_B_p" value="3" ng-checked="suites_11_5_1_B_pTT" ng-focus="check_suites_11_5_1_B_p_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -885,25 +904,6 @@
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
   <input id="suites_11_5_1_B_p_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_5_1_B_p_cm" ng-model="suites_11_5_1_B_p_cm" ng-focus="check_suites_11_5_1_B_p()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(p)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Coffee table  <span class="marks_weight">(3)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_5_1_B_q" class="sum_lodge" type="checkbox"  name="suites_11_5_1_B_q" ng-model="suites_11_5_1_B_q" value="3" ng-checked="suites_11_5_1_B_qTT" ng-focus="check_suites_11_5_1_B_q_cm()" />
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_5_1_B_q_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_5_1_B_q_cm" ng-model="suites_11_5_1_B_q_cm" ng-focus="check_suites_11_5_1_B_q()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1232,7 +1232,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="21" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_6_1_text" name="guest_bathrooms_11_6_1_text" ng-model="guest_bathrooms_11_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_6_1_text" name="suites_11_6_1_text" ng-model="suites_11_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1575,7 +1575,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="20" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_7_1_text" name="guest_bathrooms_11_7_1_text" ng-model="guest_bathrooms_11_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_7_1_text" name="suites_11_7_1_text" ng-model="suites_11_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1918,11 +1918,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">11.8</td>
   <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
-  <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Ventilation and Lighting</td>
+  <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Lighting</td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="22" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_8_1_text" name="guest_bathrooms_11_8_1_text" ng-model="guest_bathrooms_11_8_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_8_1_text" name="suites_11_8_1_text" ng-model="suites_11_8_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2326,7 +2326,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="5" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_9_1_text" name="guest_bathrooms_11_9_1_text" ng-model="guest_bathrooms_11_9_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_9_1_text" name="suites_11_9_1_text" ng-model="suites_11_9_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2407,7 +2407,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="16" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_10_1_text" name="guest_bathrooms_11_10_1_text" ng-model="guest_bathrooms_11_10_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_10_1_text" name="suites_11_10_1_text" ng-model="suites_11_10_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2549,11 +2549,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Kiswahili<span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Kiswahili <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_10_1_B_a" class="sum_lodge" type="checkbox" name="suites_11_10_1_B_a" ng-model="suites_11_10_1_B_a" value="2" ng-checked="suites_11_10_1_B_aTT" ng-focus="check_suites_11_10_1_B_a_cm()"/>
+		<input id="suites_11_10_1_B_a" class="sum_tented_camp" type="checkbox" name="suites_11_10_1_B_a" ng-model="suites_11_10_1_B_a" value="2" ng-checked="suites_11_10_1_B_aTT" ng-focus="check_suites_11_10_1_B_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2569,7 +2569,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_10_1_B_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_10_1_B_a_cm" ng-model="suites_11_10_1_B_a_cm" ng-focus="check_suites_11_10_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="suites_11_10_1_B_a_cm" class="sum_tented_camp_cm assessor_custom_marks_field" type="text" name="suites_11_10_1_B_a_cm" ng-model="suites_11_10_1_B_a_cm" ng-focus="check_suites_11_10_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -2581,7 +2581,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_10_1_B_b" class="sum_lodge" type="checkbox"  name="suites_11_10_1_B_b" ng-model="suites_11_10_1_B_b" value="2" ng-checked="suites_11_10_1_B_bTT" ng-focus="check_suites_11_10_1_B_b_cm()"/>
+		<input id="suites_11_10_1_B_b" class="sum_tented_camp" type="checkbox"  name="suites_11_10_1_B_b" ng-model="suites_11_10_1_B_b" value="2" ng-checked="suites_11_10_1_B_bTT" ng-focus="check_suites_11_10_1_B_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2589,7 +2589,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_10_1_B_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_10_1_B_b_cm" ng-model="suites_11_10_1_B_b_cm" ng-focus="check_suites_11_10_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="suites_11_10_1_B_b_cm" class="sum_tented_camp_cm assessor_custom_marks_field" type="text" name="suites_11_10_1_B_b_cm" ng-model="suites_11_10_1_B_b_cm" ng-focus="check_suites_11_10_1_B_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2600,16 +2600,15 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_10_1_B_c" class="sum_lodge" type="checkbox"  name="suites_11_10_1_B_c" ng-model="suites_11_10_1_B_c" value="1" ng-checked="suites_11_10_1_B_cTT" ng-focus="check_suites_11_10_1_B_c_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+	<div class="pretty p-default p-round p-pulse">
+		<input id="suites_11_10_1_B_c" class="sum_tented_camp" type="radio"  name="suites_11_10_1_B" ng-model="suites_11_10_1_B" value="1" ng-checked="suites_11_10_1_B_c" ng-focus="check_suites_11_10_1_B_cm()"/>
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_10_1_B_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_10_1_B_c_cm" ng-model="suites_11_10_1_B_c_cm" ng-focus="check_suites_11_10_1_B_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="suites_11_10_1_B_cm" class="sum_tented_camp_cm assessor_custom_marks_field" type="text" name="suites_11_10_1_B_cm" ng-model="suites_11_10_1_B_cm" ng-focus="check_suites_11_10_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2619,18 +2618,17 @@
   <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">More than one other internationally recognized languages  <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_10_1_B_d" class="sum_lodge" type="checkbox"  name="suites_11_10_1_B_d" ng-model="suites_11_10_1_B_d" value="2" ng-checked="suites_11_10_1_B_dTT" ng-focus="check_suites_11_10_1_B_d_cm()" />
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+	<div class="pretty p-default p-round p-pulse">
+		<input id="suites_11_10_1_B_d" class="sum_tented_camp" type="radio"  name="suites_11_10_1_B" ng-model="suites_11_10_1_B" value="2" ng-checked="suites_11_10_1_B_d" ng-focus="check_suites_11_10_1_B_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="suites_11_10_1_B_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_10_1_B_d_cm" ng-model="suites_11_10_1_B_d_cm" ng-focus="check_suites_11_10_1_B_d()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
+
+
 
 
 <!-- 11_10_1_C -->
@@ -2711,8 +2709,8 @@
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Communication Systems</td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td rowspan="26" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_11_1_text" name="guest_bathrooms_11_11_1_text" ng-model="guest_bathrooms_11_11_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <td rowspan="27" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
+  <textarea id="suites_11_11_1_text" name="suites_11_11_1_text" ng-model="suites_11_11_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2830,70 +2828,63 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How is external communication system operated?</td>
+  
+  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Through central switchboard <span class="marks_weight">(1)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Through external switchboard<span class="marks_weight">(1)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_11_1_C_a" class="sum_lodge" type="checkbox" name="suites_11_11_1_C_a" ng-model="suites_11_11_1_C_a" value="1" ng-checked="suites_11_11_1_C_aTT" ng-focus="check_suites_11_11_1_C_a_cm()"/>
-		<!--div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div-->
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+	<div class="pretty p-default p-round p-pulse">
+		<input id="suites_11_11_1_C_a" class="sum_lodge" type="radio" name="suites_11_11_1_C" ng-model="suites_11_11_1_C" value="1" ng-checked="suites_11_11_1_C_a" ng-focus="check_suites_11_11_1_C_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
-		<!--div class="state" style="width:13px!important; margin-left:2px">
-		<i class="icon mdi mdi-close"></i>
-		<label></label>
-		</div-->
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_11_1_C_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_11_1_C_a_cm" ng-model="suites_11_11_1_C_a_cm" ng-focus="check_suites_11_11_1_C_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="suites_11_11_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_11_1_C_cm" ng-model="suites_11_11_1_C_cm" ng-focus="check_suites_11_11_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Direct dial<span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Directe dial<span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_11_1_C_b" class="sum_lodge" type="checkbox"  name="suites_11_11_1_C_b" ng-model="suites_11_11_1_C_b" value="3" ng-checked="suites_11_11_1_C_bTT" ng-focus="check_suites_11_11_1_C_b_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+	<div class="pretty p-default p-round p-pulse">
+		<input id="suites_11_11_1_C_b" class="sum_lodge" type="radio"  name="suites_11_11_1_C" ng-model="suites_11_11_1_C" value="3" ng-checked="suites_11_11_1_C_b" ng-focus="check_suites_11_11_1_C_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_11_1_C_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_11_1_C_b_cm" ng-model="suites_11_11_1_C_b_cm" ng-focus="check_suites_11_11_1_C_b()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Hot Spot/Other<span class="marks_weight">(5)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Hot Spot/Other <span class="marks_weight">(5)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_11_1_C_c" class="sum_lodge" type="checkbox"  name="suites_11_11_1_C_c" ng-model="suites_11_11_1_C_c" value="5" ng-checked="suites_11_11_1_C_cTT" ng-focus="check_suites_11_11_1_C_c_cm()"/>
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+	<div class="pretty p-default p-round p-pulse">
+		<input id="suites_11_11_1_C_c" class="sum_lodge" type="radio"  name="suites_11_11_1_C" ng-model="suites_11_11_1_C" value="5" ng-checked="suites_11_11_1_C_c" ng-focus="check_suites_11_11_1_C_cm()" />
+		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_11_1_C_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_11_1_C_c_cm" ng-model="suites_11_11_1_C_c_cm" ng-focus="check_suites_11_11_1_C_c()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
+  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
+
 
 
 <!-- 11_11_1_D -->
@@ -3154,7 +3145,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="32" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_12_1_text" name="guest_bathrooms_11_12_1_text" ng-model="guest_bathrooms_11_12_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_12_1_text" name="suites_11_12_1_text" ng-model="suites_11_12_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -3745,7 +3736,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="8" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_13_1_text" name="guest_bathrooms_11_13_1_text" ng-model="guest_bathrooms_11_13_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_13_1_text" name="suites_11_13_1_text" ng-model="suites_11_13_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -3877,7 +3868,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="13" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_14_1_text" name="guest_bathrooms_11_14_1_text" ng-model="guest_bathrooms_11_14_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_14_1_text" name="suites_11_14_1_text" ng-model="suites_11_14_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -4106,7 +4097,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="4" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_15_1_text" name="guest_bathrooms_11_15_1_text" ng-model="guest_bathrooms_11_15_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_15_1_text" name="suites_11_15_1_text" ng-model="suites_11_15_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -4172,8 +4163,8 @@
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Bathroom Fittings, Equipment and Amenities </td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td rowspan="45" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_16_1_text" name="guest_bathrooms_11_16_1_text" ng-model="guest_bathrooms_11_16_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <td rowspan="43" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
+  <textarea id="suites_11_16_1_text" name="suites_11_16_1_text" ng-model="suites_11_16_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -4305,6 +4296,25 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
+		<input id="suites_11_16_1_A_f" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_f" ng-model="suites_11_16_1_A_f" value="3" ng-checked="suites_11_16_1_A_fTT" ng-focus="check_suites_11_16_1_A_f_cm()" />
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="suites_11_16_1_A_f_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_16_1_A_f_cm" ng-model="suites_11_16_1_A_f_cm" ng-focus="check_suites_11_16_1_A_f()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(g)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Telephone shower brackets  <span class="marks_weight">(3)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-icon p-curve p-pulse">
 		<input id="suites_11_16_1_A_g" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_g" ng-model="suites_11_16_1_A_g" value="3" ng-checked="suites_11_16_1_A_gTT" ng-focus="check_suites_11_16_1_A_g_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
@@ -4319,12 +4329,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(g)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Telephone shower brackets  <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(h)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Water closet  <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_h" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_h" ng-model="suites_11_16_1_A_h" value="3" ng-checked="suites_11_16_1_A_hTT" ng-focus="check_suites_11_16_1_A_h_cm()" />
+		<input id="suites_11_16_1_A_h" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_h" ng-model="suites_11_16_1_A_h" value="2" ng-checked="suites_11_16_1_A_hTT" ng-focus="check_suites_11_16_1_A_h_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4338,8 +4348,8 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(h)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Water closet  <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(i)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Toilet paper holder  <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
@@ -4357,12 +4367,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(i)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Toilet paper holder  <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(j)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Hand wash basin with a wide top and hot as well as cold water  <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_j" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_j" ng-model="suites_11_16_1_A_j" value="2" ng-checked="suites_11_16_1_A_jTT" ng-focus="check_suites_11_16_1_A_j_cm()" />
+		<input id="suites_11_16_1_A_j" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_j" ng-model="suites_11_16_1_A_j" value="3" ng-checked="suites_11_16_1_A_jTT" ng-focus="check_suites_11_16_1_A_j_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4376,12 +4386,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(j)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Hand wash basin with a wide top and hot as well as cold water  <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(k)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Full length mirror  <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_k" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_k" ng-model="suites_11_16_1_A_k" value="3" ng-checked="suites_11_16_1_A_kTT" ng-focus="check_suites_11_16_1_A_k_cm()" />
+		<input id="suites_11_16_1_A_k" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_k" ng-model="suites_11_16_1_A_k" value="2" ng-checked="suites_11_16_1_A_kTT" ng-focus="check_suites_11_16_1_A_k_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4392,11 +4402,12 @@
   <input id="suites_11_16_1_A_k_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_16_1_A_k_cm" ng-model="suites_11_16_1_A_k_cm" ng-focus="check_suites_11_16_1_A_k()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
+
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(k)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Full length mirror  <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(l)</td>
+  <td style="vertical-align:middle" class="border-mdblue">At least three towel rails  <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
@@ -4411,16 +4422,34 @@
   <input id="suites_11_16_1_A_l_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_16_1_A_l_cm" ng-model="suites_11_16_1_A_l_cm" ng-focus="check_suites_11_16_1_A_l()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(l)</td>
-  <td style="vertical-align:middle" class="border-mdblue">At least three towel rails  <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(m)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Clothes hook/hanger  <span class="marks_weight">(2)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_n" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_n" ng-model="suites_11_16_1_A_n" value="2" ng-checked="suites_11_16_1_A_nTT" ng-focus="check_suites_11_16_1_A_n_cm()" />
+		<input id="suites_11_16_1_A_m" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_m" ng-model="suites_11_16_1_A_m" value="2" ng-checked="suites_11_16_1_A_mTT" ng-focus="check_suites_11_16_1_A_m_cm()" />
+		<div class="state p-success" style="width:13px!important">
+		<i class="icon mdi mdi-check"></i>
+		<label></label>
+		</div>
+	</div>
+  </td>
+  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
+  <input id="suites_11_16_1_A_m_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_16_1_A_m_cm" ng-model="suites_11_16_1_A_m_cm" ng-focus="check_suites_11_16_1_A_m()" ng-pattern="/^[0-9\.\]+$/"/>
+  </td>
+</tr>
+<tr ng-class=""> 
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:middle" class="border-mdblue">(n)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Mechanical air extractor  <span class="marks_weight">(3)</span></td>
+  
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+	<div class="pretty p-icon p-curve p-pulse">
+		<input id="suites_11_16_1_A_n" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_n" ng-model="suites_11_16_1_A_n" value="3" ng-checked="suites_11_16_1_A_nTT" ng-focus="check_suites_11_16_1_A_n_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4434,12 +4463,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(m)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Clothes hook/hanger  <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(o)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Arabic shower  <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_o" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_o" ng-model="suites_11_16_1_A_o" value="2" ng-checked="suites_11_16_1_A_oTT" ng-focus="check_suites_11_16_1_A_o_cm()" />
+		<input id="suites_11_16_1_A_o" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_o" ng-model="suites_11_16_1_A_o" value="3" ng-checked="suites_11_16_1_A_oTT" ng-focus="check_suites_11_16_1_A_o_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4453,8 +4482,8 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(n)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Mechanical air extractor  <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(p)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Bidet <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
@@ -4472,12 +4501,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(o)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Arabic shower  <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(q)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Hair dryer fitting outlet  <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_q" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_q" ng-model="suites_11_16_1_A_q" value="3" ng-checked="suites_11_16_1_A_qTT" ng-focus="check_suites_11_16_1_A_q_cm()" />
+		<input id="suites_11_16_1_A_q" class="sum_lodge" type="checkbox" name="suites_11_16_1_A_q" ng-model="suites_11_16_1_A_q" value="3" ng-checked="suites_11_16_1_A_qTT" ng-focus="check_suites_11_16_1_A_q_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4491,12 +4520,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(p)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Bidet <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(r)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Hair dryers  <span class="marks_weight">(4)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_r" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_r" ng-model="suites_11_16_1_A_r" value="3" ng-checked="suites_11_16_1_A_rTT" ng-focus="check_suites_11_16_1_A_r_cm()" />
+		<input id="suites_11_16_1_A_r" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_r" ng-model="suites_11_16_1_A_r" value="4" ng-checked="suites_11_16_1_A_rTT" ng-focus="check_suites_11_16_1_A_r_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4510,12 +4539,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(q)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Hair dryer fitting outlet  <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(s)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Telephone extensions  <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_s" class="sum_lodge" type="checkbox" name="suites_11_16_1_A_s" ng-model="suites_11_16_1_A_s" value="3" ng-checked="suites_11_16_1_A_sTT" ng-focus="check_suites_11_16_1_A_s_cm()" />
+		<input id="suites_11_16_1_A_s" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_s" ng-model="suites_11_16_1_A_s" value="3" ng-checked="suites_11_16_1_A_sTT" ng-focus="check_suites_11_16_1_A_s_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4529,12 +4558,12 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(r)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Hair dryers  <span class="marks_weight">(4)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(t)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Other facilities for senior citizens and physically challenged  <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_t" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_t" ng-model="suites_11_16_1_A_t" value="4" ng-checked="suites_11_16_1_A_tTT" ng-focus="check_suites_11_16_1_A_t_cm()" />
+		<input id="suites_11_16_1_A_t" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_t" ng-model="suites_11_16_1_A_t" value="3" ng-checked="suites_11_16_1_A_tTT" ng-focus="check_suites_11_16_1_A_t_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -4548,8 +4577,8 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(s)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Telephone extensions  <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">(u)</td>
+  <td style="vertical-align:middle" class="border-mdblue">Amenity tables and cabinets  <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
@@ -4567,10 +4596,10 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(t)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Other facilities for senior citizens and physically challenged  <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(v)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Shaver magnifying mirror  <span class="marks_weight">(3)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
 		<input id="suites_11_16_1_A_v" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_v" ng-model="suites_11_16_1_A_v" value="3" ng-checked="suites_11_16_1_A_vTT" ng-focus="check_suites_11_16_1_A_v_cm()" />
 		<div class="state p-success" style="width:13px!important">
@@ -4579,46 +4608,8 @@
 		</div>
 	</div>
   </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_16_1_A_v_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_16_1_A_v_cm" ng-model="suites_11_16_1_A_v_cm" ng-focus="check_suites_11_16_1_A_v()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(u)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Amenity tables and cabinets  <span class="marks_weight">(3)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_w" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_w" ng-model="suites_11_16_1_A_w" value="3" ng-checked="suites_11_16_1_A_wTT" ng-focus="check_suites_11_16_1_A_w_cm()" />
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="suites_11_16_1_A_w_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_16_1_A_w_cm" ng-model="suites_11_16_1_A_w_cm" ng-focus="check_suites_11_16_1_A_w()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(v)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Shaver magnifying mirror  <span class="marks_weight">(3)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-icon p-curve p-pulse">
-		<input id="suites_11_16_1_A_x" class="sum_lodge" type="checkbox"  name="suites_11_16_1_A_x" ng-model="suites_11_16_1_A_x" value="3" ng-checked="suites_11_16_1_A_xTT" ng-focus="check_suites_11_16_1_A_x_cm()" />
-		<div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div>
-	</div>
-  </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="suites_11_16_1_A_x_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_16_1_A_x_cm" ng-model="suites_11_16_1_A_x_cm" ng-focus="check_suites_11_16_1_A_x()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="suites_11_16_1_A_v_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_16_1_A_v_cm" ng-model="suites_11_16_1_A_v_cm" ng-focus="check_suites_11_16_1_A_v()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -4944,8 +4935,8 @@
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Bathroom Supplies</td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td rowspan="22" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_17_1_text" name="guest_bathrooms_11_17_1_text" ng-model="guest_bathrooms_11_17_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <td rowspan="21" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
+  <textarea id="suites_11_17_1_text" name="suites_11_17_1_text" ng-model="suites_11_17_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -5327,7 +5318,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="24" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_18_1_text" name="guest_bathrooms_11_18_1_text" ng-model="guest_bathrooms_11_18_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_18_1_text" name="suites_11_18_1_text" ng-model="suites_11_18_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -5722,7 +5713,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="24" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_19_1_text" name="guest_bathrooms_11_19_1_text" ng-model="guest_bathrooms_11_19_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_19_1_text" name="suites_11_19_1_text" ng-model="suites_11_19_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -6135,7 +6126,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="13" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_20_1_text" name="guest_bathrooms_11_20_1_text" ng-model="guest_bathrooms_11_20_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="suites_11_20_1_text" name="suites_11_20_1_text" ng-model="suites_11_20_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -6333,203 +6324,3 @@
   </td>
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
-
-
-<!-- 11_21 -->
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; width:16px; font-weight:bold" class="border-mdblue borderless-bottom row_1_1"><div ng-class="{number_pre:true}">11.21</div></td>
-  <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top">SHAVER OUTLETS AND SOCKETS </td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td style="vertical-align:middle;" align="center" class="border-mdblue borderless-bottom"></td>
-</tr>
-							
-<!-- 11_21_1 -->
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
-  <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Shaver Outlets and Sockets </td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td rowspan="11" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_11_21_1_text" name="guest_bathrooms_11_21_1_text" ng-model="guest_bathrooms_11_21_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
-  </td>
-</tr>
-
-
-<!-- 11_21_1_A -->
-<!-- 11_21_1_A -->
-
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are shaver outlets and sockets provided?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">No<span class="marks_weight">(0)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="suites_11_21_1_A_a" class="sum_lodge" type="radio" name="suites_11_21_1_A" ng-model="suites_11_21_1_A" value="0" ng-checked="suites_11_21_1_A_a" ng-focus="check_suites_11_21_1_A_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="suites_11_21_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_21_1_A_cm" ng-model="suites_11_21_1_A_cm" ng-focus="check_suites_11_21_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Yes <span class="marks_weight">(5)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="suites_11_21_1_A_b" class="sum_lodge" type="radio"  name="suites_11_21_1_A" ng-model="suites_11_21_1_A" value="5" ng-checked="suites_11_21_1_A_b" ng-focus="check_suites_11_21_1_A_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-
-<!-- 11_21_1_B -->
-<!-- 11_21_1_B -->
-
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Is the voltage supply clearly indicated in AC or DC?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">No<span class="marks_weight">(0)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="suites_11_21_1_B_a" class="sum_lodge" type="radio" name="suites_11_21_1_B" ng-model="suites_11_21_1_B" value="0" ng-checked="suites_11_21_1_B_a" ng-focus="check_suites_11_21_1_B_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="suites_11_21_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_21_1_B_cm" ng-model="suites_11_21_1_B_cm" ng-focus="check_suites_11_21_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Yes <span class="marks_weight">(15)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="suites_11_21_1_B_b" class="sum_lodge" type="radio"  name="suites_11_21_1_B" ng-model="suites_11_21_1_B" value="15" ng-checked="suites_11_21_1_B_b" ng-focus="check_suites_11_21_1_B_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-
-
-
-<!-- 11_21_1_C -->
-<!-- 11_21_1_C -->
-
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the quality and fitting of the outlets and sockets?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Fair<span class="marks_weight">(3)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="suites_11_21_1_C_a" class="sum_lodge" type="radio" name="suites_11_21_1_C" ng-model="suites_11_21_1_C" value="3" ng-checked="suites_11_21_1_C_a" ng-focus="check_suites_11_21_1_C_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="suites_11_21_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="suites_11_21_1_C_cm" ng-model="suites_11_21_1_C_cm" ng-focus="check_suites_11_21_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Good<span class="marks_weight">(5)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="suites_11_21_1_C_b" class="sum_lodge" type="radio"  name="suites_11_21_1_C" ng-model="suites_11_21_1_C" value="5" ng-checked="suites_11_21_1_C_b" ng-focus="check_suites_11_21_1_C_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Very Good <span class="marks_weight">(10)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="suites_11_21_1_C_c" class="sum_lodge" type="radio"  name="suites_11_21_1_C" ng-model="suites_11_21_1_C" value="10" ng-checked="suites_11_21_1_C_c" ng-focus="check_suites_11_21_1_C_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-
-
-
-
-
-
-
-
-
-
-
-

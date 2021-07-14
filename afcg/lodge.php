@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html ng-app="msimamiziApp" ng-controller="watumiajiController" class="restade" lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
@@ -87,8 +87,6 @@
               
                 		
                   <form  id="assessment_sheet_lodge_form" name="assessment_sheet_lodge_form" ng-submit="submit_assessment_lodge_form()" enctype="multipart/form-data" novalidate>
-
-				  
 				  
 					<table id="" class="table table-bordered border-mdblue">
 						  <thead>						  	
@@ -115,12 +113,12 @@
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_lodge_guest_rooms.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_lodge_guest_bathrooms.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_lodge_suites.php');?>
-						  <!---php include('msimamiziApp/modal_assessment_sheet_for_lodge_hygiene_and_sanitation.php');?>		
-						  <php include('msimamiziApp/modal_assessment_sheet_for_lodge_safety_and_security.php');?> 
-						  <php include('msimamiziApp/modal_assessment_sheet_for_lodge_sundry_services.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_lodge_human_resources.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_lodge_general.php');?-->
-						  
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_lodge_hygiene_and_sanitation.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_lodge_safety_and_security.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_lodge_sundry_services.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_lodge_human_resources.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_lodge_general.php');?>
+
 						  </tbody>
 						</table>
 						

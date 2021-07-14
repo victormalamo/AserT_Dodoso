@@ -1410,7 +1410,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_rooms_4_5_1_B_ee_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_rooms_4_5_1_B_e_cm" ng-model="guest_rooms_4_5_1_B_e_cm" ng-focus="check_guest_rooms_4_5_1_B_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="guest_rooms_4_5_1_B_e_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_rooms_4_5_1_B_e_cm" ng-model="guest_rooms_4_5_1_B_e_cm" ng-focus="check_guest_rooms_4_5_1_B_e()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 

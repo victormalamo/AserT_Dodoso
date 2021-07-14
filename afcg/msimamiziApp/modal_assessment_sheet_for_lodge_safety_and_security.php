@@ -905,9 +905,8 @@
 </tr>
 
 
+<!-- 13_3_1_C -->
 
-<!-- 13_3_1_E -->
-<!-- 13_3_1_E -->
 
 
 <tr ng-class=""> 
@@ -927,14 +926,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_E_a" class="sum_lodge" type="radio" name="safety_and_security_13_3_1_E" ng-model="safety_and_security_13_3_1_E" value="0" ng-checked="safety_and_security_13_3_1_E_a" ng-focus="check_safety_and_security_13_3_1_E_cm()" />
+		<input id="safety_and_security_13_3_1_C_a" class="sum_lodge" type="radio" name="safety_and_security_13_3_1_C" ng-model="safety_and_security_13_3_1_C" value="0" ng-checked="safety_and_security_13_3_1_C_a" ng-focus="check_safety_and_security_13_3_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="safety_and_security_13_3_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="safety_and_security_13_3_1_E_cm" ng-model="safety_and_security_13_3_1_E_cm" ng-focus="check_safety_and_security_13_3_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="safety_and_security_13_3_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="safety_and_security_13_3_1_C_cm" ng-model="safety_and_security_13_3_1_C_cm" ng-focus="check_safety_and_security_13_3_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -945,7 +944,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_E_b" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_E" ng-model="safety_and_security_13_3_1_E" value="5" ng-checked="safety_and_security_13_3_1_E_b" ng-focus="check_safety_and_security_13_3_1_E_cm()" />
+		<input id="safety_and_security_13_3_1_C_b" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_C" ng-model="safety_and_security_13_3_1_C" value="5" ng-checked="safety_and_security_13_3_1_C_b" ng-focus="check_safety_and_security_13_3_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -955,8 +954,8 @@
 </tr>
 
 
-<!-- 13_3_1_F -->
-<!-- 13_3_1_F -->
+
+<!-- 13_3_1_D -->
 
 
 <tr ng-class=""> 
@@ -976,14 +975,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_F_a" class="sum_lodge" type="radio" name="safety_and_security_13_3_1_F" ng-model="safety_and_security_13_3_1_F" value="1" ng-checked="safety_and_security_13_3_1_F_a" ng-focus="check_safety_and_security_13_3_1_F_cm()" />
+		<input id="safety_and_security_13_3_1_D_a" class="sum_lodge" type="radio" name="safety_and_security_13_3_1_D" ng-model="safety_and_security_13_3_1_D" value="1" ng-checked="safety_and_security_13_3_1_D_a" ng-focus="check_safety_and_security_13_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="safety_and_security_13_3_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="safety_and_security_13_3_1_F_cm" ng-model="safety_and_security_13_3_1_F_cm" ng-focus="check_safety_and_security_13_3_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="safety_and_security_13_3_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="safety_and_security_13_3_1_D_cm" ng-model="safety_and_security_13_3_1_D_cm" ng-focus="check_safety_and_security_13_3_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -994,7 +993,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_F_b" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_F" ng-model="safety_and_security_13_3_1_F" value="3" ng-checked="safety_and_security_13_3_1_F_b" ng-focus="check_safety_and_security_13_3_1_F_cm()" />
+		<input id="safety_and_security_13_3_1_D_b" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_D" ng-model="safety_and_security_13_3_1_D" value="3" ng-checked="safety_and_security_13_3_1_D_b" ng-focus="check_safety_and_security_13_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1010,7 +1009,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_F_c" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_F" ng-model="safety_and_security_13_3_1_F" value="5" ng-checked="safety_and_security_13_3_1_F_c" ng-focus="check_safety_and_security_13_3_1_F_cm()" />
+		<input id="safety_and_security_13_3_1_D_c" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_D" ng-model="safety_and_security_13_3_1_D" value="5" ng-checked="safety_and_security_13_3_1_D_c" ng-focus="check_safety_and_security_13_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1020,57 +1019,9 @@
 </tr>
 
 
-<!-- 13_3_1_G -->
-<!-- 13_3_1_G -->
 
 
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the Lodge have a functional electronic surveillance system in place?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">No<span class="marks_weight">(0)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_G_a" class="sum_lodge" type="radio" name="safety_and_security_13_3_1_G" ng-model="safety_and_security_13_3_1_G" value="0" ng-checked="safety_and_security_13_3_1_G_a" ng-focus="check_safety_and_security_13_3_1_G_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="safety_and_security_13_3_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="safety_and_security_13_3_1_G_cm" ng-model="safety_and_security_13_3_1_G_cm" ng-focus="check_safety_and_security_13_3_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
-  </td>
-</tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Yes<span class="marks_weight">(5)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_G_b" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_G" ng-model="safety_and_security_13_3_1_G" value="5" ng-checked="safety_and_security_13_3_1_G_b" ng-focus="check_safety_and_security_13_3_1_G_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
-
-
-<!-- 13_3_1_H -->
-<!-- 13_3_1_H -->
+<!-- 13_3_1_E -->
 
 
 <tr ng-class=""> 
@@ -1090,14 +1041,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_H_a" class="sum_lodge" type="radio" name="safety_and_security_13_3_1_H" ng-model="safety_and_security_13_3_1_H" value="0" ng-checked="safety_and_security_13_3_1_H_a" ng-focus="check_safety_and_security_13_3_1_H_cm()" />
+		<input id="safety_and_security_13_3_1_E_a" class="sum_lodge" type="radio" name="safety_and_security_13_3_1_E" ng-model="safety_and_security_13_3_1_E" value="0" ng-checked="safety_and_security_13_3_1_E_a" ng-focus="check_safety_and_security_13_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="safety_and_security_13_3_1_H_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="safety_and_security_13_3_1_H_cm" ng-model="safety_and_security_13_3_1_H_cm" ng-focus="check_safety_and_security_13_3_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="safety_and_security_13_3_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="safety_and_security_13_3_1_E_cm" ng-model="safety_and_security_13_3_1_E_cm" ng-focus="check_safety_and_security_13_3_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1108,7 +1059,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="safety_and_security_13_3_1_H_b" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_H" ng-model="safety_and_security_13_3_1_H" value="4" ng-checked="safety_and_security_13_3_1_H_b" ng-focus="check_safety_and_security_13_3_1_H_cm()" />
+		<input id="safety_and_security_13_3_1_E_b" class="sum_lodge" type="radio"  name="safety_and_security_13_3_1_E" ng-model="safety_and_security_13_3_1_E" value="4" ng-checked="safety_and_security_13_3_1_E_b" ng-focus="check_safety_and_security_13_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1325,7 +1276,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="20" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="safety_and_security_13_4_1_text" name="safety_and_security_13_4_1_text" ng-model="safety_and_security_13_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="safety_and_security_13_5_1_text" name="safety_and_security_13_5_1_text" ng-model="safety_and_security_13_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 <tr ng-class=""> 

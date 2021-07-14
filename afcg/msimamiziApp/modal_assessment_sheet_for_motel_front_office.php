@@ -815,7 +815,6 @@
   <input id="front_office_3_2_1_D_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="front_office_3_2_1_D_a_cm" ng-model="front_office_3_2_1_D_a_cm" ng-focus="check_front_office_3_2_1_D_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -857,7 +856,7 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(d)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Motel lien <span class="marks_weight">(2)</span></td>
   
@@ -992,7 +991,7 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Qualified staff <span class="marks_weight">(10)</span></td>
   
@@ -1112,7 +1111,7 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(d)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Electronic/digital screener or any other discreet paging system <span class="marks_weight">(5)</span></td>
   
@@ -1320,7 +1319,7 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes<span class="marks_weight">(10)</span></td>
   
@@ -1437,7 +1436,7 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes<span class="marks_weight">(5)</span></td>
   
@@ -1617,7 +1616,7 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Any other internationally recognizable and spoken language (French, German, Spanish, Italian etc) <span class="marks_weight">(4)</span></td>
   
@@ -1640,7 +1639,7 @@
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; width:16px; font-weight:bold" class="border-mdblue borderless-bottom row_1_1"><div ng-class="{number_pre:true}">3.9</div></td>
+  <td style="vertical-align:top; width:16px; font-weight:bold" class="border-mdblue borderless-bottom row_1_1"><div ng-class="{number_pre:true}">3.8</div></td>
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top">COMMUNICATION SERVICES</td>
   
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
@@ -1753,7 +1752,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 3.9.1.C -->
+<!-- 3.8.1.C -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1800,7 +1799,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 3.9.1.D -->
+<!-- 3.8.1.D -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1846,7 +1845,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 3.9.1.E -->
+<!-- 3.8.1.E -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>

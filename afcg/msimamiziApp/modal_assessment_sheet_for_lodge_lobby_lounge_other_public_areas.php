@@ -4,11 +4,8 @@
 <tr> 
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue borderless-bottom row_1_0"><div ng-class="{number_pre:true}">4.0</div></td>
   <td colspan="5"style="vertical-align:top; font-weight:bold" class="border-mdblue row_1_0">LOBBY/LOUNGE AND OTHER PUBLIC AREAS</td>
-  
-  <!--td rowspan="" style="vertical-align:middle" class="border-mdblue first_row_col"></td-->
   <td style="vertical-align:top" class="border-mdblue first_row_col borderless-bottom"></td>
 </tr>
-
 
 
 <!-- 4.1.1 -->
@@ -16,25 +13,19 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">4.1</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Lobby lounge and other public areas</td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="27" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="lobby_lounge_other_public_areas_4_1_1_text" name="lobby_lounge_other_public_areas_4_1_1_text" ng-model="lobby_lounge_other_public_areas_4_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
+
 							
 <!-- 4.1.1.A -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Is the lobby available and conveniently  located in relation to the Front Office area? </td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -68,19 +59,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 4.1.1.B -->
 
+<!-- 4.1.1.B -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">What visual impression is created by the artwork, displays and graphic designs as well as other decorations?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -114,7 +101,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -130,19 +116,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 4.1.1.C -->
 
+<!-- 4.1.1.C -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are there clear directional signs</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -176,20 +158,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
 <!-- 4.1.1.D -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of repair? </td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -223,7 +200,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -239,19 +215,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 4.1.1.E -->
 
+<!-- 4.1.1.E -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of repair and maintenance </td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -285,7 +257,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -301,21 +272,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
 <!-- 4.1.1.F -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of  cleanliness </td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -349,7 +314,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -365,22 +329,16 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
 
-
 <!-- 4.1.1.G -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of General cleanliness </td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -414,7 +372,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -430,35 +387,27 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-							
 <!-- 4.2.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">4.2</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Size of Lobby Lounge</td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="5" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="lobby_lounge_other_public_areas_4_2_1_text" name="lobby_lounge_other_public_areas_4_2_1_text" ng-model="lobby_lounge_other_public_areas_4_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 4.2.1.A -->
 
+<!-- 4.2.1.A -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the size and/or design of the lobby facilitate smooth flow of guests in relation to the lodge capacity?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -492,7 +441,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -508,22 +456,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 <!-- 4.3 -->
-
-
-							
 <!-- 4.3.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">4.3</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Amenities and Accessories</td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="13" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="lobby_lounge_other_public_areas_4_3_1_text" name="lobby_lounge_other_public_areas_4_3_1_text" ng-model="lobby_lounge_other_public_areas_4_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
@@ -531,15 +472,11 @@
 
 
 <!-- 4.3.1.A -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Is the range of accessories in the lobby/lounge proportionate to the capacity of the lodge?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -573,19 +510,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 4.3.1.B -->
 
+<!-- 4.3.1.B -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the lodge provide the following amenities?</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -596,18 +529,10 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
 		<input id="lobby_lounge_other_public_areas_4_3_1_B_a" class="sum_lodge" type="checkbox" name="lobby_lounge_other_public_areas_4_3_1_B_a" ng-model="lobby_lounge_other_public_areas_4_3_1_B_a" value="5" ng-checked="lobby_lounge_other_public_areas_4_3_1_B_aTT" ng-focus="check_lobby_lounge_other_public_areas_4_3_1_B_a_cm()"/>
-		<!--div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div-->
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
 		</div>
-		<!--div class="state" style="width:13px!important; margin-left:2px">
-		<i class="icon mdi mdi-close"></i>
-		<label></label>
-		</div-->
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
@@ -676,15 +601,11 @@
 
 
 <!-- 4.3.1.C -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you describe the quality of the amenities and accessories available</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -718,7 +639,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -734,35 +654,28 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 <!-- 4.4 -->
-							
 <!-- 4.4.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">4.4</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Decor</td>
  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="23" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="lobby_lounge_other_public_areas_4_4_1_text" name="lobby_lounge_other_public_areas_4_4_1_text" ng-model="lobby_lounge_other_public_areas_4_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 4.4.1.A -->
 
+<!-- 4.4.1.A -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you describe the decor?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -796,7 +709,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -812,19 +724,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 4.4.1.B -->
 
+<!-- 4.4.1.B -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Does the decor project a distinct theme or concept?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -858,19 +766,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 4.4.1.C -->
 
+<!-- 4.4.1.C -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are decorations and the colour scheme consistent with the general theme of the establishment?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -904,7 +808,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -920,19 +823,15 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 4.4.1.D -->
 
+<!-- 4.4.1.D -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">Are the floral decorations</td>
-  
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -943,18 +842,10 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
 		<input id="lobby_lounge_other_public_areas_4_4_1_D_a" class="sum_lodge" type="checkbox" name="lobby_lounge_other_public_areas_4_4_1_D_a" ng-model="lobby_lounge_other_public_areas_4_4_1_D_a" value="1" ng-checked="lobby_lounge_other_public_areas_4_4_1_D_aTT" ng-focus="check_lobby_lounge_other_public_areas_4_4_1_D_a_cm()"/>
-		<!--div class="state p-success" style="width:13px!important">
-		<i class="icon mdi mdi-check"></i>
-		<label></label>
-		</div-->
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
 		</div>
-		<!--div class="state" style="width:13px!important; margin-left:2px">
-		<i class="icon mdi mdi-close"></i>
-		<label></label>
-		</div-->
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
@@ -982,26 +873,23 @@
   </td>
 </tr>
 
-<!-- 4.4.1.E -->
 
+<!-- 4.4.1.E -->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of repair and maintenance?</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Neglected<span class="marks_weight">(0)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Neglected<span class="marks_weight">(1)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="lobby_lounge_other_public_areas_4_4_1_E_a" class="sum_lodge" type="radio" name="lobby_lounge_other_public_areas_4_4_1_E" ng-model="lobby_lounge_other_public_areas_4_4_1_E" value="0" ng-checked="lobby_lounge_other_public_areas_4_4_1_E_a" ng-focus="check_lobby_lounge_other_public_areas_4_4_1_E_cm()" />
+		<input id="lobby_lounge_other_public_areas_4_4_1_E_a" class="sum_lodge" type="radio" name="lobby_lounge_other_public_areas_4_4_1_E" ng-model="lobby_lounge_other_public_areas_4_4_1_E" value="1" ng-checked="lobby_lounge_other_public_areas_4_4_1_E_a" ng-focus="check_lobby_lounge_other_public_areas_4_4_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1025,7 +913,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1041,31 +928,25 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 
-
 <!-- 4.4.1.F -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
   <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the state of cleanliness</td>
-  
-  <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Neglected<span class="marks_weight">(0)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Neglected<span class="marks_weight">(1)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="lobby_lounge_other_public_areas_4_4_1_F_a" class="sum_lodge" type="radio" name="lobby_lounge_other_public_areas_4_4_1_F" ng-model="lobby_lounge_other_public_areas_4_4_1_F" value="0" ng-checked="lobby_lounge_other_public_areas_4_4_1_F_a" ng-focus="check_lobby_lounge_other_public_areas_4_4_1_F_cm()" />
+		<input id="lobby_lounge_other_public_areas_4_4_1_F_a" class="sum_lodge" type="radio" name="lobby_lounge_other_public_areas_4_4_1_F" ng-model="lobby_lounge_other_public_areas_4_4_1_F" value="1" ng-checked="lobby_lounge_other_public_areas_4_4_1_F_a" ng-focus="check_lobby_lounge_other_public_areas_4_4_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1089,7 +970,6 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1105,27 +985,22 @@
 		</div>
 	</div>
   </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
 <!-- 4.5 -->
-
 <!-- 4.5.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">4.5</td>
-  <!--td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td-->
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Regulation of Temperature</td>
- 
-  <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="lobby_lounge_other_public_areas_4_5_1_text" name="lobby_lounge_other_public_areas_4_5_1_text" ng-model="lobby_lounge_other_public_areas_4_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 4.5.1.A-->
 
+<!-- 4.5.1.A-->
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1173,7 +1048,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Very Good<span class="marks_weight">(25)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Very Good<span class="marks_weight">(10)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
@@ -1271,7 +1146,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold; width:16px" class="border-mdblue"><div ng-class="{list_pre:true}"></div></td>
-  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the sutability of of materials used with regard to safety and security?</td>
+  <td colspan="3" style="vertical-align:top" class="border-mdblue borderless-top">How would you rate the suitability of of materials used with regard to safety and security?</td>
   
   <!--td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue"></td-->
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
@@ -1280,7 +1155,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Unstable<span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Unsuitable<span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
@@ -1313,7 +1188,6 @@
 </tr>
 
 <!-- 4.6.1.B -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1437,7 +1311,6 @@
 </tr>
 
 <!-- 4.6.1.D -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1667,7 +1540,7 @@
 	</div>
   </td>
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr
+</tr>
 
 <!-- 4.7 -->
 

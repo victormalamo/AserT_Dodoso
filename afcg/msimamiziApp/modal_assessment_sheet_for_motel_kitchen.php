@@ -1177,7 +1177,7 @@
 </tr>
 
 
-<!-- 8_5_1_G -->
+<!-- 7_5_1_G -->
 
 
 <tr ng-class=""> 
@@ -1241,7 +1241,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 8_5_1_H -->
+<!-- 7_5_1_H -->
 
 
 <tr ng-class=""> 
@@ -1304,7 +1304,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 8_5_1_I -->
+<!-- 7_5_1_I -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2466,7 +2466,7 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="kitchen_7_8_1_H_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="kitchen_7_8_1_H_cm" ng-model="kitchen_7_8_1_H_cm" ng-focus="check_kitchen_7_8_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -2488,11 +2488,11 @@
 </tr>
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Skip with cover <span class="marks_weight">(3)</span></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Skip with cover <span class="marks_weight">(3)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="kitchen_7_8_1_H_c" class="sum_motel" type="radio"  name="kitchen_7_8_1_H" ng-model="kitchen_7_8_1_H" value="3" ng-checked="kitchen_7_8_1_H_c" ng-focus="check_kitchen_7_8_1_H_cm()" />
 		<div class="state p-success-o" style="width:13px!important">

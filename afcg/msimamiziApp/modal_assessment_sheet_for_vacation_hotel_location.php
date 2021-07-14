@@ -66,7 +66,7 @@
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">No <span class="marks_weight">(0)</span></td>
   
@@ -481,11 +481,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="location_1_1_6_A_b" class="sum_vacation_hotel" type="radio"  name="location_1_1_6_A" ng-model="location_1_1_6_A" value="2" ng-checked="location_1_1_6_A_b" ng-focus="check_location_1_1_6_A_cm()" />
+		<input id="location_1_1_6_A_b" class="sum_vacation_hotel" type="radio"  name="location_1_1_6_A" ng-model="location_1_1_6_A" value="3" ng-checked="location_1_1_6_A_b" ng-focus="check_location_1_1_6_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -535,11 +535,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Yes<span class="marks_weight">(10)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">No<span class="marks_weight">(0)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="location_1_2_1_A_a" class="sum_vacation_hotel" type="radio" name="location_1_2_1_A" ng-model="location_1_2_1_A" value="10" ng-checked="location_1_2_1_A_a" ng-focus="check_location_1_2_1_A_cm()" />
+		<input id="location_1_2_1_A_a" class="sum_vacation_hotel" type="radio" name="location_1_2_1_A" ng-model="location_1_2_1_A" value="0" ng-checked="location_1_2_1_A_a" ng-focus="check_location_1_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -554,11 +554,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">No<span class="marks_weight">(0)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Yes<span class="marks_weight">(10)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="location_1_2_1_A_b" class="sum_vacation_hotel" type="radio"  name="location_1_2_1_A" ng-model="location_1_2_1_A" value="0" ng-checked="location_1_2_1_A_b" ng-focus="check_location_1_2_1_A_cm()" />
+		<input id="location_1_2_1_A_b" class="sum_vacation_hotel" type="radio"  name="location_1_2_1_A" ng-model="location_1_2_1_A" value="10" ng-checked="location_1_2_1_A_b" ng-focus="check_location_1_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -692,11 +692,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Blends in well<span class="marks_weight">(1)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Blends in well<span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="location_1_2_3_A_b" class="sum_vacation_hotel" type="radio"  name="location_1_2_3_A" ng-model="location_1_2_3_A" value="1" ng-checked="location_1_2_3_A_b" ng-focus="check_location_1_2_3_A_cm()" />
+		<input id="location_1_2_3_A_b" class="sum_vacation_hotel" type="radio"  name="location_1_2_3_A" ng-model="location_1_2_3_A" value="3" ng-checked="location_1_2_3_A_b" ng-focus="check_location_1_2_3_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

@@ -72,8 +72,8 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_7_1_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_7_1_1_A_cm" ng-model="guest_bathrooms_7_1_1_A_cm" ng-focus="check_guest_bathrooms_7_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+ <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="guest_bathrooms_7_2_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_7_2_1_A_cm" ng-model="guest_bathrooms_7_2_1_A_cm" ng-focus="check_guest_bathrooms_7_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -155,8 +155,8 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_7_1_1_B_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_7_1_1_B_cm" ng-model="guest_bathrooms_7_1_1_B_cm" ng-focus="check_guest_bathrooms_7_1_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+<td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="guest_bathrooms_7_2_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_7_2_1_A_cm" ng-model="guest_bathrooms_7_2_1_A_cm" ng-focus="check_guest_bathrooms_7_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1040,8 +1040,8 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_7_3_1_B_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_7_3_1_B_cm" ng-model="guest_bathrooms_7_3_1_B_cm" ng-focus="check_guest_bathrooms_7_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+<td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <input id="guest_bathrooms_7_2_1_A_cm" class="sum_villa_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_7_2_1_A_cm" ng-model="guest_bathrooms_7_2_1_A_cm" ng-focus="check_guest_bathrooms_7_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 

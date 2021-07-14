@@ -36,8 +36,6 @@
 
 
 <!-- 13_1_1_A -->
-<!-- 13_1_1_A -->
-
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -219,7 +217,7 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
+  <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
   <input id="human_resources_13_1_1_D_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="human_resources_13_1_1_D_cm" ng-model="human_resources_13_1_1_D_cm" ng-focus="check_human_resources_13_1_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -258,10 +256,10 @@
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">(d)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Highly trained, experienced and certified  <span class="marks_weight">(20)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(d)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Highly trained, experienced and certified  <span class="marks_weight">(20)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="human_resources_13_1_1_D_d" class="sum_motel" type="radio"  name="human_resources_13_1_1_D" ng-model="human_resources_13_1_1_D" value="20" ng-checked="human_resources_13_1_1_D_d" ng-focus="check_human_resources_13_1_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
@@ -311,7 +309,6 @@
   <input id="human_resources_13_1_1_E_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="human_resources_13_1_1_E_a_cm" ng-model="human_resources_13_1_1_E_a_cm" ng-focus="check_human_resources_13_1_1_E_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -412,11 +409,10 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_13_2_1_text" name="sundry_services_13_2_1_text" ng-model="sundry_services_13_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_13_2_1_text" name="human_resources_13_2_1_text" ng-model="human_resources_13_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 13_2_1_A -->
 <!-- 13_2_1_A -->
 
 
@@ -455,7 +451,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_13_2_1_A_c" class="sum_motel" type="radio"  name="human_resources_13_2_1_A" ng-model="human_resources_13_2_1_A" value="20" ng-checked="human_resources_13_2_1_A_c" ng-focus="check_human_resources_13_2_1_A_cm()" />
+		<input id="human_resources_13_2_1_A_b" class="sum_motel" type="radio"  name="human_resources_13_2_1_A" ng-model="human_resources_13_2_1_A" value="20" ng-checked="human_resources_13_2_1_A_b" ng-focus="check_human_resources_13_2_1_A_bm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -497,7 +493,6 @@
 </tr>
 
 
-<!-- 13_2_1_B -->
 <!-- 13_2_1_B -->
 
 
@@ -566,11 +561,10 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_13_3_1_text" name="sundry_services_13_3_1_text" ng-model="sundry_services_13_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_13_3_1_text" name="human_resources_13_3_1_text" ng-model="human_resources_13_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 13_3_1_A -->
 <!-- 13_3_1_A -->
 
 
@@ -609,7 +603,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="human_resources_13_3_1_A_c" class="sum_motel" type="radio"  name="human_resources_13_3_1_A" ng-model="human_resources_13_3_1_A" value="15" ng-checked="human_resources_13_3_1_A_c" ng-focus="check_human_resources_13_3_1_A_cm()" />
+		<input id="human_resources_13_3_1_A_b" class="sum_motel" type="radio"  name="human_resources_13_3_1_A" ng-model="human_resources_13_3_1_A" value="15" ng-checked="human_resources_13_3_1_A_b" ng-focus="check_human_resources_13_3_1_A_bm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -651,7 +645,6 @@
 </tr>
 
 
-<!-- 13_3_1_B -->
 <!-- 13_3_1_B -->
 
 
@@ -721,12 +714,11 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="13" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_13_4_1_text" name="sundry_services_13_4_1_text" ng-model="sundry_services_13_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_13_4_1_text" name="human_resources_13_4_1_text" ng-model="human_resources_13_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
 
-<!-- 13_4_1_A -->
 <!-- 13_4_1_A -->
 
 
@@ -766,12 +758,11 @@
   <input id="human_resources_13_4_1_A_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="human_resources_13_4_1_A_a_cm" ng-model="human_resources_13_4_1_A_a_cm" ng-focus="check_human_resources_13_4_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">English/French  <span class="marks_weight">(4)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">English <span class="marks_weight">(4)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
@@ -807,7 +798,6 @@
   </td>
 </tr>
 
-<!-- 13_4_1_B -->
 <!-- 13_4_1_B -->
 
 
@@ -847,12 +837,11 @@
   <input id="human_resources_13_4_1_B_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="human_resources_13_4_1_B_a_cm" ng-model="human_resources_13_4_1_B_a_cm" ng-focus="check_human_resources_13_4_1_B_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">English/French  <span class="marks_weight">(4)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">English<span class="marks_weight">(4)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
@@ -888,7 +877,6 @@
   </td>
 </tr>
 
-<!-- 13_4_1_C -->
 <!-- 13_4_1_C -->
 
 
@@ -928,13 +916,11 @@
   <input id="human_resources_13_4_1_C_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="human_resources_13_4_1_C_a_cm" ng-model="human_resources_13_4_1_C_a_cm" ng-focus="check_human_resources_13_4_1_C_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(b)</td>
-  <td style="vertical-align:middle" class="border-mdblue">English/French  <span class="marks_weight">(5)</span></td>
-  
+  <td style="vertical-align:middle" class="border-mdblue">English<span class="marks_weight">(5)</span></td>
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
 		<input id="human_resources_13_4_1_C_b" class="sum_motel" type="checkbox"  name="human_resources_13_4_1_C_b" ng-model="human_resources_13_4_1_C_b" value="5" ng-checked="human_resources_13_4_1_C_bTT" ng-focus="check_human_resources_13_4_1_C_b_cm()"/>
@@ -991,7 +977,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="4" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_13_5_1_text" name="sundry_services_13_5_1_text" ng-model="sundry_services_13_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_13_5_1_text" name="human_resources_13_5_1_text" ng-model="human_resources_13_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1065,12 +1051,11 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="15" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_13_6_1_text" name="sundry_services_13_6_1_text" ng-model="sundry_services_13_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_13_6_1_text" name="human_resources_13_6_1_text" ng-model="human_resources_13_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
 <!-- 13_6_1_A-->
-<!-- 13_6_1_A -->
 
 
 <tr ng-class=""> 
@@ -1314,7 +1299,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="22" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_13_7_1_text" name="sundry_services_13_7_1_text" ng-model="sundry_services_13_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_13_7_1_text" name="human_resources_13_7_1_text" ng-model="human_resources_13_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1369,7 +1354,6 @@
 
 
 <!-- 13_7_1_B -->
-<!-- 13_7_1_B -->
 
 
 <tr ng-class=""> 
@@ -1417,7 +1401,6 @@
 </tr>
 
 
-<!-- 13_7_1_C -->
 <!-- 13_7_1_C -->
 
 <tr ng-class=""> 
@@ -1482,7 +1465,6 @@
 
 
 <!-- 13_7_1_D -->
-<!-- 13_7_1_D -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1546,7 +1528,6 @@
 
 
 <!-- 13_7_1_E -->
-<!-- 13_7_1_E -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1609,7 +1590,6 @@
 </tr>
 
 <!-- 13_7_1_F -->
-<!-- 13_7_1_F -->
 
 
 <tr ng-class=""> 
@@ -1648,9 +1628,8 @@
   <input id="human_resources_13_7_1_F_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="human_resources_13_7_1_F_a_cm" ng-model="human_resources_13_7_1_F_a_cm" ng-focus="check_human_resources_13_7_1_F_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">(b)</td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col">Newspapers<span class="marks_weight">(1)</span></td>
@@ -1690,7 +1669,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="12" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_13_8_1_text" name="sundry_services_13_8_1_text" ng-model="sundry_services_13_8_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="human_resources_13_8_1_text" name="human_resources_13_8_1_text" ng-model="human_resources_13_8_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 

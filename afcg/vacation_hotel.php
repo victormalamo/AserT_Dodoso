@@ -102,28 +102,24 @@
 							  <th data-orderable="false" style="vertical-align:middle; width:150px!important" class="border-mdblue">ASSESSOR'S COMMENTS</th>
 							</tr>							
 						  </thead>
-<<<<<<< HEAD
 						  <tbody style="font-size:15px">
 						  
-						  <?php include('msimamiziApp/modal_assessment_sheet_for_town_hotel_lobby_lounge_other_public_areas.php');?>
-						  <!--php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_building.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_front_office.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_lobby_lounge_other_public_areas.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_function_rooms.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_restaurants.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_bar.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_kitchen.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_guest_rooms.php');?>
-=======
-
->>>>>>> edf6dad6bddd18e9b7a9afeef91c686febb95bf5
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_guest_bathrooms.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_suites.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_hygiene_and_sanitation.php');?>		
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_safety_and_security.php');?> 
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_sundry_services.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_human_resources.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_general.php');?-->
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_location.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_building.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_front_office.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_lobby_lounge_other_public_areas.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_function_rooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_restaurants.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_bar.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_kitchen.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_guest_rooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_guest_bathrooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_suites.php');?>
+						 <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_hygiene_and_sanitation.php');?>		
+						   <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_safety_and_security.php');?> 
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_sundry_services.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_human_resources.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_vacation_hotel_general.php');?>
 						  
 						  </tbody>
 						</table>

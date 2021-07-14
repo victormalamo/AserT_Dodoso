@@ -1,9 +1,9 @@
-app.vacation_hotel_tallying_ctrl = function($timeout, $scope, $http, focus){
+app.tented_camp_tallying_ctrl = function($timeout, $scope, $http, focus){
 
-		 $scope.fetch_vacation_hotel_items_for_tallying = function(assessment_id, assessor_category){
+		 $scope.fetch_tented_camp_items_for_tallying = function(assessment_id, assessor_category){
 			$http({
 			method:"POST",
-			url:"msimamiziApp/sajili_mtumiaji/fetch_vacation_hotel_items_for_tallying.php",
+			url:"msimamiziApp/sajili_mtumiaji/fetch_tented_camp_items_for_tallying.php",
 			data:{'assessment_id':assessment_id, 'assessor_category':assessor_category }
 			}).success(function(data){
 			$scope.scores_columns = 6;
@@ -252,18 +252,18 @@ app.vacation_hotel_tallying_ctrl = function($timeout, $scope, $http, focus){
 			
 												
 			//OPEN SHEET							
-			$scope.open_tallying_sheet_for_vacation_hotel();	
+			$scope.open_tallying_sheet_for_tented_camp();	
 			
 			});
 	};
 	
 	
-	$scope.open_tallying_sheet_for_vacation_hotel = function(){
-		var modal_popup = angular.element('#tallying_sheet_for_vacation_hotel_panel');
+	$scope.open_tallying_sheet_for_tented_camp = function(){
+		var modal_popup = angular.element('#tallying_sheet_for_tented_camp_panel');
 		modal_popup.modal('show');
 	};
-	$scope.close_tallying_sheet_for_vacation_hotel = function(){
-		var modal_popup = angular.element('#tallying_sheet_for_vacation_hotel_panel');
+	$scope.close_tallying_sheet_for_tented_camp = function(){
+		var modal_popup = angular.element('#tallying_sheet_for_tented_camp_panel');
 		modal_popup.modal('hide');
 	};
 	

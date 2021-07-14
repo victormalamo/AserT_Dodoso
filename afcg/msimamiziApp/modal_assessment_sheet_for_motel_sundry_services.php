@@ -35,7 +35,6 @@
 </tr>
 
 <!-- 12_1_1_A -->
-<!-- 12_1_1_A -->
 
 
 <tr ng-class=""> 
@@ -83,7 +82,6 @@
 </tr>
 
 <!-- 12_1_1_B -->
-<!-- 12_1_1_B -->
 
 
 <tr ng-class=""> 
@@ -130,7 +128,6 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 12_1_1_C -->
 <!-- 12_1_1_C -->
 
 
@@ -348,7 +345,7 @@
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_1_1_1">Laundry and Dry Cleaning Service</td>
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
-  <td rowspan="17" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
+  <td rowspan="15" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
   <textarea id="sundry_services_12_4_1_text" name="sundry_services_12_4_1_text" ng-model="sundry_services_12_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
@@ -427,7 +424,7 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
   <input id="sundry_services_12_4_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="sundry_services_12_4_1_B_cm" ng-model="sundry_services_12_4_1_B_cm" ng-focus="check_sundry_services_12_4_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -463,22 +460,7 @@
   </td>
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(d)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Express Service <span class="marks_weight">(10)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_12_4_1_B_d" class="sum_motel" type="radio"  name="sundry_services_12_4_1_B" ng-model="sundry_services_12_4_1_B" value="10" ng-checked="sundry_services_12_4_1_B_d" ng-focus="check_sundry_services_12_4_1_B_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
+
 
 
 <!-- 12_4_1_C -->
@@ -554,7 +536,7 @@
 		</div>
 	</div>
   </td>
-  <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
+  <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
   <input id="sundry_services_12_4_1_D_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="sundry_services_12_4_1_D_cm" ng-model="sundry_services_12_4_1_D_cm" ng-focus="check_sundry_services_12_4_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
@@ -575,12 +557,12 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 <tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
-  <td style="vertical-align:middle" class="border-mdblue">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Same day  <span class="marks_weight">(6)</span></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">(c)</td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col">Same day  <span class="marks_weight">(6)</span></td>
   
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
+  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
 		<input id="sundry_services_12_4_1_D_c" class="sum_motel" type="radio"  name="sundry_services_12_4_1_D" ng-model="sundry_services_12_4_1_D" value="6" ng-checked="sundry_services_12_4_1_D_c" ng-focus="check_sundry_services_12_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
@@ -590,20 +572,5 @@
   </td>
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
-<tr ng-class=""> 
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
-  <td style="vertical-align:top; font-weight:bold" class="border-mdblue last_row_col"></td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">(d)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col">Express Service <span class="marks_weight">(10)</span></td>
-  
-  <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
-	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_12_4_1_D_d" class="sum_motel" type="radio"  name="sundry_services_12_4_1_D" ng-model="sundry_services_12_4_1_D" value="10" ng-checked="sundry_services_12_4_1_D_d" ng-focus="check_sundry_services_12_4_1_D_cm()" />
-		<div class="state p-success-o" style="width:13px!important">
-		<label></label>
-		</div>
-	</div>
-  </td>
-  <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
-</tr>
+
 

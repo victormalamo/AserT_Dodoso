@@ -102,22 +102,22 @@
 						  </thead>
 						  <tbody style="font-size:15px">
 						  
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_location.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_building.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_reception.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_lobby_lounge_other_public_areas.php');?-->
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_location.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_building.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_reception.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_dining_area.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_service.php');?>
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_dining_area.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_bar.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_kitchen.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_guest_rooms.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_entertainment.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_bar.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_kitchen.php');?>
+						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_guest_rooms.php');?-->
 						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_guest_bathrooms.php');?-->
 						  <!--php include('msimamiziApp/modal_assessment_sheet_for_restaurant_suites.php');?-->
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_hygiene_and_sanitation.php');?-->		
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_safety_and_security.php');?> 
-						  <!--?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_sundry_services.php');?-->
-						  <!--php include('msimamiziApp/modal_assessment_sheet_for_restaurant_human_resources.php');?-->
-						  <!---?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_general.php');?-->
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_hygiene_and_sanitation.php');?>		
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_safety_and_security.php');?> 
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_sundry_services.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_human_resources.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_restaurant_general.php');?>
 						  
 						  </tbody>
 						</table>
@@ -147,7 +147,7 @@
 <!--app-->
 <script src="msimamiziApp/msimamiziApp.js"></script>
 <!--controllers-->
-<script src="msimamiziApp/controllers/watumiaji_Ctrl.js"></script>
+<script src="msimamiziApp/controllers/restaurant_watumiaji_Ctrl.js"></script>
 <!--restaurant-->
 <script src="msimamiziApp/controllers/restaurant_ctrl.js"></script>
 <script src="msimamiziApp/controllers/restaurant_tallying_ctrl.js"></script>

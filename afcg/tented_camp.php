@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html ng-app="msimamiziApp" ng-controller="watumiajiController" class="restade" lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
@@ -115,11 +115,11 @@
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_guest_rooms.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_guest_bathrooms.php');?>
 						  <?php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_suites.php');?>
-						  <!---php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_hygiene_and_sanitation.php');?>		
-						  <php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_safety_and_security.php');?> 
-						  <php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_sundry_services.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_human_resources.php');?>
-						  <php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_general.php');?-->
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_hygiene_and_sanitation.php');?>		
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_safety_and_security.php');?> 
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_sundry_services.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_human_resources.php');?>
+						  <?php include('msimamiziApp/modal_assessment_sheet_for_tented_camp_general.php');?>
 						  
 						  </tbody>
 						</table>
@@ -149,7 +149,7 @@
 <!--app-->
 <script src="msimamiziApp/msimamiziApp.js"></script>
 <!--controllers-->
-<script src="msimamiziApp/controllers/watumiaji_Ctrl.js"></script>
+<script src="msimamiziApp/controllers/tented_watumiaji_Ctrl.js"></script>
 <!--tented_camp-->
 <script src="msimamiziApp/controllers/tented_camp_ctrl.js"></script>
 <script src="msimamiziApp/controllers/tented_camp_tallying_ctrl.js"></script>

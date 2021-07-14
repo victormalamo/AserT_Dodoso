@@ -443,11 +443,11 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue">(a)</td>
-  <td style="vertical-align:middle" class="border-mdblue">Natural aeration <span class="marks_weight">(2)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue">Natural aeration <span class="marks_weight">(3)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="general_16_3_1_C_a" class="sum_lodge" type="checkbox" name="general_16_3_1_C_a" ng-model="general_16_3_1_C_a" value="2" ng-checked="general_16_3_1_C_aTT" ng-focus="check_general_16_3_1_C_a_cm()"/>
+		<input id="general_16_3_1_C_a" class="sum_lodge" type="checkbox" name="general_16_3_1_C_a" ng-model="general_16_3_1_C_a" value="3" ng-checked="general_16_3_1_C_aTT" ng-focus="check_general_16_3_1_C_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>

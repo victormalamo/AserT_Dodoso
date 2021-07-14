@@ -332,7 +332,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">(c)</td>
-  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Very Good<span class="marks_weight">(5)</span></td>
+  <td style="vertical-align:middle" class="border-mdblue last_row_col_sub_section">Excellent<span class="marks_weight">(5)</span></td>
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
@@ -1362,8 +1362,6 @@
 
 <!-- 6.4 -->
 
-<!-- 6.5 -->
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; width:16px; font-weight:bold" class="border-mdblue borderless-bottom row_1_1"><div ng-class="{number_pre:true}">6.4</div></td>
@@ -1373,7 +1371,7 @@
   <td style="vertical-align:middle;" align="center" class="border-mdblue borderless-bottom"></td>
 </tr>
 							
-<!-- 6.5.1 -->
+<!-- 6.4.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1383,11 +1381,11 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="40" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="bar_6_5_1_text" name="bar_6_5_1_text" ng-model="bar_6_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="bar_6_4_1_text" name="bar_6_4_1_text" ng-model="bar_6_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 6.5.1.A -->
+<!-- 6.4.1.A -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1407,14 +1405,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_A_a" class="sum_motel" type="radio" name="bar_6_5_1_A" ng-model="bar_6_5_1_A" value="1" ng-checked="bar_6_5_1_A_a" ng-focus="check_bar_6_5_1_A_cm()" />
+		<input id="bar_6_4_1_A_a" class="sum_motel" type="radio" name="bar_6_4_1_A" ng-model="bar_6_4_1_A" value="1" ng-checked="bar_6_4_1_A_a" ng-focus="check_bar_6_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_5_1_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_A_cm" ng-model="bar_6_5_1_A_cm" ng-focus="check_bar_6_5_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_A_cm" ng-model="bar_6_4_1_A_cm" ng-focus="check_bar_6_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1425,7 +1423,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_A_b" class="sum_motel" type="radio"  name="bar_6_5_1_A" ng-model="bar_6_5_1_A" value="3" ng-checked="bar_6_5_1_A_b" ng-focus="check_bar_6_5_1_A_cm()" />
+		<input id="bar_6_4_1_A_b" class="sum_motel" type="radio"  name="bar_6_4_1_A" ng-model="bar_6_4_1_A" value="3" ng-checked="bar_6_4_1_A_b" ng-focus="check_bar_6_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1434,7 +1432,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.5.1.B -->
+<!-- 6.4.1.B -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1453,14 +1451,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_B_a" class="sum_motel" type="radio" name="bar_6_5_1_B" ng-model="bar_6_5_1_B" value="1" ng-checked="bar_6_5_1_B_a" ng-focus="check_bar_6_5_1_B_cm()" />
+		<input id="bar_6_4_1_B_a" class="sum_motel" type="radio" name="bar_6_4_1_B" ng-model="bar_6_4_1_B" value="1" ng-checked="bar_6_4_1_B_a" ng-focus="check_bar_6_4_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_5_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_B_cm" ng-model="bar_6_5_1_B_cm" ng-focus="check_bar_6_5_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_B_cm" ng-model="bar_6_4_1_B_cm" ng-focus="check_bar_6_4_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1471,7 +1469,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_B_b" class="sum_motel" type="radio"  name="bar_6_5_1_B" ng-model="bar_6_5_1_B" value="3" ng-checked="bar_6_5_1_B_b" ng-focus="check_bar_6_5_1_B_cm()" />
+		<input id="bar_6_4_1_B_b" class="sum_motel" type="radio"  name="bar_6_4_1_B" ng-model="bar_6_4_1_B" value="3" ng-checked="bar_6_4_1_B_b" ng-focus="check_bar_6_4_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1487,7 +1485,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_B_c" class="sum_motel" type="radio"  name="bar_6_5_1_B" ng-model="bar_6_5_1_B" value="5" ng-checked="bar_6_5_1_B_c" ng-focus="check_bar_6_5_1_B_cm()" />
+		<input id="bar_6_4_1_B_c" class="sum_motel" type="radio"  name="bar_6_4_1_B" ng-model="bar_6_4_1_B" value="5" ng-checked="bar_6_4_1_B_c" ng-focus="check_bar_6_4_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1496,7 +1494,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.5.1.C -->
+<!-- 6.4.1.C -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1515,14 +1513,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_C_a" class="sum_motel" type="radio" name="bar_6_5_1_C" ng-model="bar_6_5_1_C" value="2" ng-checked="bar_6_5_1_C_a" ng-focus="check_bar_6_5_1_C_cm()" />
+		<input id="bar_6_4_1_C_a" class="sum_motel" type="radio" name="bar_6_4_1_C" ng-model="bar_6_4_1_C" value="2" ng-checked="bar_6_4_1_C_a" ng-focus="check_bar_6_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_5_1_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_C_cm" ng-model="bar_6_5_1_C_cm" ng-focus="check_bar_6_5_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_C_cm" ng-model="bar_6_4_1_C_cm" ng-focus="check_bar_6_4_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1533,7 +1531,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_C_b" class="sum_motel" type="radio"  name="bar_6_5_1_C" ng-model="bar_6_5_1_C" value="3" ng-checked="bar_6_5_1_C_b" ng-focus="check_bar_6_5_1_C_cm()" />
+		<input id="bar_6_4_1_C_b" class="sum_motel" type="radio"  name="bar_6_4_1_C" ng-model="bar_6_4_1_C" value="3" ng-checked="bar_6_4_1_C_b" ng-focus="check_bar_6_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1549,7 +1547,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_C_c" class="sum_motel" type="radio"  name="bar_6_5_1_C" ng-model="bar_6_5_1_C" value="5" ng-checked="bar_6_5_1_C_c" ng-focus="check_bar_6_5_1_C_cm()" />
+		<input id="bar_6_4_1_C_c" class="sum_motel" type="radio"  name="bar_6_4_1_C" ng-model="bar_6_4_1_C" value="5" ng-checked="bar_6_4_1_C_c" ng-focus="check_bar_6_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1558,7 +1556,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.5.1.D -->
+<!-- 6.4.1.D -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1577,14 +1575,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_D_a" class="sum_motel" type="radio" name="bar_6_5_1_D" ng-model="bar_6_5_1_D" value="2" ng-checked="bar_6_5_1_D_a" ng-focus="check_bar_6_5_1_D_cm()" />
+		<input id="bar_6_4_1_D_a" class="sum_motel" type="radio" name="bar_6_4_1_D" ng-model="bar_6_4_1_D" value="2" ng-checked="bar_6_4_1_D_a" ng-focus="check_bar_6_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_5_1_D_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_D_cm" ng-model="bar_6_5_1_D_cm" ng-focus="check_bar_6_5_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_D_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_D_cm" ng-model="bar_6_4_1_D_cm" ng-focus="check_bar_6_4_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1595,7 +1593,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_D_b" class="sum_motel" type="radio"  name="bar_6_5_1_D" ng-model="bar_6_5_1_D" value="3" ng-checked="bar_6_5_1_D_b" ng-focus="check_bar_6_5_1_D_cm()" />
+		<input id="bar_6_4_1_D_b" class="sum_motel" type="radio"  name="bar_6_4_1_D" ng-model="bar_6_4_1_D" value="3" ng-checked="bar_6_4_1_D_b" ng-focus="check_bar_6_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1611,7 +1609,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_D_c" class="sum_motel" type="radio"  name="bar_6_5_1_D" ng-model="bar_6_5_1_D" value="5" ng-checked="bar_6_5_1_D_c" ng-focus="check_bar_6_5_1_D_cm()" />
+		<input id="bar_6_4_1_D_c" class="sum_motel" type="radio"  name="bar_6_4_1_D" ng-model="bar_6_4_1_D" value="5" ng-checked="bar_6_4_1_D_c" ng-focus="check_bar_6_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1621,7 +1619,7 @@
 </tr>
 
 
-<!-- 6.5.1.E -->
+<!-- 6.4.1.E -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1640,7 +1638,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="bar_6_5_1_E_a" class="sum_motel" type="checkbox" name="bar_6_5_1_E_a" ng-model="bar_6_5_1_E_a" value="1" ng-checked="bar_6_5_1_E_aTT" ng-focus="check_bar_6_5_1_E_a_cm()"/>
+		<input id="bar_6_4_1_E_a" class="sum_motel" type="checkbox" name="bar_6_4_1_E_a" ng-model="bar_6_4_1_E_a" value="1" ng-checked="bar_6_4_1_E_aTT" ng-focus="check_bar_6_4_1_E_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1656,10 +1654,9 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="bar_6_5_1_E_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_E_a_cm" ng-model="bar_6_5_1_E_a_cm" ng-focus="check_bar_6_5_1_E_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_E_a_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_E_a_cm" ng-model="bar_6_4_1_E_a_cm" ng-focus="check_bar_6_4_1_E_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
-
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1668,7 +1665,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="bar_6_5_1_E_b" class="sum_motel" type="checkbox"  name="bar_6_5_1_E_b" ng-model="bar_6_5_1_E_b" value="1" ng-checked="bar_6_5_1_E_bTT" ng-focus="check_bar_6_5_1_E_b_cm()"/>
+		<input id="bar_6_4_1_E_b" class="sum_motel" type="checkbox"  name="bar_6_4_1_E_b" ng-model="bar_6_4_1_E_b" value="1" ng-checked="bar_6_4_1_E_bTT" ng-focus="check_bar_6_4_1_E_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1676,7 +1673,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="bar_6_5_1_E_b_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_E_b_cm" ng-model="bar_6_5_1_E_b_cm" ng-focus="check_bar_6_5_1_E_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_E_b_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_E_b_cm" ng-model="bar_6_4_1_E_b_cm" ng-focus="check_bar_6_4_1_E_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1688,7 +1685,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="bar_6_5_1_E_c" class="sum_motel" type="checkbox"  name="bar_6_5_1_E_c" ng-model="bar_6_5_1_E_c" value="2" ng-checked="bar_6_5_1_E_cTT" ng-focus="check_bar_6_5_1_E_c_cm()"/>
+		<input id="bar_6_4_1_E_c" class="sum_motel" type="checkbox"  name="bar_6_4_1_E_c" ng-model="bar_6_4_1_E_c" value="2" ng-checked="bar_6_4_1_E_cTT" ng-focus="check_bar_6_4_1_E_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1696,7 +1693,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="bar_6_5_1_E_c_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_E_c_cm" ng-model="bar_6_5_1_E_c_cm" ng-focus="check_bar_6_5_1_E_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_E_c_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_E_c_cm" ng-model="bar_6_4_1_E_c_cm" ng-focus="check_bar_6_4_1_E_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1707,7 +1704,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="bar_6_5_1_E_d" class="sum_motel" type="checkbox"  name="bar_6_5_1_E_d" ng-model="bar_6_5_1_E_d" value="1" ng-checked="bar_6_5_1_E_dTT" ng-focus="check_bar_6_5_1_E_d_cm()" />
+		<input id="bar_6_4_1_E_d" class="sum_motel" type="checkbox"  name="bar_6_4_1_E_d" ng-model="bar_6_4_1_E_d" value="1" ng-checked="bar_6_4_1_E_dTT" ng-focus="check_bar_6_4_1_E_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1715,7 +1712,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="bar_6_5_1_E_d_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_E_d_cm" ng-model="bar_6_5_1_E_d_cm" ng-focus="check_bar_6_5_1_E_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_E_d_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_E_d_cm" ng-model="bar_6_4_1_E_d_cm" ng-focus="check_bar_6_4_1_E_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1726,7 +1723,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="bar_6_5_1_E_e" class="sum_motel" type="checkbox"  name="bar_6_5_1_E_e" ng-model="bar_6_5_1_E_e" value="1" ng-checked="bar_6_5_1_E_eTT" ng-focus="check_bar_6_5_1_E_e_cm()" />
+		<input id="bar_6_4_1_E_e" class="sum_motel" type="checkbox"  name="bar_6_4_1_E_e" ng-model="bar_6_4_1_E_e" value="1" ng-checked="bar_6_4_1_E_eTT" ng-focus="check_bar_6_4_1_E_e_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1734,7 +1731,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="bar_6_5_1_E_e_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_E_e_cm" ng-model="bar_6_5_1_E_e_cm" ng-focus="check_bar_6_5_1_E_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_E_e_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_E_e_cm" ng-model="bar_6_4_1_E_e_cm" ng-focus="check_bar_6_4_1_E_e()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1745,7 +1742,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="bar_6_5_1_E_f" class="sum_motel" type="checkbox"  name="bar_6_5_1_E_f" ng-model="bar_6_5_1_E_f" value="1" ng-checked="bar_6_5_1_E_fTT" ng-focus="check_bar_6_5_1_E_f_cm()" />
+		<input id="bar_6_4_1_E_f" class="sum_motel" type="checkbox"  name="bar_6_4_1_E_f" ng-model="bar_6_4_1_E_f" value="1" ng-checked="bar_6_4_1_E_fTT" ng-focus="check_bar_6_4_1_E_f_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1753,7 +1750,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="bar_6_5_1_E_f_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_E_f_cm" ng-model="bar_6_5_1_E_f_cm" ng-focus="check_bar_6_5_1_E_f()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_E_f_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_E_f_cm" ng-model="bar_6_4_1_E_f_cm" ng-focus="check_bar_6_4_1_E_f()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1764,7 +1761,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="bar_6_5_1_E_g" class="sum_motel" type="checkbox"  name="bar_6_5_1_E_g" ng-model="bar_6_5_1_E_g" value="1" ng-checked="bar_6_5_1_E_gTT" ng-focus="check_bar_6_5_1_E_g_cm()" />
+		<input id="bar_6_4_1_E_g" class="sum_motel" type="checkbox"  name="bar_6_4_1_E_g" ng-model="bar_6_4_1_E_g" value="1" ng-checked="bar_6_4_1_E_gTT" ng-focus="check_bar_6_4_1_E_g_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1772,7 +1769,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="bar_6_5_1_E_g_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_E_g_cm" ng-model="bar_6_5_1_E_g_cm" ng-focus="check_bar_6_5_1_E_g()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_E_g_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_E_g_cm" ng-model="bar_6_4_1_E_g_cm" ng-focus="check_bar_6_4_1_E_g()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1783,7 +1780,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="bar_6_5_1_E_h" class="sum_motel" type="checkbox"  name="bar_6_5_1_E_h" ng-model="bar_6_5_1_E_h" value="1" ng-checked="bar_6_5_1_E_hTT" ng-focus="check_bar_6_5_1_E_h_cm()" />
+		<input id="bar_6_4_1_E_h" class="sum_motel" type="checkbox"  name="bar_6_4_1_E_h" ng-model="bar_6_4_1_E_h" value="1" ng-checked="bar_6_4_1_E_hTT" ng-focus="check_bar_6_4_1_E_h_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1791,11 +1788,11 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_5_1_E_h_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_E_h_cm" ng-model="bar_6_5_1_E_h_cm" ng-focus="check_bar_6_5_1_E_h()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_E_h_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_E_h_cm" ng-model="bar_6_4_1_E_h_cm" ng-focus="check_bar_6_4_1_E_h()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
-<!-- 6.5.1.F -->
+<!-- 6.4.1.F -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1814,14 +1811,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_F_a" class="sum_motel" type="radio" name="bar_6_5_1_F" ng-model="bar_6_5_1_F" value="1" ng-checked="bar_6_5_1_F_a" ng-focus="check_bar_6_5_1_F_cm()" />
+		<input id="bar_6_4_1_F_a" class="sum_motel" type="radio" name="bar_6_4_1_F" ng-model="bar_6_4_1_F" value="1" ng-checked="bar_6_4_1_F_a" ng-focus="check_bar_6_4_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_5_1_F_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_F_cm" ng-model="bar_6_5_1_F_cm" ng-focus="check_bar_6_5_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_F_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_F_cm" ng-model="bar_6_4_1_F_cm" ng-focus="check_bar_6_4_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1832,7 +1829,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_F_b" class="sum_motel" type="radio"  name="bar_6_5_1_F" ng-model="bar_6_5_1_F" value="3" ng-checked="bar_6_5_1_F_b" ng-focus="check_bar_6_5_1_F_cm()" />
+		<input id="bar_6_4_1_F_b" class="sum_motel" type="radio"  name="bar_6_4_1_F" ng-model="bar_6_4_1_F" value="3" ng-checked="bar_6_4_1_F_b" ng-focus="check_bar_6_4_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1848,7 +1845,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_F_c" class="sum_motel" type="radio"  name="bar_6_5_1_F" ng-model="bar_6_5_1_F" value="5" ng-checked="bar_6_5_1_F_c" ng-focus="check_bar_6_5_1_F_cm()" />
+		<input id="bar_6_4_1_F_c" class="sum_motel" type="radio"  name="bar_6_4_1_F" ng-model="bar_6_4_1_F" value="5" ng-checked="bar_6_4_1_F_c" ng-focus="check_bar_6_4_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1857,7 +1854,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.5.1.G -->
+<!-- 6.4.1.G -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1876,14 +1873,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_G_a" class="sum_motel" type="radio" name="bar_6_5_1_G" ng-model="bar_6_5_1_G" value="0" ng-checked="bar_6_5_1_G_a" ng-focus="check_bar_6_5_1_G_cm()" />
+		<input id="bar_6_4_1_G_a" class="sum_motel" type="radio" name="bar_6_4_1_G" ng-model="bar_6_4_1_G" value="0" ng-checked="bar_6_4_1_G_a" ng-focus="check_bar_6_4_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_5_1_G_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_G_cm" ng-model="bar_6_5_1_G_cm" ng-focus="check_bar_6_5_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_G_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_G_cm" ng-model="bar_6_4_1_G_cm" ng-focus="check_bar_6_4_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1894,7 +1891,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_G_b" class="sum_motel" type="radio"  name="bar_6_5_1_G" ng-model="bar_6_5_1_G" value="2" ng-checked="bar_6_5_1_G_b" ng-focus="check_bar_6_5_1_G_cm()" />
+		<input id="bar_6_4_1_G_b" class="sum_motel" type="radio"  name="bar_6_4_1_G" ng-model="bar_6_4_1_G" value="2" ng-checked="bar_6_4_1_G_b" ng-focus="check_bar_6_4_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1903,7 +1900,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.5.1.H -->
+<!-- 6.4.1.H -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1922,14 +1919,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_H_a" class="sum_motel" type="radio" name="bar_6_5_1_H" ng-model="bar_6_5_1_H" value="0" ng-checked="bar_6_5_1_H_a" ng-focus="check_bar_6_5_1_H_cm()" />
+		<input id="bar_6_4_1_H_a" class="sum_motel" type="radio" name="bar_6_4_1_H" ng-model="bar_6_4_1_H" value="0" ng-checked="bar_6_4_1_H_a" ng-focus="check_bar_6_4_1_H_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_5_1_H_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_H_cm" ng-model="bar_6_5_1_H_cm" ng-focus="check_bar_6_5_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_H_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_H_cm" ng-model="bar_6_4_1_H_cm" ng-focus="check_bar_6_4_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1940,7 +1937,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_H_b" class="sum_motel" type="radio"  name="bar_6_5_1_H" ng-model="bar_6_5_1_H" value="1" ng-checked="bar_6_5_1_H_b" ng-focus="check_bar_6_5_1_H_cm()" />
+		<input id="bar_6_4_1_H_b" class="sum_motel" type="radio"  name="bar_6_4_1_H" ng-model="bar_6_4_1_H" value="1" ng-checked="bar_6_4_1_H_b" ng-focus="check_bar_6_4_1_H_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1956,7 +1953,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_H_c" class="sum_motel" type="radio"  name="bar_6_5_1_H" ng-model="bar_6_5_1_H" value="3" ng-checked="bar_6_5_1_H_c" ng-focus="check_bar_6_5_1_H_cm()" />
+		<input id="bar_6_4_1_H_c" class="sum_motel" type="radio"  name="bar_6_4_1_H" ng-model="bar_6_4_1_H" value="3" ng-checked="bar_6_4_1_H_c" ng-focus="check_bar_6_4_1_H_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1965,7 +1962,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.5.1.I -->
+<!-- 6.4.1.I -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -1984,14 +1981,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_I_a" class="sum_motel" type="radio" name="bar_6_5_1_I" ng-model="bar_6_5_1_I" value="0" ng-checked="bar_6_5_1_I_a" ng-focus="check_bar_6_5_1_I_cm()" />
+		<input id="bar_6_4_1_I_a" class="sum_motel" type="radio" name="bar_6_4_1_I" ng-model="bar_6_4_1_I" value="0" ng-checked="bar_6_4_1_I_a" ng-focus="check_bar_6_4_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="bar_6_5_1_I_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_I_cm" ng-model="bar_6_5_1_I_cm" ng-focus="check_bar_6_5_1_I()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_4_1_I_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_4_1_I_cm" ng-model="bar_6_4_1_I_cm" ng-focus="check_bar_6_4_1_I()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2002,7 +1999,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_I_b" class="sum_motel" type="radio"  name="bar_6_5_1_I" ng-model="bar_6_5_1_I" value="1" ng-checked="bar_6_5_1_I_b" ng-focus="check_bar_6_5_1_I_cm()" />
+		<input id="bar_6_4_1_I_b" class="sum_motel" type="radio"  name="bar_6_4_1_I" ng-model="bar_6_4_1_I" value="1" ng-checked="bar_6_4_1_I_b" ng-focus="check_bar_6_4_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2018,7 +2015,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_5_1_I_c" class="sum_motel" type="radio"  name="bar_6_5_1_I" ng-model="bar_6_5_1_I" value="3" ng-checked="bar_6_5_1_I_c" ng-focus="check_bar_6_5_1_I_cm()" />
+		<input id="bar_6_4_1_I_c" class="sum_motel" type="radio"  name="bar_6_4_1_I" ng-model="bar_6_4_1_I" value="3" ng-checked="bar_6_4_1_I_c" ng-focus="check_bar_6_4_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2027,7 +2024,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.6 -->
+<!-- 6.5 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2038,7 +2035,7 @@
   <td style="vertical-align:middle;" align="center" class="border-mdblue borderless-bottom"></td>
 </tr>
 							
-<!-- 6.6.1 -->
+<!-- 6.5.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2048,11 +2045,11 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="11" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="bar_6_6_1_text" name="bar_6_6_1_text" ng-model="bar_6_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="bar_6_5_1_text" name="bar_6_5_1_text" ng-model="bar_6_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 6.6.1.A-->
+<!-- 6.5.1.A-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2071,14 +2068,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_6_1_A_a" class="sum_motel" type="radio" name="bar_6_6_1_A" ng-model="bar_6_6_1_A" value="3" ng-checked="bar_6_6_1_A_a" ng-focus="check_bar_6_6_1_A_cm()" />
+		<input id="bar_6_5_1_A_a" class="sum_motel" type="radio" name="bar_6_5_1_A" ng-model="bar_6_5_1_A" value="3" ng-checked="bar_6_5_1_A_a" ng-focus="check_bar_6_5_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_6_1_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_6_1_A_cm" ng-model="bar_6_6_1_A_cm" ng-focus="check_bar_6_6_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_5_1_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_A_cm" ng-model="bar_6_5_1_A_cm" ng-focus="check_bar_6_5_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2089,7 +2086,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_6_1_A_b" class="sum_motel" type="radio"  name="bar_6_6_1_A" ng-model="bar_6_6_1_A" value="7" ng-checked="bar_6_6_1_A_b" ng-focus="check_bar_6_6_1_A_cm()" />
+		<input id="bar_6_5_1_A_b" class="sum_motel" type="radio"  name="bar_6_5_1_A" ng-model="bar_6_5_1_A" value="7" ng-checked="bar_6_5_1_A_b" ng-focus="check_bar_6_5_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2105,7 +2102,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_6_1_A_c" class="sum_motel" type="radio"  name="bar_6_6_1_A" ng-model="bar_6_6_1_A" value="10" ng-checked="bar_6_6_1_A_c" ng-focus="check_bar_6_6_1_A_cm()" />
+		<input id="bar_6_5_1_A_c" class="sum_motel" type="radio"  name="bar_6_5_1_A" ng-model="bar_6_5_1_A" value="10" ng-checked="bar_6_5_1_A_c" ng-focus="check_bar_6_5_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2115,7 +2112,7 @@
 </tr>
 
 
-<!-- 6.6.1.B-->
+<!-- 6.5.1.B-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2134,14 +2131,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_6_1_B_a" class="sum_motel" type="radio" name="bar_6_6_1_B" ng-model="bar_6_6_1_B" value="0" ng-checked="bar_6_6_1_B_a" ng-focus="check_bar_6_6_1_B_cm()" />
+		<input id="bar_6_5_1_B_a" class="sum_motel" type="radio" name="bar_6_5_1_B" ng-model="bar_6_5_1_B" value="0" ng-checked="bar_6_5_1_B_a" ng-focus="check_bar_6_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_6_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_6_1_B_cm" ng-model="bar_6_6_1_B_cm" ng-focus="check_bar_6_6_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_5_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_B_cm" ng-model="bar_6_5_1_B_cm" ng-focus="check_bar_6_5_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2152,7 +2149,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_6_1_B_b" class="sum_motel" type="radio"  name="bar_6_6_1_B" ng-model="bar_6_6_1_B" value="10" ng-checked="bar_6_6_1_B_b" ng-focus="check_bar_6_6_1_B_cm()" />
+		<input id="bar_6_5_1_B_b" class="sum_motel" type="radio"  name="bar_6_5_1_B" ng-model="bar_6_5_1_B" value="10" ng-checked="bar_6_5_1_B_b" ng-focus="check_bar_6_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2162,7 +2159,7 @@
 </tr>
 
 
-<!-- 6.6.1.C-->
+<!-- 6.5.1.C-->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2181,14 +2178,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_6_1_C_a" class="sum_motel" type="radio" name="bar_6_6_1_C" ng-model="bar_6_6_1_C" value="0" ng-checked="bar_6_6_1_C_a" ng-focus="check_bar_6_6_1_C_cm()" />
+		<input id="bar_6_5_1_C_a" class="sum_motel" type="radio" name="bar_6_5_1_C" ng-model="bar_6_5_1_C" value="0" ng-checked="bar_6_5_1_C_a" ng-focus="check_bar_6_5_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="bar_6_6_1_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_6_1_C_cm" ng-model="bar_6_6_1_C_cm" ng-focus="check_bar_6_6_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_5_1_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_5_1_C_cm" ng-model="bar_6_5_1_C_cm" ng-focus="check_bar_6_5_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2199,7 +2196,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_6_1_C_b" class="sum_motel" type="radio"  name="bar_6_6_1_C" ng-model="bar_6_6_1_C" value="10" ng-checked="bar_6_6_1_C_b" ng-focus="check_bar_6_6_1_C_cm()" />
+		<input id="bar_6_5_1_C_b" class="sum_motel" type="radio"  name="bar_6_5_1_C" ng-model="bar_6_5_1_C" value="10" ng-checked="bar_6_5_1_C_b" ng-focus="check_bar_6_5_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2208,7 +2205,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.7 -->
+<!-- 6.6 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2421,7 +2418,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.8 -->
+<!-- 6.7 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2432,7 +2429,7 @@
   <td style="vertical-align:middle;" align="center" class="border-mdblue borderless-bottom"></td>
 </tr>
 							
-<!-- 6.8.1 -->
+<!-- 6.7.1 -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2442,11 +2439,11 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="12" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="bar_6_8_1_text" name="bar_6_8_1_text" ng-model="bar_6_8_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="bar_6_7_1_text" name="bar_6_7_1_text" ng-model="bar_6_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
-<!-- 6.8.1.A -->
+<!-- 6.7.1.A -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2465,14 +2462,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_8_1_A_a" class="sum_motel" type="radio" name="bar_6_8_1_A" ng-model="bar_6_8_1_A" value="5" ng-checked="bar_6_8_1_A_a" ng-focus="check_bar_6_8_1_A_cm()" />
+		<input id="bar_6_7_1_A_a" class="sum_motel" type="radio" name="bar_6_7_1_A" ng-model="bar_6_7_1_A" value="5" ng-checked="bar_6_7_1_A_a" ng-focus="check_bar_6_7_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_8_1_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_8_1_A_cm" ng-model="bar_6_8_1_A_cm" ng-focus="check_bar_6_8_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_7_1_A_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_7_1_A_cm" ng-model="bar_6_7_1_A_cm" ng-focus="check_bar_6_7_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2483,7 +2480,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_8_1_A_b" class="sum_motel" type="radio"  name="bar_6_8_1_A" ng-model="bar_6_8_1_A" value="10" ng-checked="bar_6_8_1_A_b" ng-focus="check_bar_6_8_1_A_cm()" />
+		<input id="bar_6_7_1_A_b" class="sum_motel" type="radio"  name="bar_6_7_1_A" ng-model="bar_6_7_1_A" value="10" ng-checked="bar_6_7_1_A_b" ng-focus="check_bar_6_7_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2499,7 +2496,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_8_1_A_c" class="sum_motel" type="radio"  name="bar_6_8_1_A" ng-model="bar_6_8_1_A" value="15" ng-checked="bar_6_8_1_A_c" ng-focus="check_bar_6_8_1_A_cm()" />
+		<input id="bar_6_7_1_A_c" class="sum_motel" type="radio"  name="bar_6_7_1_A" ng-model="bar_6_7_1_A" value="15" ng-checked="bar_6_7_1_A_c" ng-focus="check_bar_6_7_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2508,7 +2505,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.8.1.B -->
+<!-- 6.7.1.B -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2527,14 +2524,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_8_1_B_a" class="sum_motel" type="radio" name="bar_6_8_1_B" ng-model="bar_6_8_1_B" value="0" ng-checked="bar_6_8_1_B_a" ng-focus="check_bar_6_8_1_B_cm()" />
+		<input id="bar_6_7_1_B_a" class="sum_motel" type="radio" name="bar_6_7_1_B" ng-model="bar_6_7_1_B" value="0" ng-checked="bar_6_7_1_B_a" ng-focus="check_bar_6_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="bar_6_8_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_8_1_B_cm" ng-model="bar_6_8_1_B_cm" ng-focus="check_bar_6_8_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_7_1_B_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_7_1_B_cm" ng-model="bar_6_7_1_B_cm" ng-focus="check_bar_6_7_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2545,7 +2542,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_8_1_B_b" class="sum_motel" type="radio"  name="bar_6_8_1_B" ng-model="bar_6_8_1_B" value="5" ng-checked="bar_6_8_1_B_b" ng-focus="check_bar_6_8_1_B_cm()" />
+		<input id="bar_6_7_1_B_b" class="sum_motel" type="radio"  name="bar_6_7_1_B" ng-model="bar_6_7_1_B" value="5" ng-checked="bar_6_7_1_B_b" ng-focus="check_bar_6_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2554,7 +2551,7 @@
   <!--td style="vertical-align:middle;" align="center" class="border-mdblue"></td-->
 </tr>
 
-<!-- 6.8.1.C -->
+<!-- 6.7.1.C -->
 
 <tr ng-class=""> 
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom"></td>
@@ -2573,14 +2570,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_8_1_C_a" class="sum_motel" type="radio" name="bar_6_8_1_C" ng-model="bar_6_8_1_C" value="3" ng-checked="bar_6_8_1_C_a" ng-focus="check_bar_6_8_1_C_cm()" />
+		<input id="bar_6_7_1_C_a" class="sum_motel" type="radio" name="bar_6_7_1_C" ng-model="bar_6_7_1_C" value="3" ng-checked="bar_6_7_1_C_a" ng-focus="check_bar_6_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="bar_6_8_1_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_8_1_C_cm" ng-model="bar_6_8_1_C_cm" ng-focus="check_bar_6_8_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="bar_6_7_1_C_cm" class="sum_motel_cm assessor_custom_marks_field" type="text" name="bar_6_7_1_C_cm" ng-model="bar_6_7_1_C_cm" ng-focus="check_bar_6_7_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2591,7 +2588,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_8_1_C_b" class="sum_motel" type="radio"  name="bar_6_8_1_C" ng-model="bar_6_8_1_C" value="7" ng-checked="bar_6_8_1_C_b" ng-focus="check_bar_6_8_1_C_cm()" />
+		<input id="bar_6_7_1_C_b" class="sum_motel" type="radio"  name="bar_6_7_1_C" ng-model="bar_6_7_1_C" value="7" ng-checked="bar_6_7_1_C_b" ng-focus="check_bar_6_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2607,7 +2604,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="bar_6_8_1_C_c" class="sum_motel" type="radio"  name="bar_6_8_1_C" ng-model="bar_6_8_1_C" value="10" ng-checked="bar_6_8_1_C_c" ng-focus="check_bar_6_8_1_C_cm()" />
+		<input id="bar_6_7_1_C_c" class="sum_motel" type="radio"  name="bar_6_7_1_C" ng-model="bar_6_7_1_C" value="10" ng-checked="bar_6_7_1_C_c" ng-focus="check_bar_6_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
