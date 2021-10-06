@@ -1,0 +1,257 @@
+
+.wrap_menu_dawati{
+    margin:0;
+    padding:0;
+   /* height:calc(100vh - 128px);*/
+}
+* {box-sizing: border-box;}
+.menu_dawati {
+    height:100%;
+	font-family:"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-size:1.3125rem;font-weight:400;max-width:100%;
+}
+
+/*PC*/
+
+.menu_dawati a {      
+    width:100%;
+	padding:10px 0px 10px 20px;
+    height:100%;    
+    display:block;   
+	transition:color 0.3s;
+    text-decoration:none;
+}
+
+.menu_dawati li {	
+	display:block;
+    width:100%;
+    color:#323a45;
+	/*background-color:#f1f1f1;*/
+    transition:background 0.3s;
+	/*border-bottom:1px solid rgba(190,190,190,0.3);*/
+}
+
+.menu_dawati > ul > li a{ color:#323a45;}
+.menu_dawati > ul > li:hover { background-color:#a98860; color:#ffffff/*background-color:#a98860*/}
+.menu_dawati > ul > li:hover a{ color:#ffffff}
+
+.menu_dawati > ul > li:hover > ul > li a{ color:#323a45 }
+.menu_dawati > ul > li:hover > ul > li:hover { background-color:#a98860; color:#ffffff/*background-color:#a98860*/}
+.menu_dawati > ul > li:hover > ul > li:hover a{ color:#ffffff}
+
+.menu_dawati > ul > li:hover > ul > li:hover > ul > li a{ color:#323a45 }
+.menu_dawati > ul > li:hover > ul > li:hover > ul > li:hover{ background-color:#a98860; color:#ffffff/*background-color:#a98860*/}
+.menu_dawati > ul > li:hover > ul > li:hover > ul > li:hover a{ color:#ffffff}
+
+.menu_dawati ul { height:100%}
+
+.menu_dawati ul {
+    position:relative;
+    overflow:visible;	
+	width:300px; /* Main Menu width */
+    /*border:1px solid rgba(190,190,190,1);*/
+    list-style:none;
+	margin:0; padding:0;
+    z-index:9;
+}
+
+.menu_dawati a.arrow::after, .menu_dawati > ul > li:hover > ul > li a.arrow::after{
+    content:'';
+    position:absolute;
+    display:inline;
+    margin-top:13px;
+    right:30px;	
+	width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-color:transparent transparent transparent #a98860;
+    transition:right 0.3s ease-in-out;  
+}
+/*                
+.menu_dawati li a.arrow:hover::after
+{
+   right:0px;
+   border-color:transparent transparent transparent #ffffff;
+}
+*/
+.menu_dawati li:hover a.arrow::after
+{
+   right:20px;
+   border-color:transparent transparent transparent #ffffff;
+}
+
+.menu_dawati > ul > li:hover > ul > li:hover a.arrow::after
+{
+   right:20px;
+   border-color:transparent transparent transparent #ffffff;
+}
+/*
+.menu_dawati > ul > li:hover > ul > li :hover a.arrow::after
+{
+   right:20px;
+   border-color:transparent transparent transparent #ffffff;
+}
+*/
+
+.menu_dawati > ul > li > ul {
+    display:none;
+    position:absolute;
+    right:-300px;
+    top:-53px;
+    width:300px;
+	height:375px;	
+	border-left:1px solid rgba(190,190,190,.6);
+}
+.menu_dawati > ul > li > ul > li {
+	border-left:0px solid rgba(190,190,190,1);
+	
+}
+.menu_dawati > ul > li:hover > ul {
+    display:block;
+}
+/*.menu_dawati > ul > li > ul >li {border-left:1px solid rgba(190,190,190,1);}*/
+.menu_dawati > ul > li > ul > li > ul {
+    display:none;
+    position:absolute;
+    right:-300px;
+    top:0px;
+    width:300px;
+	height:375px;	
+	border-left:1px solid rgba(190,190,190,.6);
+}
+.menu_dawati > ul > li > ul > li > ul > li {
+	border-left:0px solid rgba(190,190,190,6);	
+}
+.menu_dawati > ul > li > ul > li:hover ul {
+    display:block;
+}
+
+
+/* MOBILE */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
+/* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+ul { list-style: none; }
+
+a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+*/
+.wrap_menu_dawati_mobile {
+    height:100%;
+	font-family:"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif; font-size:1.3125rem; font-weight:400; max-width:100%;
+}
+
+.wrap_menu_dawati_mobile ul {
+    position:relative;
+    overflow:visible;
+	/* width: 100%;
+  	min-width: 360px;	
+	width:300px; Main Menu width */
+    /*border:1px solid rgba(190,190,190,1);*/
+    list-style:none;
+	margin:0; padding:0;
+    z-index:9;
+}
+
+.menu_dawati_mobile {
+  width: 100%;
+  /*max-width: 360px;*/
+  margin:30px auto 20px;
+  background: #;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.menu_dawati_mobile .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 15px;
+  color: #4D4D4D;
+  /*font-size: 14px;*/
+  /*font-weight: 700;*/
+  border-bottom: 1px solid rgba(169,136,96,.2);
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.menu_dawati_mobile .link:hover {
+  background: #f2f2f2;
+}
+
+/*.menu_dawati_mobile li:last-child .link { border-bottom: 0; }*/
+.menu_dawati_mobile li:first-child .link { border-top: 1px solid rgba(169,136,96,.2); }
+
+.menu_dawati_mobile li i {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  /*font-size: 18px;*/
+  color: #a98860;  
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.menu_dawati_mobile li i.fa-chevron-down {
+  right: 12px;
+  top: 25px;
+  left: auto;
+  font-size: 14px;
+}
+
+.menu_dawati_mobile li.open .link { color: #3d8a65; }
+
+.menu_dawati_mobile li.open i { color: #3d8a65; }
+
+.menu_dawati_mobile li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* Submenu-*/
+
+.submenu {
+  display: none;
+  background: #3d8a65;
+  /*font-size: 14px;*/
+}
+
+.submenu li { border-bottom: 1px solid #45906c; }
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px;
+  padding-left: 42px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+  background: #45906c;
+  color: #ffffff;
+}

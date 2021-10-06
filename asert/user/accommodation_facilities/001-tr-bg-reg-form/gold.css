@@ -1,0 +1,304 @@
+
+		*{
+			
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url('hung.jpg');
+			background-attachment: fixed;
+			background-position: center;
+		}
+		#main-container{
+			display:block;
+			position:relative;
+			height:45vw;
+			margin:0;
+			padding:0;
+			}
+		h1::before{
+			content:"";
+			display:block;
+			position:absolute;
+			top:0;
+			left:15%;
+			height:100%;
+			width:70%;
+			margin:0 auto;
+			z-index: -1;
+			padding:20px;
+			border-bottom: 5px double gold;
+		}
+		h1{
+			display:block;
+			position:relative;
+			padding:20px;
+			margin:0 auto;
+			font-family: 'Open Sans';
+			font-weight: bolder;
+			text-shadow: 1px 1px 1px gold;
+			font-size:2em;
+			letter-spacing: 1px;
+			text-align:center;
+			text-transform: uppercase;
+			background:black;
+			color:gold;
+			opacity: 0.9;
+			z-index: 100;
+		}
+
+		#wrapper-id{
+		margin:0 auto;
+		}
+
+		#r_form{
+			display:block;
+			position:relative;
+			width:70%;
+			background:black;
+			opacity: 0.8;
+			padding:20px;
+			margin:0 auto;
+			border-bottom:5px double gold;
+			border-right:5px double gold;
+			border-left:5px double gold;
+
+		}
+
+		.input-lable-class::before{
+			content:"";
+			height:100%;
+			width:30%;
+			display:inline-block;
+			position: absolute;
+			top:0;
+			left:0;
+			border-bottom:4px groove gold;
+			-webkit-transition:all 0.2s ease-in-out;
+			-moz-transition:all 0.2s ease-in-out;
+			-o-transition:all 0.2s ease-in-out;
+			transition:all 0.2s ease-in-out;
+		}
+		.input-lable-class{
+			display:inline-block;
+			position:relative;
+			width:28%;
+			padding:5px;
+			font-family: 'Open Sans';
+			font-size:1.5em;
+			color:gold;
+			letter-spacing: 1px;
+			font-weight: lighter;
+		}
+
+		.input-class{
+			display: inline-block;
+			position:relative;
+			width:70%;
+			padding:5px;
+			font-family:'Open Sans';
+			font-size:1.5em;
+			font-weight: bolder;
+			color:gold;
+			letter-spacing: 1px;
+			background: none;
+			outline:none;
+			border-bottom:1px double gold;
+			border-top:1px double black;
+			border-right:1px double black;
+			border-left:1px double black;
+			-webkit-transition:all 0.2s ease-in-out;
+			-moz-transition:all 0.2s ease-in-out;
+			-o-transition:all 0.2s ease-in-out;
+			transition:all 0.2s ease-in-out;
+		}
+		.input-class:hover{
+			border:1px solid gold;
+			color:black;
+		}
+		
+		.input-class:focus{
+			background:gold;
+			border:1px solid gold;
+			color:black;
+		}
+		::placeholder{
+			color:gold;
+			opacity: 0.3;
+		}
+		.submit-btn-class{
+			display:block;
+			position:relative;
+			width:98%;
+			font-family:'Open Sans';
+			font-size:1.5em;
+			font-weight:bolder;
+			padding:10px;
+			margin-top:1em;
+			border:none;
+			background:-webkit-linear-gradient(to right, white, gold);
+			background:-moz-linear-gradient(to right, white, gold);
+			background:-o-linear-gradient(to right, white, gold);
+			background:linear-gradient(to right, white, gold);
+			color:black;
+			-webkit-transition:all 0.2s ease-in-out;
+			-moz-transition:all 0.2s ease-in-out;
+			-o-transition:all 0.2s ease-in-out;
+			transition:all 0.2s ease-in-out;
+		}
+		.submit-btn-class:hover{
+			background:black;
+			color:gold;
+			border:none;
+			background:-webkit-linear-gradient(to right, gold, white, black);
+			background:-moz-linear-gradient(to right, gold, white, black);
+			background:-o-linear-gradient(to right, gold, white, black);
+			background:linear-gradient(to right, gold, white, black);
+		}
+
+
+
+
+		/*Responsive design for smartphones and handheld devices */
+
+		@media only screen and (max-width:600px){
+
+			h1::before{
+			content:"";
+			display:block;
+			position:absolute;
+			top:0;
+			left:15%;
+			height:100%;
+			width:70%;
+			margin:0 auto;
+			z-index: -1;
+			padding:20px;
+			border-bottom: 5px double gold;
+		}
+		h1{
+			display:block;
+			position:relative;
+			padding:20px;
+			margin:0 auto;
+			font-family: 'Open Sans';
+			font-weight: bolder;
+			text-shadow: 1px 1px 1px gold;
+			font-size:1.5em;
+			letter-spacing: 1px;
+			text-align:center;
+			text-transform: uppercase;
+			background:black;
+			color:gold;
+			opacity: 0.9;
+			z-index: 100;
+		}
+
+			#r_form{
+			display:block;
+			position:relative;
+			width:90%;
+			background:black;
+			opacity: 0.8;
+			padding:20px;
+			margin:0 auto;
+			border-bottom:5px double gold;
+			border-right:5px double gold;
+			border-left:5px double gold;
+
+		}
+
+
+		.input-lable-class::before{
+			content:"";
+			height:100%;
+			width:40%;
+			display:inline-block;
+			position: absolute;
+			top:0;
+			left:0;
+			border-bottom:3px groove gold;
+			-webkit-transition:all 0.2s ease-in-out;
+			-moz-transition:all 0.2s ease-in-out;
+			-o-transition:all 0.2s ease-in-out;
+			transition:all 0.2s ease-in-out;
+		}
+		.input-lable-class{
+			display:block;
+			position:relative;
+			width:100%;
+			padding:5px;
+			font-family: 'Open Sans';
+			font-size:1.2em;
+			color:gold;
+			letter-spacing: 1px;
+			font-weight: lighter;
+		}
+
+		.input-class{
+			display: inline-block;
+			position:relative;
+			width:100%;
+			padding:5px;
+			font-family:'Open Sans';
+			font-size:1.2em;
+			font-weight: bolder;
+			color:gold;
+			letter-spacing: 1px;
+			background: none;
+			outline:none;
+			border-bottom:1px double gold;
+			border-top:1px double black;
+			border-right:1px double black;
+			border-left:1px double black;
+			-webkit-transition:all 0.2s ease-in-out;
+			-moz-transition:all 0.2s ease-in-out;
+			-o-transition:all 0.2s ease-in-out;
+			transition:all 0.2s ease-in-out;
+		}
+		.input-class:hover{
+			border:1px solid gold;
+			color:black;
+		}
+		
+		.input-class:focus{
+			background:gold;
+			border:1px solid gold;
+			color:black;
+		}
+		::placeholder{
+			color:gold;
+			opacity: 0.3;
+		}
+		.submit-btn-class{
+			display:block;
+			position:relative;
+			width:98%;
+			font-family:'Open Sans';
+			font-size:1.2em;
+			font-weight:bolder;
+			padding:10px;
+			margin-top:1em;
+			border:none;
+			background:-webkit-linear-gradient(to right, white, gold);
+			background:-moz-linear-gradient(to right, white, gold);
+			background:-o-linear-gradient(to right, white, gold);
+			background:linear-gradient(to right, white, gold);
+			color:black;
+			-webkit-transition:all 0.2s ease-in-out;
+			-moz-transition:all 0.2s ease-in-out;
+			-o-transition:all 0.2s ease-in-out;
+			transition:all 0.2s ease-in-out;
+		}
+		.submit-btn-class:hover{
+			background:black;
+			color:gold;
+			border:none;
+			background:-webkit-linear-gradient(to right, gold, white, black);
+			background:-moz-linear-gradient(to right, gold, white, black);
+			background:-o-linear-gradient(to right, gold, white, black);
+			background:linear-gradient(to right, gold, white, black);
+		}
+
+
+
+	}

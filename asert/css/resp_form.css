@@ -1,0 +1,576 @@
+* {
+  box-sizing: border-box;
+}
+/* Remove dotted border on select*/
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+.form_link  { text-decoration:none}
+.form_link a {color: #0000CC; text-decoration:none}
+.form_link a:hover { text-decoration:none}
+
+.registrationFormtext, .registrationFormselect, .registrationFormtextarea {
+  width: 100%;
+  border: 1px solid #cccccc;
+  /*padding-left: 16px;*/
+  font-weight: normal;
+  /*height:36px;
+  line-height: 32px;*/
+  resize: vertical;
+  /*font-size:14px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;*/
+  height: 34px;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+}
+.registrationFormtext-error, .registrationFormselect-error, .registrationFormtextarea-error {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  resize: vertical;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;*/
+}
+.registrationFormduration {
+  width: 100%;
+  padding: 12px 0px;
+  border: 0px solid #ffffff;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  font-weight: normal;
+  height:36px;
+  line-height: 32px;
+  resize: vertical;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;*/
+  
+}
+.registrationFormlabel {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;
+}
+.registrationFormsubmit {
+  background-color: #4CAF50;
+  color: white;
+  width: auto;/*87px;*/
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#ffffff;*/
+}
+.registrationFormsubmit:hover {
+  background-color: #45a049;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#ffffff;*/
+}
+/*.col-form-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}*/
+.col-makosa-100 {
+  width: 100%;
+  padding: 12px;
+  border-radius: 0px;
+  background-color:#D70000;
+  resize: vertical;
+  font-size:14px;font-family:Arial,"Segoe UI",sans-serif; color:#ffffff;
+  height: 34px;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+}
+.col-form-25_captcha {
+  float: left;
+  width: 100px;
+  margin-top: 0px;
+  font-size:14px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;
+}
+.col-form-buttons {
+  float: left;
+  width: 100%;
+  margin-top: 8px;
+  border-top: 1px solid #cccccc;
+  padding: 8px 0px 8px 0px;
+  font-size:14px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;
+}
+.col-form-robo {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;
+}
+.col-form-nusu {
+  float: left;
+  width: 50%;
+  /*max-width: 50%;*/
+  margin-top: 6px;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-robo-tatu {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+
+/*.col-form-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}*/
+.col-form-75 {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.dokezo_title {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  font-size:16px; font-weight:bold; font-family:Arial,"Segoe UI",sans-serif; color: #333333; text-align: center;
+}
+.col-form-masurufu-mengine-kifungu {
+  float: left;
+  width: 140px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 0px;
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-unitmeasure {
+  float: left;
+  width: 66px;
+  margin: 5px 0px 0px 5px;
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-units{
+  float: left;
+  width: 54px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 5px;
+  
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-second_unitmeasure {
+  float: left;
+  width: 66px;
+  margin: 5px 0px 0px 5px;
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-second_units{
+  float: left;
+  width: 54px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 5px;
+  
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-unit-cost {
+  float: left;
+  width: 145px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 5px;
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-gharama {
+  float: left;
+  width: 145px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 5px;  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine_toa_ongeza {
+  float: left;
+  width: 20px;
+  /*max-width: 100%;*/
+  margin: 14px 0px 0px 5px;  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-marejesho-kifungu {
+  float: left;
+  width: 180px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 0px;
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-marejesho-posho {
+  float: left;
+  width: 180px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 5px;  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-marejesho-unitmeasure {
+  float: left;
+  width: 66px;
+  margin: 5px 0px 0px 0px;
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-marejesho-units{
+  float: left;
+  width: 54px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 5px;
+  
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-marejesho-second_unitmeasure {
+  float: left;
+  width: 66px;
+  margin: 5px 0px 0px 5px;
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-marejesho-second_units{
+  float: left;
+  width: 54px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 5px;
+  
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-masurufu-mengine-marejesho-unit-cost {
+  float: left;
+  width: 145px;
+  /*max-width: 100%;*/
+  margin: 5px 0px 0px 5px;
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-kiasi-unachodaiwa {
+  float: left;
+  width: 30%;
+  /*max-width: 100%;*/
+  margin: 6px 0px 0px 0px;
+  
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-namba-ya-masurufu{
+  float: left;
+  width: 30%;
+  /*max-width: 100%;*/
+  margin: 6px 0px 0px 10px;  
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-sababu{
+  float: left;
+  width: 100%;
+  /*max-width: 100%;*/
+  margin: 6px 0px 0px 10px;  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-75_muungano {
+  float: left;
+  width: 100%;
+  margin: 6px 0px 0px 0px;
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.ruti_tanua_title {
+  float: left;
+  width: 100%;
+  margin: 6px 0px 0px 0px;
+  padding:5px 0px 5px 18px;
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.ruti_tanua {
+  float: left;
+  width: 100%;
+  margin: 6px 0px 0px 0px;
+  padding:5px 0px 15px 0px;
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.masurufu_tanua {
+  float: left;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding:0px 0px 30px 0px;
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.tanua_kibali{
+border-bottom: 1px solid #ccc; padding-bottom:8px;
+}
+.col-form-label {
+  float: left;
+  width: 90px;
+  margin-top: 6px;
+  padding: 12px 0px;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;*/
+}
+.col-form-label_duration {
+  float: left;
+  width: 95px;
+  margin-top: 6px;
+  padding: 12px 0px;
+ /* font-size:14px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;*/
+}
+.col-form-duration {
+  float: left;
+  width: 35px;
+  margin-top: 6px;
+  /*font-size:14px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;*/
+}
+/* Clear floats after the columns */
+.row_form:after {
+  content: "";
+  display: table;
+  clear: both;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;*/
+}
+.col-view-title{
+  /*font-size:14px;font-family: Arial,"Segoe UI",sans-serif; color:#333333; letter-spacing: normal;*/
+  border-top: 1px dotted #ccc;
+  border-left: 1px dotted #ccc;
+  border-right: 1px dotted #ccc;
+  margin-top:0px; background-color:#;
+  padding:10px 0px 10px 8px;
+  }
+.col-view{
+  font-size:14px;font-family: Arial,"Segoe UI",sans-serif; color:#333333; letter-spacing: normal;
+  border-top: 1px dotted #ccc;
+  margin-top:0px;
+  }
+.col-view-btm{
+  border-bottom: 1px dotted #ccc;
+  margin-top: 30px;
+  }
+.col-view-namba {
+  float: left;
+  /*border-top: 1px dotted #ccc;*/
+  /*border-bottom: 4px solid green;*/
+  width:40px;    
+  margin-top: 0px;
+  padding:8px 0px 8px 7px;
+  text-align: center;
+}
+.col-view-namba-green {
+  float: left;
+  border-bottom: 4px solid green;
+  width:40px;    
+  margin-top: 0px;
+  padding:8px 0px 4px 7px;
+  text-align: center;
+}
+.col-view-namba-blue {
+  float: left;
+  border-bottom: 4px solid blue;
+  width:40px;    
+  margin-top: 0px;
+  padding:8px 0px 4px 7px;
+  text-align: center;
+}
+.col-view-namba-red {
+  float: left;
+  border-bottom: 4px solid red;
+  width:40px;    
+  margin-top: 0px;
+  padding:8px 0px 4px 7px;
+  text-align: center;
+}
+.col-view-kwenda {
+  float: left; 
+  /*border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;*/
+  width: 195px;
+  margin-top: 0px;
+  padding:8px 8px 8px 0px;
+  }
+ .col-view-kwenda-exextended {
+  float: left;
+  width: 350px;
+  margin-top: 0px;
+  padding:8px 8px 8px 0px;
+  }
+.col-view-tarehe {
+  float: left;
+ /* border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;*/
+  width: 134px;
+  margin-top: 0px;
+  padding:8px 0px 8px 0px;
+}
+.col-view-madhumuni {
+  float: left;
+  /*border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;*/
+  width: 210px;
+  margin-top: 0px;
+  padding:8px 0px 8px 0px;
+}
+.col-view-fuatilia{
+  /*font-size:14px;font-family: Arial,"Segoe UI",sans-serif; color:#333333; letter-spacing: normal;*/
+  border-top: 1px dotted #ccc;
+  margin-bottom:30px; /*background-color:#8bc34a;*/
+  }
+.col-view-icons {
+  float: left;
+ /* border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;*/
+  width:120px;    
+  margin-top: 0px;
+  padding:8px 0px 8px 0px;
+}
+.col-view-555{
+ display:none;
+}
+.col-view-dot {
+  height: 6px;
+  width: 6px;
+  background-color: #000000;
+  border-radius: 50%;
+  /*display: inline-block;*/
+}
+.rekodi_tupu {
+  float: left;
+  width: 100%;
+  padding:10px 10px 10px 0px;
+ /* font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 993px) {
+.container_form_control {
+  border-right: 0px solid #cccccc;
+  /*background-color: #ffffff;*/
+  width:600px;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .col-view-madhumuni{
+  display:none
+  }
+}
+@media screen and (max-width: 555px) {
+  .col-view-namba{
+   display: none;
+  }
+   .col-view-kwenda{
+    width: 100%;
+    margin-top: 0;
+	padding:12px 0px 4px 0px;
+  }
+   .col-view-tarehe{
+    width: 100%;
+    margin-top: 0;
+	padding:4px 0px 12px 22px;
+  }
+ /*.col-view-madhumuni{
+    width: 100%;
+    margin-top: 0;
+	display:block;
+	padding:4px 0px 4px 14px;
+  }*/
+   .col-view-icons{
+ 	display:none;
+  }
+  .col-view-555{
+  display: block;
+  }
+.col-view{
+	border: 1px dotted #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top:5px;
+  }
+.col-view-btm{
+  border-bottom: 0px dotted #ccc;  
+  }
+    /*.col-view-75{ display:none;
+  }*/
+}
+.container_form {
+  border-radius: 0px;
+  /*background-color: #ffffff;*/
+  padding: 40px 20px 20px 20px;
+  min-height:350px;
+  height:auto !important;
+  /*height:300px;*/
+  
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#333333;*/
+}
+.kichwa_home_1{
+	 font-family:Arial,sans-serif,"Segoe UI";text-decoration: none; font-size:14px; color:#000;
+}
+.kichwa_home_2{
+	font-family:Arial,sans-serif,"Segoe UI";text-decoration: none; font-size:14px; color:#000;
+}
+.container_form_kichwa {
+  border-radius: 0px;
+  background-color: #fff;
+  padding: 0px 0px 0px 0px;
+  min-height:20px;
+  height:auto !important;
+  /*height:300px;*/
+}
+.kichwa_kubwa{
+	float: left;
+	width: 100%;
+	margin: 6px 0px 0px 0px;
+	padding:15px 0px 15px 0px;
+	border-bottom: 1px dotted #ccc; background-color: #990000;
+	font-size:22px;font-family:"Segoe UI",Arial,sans-serif;font-weight:bold; margin:0px 0;
+}
+.kichwa_ndogo{
+	float: left;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding:10px 0px 10px 20px;
+	border-bottom: 1px solid #ccc; background-color: #ffffff;
+	font-size:12px; font-family: verdana, arial, sans-serif;font-weight:normal; letter-spacing: 0.01em; margin:0px 0;
+}
+.kichwa_ndogo_sana{font-size:9px; font-family: verdana, arial, "Segoe UI",sans-serif; font-weight:bold;}
+
+.ruti_title_1 {
+  float: left;
+  width: 100%;
+  margin: 6px 0px 0px 0px;
+  padding:7px 0px 13px 16px;
+  border-bottom: 1px dotted #ccc;
+  font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;
+} 
+.ruti_title_links {
+  float: left;
+  width: 100%;
+  margin: 6px 0px 0px 0px;
+  padding:10px 0px 10px 0px;
+  font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;
+}
+.ruti_title {
+  float: left;
+  /*width: 100%;*/
+  margin: 6px 0px 0px 0px;
+  padding:7px 0px 7px 7px;
+  font-size:13px;font-family:Verdana, Arial,"Segoe UI",sans-serif; color: #999;
+}
+.col-form-50 {
+  float: left;
+  width: auto;
+  max-width: 100%;
+  margin-top: 6px;
+  /*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.col-form-mafuta-30 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  padding:3px;
+  font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;
+}
+/*hints*/
+.auto_hints{
+font-size:.75rem;
+}
+.col-form-mafuta-70 {
+  float: left;
+  width: 45%;
+  margin-top: 6px;
+  font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color: #333333;
+}
+.maliasili_text_light_green { color:#8bc34a!important }
+.maliasili-text-red { color:#f44336!important }

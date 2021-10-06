@@ -1,0 +1,10 @@
+﻿#map {
+    width: 100%;
+    height: 400px;
+}
+
+.travel-mode {
+    margin-bottom: 5px;
+    width: 200px !important;
+    margin-left: 10px;
+}

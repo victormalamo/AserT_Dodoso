@@ -1,0 +1,1 @@
+var app = angular.module('tuma_fuatilia_app', ['ngSanitize', 'ui.select',]);

@@ -1,0 +1,232 @@
+
+.container_form {  
+  padding: 10px 0px 0px 0px;
+  max-width:850px;
+  margin:auto;
+  /*font-family: "Times New Roman",cambria,"Segoe UI","arno pro",Arial,sans-serif,garamond; color: #000000;*/
+}
+
+.container_form_inner {  
+  padding: 10px 0px 0px 0px;
+  width:750px;
+  margin:auto;
+}
+.container_form_mrejesho {  
+  padding: 10px 0px 0px 0px;
+  max-width:850px;
+  margin:auto;
+}
+
+.container_form_inner_mrejesho {  
+  padding: 10px 0px 0px 0px;
+  width:750px;
+  margin:auto;
+}
+.title_100L { /*Ondoa*/
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  font-size:22px;
+}
+.title_100M { /*Ondoa*/
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  font-size:16px;
+}
+.title_100M_2 { /*Ondoa*/
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  font-size:14px;
+}
+.jamhuri__title{color:#000;font-family:"Merriweather",serif;font-size:1.0625rem;line-height:1.24242;font-weight:400;margin:0; text-shadow:0 0px 0px rgba(0,0,0,.25);letter-spacing:-.32px}
+.wizara__title{color:#000;font-family:"Merriweather",serif;font-size:1.0625rem;line-height:1.24242;font-weight:400;margin:0; text-shadow:0 0px 0px rgba(0,0,0,.25);letter-spacing:-.32px}
+.wizara__sub__title{color:#000;font-family:"Merriweather",serif;font-size:1.0625rem;line-height:1.24242;font-weight:400;margin:0; text-shadow:0 0px 0px rgba(0,0,0,.25);letter-spacing:-.32px}
+.yahusu__title{color:#000;font-size:1.0625rem;line-height:1.375;font-weight:600;margin:0;}
+.body__title{padding:25px 0px 25px 0px; color:#000;font-size:1.125rem;line-height:1.375;font-weight:400;margin:0;}
+.body__sub__title{padding:0px 0px 0px 15px; color:#000;font-size:1.125rem;line-height:1.375;font-weight:400;margin:0; font-style:italic}
+.body__maelezo{ padding:0px 0px 0px 15px; color:#000;font-size:1.125rem;line-height:1.375;font-weight:300;margin:0;}
+.body__tarehe{ padding:0px 0px 0px 15px; color:#666;font-size:1rem; line-height:1.375;font-weight:300;margin:0;}
+
+@media (min-width:700px){.jamhuri__title{font-size:1.0625rem}}
+@media (min-width:850px){.jamhuri__title{font-size:1.75rem; font-weight:700;}}
+
+.search_title{color:#;padding:0px 0px 3px 0px}
+.search_maelezo{color:#;padding:0px 0px 15px 0px}
+.search_results_title{color:#000;font-size:1.0625rem;line-height:1.375;font-weight:600;margin:0; padding:5px 0px 10px 0px}
+.search_results_maelezo{color:#;padding:0px 0px 0px 0px}
+
+.logo_print{
+height:80px;
+}
+.logo_print_left {
+  float: left;
+  width: 35%;
+  margin-top: 0px;
+}
+.logo_print_center{
+  float: left;
+  width: 30%;
+  margin-top: 0px;
+}
+.logo_print_right {
+  float: left;
+  width: 35%;
+  margin-top: 0px; 
+}
+
+.anuani_title{
+}
+.anuani_maelezo{
+color:#000;font-size:1rem; line-height:1.24242;font-weight:400;
+}
+
+.title_100S {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  font-size:14px;
+}
+.title_50_L {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  padding: 5px 0px 10px 0px;
+  font-size:13px;
+  border-top: 0px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.title_50_R {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  padding: 5px 0px 10px 0px;
+  font-size:13px;
+  border-top: 0px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.title_50_L_2 {
+  float: left;
+  width: 50%;
+ /* margin-top: 10px;
+  padding: 5px 0px 10px 0px;
+  font-size:13px;
+  border-top: 0px solid #cccccc;
+  border-bottom: 1px solid #cccccc;*/
+}
+.title_50_R_2 {
+  float: left;
+  width: 50%;
+  font-size:13px;
+  /*margin-top: 10px;
+  padding: 5px 0px 10px 0px;  
+  border-top: 0px solid #cccccc;
+  border-bottom: 1px solid #cccccc;*/
+}
+.title_100_alert {
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+border-radius: 2px;
+  padding: 10px 0px 10px 0px;
+  font-size:15px; color:#FFFFFF; letter-spacing:1px;
+}
+
+.col-form-75 {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+ /* font-size:15px;font-family:"Times New Roman", Arial,"Segoe UI",sans-serif; color: #333333;*/
+}
+.maamuzi_textarea {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  /*font-size:15px;font-family:"Times New Roman", Arial,"Segoe UI",sans-serif; color:#333333;*/
+}
+.title_100stl {
+  float: left;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
+  font-size:14px;
+  border-bottom: 0px solid #ccc;
+}
+.title_100st {
+  float: left;
+  width: 100%;
+  padding: 0px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
+  font-size:14px;
+}
+
+.title_100stb {
+  float: left;
+  width: 100%;
+  margin: 5px 0px 0px 0px;
+  font-size:14px; font-weight:bold;
+}
+.kibali_title{
+ padding: 20px 0px 5px 0px;
+}
+.kibali_details {
+  float: left;
+  width: 100%;
+  padding:8px 0px 2px 10px;
+  font-size:14px; 
+}
+.mnrt-right{float:right!important}
+.mnrt-right-align{text-align:right!important}
+.mnrt-left-align{text-align:left!important}
+.mnrt-center{text-align:center!important}
+.mnrt-left{float:left!important}
+
+
+.dottedline {
+  float: left;
+  width: 675px;
+  min-height: 28px;
+  margin-left: 25px;
+  padding:8px 0px 2px 0px;
+  border-bottom: 1px dotted #999999;
+  font-size:14px;
+  /*background:url(/images/dot.png) repeat-x bottom;*/
+}
+
+.ambatanisho_ico {
+  float: left;
+  width: 20px;
+  height: 20px;
+  padding:0px 0px 0px 10px;
+  margin-top:7px;
+}
+.ambatanisho {
+  float: left;
+  width: 564px;
+  min-height: 28px;
+  padding:8px 0px 2px 20px;
+  font-size:14px; 
+}
+
+
+.row_form{
+ /* font-family:"Times New Roman", Arial,"Segoe UI",sans-serif;*/
+}
+.row_form:after {
+  content: "";
+  display: table;
+  clear: both;
+ /* font-size:15px;font-family:"Times New Roman", Arial,"Segoe UI",sans-serif; color:#333333;*/
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .col-view-madhumuni{
+  display:none
+  }
+}

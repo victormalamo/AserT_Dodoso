@@ -1,0 +1,115 @@
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: '';
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+@media screen and (max-width: 40em) {
+	.codrops-header h1 {
+		/*font-size: 2.8em;*/
+	}
+}
+
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%; 
+    /*font-size: 1.25rem;*/
+    /* 20px */
+    /*font-weight: 700;*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+	/*font-size:15px;font-family:Arial,"Segoe UI",sans-serif; color:#ffffff;*/
+    /*padding: 24px 40px;*/
+    /* 10px 20px */
+}
+
+.restade .inputfile + label {
+    display: none;
+}
+
+/* style 6 */
+
+.inputfile-6 + label {
+    color: #000;
+}
+
+.inputfile-6 + label {
+    border: 1px solid #cccccc;
+	border-radius: 0px;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.inputfile-6:focus + label,
+.inputfile-6.has-focus + label,
+.inputfile-6 + label:hover {
+    border-color: #cccccc;
+}
+
+.inputfile-6 + label span,
+.inputfile-6 + label strong {
+	height: 32px;
+  	padding: 6px 12px;
+  	line-height: 1.42857143;
+   /* padding: 12px 20px;
+     10px 20px */
+}
+
+.inputfile-6 + label span { 
+    width: 200px; 
+    /*min-height: 2.8em;*/
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.inputfile-6 + label strong {
+    height: 100%;
+    color: #ffffff;
+    background-color: #eae9e8;
+	border:1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+    display: inline-block;
+	font-size:14px;font-family:Arial,"Segoe UI",sans-serif; color:#000000; font-weight:normal;
+}
+
+.inputfile-6:focus + label strong,
+.inputfile-6.has-focus + label strong,
+.inputfile-6 + label:hover strong {
+    background-color: #eae9e8;
+}
+
+@media screen and (max-width: 513px) { 
+	.inputfile-6 + label strong {
+		display: block;
+	}
+	.inputfile-6 + label strong {
+	border:1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+}
+}

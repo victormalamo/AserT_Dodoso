@@ -1,0 +1,142 @@
+.mkono{
+cursor:pointer;
+}
+/**.imetanuliwa{
+ background:url(/images/toa_folder_njano.png) no-repeat left center;
+}**/
+.no_jumlisha_toa{
+ background:url(/images/folder_njano.png) no-repeat left center;
+}
+.ndani_folder_njano_open{
+ background:url(/images/ndani_folder_njano_open.png) no-repeat left center;
+}
+
+.content1 {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center; 
+}
+.content1.active {
+  background:url(/images/toa_folder_njano.png) no-repeat left center;
+}
+.show-1 {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+
+}
+
+.content2 {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center;
+}
+.content2.active {
+  background:url(/images/toa_folder_njano.png) no-repeat left center;
+}
+.show-2 {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+.content3 {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center;
+}
+.content3.active {
+  background:url(/images/toa_folder_njano.png) no-repeat left center;
+}
+.show-3 {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+.content4 {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center;
+}
+.content4.active {
+  background:url(/images/toa_folder_njano.png) no-repeat left center;
+}
+.show-4 {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+.content5 {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center;
+}
+.content5.active {
+  background:url(/images/toa_folder_njano.png) no-repeat left center;
+}
+.show-5 {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+.content6 {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center;
+}
+.content6.active {
+  background:url(/images/toa_folder_njano.png) no-repeat left center;
+}
+.show-6 {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+.content7 {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center;
+}
+.content7.active {
+  background:url(/images/toa_folder_njano.png) no-repeat left center;
+}
+.show-7 {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+.content8 {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center;
+}
+.content8.active {
+  background:url(/images/toa_folder_njano.png) no-repeat left center;
+}
+.show-8 {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+/* KWENYE TEUZI NENDA KINYUME NA PENYE display weka block kama default instead of none*/
+.content_teuzi {
+ background:url(/images/toa_folder_njano.png) no-repeat left center; 
+}
+.content_teuzi.active {
+ background:url(/images/jumlisha_folder_njano.png) no-repeat left center;
+}
+.show_teuzi {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+
+/*  LIST YA SAFARI */
+.content_ruti {
+ background:url(/images/jumlisha.png) no-repeat left center; 
+}
+.content_ruti.active {
+ background:url(/images/toa.png) no-repeat left center;
+}
+.show_ruti {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+
+/*  MASURUFU */
+.content_masurufu{
+ background:url(/images/jumlisha.png) no-repeat left center; 
+}
+.content_masurufu.active {
+ background:url(/images/toa.png) no-repeat left center;
+}
+.show_masurufu {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
+
+/*  TAARIFA ZA DEREVA */
+.content_dereva {
+ background:url(/images/jumlisha.png) no-repeat left center; 
+}
+.content_dereva.active {
+ background:url(/images/toa.png) no-repeat left center;
+}
+.show_dereva {
+/*width: 200px;
+padding:10px 10px 10px 10px;*/
+}
