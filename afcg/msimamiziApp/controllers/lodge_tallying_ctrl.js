@@ -20,7 +20,7 @@ app.vacation_hotel_tallying_ctrl = function($timeout, $scope, $http, focus){
 				var reconciliation_line = 5;
 						
 						
-<!-----------------------------  AVERAGE  -------------------------------------------->
+//  AVERAGE  
 			
 			//LOCATION 1.0			
 				
@@ -71,7 +71,7 @@ app.vacation_hotel_tallying_ctrl = function($timeout, $scope, $http, focus){
 				$scope.overall_not_reconciled = false;
 				if(($scope.location_not_reconciled)){ $scope.overall_not_reconciled = true; }
 				
-<!-----------------------------  GRADING  -------------------------------------------->
+// <!-----------------------------  GRADING  -------------------------------------------->
 							
 		//GRADING TOTAL
 			
@@ -270,6 +270,3 @@ app.vacation_hotel_tallying_ctrl = function($timeout, $scope, $http, focus){
 	
 
 };
-<!---------------------------------------->
-
-/**************/
