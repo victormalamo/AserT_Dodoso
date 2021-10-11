@@ -113,7 +113,9 @@ $output = array();
 	if(($form_data->front_office_3_8_1_A_a_cm) == ''){ if($form_data->front_office_3_8_1_A_a == ''){ $front_office_3_8_1_A_a = ''; }else{ $front_office_3_8_1_A_a = 4; } }else{ $front_office_3_8_1_A_a= $form_data->front_office_3_8_1_A_a_cm; }
 	if(($form_data->front_office_3_8_1_A_b_cm) == ''){ if($form_data->front_office_3_8_1_A_b == ''){ $front_office_3_8_1_A_b = ''; }else{ $front_office_3_8_1_A_b = 4; } }else{ $front_office_3_8_1_A_b= $form_data->front_office_3_8_1_A_b_cm; }
 	if(($form_data->front_office_3_8_1_A_c_cm) == ''){ if($form_data->front_office_3_8_1_A_c == ''){ $front_office_3_8_1_A_c = ''; }else{ $front_office_3_8_1_A_c = 2; } }else{ $front_office_3_8_1_A_c= $form_data->front_office_3_8_1_A_c_cm; }
-	if(($form_data->front_office_3_8_1_B_cm) == ''){ $front_office_3_8_1_B = $form_data->front_office_3_8_1_B; }else{ $front_office_3_8_1_B= $form_data->front_office_3_8_1_B_cm; }
+	if(($form_data->front_office_3_8_1_B_a_cm) == ''){ if($form_data->front_office_3_8_1_B_a == ''){ $front_office_3_8_1_B_a = ''; }else{ $front_office_3_8_1_B_a = 4; } }else{ $front_office_3_8_1_B_a= $form_data->front_office_3_8_1_B_a_cm; }
+	if(($form_data->front_office_3_8_1_B_b_cm) == ''){ if($form_data->front_office_3_8_1_B_b == ''){ $front_office_3_8_1_B_b = ''; }else{ $front_office_3_8_1_B_b = 4; } }else{ $front_office_3_8_1_B_b= $form_data->front_office_3_8_1_B_b_cm; }
+	if(($form_data->front_office_3_8_1_B_c_cm) == ''){ if($form_data->front_office_3_8_1_B_c == ''){ $front_office_3_8_1_B_c = ''; }else{ $front_office_3_8_1_B_c = 2; } }else{ $front_office_3_8_1_B_c= $form_data->front_office_3_8_1_B_c_cm; }
 	$front_office_3_9_1_text = $form_data->front_office_3_9_1_text;
 	if(($form_data->front_office_3_9_1_A_cm) == ''){ $front_office_3_9_1_A = $form_data->front_office_3_9_1_A; }else{ $front_office_3_9_1_A= $form_data->front_office_3_9_1_A_cm; }
 	if(($form_data->front_office_3_9_1_B_cm) == ''){ $front_office_3_9_1_B = $form_data->front_office_3_9_1_B; }else{ $front_office_3_9_1_B= $form_data->front_office_3_9_1_B_cm; }
@@ -187,6 +189,7 @@ $output = array();
 	if(($form_data->restaurants_6_2_1_E_cm) == ''){ $restaurants_6_2_1_E = $form_data->restaurants_6_2_1_E; }else{ $restaurants_6_2_1_E= $form_data->restaurants_6_2_1_E_cm; }
 	if(($form_data->restaurants_6_2_1_F_cm) == ''){ $restaurants_6_2_1_F = $form_data->restaurants_6_2_1_F; }else{ $restaurants_6_2_1_F= $form_data->restaurants_6_2_1_F_cm; }
 	if(($form_data->restaurants_6_2_1_G_cm) == ''){ $restaurants_6_2_1_G = $form_data->restaurants_6_2_1_G; }else{ $restaurants_6_2_1_G= $form_data->restaurants_6_2_1_G_cm; }
+	if(($form_data->restaurants_6_2_1_H_cm) == ''){ $restaurants_6_2_1_H = $form_data->restaurants_6_2_1_H; }else{ $restaurants_6_2_1_H= $form_data->restaurants_6_2_1_H_cm; }
 	if(($form_data->restaurants_6_2_1_I_cm) == ''){ $restaurants_6_2_1_I = $form_data->restaurants_6_2_1_I; }else{ $restaurants_6_2_1_I= $form_data->restaurants_6_2_1_I_cm; }
 	if(($form_data->restaurants_6_3_1_A_cm) == ''){ $restaurants_6_3_1_A = $form_data->restaurants_6_3_1_A; }else{ $restaurants_6_3_1_A= $form_data->restaurants_6_3_1_A_cm; }
 	if(($form_data->restaurants_6_3_1_B_cm) == ''){ $restaurants_6_3_1_B = $form_data->restaurants_6_3_1_B; }else{ $restaurants_6_3_1_B= $form_data->restaurants_6_3_1_B_cm; }
@@ -251,6 +254,7 @@ $output = array();
 	if(($form_data->bar_7_3_1_E_cm) == ''){ $bar_7_3_1_E = $form_data->bar_7_3_1_E; }else{ $bar_7_3_1_E= $form_data->bar_7_3_1_E_cm; }
 	if(($form_data->bar_7_3_1_F_cm) == ''){ $bar_7_3_1_F = $form_data->bar_7_3_1_F; }else{ $bar_7_3_1_F= $form_data->bar_7_3_1_F_cm; }
 	$bar_7_4_1_text = $form_data->bar_7_4_1_text;
+	if(($form_data->bar_7_4_1_A_cm) == ''){ $bar_7_4_1_A = $form_data->bar_7_4_1_A; }else{ $bar_7_4_1_A= $form_data->bar_7_4_1_A_cm; }
 	if(($form_data->bar_7_4_1_B_cm) == ''){ $bar_7_4_1_B = $form_data->bar_7_4_1_B; }else{ $bar_7_4_1_B= $form_data->bar_7_4_1_B_cm; }
 	if(($form_data->bar_7_4_1_C_cm) == ''){ $bar_7_4_1_C = $form_data->bar_7_4_1_C; }else{ $bar_7_4_1_C= $form_data->bar_7_4_1_C_cm; }
 	if(($form_data->bar_7_4_1_D_cm) == ''){ $bar_7_4_1_D = $form_data->bar_7_4_1_D; }else{ $bar_7_4_1_D= $form_data->bar_7_4_1_D_cm; }
@@ -980,14 +984,16 @@ $output = array();
 				location_1_1_1_text, location_1_1_1_A, location_1_1_1_B, location_1_1_1_C, location_1_1_1_D, location_1_1_1_E, location_1_1_1_F, location_1_1_1_G, location_1_1_1_H, location_1_1_1_I,
 				location_1_2_1_text, location_1_2_1_A, location_1_2_1_B, location_1_2_1_C, location_1_2_1_D_a, location_1_2_1_D_b, location_1_2_1_D_c, location_1_2_1_D_d, location_1_2_1_E, location_1_2_1_F, location_1_2_1_G_a, location_1_2_1_G_b, location_1_2_1_G_c, location_1_2_1_H, location_1_2_1_I, location_1_2_1_J, location_1_2_1_K, location_1_2_1_L, location_1_2_1_M, location_1_2_1_N,
 				building_2_1_1_text, building_2_1_1_A, building_2_1_1_B, building_2_1_1_C, building_2_1_1_D, building_2_1_1_E, building_2_1_1_F, building_2_1_1_G, building_2_1_1_H, building_2_1_1_I, building_2_1_1_J, building_2_1_1_K,
-				building_2_2_1_text, building_2_2_1_A, building_2_3_1_text, building_2_3_1_A, building_2_3_1_B, building_2_3_1_C, building_2_3_1_D, building_2_3_1_E, building_2_3_1_F, building_2_3_1_G, building_2_4_1_A, building_2_4_1_B,
+				building_2_2_1_text, building_2_2_1_A, 
+				building_2_3_1_text, building_2_3_1_A, building_2_3_1_B, building_2_3_1_C, building_2_3_1_D, building_2_3_1_E, building_2_3_1_F, building_2_3_1_G, building_2_4_1_A, building_2_4_1_B,
 				front_office_3_1_1_text, front_office_3_1_1_A, front_office_3_1_1_B, front_office_3_1_1_C, front_office_3_1_1_D, front_office_3_1_1_E, front_office_3_1_1_F,
 				front_office_3_2_1_text, front_office_3_2_1_A, front_office_3_2_1_B_a, front_office_3_2_1_B_b, front_office_3_2_1_B_c, front_office_3_2_1_C_a, front_office_3_2_1_C_b, front_office_3_2_1_C_c, front_office_3_2_1_D_a, front_office_3_2_1_D_b, front_office_3_2_1_D_c, front_office_3_2_1_D_d,
-				front_office_3_3_1_text, front_office_3_3_1_A, front_office_3_3_1_B, front_office_3_4_1_text, front_office_3_4_1_A_a, front_office_3_4_1_A_b, front_office_3_4_1_A_c, front_office_3_4_1_A_d,
+				front_office_3_3_1_text, front_office_3_3_1_A, front_office_3_3_1_B, 
+				front_office_3_4_1_text, front_office_3_4_1_A_a, front_office_3_4_1_A_b, front_office_3_4_1_A_c, front_office_3_4_1_A_d,
 				front_office_3_5_1_text, front_office_3_5_1_A, front_office_3_5_1_B, front_office_3_5_1_C, front_office_3_5_1_D,
 				front_office_3_6_1_text, front_office_3_6_1_A, front_office_3_6_1_B,
 				front_office_3_7_1_text, front_office_3_7_1_A, front_office_3_7_1_B, front_office_3_7_1_C,
-				front_office_3_8_1_text, front_office_3_8_1_A_a, front_office_3_8_1_A_b, front_office_3_8_1_A_c, front_office_3_8_1_B,
+				front_office_3_8_1_text, front_office_3_8_1_A_a, front_office_3_8_1_A_b, front_office_3_8_1_A_c, front_office_3_8_1_B_a, front_office_3_8_1_B_b, front_office_3_8_1_B_c,
 				front_office_3_9_1_text, front_office_3_9_1_A, front_office_3_9_1_B, front_office_3_9_1_C,
 				lobby_lounge_other_public_areas_4_1_1_text, lobby_lounge_other_public_areas_4_1_1_A, lobby_lounge_other_public_areas_4_1_1_B, lobby_lounge_other_public_areas_4_1_1_C, lobby_lounge_other_public_areas_4_1_1_D, lobby_lounge_other_public_areas_4_1_1_E, lobby_lounge_other_public_areas_4_1_1_F, lobby_lounge_other_public_areas_4_1_1_G,
 				lobby_lounge_other_public_areas_4_2_1_text, lobby_lounge_other_public_areas_4_2_1_A,
@@ -999,9 +1005,11 @@ $output = array();
 				lobby_lounge_other_public_areas_4_8_1_text, lobby_lounge_other_public_areas_4_8_1_A,
 				function_rooms_5_1_1_text, function_rooms_5_1_1_A, function_rooms_5_1_1_B, function_rooms_5_1_1_C, function_rooms_5_1_1_D, function_rooms_5_1_1_E, function_rooms_5_1_1_F, function_rooms_5_1_1_G, function_rooms_5_1_1_H, function_rooms_5_1_1_I, function_rooms_5_1_1_J, function_rooms_5_1_1_K, function_rooms_5_1_1_L,
 				restaurants_6_1_1_text, restaurants_6_1_1_A, restaurants_6_1_1_B, restaurants_6_1_1_C, restaurants_6_1_1_D, restaurants_6_1_1_E,
-				restaurants_6_2_1_text, restaurants_6_2_1_A, restaurants_6_2_1_B, restaurants_6_2_1_C, restaurants_6_2_1_D, restaurants_6_2_1_E, restaurants_6_2_1_F, restaurants_6_2_1_G, restaurants_6_2_1_I, restaurants_6_3_1_A, restaurants_6_3_1_B, restaurants_6_3_1_C, restaurants_6_3_1_D, restaurants_6_4_1_A, restaurants_6_4_1_B, restaurants_6_4_1_C, restaurants_6_4_1_D, restaurants_6_5_1_A, restaurants_6_5_1_B, restaurants_6_5_1_C, restaurants_6_5_1_D, restaurants_6_5_1_E, restaurants_6_5_1_F, restaurants_6_5_1_G, restaurants_6_5_1_H, restaurants_6_6_1_A, restaurants_6_6_1_B, restaurants_6_6_1_C, restaurants_6_6_1_D, restaurants_6_6_1_E, restaurants_6_6_1_F_a, restaurants_6_6_1_F_b, restaurants_6_6_1_F_c, restaurants_6_6_1_F_d, restaurants_6_6_1_G, restaurants_6_6_1_H_a, restaurants_6_6_1_H_b, restaurants_6_6_1_H_c, restaurants_6_6_1_I, restaurants_6_6_1_J, restaurants_6_7_1_A, restaurants_6_7_1_B, restaurants_6_7_1_C, restaurants_6_8_1_A, restaurants_6_8_1_B,
+				restaurants_6_2_1_text, restaurants_6_2_1_A, restaurants_6_2_1_B, restaurants_6_2_1_C, restaurants_6_2_1_D, restaurants_6_2_1_E, restaurants_6_2_1_F, restaurants_6_2_1_G, restaurants_6_2_1_I, 
+				restaurants_6_3_1_text, restaurants_6_3_1_A, restaurants_6_3_1_B, restaurants_6_3_1_C, restaurants_6_3_1_D, restaurants_6_4_1_A, restaurants_6_4_1_B, restaurants_6_4_1_C, restaurants_6_4_1_D, restaurants_6_5_1_A, restaurants_6_5_1_B, restaurants_6_5_1_C, restaurants_6_5_1_D, restaurants_6_5_1_E, restaurants_6_5_1_F, restaurants_6_5_1_G, restaurants_6_5_1_H, restaurants_6_6_1_A, restaurants_6_6_1_B, restaurants_6_6_1_C, restaurants_6_6_1_D, restaurants_6_6_1_E, restaurants_6_6_1_F_a, restaurants_6_6_1_F_b, restaurants_6_6_1_F_c, restaurants_6_6_1_F_d, restaurants_6_6_1_G, restaurants_6_6_1_H_a, restaurants_6_6_1_H_b, restaurants_6_6_1_H_c, restaurants_6_6_1_I, restaurants_6_6_1_J, restaurants_6_7_1_A, restaurants_6_7_1_B, restaurants_6_7_1_C, restaurants_6_8_1_A, restaurants_6_8_1_B,
 				bar_7_1_1_text, bar_7_1_1_A, bar_7_1_1_B, bar_7_1_1_C, bar_7_1_1_D_a, bar_7_1_1_D_b, bar_7_1_1_D_c, bar_7_1_1_E, bar_7_1_1_F, bar_7_1_1_G,
-				bar_7_2_1_text, bar_7_2_1_A, bar_7_2_1_B, bar_7_2_1_C, bar_7_2_1_D, bar_7_2_1_E, bar_7_2_1_F, bar_7_2_1_G, bar_7_2_1_H, bar_7_2_1_I, bar_7_3_1_A, bar_7_3_1_B, bar_7_3_1_C, bar_7_3_1_D, bar_7_3_1_E, bar_7_3_1_F,
+				bar_7_2_1_text, bar_7_2_1_A, bar_7_2_1_B, bar_7_2_1_C, bar_7_2_1_D, bar_7_2_1_E, bar_7_2_1_F, bar_7_2_1_G, bar_7_2_1_H, bar_7_2_1_I, 
+				bar_7_2_1_text, bar_7_3_1_A, bar_7_3_1_B, bar_7_3_1_C, bar_7_3_1_D, bar_7_3_1_E, bar_7_3_1_F,
 				bar_7_4_1_text, bar_7_4_1_B, bar_7_4_1_C, bar_7_4_1_D, bar_7_4_1_E_a, bar_7_4_1_E_b, bar_7_4_1_E_c, bar_7_4_1_E_d, bar_7_4_1_E_e, bar_7_4_1_E_f, bar_7_4_1_E_g, bar_7_4_1_E_h, bar_7_4_1_F, bar_7_4_1_G, bar_7_4_1_H, bar_7_4_1_I,
 				bar_7_5_1_text, bar_7_5_1_A, bar_7_5_1_B, bar_7_5_1_C,
 				bar_7_6_1_text, bar_7_6_1_A, bar_7_6_1_B, bar_7_6_1_C,
@@ -1112,7 +1120,7 @@ $output = array();
 				'$front_office_3_5_1_text', '$front_office_3_5_1_A', '$front_office_3_5_1_B', '$front_office_3_5_1_C', '$front_office_3_5_1_D',
 				'$front_office_3_6_1_text', '$front_office_3_6_1_A', '$front_office_3_6_1_B',
 				'$front_office_3_7_1_text', '$front_office_3_7_1_A', '$front_office_3_7_1_B', '$front_office_3_7_1_C',
-				'$front_office_3_8_1_text', '$front_office_3_8_1_A_a', '$front_office_3_8_1_A_b', '$front_office_3_8_1_A_c', '$front_office_3_8_1_B',
+				'$front_office_3_8_1_text', '$front_office_3_8_1_A_a', '$front_office_3_8_1_A_b', '$front_office_3_8_1_A_c','$front_office_3_8_1_B_a', '$front_office_3_8_1_B_b', '$front_office_3_8_1_B_c',
 				'$front_office_3_9_1_text', '$front_office_3_9_1_A', '$front_office_3_9_1_B', '$front_office_3_9_1_C',
 				'$lobby_lounge_other_public_areas_4_1_1_text', '$lobby_lounge_other_public_areas_4_1_1_A', '$lobby_lounge_other_public_areas_4_1_1_B', '$lobby_lounge_other_public_areas_4_1_1_C', '$lobby_lounge_other_public_areas_4_1_1_D', '$lobby_lounge_other_public_areas_4_1_1_E', '$lobby_lounge_other_public_areas_4_1_1_F', '$lobby_lounge_other_public_areas_4_1_1_G',
 				'$lobby_lounge_other_public_areas_4_2_1_text', '$lobby_lounge_other_public_areas_4_2_1_A',
@@ -1124,10 +1132,15 @@ $output = array();
 				'$lobby_lounge_other_public_areas_4_8_1_text', '$lobby_lounge_other_public_areas_4_8_1_A',
 				'$function_rooms_5_1_1_text', '$function_rooms_5_1_1_A', '$function_rooms_5_1_1_B', '$function_rooms_5_1_1_C', '$function_rooms_5_1_1_D', '$function_rooms_5_1_1_E', '$function_rooms_5_1_1_F', '$function_rooms_5_1_1_G', '$function_rooms_5_1_1_H', '$function_rooms_5_1_1_I', '$function_rooms_5_1_1_J', '$function_rooms_5_1_1_K', '$function_rooms_5_1_1_L',
 				'$restaurants_6_1_1_text', '$restaurants_6_1_1_A', '$restaurants_6_1_1_B', '$restaurants_6_1_1_C', '$restaurants_6_1_1_D', '$restaurants_6_1_1_E',
-				'$restaurants_6_2_1_text', '$restaurants_6_2_1_A', '$restaurants_6_2_1_B', '$restaurants_6_2_1_C', '$restaurants_6_2_1_D', '$restaurants_6_2_1_E', '$restaurants_6_2_1_F', '$restaurants_6_2_1_G', '$restaurants_6_2_1_I', '$restaurants_6_3_1_A', '$restaurants_6_3_1_B', '$restaurants_6_3_1_C', '$restaurants_6_3_1_D', '$restaurants_6_4_1_A', '$restaurants_6_4_1_B', '$restaurants_6_4_1_C', '$restaurants_6_4_1_D', '$restaurants_6_5_1_A', '$restaurants_6_5_1_B', '$restaurants_6_5_1_C', '$restaurants_6_5_1_D', '$restaurants_6_5_1_E', '$restaurants_6_5_1_F', '$restaurants_6_5_1_G', '$restaurants_6_5_1_H', '$restaurants_6_6_1_A', '$restaurants_6_6_1_B', '$restaurants_6_6_1_C', '$restaurants_6_6_1_D', '$restaurants_6_6_1_E', '$restaurants_6_6_1_F_a', '$restaurants_6_6_1_F_b', '$restaurants_6_6_1_F_c', '$restaurants_6_6_1_F_d', '$restaurants_6_6_1_G', '$restaurants_6_6_1_H_a', '$restaurants_6_6_1_H_b', '$restaurants_6_6_1_H_c', '$restaurants_6_6_1_I', '$restaurants_6_6_1_J', '$restaurants_6_7_1_A', '$restaurants_6_7_1_B', '$restaurants_6_7_1_C', '$restaurants_6_8_1_A', '$restaurants_6_8_1_B',
+				'$restaurants_6_2_1_text', '$restaurants_6_2_1_A', '$restaurants_6_2_1_B', '$restaurants_6_2_1_C', '$restaurants_6_2_1_D', '$restaurants_6_2_1_E', '$restaurants_6_2_1_F', '$restaurants_6_2_1_G', '$restaurants_6_2_1_H', '$restaurants_6_2_1_I', 
+				'$restaurants_6_3_1_text', '$restaurants_6_3_1_A', '$restaurants_6_3_1_B', '$restaurants_6_3_1_C', '$restaurants_6_3_1_D', 
+				'$restaurants_6_4_1_text','$restaurants_6_4_1_A', '$restaurants_6_4_1_B', '$restaurants_6_4_1_C', '$restaurants_6_4_1_D', 
+				'$restaurants_6_5_1_text','$restaurants_6_5_1_A', '$restaurants_6_5_1_B', '$restaurants_6_5_1_C', '$restaurants_6_5_1_D', '$restaurants_6_5_1_E', '$restaurants_6_5_1_F', '$restaurants_6_5_1_G', '$restaurants_6_5_1_H',
+				'$restaurants_6_6_1_text','$restaurants_6_6_1_A', '$restaurants_6_6_1_B', '$restaurants_6_6_1_C', '$restaurants_6_6_1_D', '$restaurants_6_6_1_E', '$restaurants_6_6_1_F_a', '$restaurants_6_6_1_F_b', '$restaurants_6_6_1_F_c', '$restaurants_6_6_1_F_d', '$restaurants_6_6_1_G', '$restaurants_6_6_1_H_a', '$restaurants_6_6_1_H_b', '$restaurants_6_6_1_H_c', '$restaurants_6_6_1_I', '$restaurants_6_6_1_J', 
+				'$restaurants_6_7_1_A', '$restaurants_6_7_1_B', '$restaurants_6_7_1_C', '$restaurants_6_8_1_A', '$restaurants_6_8_1_B',
 				'$bar_7_1_1_text', '$bar_7_1_1_A', '$bar_7_1_1_B', '$bar_7_1_1_C', '$bar_7_1_1_D_a', '$bar_7_1_1_D_b', '$bar_7_1_1_D_c', '$bar_7_1_1_E', '$bar_7_1_1_F', '$bar_7_1_1_G',
 				'$bar_7_2_1_text', '$bar_7_2_1_A', '$bar_7_2_1_B', '$bar_7_2_1_C', '$bar_7_2_1_D', '$bar_7_2_1_E', '$bar_7_2_1_F', '$bar_7_2_1_G', '$bar_7_2_1_H', '$bar_7_2_1_I', '$bar_7_3_1_A', '$bar_7_3_1_B', '$bar_7_3_1_C', '$bar_7_3_1_D', '$bar_7_3_1_E', '$bar_7_3_1_F',
-				'$bar_7_4_1_text', '$bar_7_4_1_B', '$bar_7_4_1_C', '$bar_7_4_1_D', '$bar_7_4_1_E_a', '$bar_7_4_1_E_b', '$bar_7_4_1_E_c', '$bar_7_4_1_E_d', '$bar_7_4_1_E_e', '$bar_7_4_1_E_f', '$bar_7_4_1_E_g', '$bar_7_4_1_E_h', '$bar_7_4_1_F', '$bar_7_4_1_G', '$bar_7_4_1_H', '$bar_7_4_1_I',
+				'$bar_7_4_1_text', '$bar_7_4_1_A', '$bar_7_4_1_B', '$bar_7_4_1_C', '$bar_7_4_1_D', '$bar_7_4_1_E_a', '$bar_7_4_1_E_b', '$bar_7_4_1_E_c', '$bar_7_4_1_E_d', '$bar_7_4_1_E_e', '$bar_7_4_1_E_f', '$bar_7_4_1_E_g', '$bar_7_4_1_E_h', '$bar_7_4_1_F', '$bar_7_4_1_G', '$bar_7_4_1_H', '$bar_7_4_1_I',
 				'$bar_7_5_1_text', '$bar_7_5_1_A', '$bar_7_5_1_B', '$bar_7_5_1_C',
 				'$bar_7_6_1_text', '$bar_7_6_1_A', '$bar_7_6_1_B', '$bar_7_6_1_C',
 				'$bar_7_7_1_text', '$bar_7_7_1_A', '$bar_7_7_1_B', '$bar_7_7_1_C',

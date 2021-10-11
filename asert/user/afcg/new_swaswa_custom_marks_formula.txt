@@ -1,0 +1,23 @@
+1. filter _cm columns from colum IDs
+============================================================
+=CONCATENATE( IF(ISNUMBER(SEARCH("cm",A2)),A2," WITONDE"))
+
+THEN REMOVE ROWS CONTAINING "WITONDE"
+============================================================
+
+
+
+
+required to rectify 3.8 for lodge only
+front_office_3_8_1_B_a
+front_office_3_8_1_B_b
+front_office_3_8_1_B_c
+
+column 6.2.1_H was overlooked for lodge only
+restaurants_6_2_1_H
+
+column 7.4.1_A was overlooked for lodge only
+bar_7_4_1_B
+
+
+
