@@ -1,0 +1,13 @@
+1. kila facility iwe na tallying sheet yake.
+
+2. field za database zinatakiwa zianze na jina la facility kwenye file zote.
+
+3. kwenye create table SQL file cross checking VARCHAR (5) DEFAULT NULL.
+
+4. alpha checking file column naming.
+
+5. assesment sheets zote id zianze na facility name.
+
+5. TALLYING
+	-kuna mabadiliko kidogo namba za grading overal stars adn sections.
+	-kutumia template atakayotupatia thadey.

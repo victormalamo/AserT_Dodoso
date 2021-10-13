@@ -15,7 +15,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">2.1</td>
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_2_1_1">Design and Architectural Features</td>
   <td rowspan="38" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="building_2_1_1_text" name="building_2_1_1_text" ng-model="building_2_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_building_2_1_1_text" name="lodge_building_2_1_1_text" ng-model="lodge_building_2_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -35,14 +35,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_A_a" class="sum_lodge" type="radio" name="building_2_1_1_A" ng-model="building_2_1_1_A" value="0" ng-checked="building_2_1_1_A_a" ng-focus="check_building_2_1_1_A_cm()" />
+		<input id="lodge_building_2_1_1_A_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_A" ng-model="lodge_building_2_1_1_A" value="0" ng-checked="lodge_building_2_1_1_A_a" ng-focus="check_lodge_building_2_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_A_cm" ng-model="building_2_1_1_A_cm" ng-focus="check_building_2_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_A_cm" ng-model="lodge_building_2_1_1_A_cm" ng-focus="check_lodge_building_2_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -54,7 +54,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_A_b" class="sum_lodge" type="radio"  name="building_2_1_1_A" ng-model="building_2_1_1_A" value="3" ng-checked="building_2_1_1_A_b" ng-focus="check_building_2_1_1_A_cm()" />
+		<input id="lodge_building_2_1_1_A_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_A" ng-model="lodge_building_2_1_1_A" value="3" ng-checked="lodge_building_2_1_1_A_b" ng-focus="check_lodge_building_2_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -69,7 +69,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_A_c" class="sum_lodge" type="radio"  name="building_2_1_1_A" ng-model="building_2_1_1_A" value="5" ng-checked="building_2_1_1_A_c" ng-focus="check_building_2_1_1_A_cm()" />
+		<input id="lodge_building_2_1_1_A_c" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_A" ng-model="lodge_building_2_1_1_A" value="5" ng-checked="lodge_building_2_1_1_A_c" ng-focus="check_lodge_building_2_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -93,14 +93,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_B_a" class="sum_lodge" type="radio" name="building_2_1_1_B" ng-model="building_2_1_1_B" value="0" ng-checked="building_2_1_1_B_a" ng-focus="check_building_2_1_1_B_cm()" />
+		<input id="lodge_building_2_1_1_B_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_B" ng-model="lodge_building_2_1_1_B" value="0" ng-checked="lodge_building_2_1_1_B_a" ng-focus="check_lodge_building_2_1_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_B_cm" ng-model="building_2_1_1_B_cm" ng-focus="check_building_2_1_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_B_cm" ng-model="lodge_building_2_1_1_B_cm" ng-focus="check_lodge_building_2_1_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -112,7 +112,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_B_b" class="sum_lodge" type="radio"  name="building_2_1_1_B" ng-model="building_2_1_1_B" value="5" ng-checked="building_2_1_1_B_b" ng-focus="check_building_2_1_1_B_cm()" />
+		<input id="lodge_building_2_1_1_B_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_B" ng-model="lodge_building_2_1_1_B" value="5" ng-checked="lodge_building_2_1_1_B_b" ng-focus="check_lodge_building_2_1_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -136,14 +136,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_C_a" class="sum_lodge" type="radio" name="building_2_1_1_C" ng-model="building_2_1_1_C" value="0" ng-checked="building_2_1_1_C_a" ng-focus="check_building_2_1_1_C_cm()" />
+		<input id="lodge_building_2_1_1_C_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_C" ng-model="lodge_building_2_1_1_C" value="0" ng-checked="lodge_building_2_1_1_C_a" ng-focus="check_lodge_building_2_1_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_C_cm" ng-model="building_2_1_1_C_cm" ng-focus="check_building_2_1_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_C_cm" ng-model="lodge_building_2_1_1_C_cm" ng-focus="check_lodge_building_2_1_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -155,7 +155,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_C_b" class="sum_lodge" type="radio"  name="building_2_1_1_C" ng-model="building_2_1_1_C" value="2" ng-checked="building_2_1_1_C_b" ng-focus="check_building_2_1_1_C_cm()" />
+		<input id="lodge_building_2_1_1_C_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_C" ng-model="lodge_building_2_1_1_C" value="2" ng-checked="lodge_building_2_1_1_C_b" ng-focus="check_lodge_building_2_1_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -179,14 +179,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_D_a" class="sum_lodge" type="radio" name="building_2_1_1_D" ng-model="building_2_1_1_D" value="0" ng-checked="building_2_1_1_D_a" ng-focus="check_building_2_1_1_C_cm()" />
+		<input id="lodge_building_2_1_1_D_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_D" ng-model="lodge_building_2_1_1_D" value="0" ng-checked="lodge_building_2_1_1_D_a" ng-focus="check_lodge_building_2_1_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_D_cm" ng-model="building_2_1_1_D_cm" ng-focus="check_building_2_1_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_D_cm" ng-model="lodge_building_2_1_1_D_cm" ng-focus="check_lodge_building_2_1_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -198,7 +198,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_D_b" class="sum_lodge" type="radio"  name="building_2_1_1_D" ng-model="building_2_1_1_D" value="3" ng-checked="building_2_1_1_D_b" ng-focus="check_building_2_1_1_D_cm()" />
+		<input id="lodge_building_2_1_1_D_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_D" ng-model="lodge_building_2_1_1_D" value="3" ng-checked="lodge_building_2_1_1_D_b" ng-focus="check_lodge_building_2_1_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -222,14 +222,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_E_a" class="sum_lodge" type="radio" name="building_2_1_1_E" ng-model="building_2_1_1_E" value="0" ng-checked="building_2_1_1_E_a" ng-focus="check_building_2_1_1_E_cm()" />
+		<input id="lodge_building_2_1_1_E_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_E" ng-model="lodge_building_2_1_1_E" value="0" ng-checked="lodge_building_2_1_1_E_a" ng-focus="check_lodge_building_2_1_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_E_cm" ng-model="building_2_1_1_E_cm" ng-focus="check_building_2_1_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_E_cm" ng-model="lodge_building_2_1_1_E_cm" ng-focus="check_lodge_building_2_1_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -241,7 +241,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_E_b" class="sum_lodge" type="radio"  name="building_2_1_1_E" ng-model="building_2_1_1_E" value="5" ng-checked="building_2_1_1_E_b" ng-focus="check_building_2_1_1_E_cm()" />
+		<input id="lodge_building_2_1_1_E_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_E" ng-model="lodge_building_2_1_1_E" value="5" ng-checked="lodge_building_2_1_1_E_b" ng-focus="check_lodge_building_2_1_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -265,14 +265,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_F_a" class="sum_lodge" type="radio" name="building_2_1_1_F" ng-model="building_2_1_1_F" value="1" ng-checked="building_2_1_1_F_a" ng-focus="check_building_2_1_1_F_cm()" />
+		<input id="lodge_building_2_1_1_F_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_F" ng-model="lodge_building_2_1_1_F" value="1" ng-checked="lodge_building_2_1_1_F_a" ng-focus="check_lodge_building_2_1_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_F_cm" ng-model="building_2_1_1_F_cm" ng-focus="check_building_2_1_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_F_cm" ng-model="lodge_building_2_1_1_F_cm" ng-focus="check_lodge_building_2_1_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -284,7 +284,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_F_b" class="sum_lodge" type="radio"  name="building_2_1_1_F" ng-model="building_2_1_1_F" value="3" ng-checked="building_2_1_1_F_b" ng-focus="check_building_2_1_1_F_cm()" />
+		<input id="lodge_building_2_1_1_F_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_F" ng-model="lodge_building_2_1_1_F" value="3" ng-checked="lodge_building_2_1_1_F_b" ng-focus="check_lodge_building_2_1_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -299,7 +299,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_F_c" class="sum_lodge" type="radio"  name="building_2_1_1_F" ng-model="building_2_1_1_F" value="5" ng-checked="building_2_1_1_F_c" ng-focus="check_building_2_1_1_F_cm()" />
+		<input id="lodge_building_2_1_1_F_c" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_F" ng-model="lodge_building_2_1_1_F" value="5" ng-checked="lodge_building_2_1_1_F_c" ng-focus="check_lodge_building_2_1_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -323,14 +323,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_G_a" class="sum_lodge" type="radio" name="building_2_1_1_G" ng-model="building_2_1_1_G" value="0" ng-checked="building_2_1_1_G_a" ng-focus="check_building_2_1_1_G_cm()" />
+		<input id="lodge_building_2_1_1_G_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_G" ng-model="lodge_building_2_1_1_G" value="0" ng-checked="lodge_building_2_1_1_G_a" ng-focus="check_lodge_building_2_1_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_G_cm" ng-model="building_2_1_1_G_cm" ng-focus="check_building_2_1_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_G_cm" ng-model="lodge_building_2_1_1_G_cm" ng-focus="check_lodge_building_2_1_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -342,7 +342,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_G_b" class="sum_lodge" type="radio"  name="building_2_1_1_G" ng-model="building_2_1_1_G" value="5" ng-checked="building_2_1_1_G_b" ng-focus="check_building_2_1_1_G_cm()" />
+		<input id="lodge_building_2_1_1_G_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_G" ng-model="lodge_building_2_1_1_G" value="5" ng-checked="lodge_building_2_1_1_G_b" ng-focus="check_lodge_building_2_1_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -366,14 +366,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_H_a" class="sum_lodge" type="radio" name="building_2_1_1_H" ng-model="building_2_1_1_H" value="0" ng-checked="building_2_1_1_H_a" ng-focus="check_building_2_1_1_H_cm()" />
+		<input id="lodge_building_2_1_1_H_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_H" ng-model="lodge_building_2_1_1_H" value="0" ng-checked="lodge_building_2_1_1_H_a" ng-focus="check_lodge_building_2_1_1_H_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_H_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_H_cm" ng-model="building_2_1_1_H_cm" ng-focus="check_building_2_1_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_H_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_H_cm" ng-model="lodge_building_2_1_1_H_cm" ng-focus="check_lodge_building_2_1_1_H()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -385,7 +385,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_H_b" class="sum_lodge" type="radio"  name="building_2_1_1_H" ng-model="building_2_1_1_H" value="5" ng-checked="building_2_1_1_H_b" ng-focus="check_building_2_1_1_H_cm()" />
+		<input id="lodge_building_2_1_1_H_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_H" ng-model="lodge_building_2_1_1_H" value="5" ng-checked="lodge_building_2_1_1_H_b" ng-focus="check_lodge_building_2_1_1_H_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -409,14 +409,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_I_a" class="sum_lodge" type="radio" name="building_2_1_1_I" ng-model="building_2_1_1_I" value="0" ng-checked="building_2_1_1_I_a" ng-focus="check_building_2_1_1_I_cm()" />
+		<input id="lodge_building_2_1_1_I_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_I" ng-model="lodge_building_2_1_1_I" value="0" ng-checked="lodge_building_2_1_1_I_a" ng-focus="check_lodge_building_2_1_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_1_1_I_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_I_cm" ng-model="building_2_1_1_I_cm" ng-focus="check_building_2_1_1_I()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_I_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_I_cm" ng-model="lodge_building_2_1_1_I_cm" ng-focus="check_lodge_building_2_1_1_I()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -428,7 +428,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_I_b" class="sum_lodge" type="radio"  name="building_2_1_1_I" ng-model="building_2_1_1_I" value="5" ng-checked="building_2_1_1_I_b" ng-focus="check_building_2_1_1_I_cm()" />
+		<input id="lodge_building_2_1_1_I_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_I" ng-model="lodge_building_2_1_1_I" value="5" ng-checked="lodge_building_2_1_1_I_b" ng-focus="check_lodge_building_2_1_1_I_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -452,14 +452,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_J_a" class="sum_lodge" type="radio" name="building_2_1_1_J" ng-model="building_2_1_1_J" value="0" ng-checked="building_2_1_1_J_a" ng-focus="check_building_2_1_1_J_cm()" />
+		<input id="lodge_building_2_1_1_J_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_J" ng-model="lodge_building_2_1_1_J" value="0" ng-checked="lodge_building_2_1_1_J_a" ng-focus="check_lodge_building_2_1_1_J_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="building_2_1_1_J_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_J_cm" ng-model="building_2_1_1_J_cm" ng-focus="check_building_2_1_1_J()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_J_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_J_cm" ng-model="lodge_building_2_1_1_J_cm" ng-focus="check_lodge_building_2_1_1_J()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -471,7 +471,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_J_b" class="sum_lodge" type="radio"  name="building_2_1_1_J" ng-model="building_2_1_1_J" value="3" ng-checked="building_2_1_1_J_b" ng-focus="check_building_2_1_1_J_cm()" />
+		<input id="lodge_building_2_1_1_J_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_J" ng-model="lodge_building_2_1_1_J" value="3" ng-checked="lodge_building_2_1_1_J_b" ng-focus="check_lodge_building_2_1_1_J_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -486,7 +486,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_J_c" class="sum_lodge" type="radio"  name="building_2_1_1_J" ng-model="building_2_1_1_J" value="5" ng-checked="building_2_1_1_J_c" ng-focus="check_building_2_1_1_J_cm()" />
+		<input id="lodge_building_2_1_1_J_c" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_J" ng-model="lodge_building_2_1_1_J" value="5" ng-checked="lodge_building_2_1_1_J_c" ng-focus="check_lodge_building_2_1_1_J_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -510,14 +510,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_K_a" class="sum_lodge" type="radio" name="building_2_1_1_K" ng-model="building_2_1_1_K" value="0" ng-checked="building_2_1_1_K_a" ng-focus="check_building_2_1_1_K_cm()" />
+		<input id="lodge_building_2_1_1_K_a" class="sum_lodge" type="radio" name="lodge_building_2_1_1_K" ng-model="lodge_building_2_1_1_K" value="0" ng-checked="lodge_building_2_1_1_K_a" ng-focus="check_lodge_building_2_1_1_K_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="building_2_1_1_K_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_1_1_K_cm" ng-model="building_2_1_1_K_cm" ng-focus="check_building_2_1_1_K()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_1_1_K_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_1_1_K_cm" ng-model="lodge_building_2_1_1_K_cm" ng-focus="check_lodge_building_2_1_1_K()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -529,7 +529,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_K_b" class="sum_lodge" type="radio"  name="building_2_1_1_K" ng-model="building_2_1_1_K" value="3" ng-checked="building_2_1_1_K_b" ng-focus="check_building_2_1_1_K_cm()" />
+		<input id="lodge_building_2_1_1_K_b" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_K" ng-model="lodge_building_2_1_1_K" value="3" ng-checked="lodge_building_2_1_1_K_b" ng-focus="check_lodge_building_2_1_1_K_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -544,7 +544,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_1_1_K_c" class="sum_lodge" type="radio"  name="building_2_1_1_K" ng-model="building_2_1_1_K" value="5" ng-checked="building_2_1_1_K_c" ng-focus="check_building_2_1_1_K_cm()" />
+		<input id="lodge_building_2_1_1_K_c" class="sum_lodge" type="radio"  name="lodge_building_2_1_1_K" ng-model="lodge_building_2_1_1_K" value="5" ng-checked="lodge_building_2_1_1_K_c" ng-focus="check_lodge_building_2_1_1_K_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -561,7 +561,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">2.2</td>
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_2_2_1">Capacity</td>
   <td rowspan="4" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="building_2_2_1_text" name="building_2_2_1_text" ng-model="building_2_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_building_2_2_1_text" name="lodge_building_2_2_1_text" ng-model="lodge_building_2_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -581,14 +581,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_2_1_A_a" class="sum_lodge" type="radio" name="building_2_2_1_A" ng-model="building_2_2_1_A" value="3" ng-checked="building_2_2_1_A_a" ng-focus="check_building_2_2_1_A_cm()" />
+		<input id="lodge_building_2_2_1_A_a" class="sum_lodge" type="radio" name="lodge_building_2_2_1_A" ng-model="lodge_building_2_2_1_A" value="3" ng-checked="lodge_building_2_2_1_A_a" ng-focus="check_lodge_building_2_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_2_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_2_1_A_cm" ng-model="building_2_2_1_A_cm" ng-focus="check_building_2_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_2_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_2_1_A_cm" ng-model="lodge_building_2_2_1_A_cm" ng-focus="check_lodge_building_2_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -600,7 +600,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_2_1_A_b" class="sum_lodge" type="radio"  name="building_2_2_1_A" ng-model="building_2_2_1_A" value="10" ng-checked="building_2_2_1_A_b" ng-focus="check_building_2_2_1_A_cm()" />
+		<input id="lodge_building_2_2_1_A_b" class="sum_lodge" type="radio"  name="lodge_building_2_2_1_A" ng-model="lodge_building_2_2_1_A" value="10" ng-checked="lodge_building_2_2_1_A_b" ng-focus="check_lodge_building_2_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -617,7 +617,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">2.3</td>
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_2_3_1">Corridors, Hallwayas, Staircases and Walkways</td>
   <td rowspan="26" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="building_2_3_1_text" name="building_2_3_1_text" ng-model="building_2_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_building_2_3_1_text" name="lodge_building_2_3_1_text" ng-model="lodge_building_2_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -637,14 +637,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_A_a" class="sum_lodge" type="radio" name="building_2_3_1_A" ng-model="building_2_3_1_A" value="0" ng-checked="building_2_3_1_A_a" ng-focus="check_building_2_3_1_A_cm()" />
+		<input id="lodge_building_2_3_1_A_a" class="sum_lodge" type="radio" name="lodge_building_2_3_1_A" ng-model="lodge_building_2_3_1_A" value="0" ng-checked="lodge_building_2_3_1_A_a" ng-focus="check_lodge_building_2_3_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_3_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_3_1_A_cm" ng-model="building_2_3_1_A_cm" ng-focus="check_building_2_3_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_3_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_3_1_A_cm" ng-model="lodge_building_2_3_1_A_cm" ng-focus="check_lodge_building_2_3_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -656,7 +656,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_A_b" class="sum_lodge" type="radio"  name="building_2_3_1_A" ng-model="building_2_3_1_A" value="5" ng-checked="building_2_3_1_A_b" ng-focus="check_building_2_3_1_A_cm()" />
+		<input id="lodge_building_2_3_1_A_b" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_A" ng-model="lodge_building_2_3_1_A" value="5" ng-checked="lodge_building_2_3_1_A_b" ng-focus="check_lodge_building_2_3_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -680,14 +680,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_B_a" class="sum_lodge" type="radio" name="building_2_3_1_B" ng-model="building_2_3_1_B" value="0" ng-checked="building_2_3_1_B_a" ng-focus="check_building_2_3_1_B_cm()" />
+		<input id="lodge_building_2_3_1_B_a" class="sum_lodge" type="radio" name="lodge_building_2_3_1_B" ng-model="lodge_building_2_3_1_B" value="0" ng-checked="lodge_building_2_3_1_B_a" ng-focus="check_lodge_building_2_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_3_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_3_1_B_cm" ng-model="building_2_3_1_B_cm" ng-focus="check_building_2_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_3_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_3_1_B_cm" ng-model="lodge_building_2_3_1_B_cm" ng-focus="check_lodge_building_2_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -699,7 +699,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_B_b" class="sum_lodge" type="radio"  name="building_2_3_1_B" ng-model="building_2_3_1_B" value="5" ng-checked="building_2_3_1_B_b" ng-focus="check_building_2_3_1_B_cm()" />
+		<input id="lodge_building_2_3_1_B_b" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_B" ng-model="lodge_building_2_3_1_B" value="5" ng-checked="lodge_building_2_3_1_B_b" ng-focus="check_lodge_building_2_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -723,14 +723,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_C_a" class="sum_lodge" type="radio" name="building_2_3_1_C" ng-model="building_2_3_1_C" value="0" ng-checked="building_2_3_1_C_a" ng-focus="check_building_2_3_1_C_cm()" />
+		<input id="lodge_building_2_3_1_C_a" class="sum_lodge" type="radio" name="lodge_building_2_3_1_C" ng-model="lodge_building_2_3_1_C" value="0" ng-checked="lodge_building_2_3_1_C_a" ng-focus="check_lodge_building_2_3_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_3_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_3_1_C_cm" ng-model="building_2_3_1_C_cm" ng-focus="check_building_2_3_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_3_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_3_1_C_cm" ng-model="lodge_building_2_3_1_C_cm" ng-focus="check_lodge_building_2_3_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -742,7 +742,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_C_b" class="sum_lodge" type="radio"  name="building_2_3_1_C" ng-model="building_2_3_1_C" value="5" ng-checked="building_2_3_1_C_b" ng-focus="check_building_2_3_1_C_cm()" />
+		<input id="lodge_building_2_3_1_C_b" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_C" ng-model="lodge_building_2_3_1_C" value="5" ng-checked="lodge_building_2_3_1_C_b" ng-focus="check_lodge_building_2_3_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -766,14 +766,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_D_a" class="sum_lodge" type="radio" name="building_2_3_1_D" ng-model="building_2_3_1_D" value="1" ng-checked="building_2_3_1_D_a" ng-focus="check_building_2_3_1_D_cm()" />
+		<input id="lodge_building_2_3_1_D_a" class="sum_lodge" type="radio" name="lodge_building_2_3_1_D" ng-model="lodge_building_2_3_1_D" value="1" ng-checked="lodge_building_2_3_1_D_a" ng-focus="check_lodge_building_2_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_3_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_3_1_D_cm" ng-model="building_2_3_1_D_cm" ng-focus="check_building_2_3_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_3_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_3_1_D_cm" ng-model="lodge_building_2_3_1_D_cm" ng-focus="check_lodge_building_2_3_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -785,7 +785,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_D_b" class="sum_lodge" type="radio"  name="building_2_3_1_D" ng-model="building_2_3_1_D" value="3" ng-checked="building_2_3_1_D_b" ng-focus="check_building_2_3_1_D_cm()" />
+		<input id="lodge_building_2_3_1_D_b" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_D" ng-model="lodge_building_2_3_1_D" value="3" ng-checked="lodge_building_2_3_1_D_b" ng-focus="check_lodge_building_2_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -800,7 +800,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_D_c" class="sum_lodge" type="radio"  name="building_2_3_1_D" ng-model="building_2_3_1_D" value="5" ng-checked="building_2_3_1_D_c" ng-focus="check_building_2_3_1_D_cm()" />
+		<input id="lodge_building_2_3_1_D_c" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_D" ng-model="lodge_building_2_3_1_D" value="5" ng-checked="lodge_building_2_3_1_D_c" ng-focus="check_lodge_building_2_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -824,14 +824,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_E_a" class="sum_lodge" type="radio" name="building_2_3_1_E" ng-model="building_2_3_1_E" value="1" ng-checked="building_2_3_1_E_a" ng-focus="check_building_2_3_1_E_cm()" />
+		<input id="lodge_building_2_3_1_E_a" class="sum_lodge" type="radio" name="lodge_building_2_3_1_E" ng-model="lodge_building_2_3_1_E" value="1" ng-checked="lodge_building_2_3_1_E_a" ng-focus="check_lodge_building_2_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_3_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_3_1_E_cm" ng-model="building_2_3_1_E_cm" ng-focus="check_building_2_3_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_3_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_3_1_E_cm" ng-model="lodge_building_2_3_1_E_cm" ng-focus="check_lodge_building_2_3_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -843,7 +843,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_E_b" class="sum_lodge" type="radio"  name="building_2_3_1_E" ng-model="building_2_3_1_E" value="3" ng-checked="building_2_3_1_E_b" ng-focus="check_building_2_3_1_E_cm()" />
+		<input id="lodge_building_2_3_1_E_b" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_E" ng-model="lodge_building_2_3_1_E" value="3" ng-checked="lodge_building_2_3_1_E_b" ng-focus="check_lodge_building_2_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -858,7 +858,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_E_c" class="sum_lodge" type="radio"  name="building_2_3_1_E" ng-model="building_2_3_1_E" value="5" ng-checked="building_2_3_1_E_c" ng-focus="check_building_2_3_1_E_cm()" />
+		<input id="lodge_building_2_3_1_E_c" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_E" ng-model="lodge_building_2_3_1_E" value="5" ng-checked="lodge_building_2_3_1_E_c" ng-focus="check_lodge_building_2_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -882,14 +882,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_F_a" class="sum_lodge" type="radio" name="building_2_3_1_F" ng-model="building_2_3_1_F" value="0" ng-checked="building_2_3_1_F_a" ng-focus="check_building_2_3_1_F_cm()" />
+		<input id="lodge_building_2_3_1_F_a" class="sum_lodge" type="radio" name="lodge_building_2_3_1_F" ng-model="lodge_building_2_3_1_F" value="0" ng-checked="lodge_building_2_3_1_F_a" ng-focus="check_lodge_building_2_3_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_3_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_3_1_F_cm" ng-model="building_2_3_1_F_cm" ng-focus="check_building_2_3_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_3_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_3_1_F_cm" ng-model="lodge_building_2_3_1_F_cm" ng-focus="check_lodge_building_2_3_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -901,7 +901,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_F_b" class="sum_lodge" type="radio"  name="building_2_3_1_F" ng-model="building_2_3_1_F" value="3" ng-checked="building_2_3_1_F_b" ng-focus="check_building_2_3_1_F_cm()" />
+		<input id="lodge_building_2_3_1_F_b" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_F" ng-model="lodge_building_2_3_1_F" value="3" ng-checked="lodge_building_2_3_1_F_b" ng-focus="check_lodge_building_2_3_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -916,7 +916,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_F_c" class="sum_lodge" type="radio"  name="building_2_3_1_F" ng-model="building_2_3_1_F" value="5" ng-checked="building_2_3_1_F_c" ng-focus="check_building_2_3_1_F_cm()" />
+		<input id="lodge_building_2_3_1_F_c" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_F" ng-model="lodge_building_2_3_1_F" value="5" ng-checked="lodge_building_2_3_1_F_c" ng-focus="check_lodge_building_2_3_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -940,14 +940,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_G_a" class="sum_lodge" type="radio" name="building_2_3_1_G" ng-model="building_2_3_1_G" value="0" ng-checked="building_2_3_1_G_a" ng-focus="check_building_2_3_1_G_cm()" />
+		<input id="lodge_building_2_3_1_G_a" class="sum_lodge" type="radio" name="lodge_building_2_3_1_G" ng-model="lodge_building_2_3_1_G" value="0" ng-checked="lodge_building_2_3_1_G_a" ng-focus="check_lodge_building_2_3_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_3_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_3_1_G_cm" ng-model="building_2_3_1_G_cm" ng-focus="check_building_2_3_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_3_1_G_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_3_1_G_cm" ng-model="lodge_building_2_3_1_G_cm" ng-focus="check_lodge_building_2_3_1_G()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -959,7 +959,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_G_b" class="sum_lodge" type="radio"  name="building_2_3_1_G" ng-model="building_2_3_1_G" value="3" ng-checked="building_2_3_1_G_b" ng-focus="check_building_2_3_1_G_cm()" />
+		<input id="lodge_building_2_3_1_G_b" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_G" ng-model="lodge_building_2_3_1_G" value="3" ng-checked="lodge_building_2_3_1_G_b" ng-focus="check_lodge_building_2_3_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -974,7 +974,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_3_1_G_c" class="sum_lodge" type="radio"  name="building_2_3_1_G" ng-model="building_2_3_1_G" value="5" ng-checked="building_2_3_1_G_c" ng-focus="check_building_2_3_1_G_cm()" />
+		<input id="lodge_building_2_3_1_G_c" class="sum_lodge" type="radio"  name="lodge_building_2_3_1_G" ng-model="lodge_building_2_3_1_G" value="5" ng-checked="lodge_building_2_3_1_G_c" ng-focus="check_lodge_building_2_3_1_G_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -991,7 +991,7 @@
   <td style="vertical-align:top; font-weight:bold" class="border-mdblue borderless-bottom">2.4</td>
   <td colspan="4" style="vertical-align:middle; font-weight:bold" class="border-mdblue borderless-top row_2_4_1">Site signage and Notice</td>
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="building_2_4_1_text" name="building_2_4_1_text" ng-model="building_2_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_building_2_4_1_text" name="lodge_building_2_4_1_text" ng-model="lodge_building_2_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="5" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1011,14 +1011,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_4_1_A_a" class="sum_lodge" type="radio" name="building_2_4_1_A" ng-model="building_2_4_1_A" value="0" ng-checked="building_2_4_1_A_a" ng-focus="check_building_2_4_1_A_cm()" />
+		<input id="lodge_building_2_4_1_A_a" class="sum_lodge" type="radio" name="lodge_building_2_4_1_A" ng-model="lodge_building_2_4_1_A" value="0" ng-checked="lodge_building_2_4_1_A_a" ng-focus="check_lodge_building_2_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_4_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_4_1_A_cm" ng-model="building_2_4_1_A_cm" ng-focus="check_building_2_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_4_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_4_1_A_cm" ng-model="lodge_building_2_4_1_A_cm" ng-focus="check_lodge_building_2_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1030,7 +1030,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_4_1_A_b" class="sum_lodge" type="radio"  name="building_2_4_1_A" ng-model="building_2_4_1_A" value="3" ng-checked="building_2_4_1_A_b" ng-focus="check_building_2_4_1_A_cm()" />
+		<input id="lodge_building_2_4_1_A_b" class="sum_lodge" type="radio"  name="lodge_building_2_4_1_A" ng-model="lodge_building_2_4_1_A" value="3" ng-checked="lodge_building_2_4_1_A_b" ng-focus="check_lodge_building_2_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1045,7 +1045,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_4_1_A_c" class="sum_lodge" type="radio"  name="building_2_4_1_A" ng-model="building_2_4_1_A" value="5" ng-checked="building_2_4_1_A_c" ng-focus="check_building_2_4_1_A_cm()" />
+		<input id="lodge_building_2_4_1_A_c" class="sum_lodge" type="radio"  name="lodge_building_2_4_1_A" ng-model="lodge_building_2_4_1_A" value="5" ng-checked="lodge_building_2_4_1_A_c" ng-focus="check_lodge_building_2_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1069,14 +1069,14 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_4_1_B_a" class="sum_lodge" type="radio" name="building_2_4_1_B" ng-model="building_2_4_1_B" value="0" ng-checked="building_2_4_1_B_a" ng-focus="check_building_2_4_1_B_cm()" />
+		<input id="lodge_building_2_4_1_B_a" class="sum_lodge" type="radio" name="lodge_building_2_4_1_B" ng-model="lodge_building_2_4_1_B" value="0" ng-checked="lodge_building_2_4_1_B_a" ng-focus="check_lodge_building_2_4_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="building_2_4_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="building_2_4_1_B_cm" ng-model="building_2_4_1_B_cm" ng-focus="check_building_2_4_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_building_2_4_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_building_2_4_1_B_cm" ng-model="lodge_building_2_4_1_B_cm" ng-focus="check_lodge_building_2_4_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1088,7 +1088,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_4_1_B_b" class="sum_lodge" type="radio"  name="building_2_4_1_B" ng-model="building_2_4_1_B" value="3" ng-checked="building_2_4_1_A_b" ng-focus="check_building_2_4_1_A_cm()" />
+		<input id="lodge_building_2_4_1_B_b" class="sum_lodge" type="radio"  name="lodge_building_2_4_1_B" ng-model="lodge_building_2_4_1_B" value="3" ng-checked="lodge_building_2_4_1_A_b" ng-focus="check_lodge_building_2_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1103,7 +1103,7 @@
   
   <td  style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="building_2_4_1_B_c" class="sum_lodge" type="radio"  name="building_2_4_1_B" ng-model="building_2_4_1_B" value="5" ng-checked="building_2_4_1_A_c" ng-focus="check_building_2_4_1_A_cm()" />
+		<input id="lodge_building_2_4_1_B_c" class="sum_lodge" type="radio"  name="lodge_building_2_4_1_B" ng-model="lodge_building_2_4_1_B" value="5" ng-checked="lodge_building_2_4_1_A_c" ng-focus="check_lodge_building_2_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

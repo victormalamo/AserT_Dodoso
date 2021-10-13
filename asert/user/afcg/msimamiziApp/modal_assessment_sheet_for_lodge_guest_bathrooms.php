@@ -18,7 +18,7 @@
   
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="6" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_1_1_text" name="guest_bathrooms_10_1_1_text" ng-model="guest_bathrooms_10_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_1_1_text" name="lodge_guest_bathrooms_10_1_1_text" ng-model="lodge_guest_bathrooms_10_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 							
@@ -46,14 +46,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_1_1_A_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_1_1_A" ng-model="guest_bathrooms_10_1_1_A" value="5" ng-checked="guest_bathrooms_10_1_1_A_a" ng-focus="check_guest_bathrooms_10_1_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_1_1_A_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_1_1_A" ng-model="lodge_guest_bathrooms_10_1_1_A" value="5" ng-checked="lodge_guest_bathrooms_10_1_1_A_a" ng-focus="check_lodge_guest_bathrooms_10_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_1_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_1_1_A_cm" ng-model="guest_bathrooms_10_1_1_A_cm" ng-focus="check_guest_bathrooms_10_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_1_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_1_1_A_cm" ng-model="lodge_guest_bathrooms_10_1_1_A_cm" ng-focus="check_lodge_guest_bathrooms_10_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -64,7 +64,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_1_1_A_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_1_1_A" ng-model="guest_bathrooms_10_1_1_A" value="15" ng-checked="guest_bathrooms_10_1_1_A_b" ng-focus="check_guest_bathrooms_10_1_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_1_1_A_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_1_1_A" ng-model="lodge_guest_bathrooms_10_1_1_A" value="15" ng-checked="lodge_guest_bathrooms_10_1_1_A_b" ng-focus="check_lodge_guest_bathrooms_10_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -80,7 +80,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_1_1_A_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_1_1_A" ng-model="guest_bathrooms_10_1_1_A" value="25" ng-checked="guest_bathrooms_10_1_1_A_c" ng-focus="check_guest_bathrooms_10_1_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_1_1_A_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_1_1_A" ng-model="lodge_guest_bathrooms_10_1_1_A" value="25" ng-checked="lodge_guest_bathrooms_10_1_1_A_c" ng-focus="check_lodge_guest_bathrooms_10_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -96,7 +96,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_1_1_A_d" class="sum_lodge" type="radio"  name="guest_bathrooms_10_1_1_A" ng-model="guest_bathrooms_10_1_1_A" value="30" ng-checked="guest_bathrooms_10_1_1_A_d" ng-focus="check_guest_bathrooms_10_1_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_1_1_A_d" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_1_1_A" ng-model="lodge_guest_bathrooms_10_1_1_A" value="30" ng-checked="lodge_guest_bathrooms_10_1_1_A_d" ng-focus="check_lodge_guest_bathrooms_10_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -118,7 +118,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="5" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_2_1_text" name="guest_bathrooms_10_2_1_text" ng-model="guest_bathrooms_10_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_2_1_text" name="lodge_guest_bathrooms_10_2_1_text" ng-model="lodge_guest_bathrooms_10_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -145,14 +145,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_2_1_A_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_2_1_A" ng-model="guest_bathrooms_10_2_1_A" value="15" ng-checked="guest_bathrooms_10_2_1_A_a" ng-focus="check_guest_bathrooms_10_2_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_2_1_A_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_2_1_A" ng-model="lodge_guest_bathrooms_10_2_1_A" value="15" ng-checked="lodge_guest_bathrooms_10_2_1_A_a" ng-focus="check_lodge_guest_bathrooms_10_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_2_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_2_1_A_cm" ng-model="guest_bathrooms_10_2_1_A_cm" ng-focus="check_guest_bathrooms_10_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_2_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_2_1_A_cm" ng-model="lodge_guest_bathrooms_10_2_1_A_cm" ng-focus="check_lodge_guest_bathrooms_10_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -163,7 +163,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_2_1_A_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_2_1_A" ng-model="guest_bathrooms_10_2_1_A" value="25" ng-checked="guest_bathrooms_10_2_1_A_b" ng-focus="check_guest_bathrooms_10_2_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_2_1_A_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_2_1_A" ng-model="lodge_guest_bathrooms_10_2_1_A" value="25" ng-checked="lodge_guest_bathrooms_10_2_1_A_b" ng-focus="check_lodge_guest_bathrooms_10_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -179,7 +179,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_2_1_A_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_2_1_A" ng-model="guest_bathrooms_10_2_1_A" value="40" ng-checked="guest_bathrooms_10_2_1_A_c" ng-focus="check_guest_bathrooms_10_2_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_2_1_A_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_2_1_A" ng-model="lodge_guest_bathrooms_10_2_1_A" value="40" ng-checked="lodge_guest_bathrooms_10_2_1_A_c" ng-focus="check_lodge_guest_bathrooms_10_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -201,7 +201,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="44" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_3_1_text" name="guest_bathrooms_10_3_1_text" ng-model="guest_bathrooms_10_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_3_1_text" name="lodge_guest_bathrooms_10_3_1_text" ng-model="lodge_guest_bathrooms_10_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -227,7 +227,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_a" class="sum_lodge" type="checkbox" name="guest_bathrooms_10_3_1_A_a" ng-model="guest_bathrooms_10_3_1_A_a" value="2" ng-checked="guest_bathrooms_10_3_1_A_aTT" ng-focus="check_guest_bathrooms_10_3_1_A_a_cm()"/>
+		<input id="lodge_guest_bathrooms_10_3_1_A_a" class="sum_lodge" type="checkbox" name="lodge_guest_bathrooms_10_3_1_A_a" ng-model="lodge_guest_bathrooms_10_3_1_A_a" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_aTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -243,7 +243,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_a_cm" ng-model="guest_bathrooms_10_3_1_A_a_cm" ng-focus="check_guest_bathrooms_10_3_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_a_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_a_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -255,7 +255,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_b" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_b" ng-model="guest_bathrooms_10_3_1_A_b" value="2" ng-checked="guest_bathrooms_10_3_1_A_bTT" ng-focus="check_guest_bathrooms_10_3_1_A_b_cm()"/>
+		<input id="lodge_guest_bathrooms_10_3_1_A_b" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_b" ng-model="lodge_guest_bathrooms_10_3_1_A_b" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_bTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -263,7 +263,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_b_cm" ng-model="guest_bathrooms_10_3_1_A_b_cm" ng-focus="check_guest_bathrooms_10_3_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_b_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_b_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -275,7 +275,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_c" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_c" ng-model="guest_bathrooms_10_3_1_A_c" value="2" ng-checked="guest_bathrooms_10_3_1_A_cTT" ng-focus="check_guest_bathrooms_10_3_1_A_c_cm()"/>
+		<input id="lodge_guest_bathrooms_10_3_1_A_c" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_c" ng-model="lodge_guest_bathrooms_10_3_1_A_c" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_cTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -283,7 +283,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_c_cm" ng-model="guest_bathrooms_10_3_1_A_c_cm" ng-focus="check_guest_bathrooms_10_3_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_c_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_c_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -294,7 +294,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_d" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_d" ng-model="guest_bathrooms_10_3_1_A_d" value="3" ng-checked="guest_bathrooms_10_3_1_A_dTT" ng-focus="check_guest_bathrooms_10_3_1_A_d_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_d" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_d" ng-model="lodge_guest_bathrooms_10_3_1_A_d" value="3" ng-checked="lodge_guest_bathrooms_10_3_1_A_dTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -302,7 +302,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_d_cm" ng-model="guest_bathrooms_10_3_1_A_d_cm" ng-focus="check_guest_bathrooms_10_3_1_A_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_d_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_d_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -313,7 +313,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_e" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_e" ng-model="guest_bathrooms_10_3_1_A_e" value="2" ng-checked="guest_bathrooms_10_3_1_A_eTT" ng-focus="check_guest_bathrooms_10_3_1_A_e_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_e" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_e" ng-model="lodge_guest_bathrooms_10_3_1_A_e" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_eTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_e_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -321,7 +321,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_e_cm" ng-model="guest_bathrooms_10_3_1_A_e_cm" ng-focus="check_guest_bathrooms_10_3_1_A_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_e_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_e_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_e()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -332,7 +332,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_f" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_f" ng-model="guest_bathrooms_10_3_1_A_f" value="4" ng-checked="guest_bathrooms_10_3_1_A_fTT" ng-focus="check_guest_bathrooms_10_3_1_A_f_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_f" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_f" ng-model="lodge_guest_bathrooms_10_3_1_A_f" value="4" ng-checked="lodge_guest_bathrooms_10_3_1_A_fTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_f_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -340,7 +340,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_f_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_f_cm" ng-model="guest_bathrooms_10_3_1_A_f_cm" ng-focus="check_guest_bathrooms_10_3_1_A_f()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_f_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_f_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_f_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_f()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -351,7 +351,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_g" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_g" ng-model="guest_bathrooms_10_3_1_A_g" value="2" ng-checked="guest_bathrooms_10_3_1_A_gTT" ng-focus="check_guest_bathrooms_10_3_1_A_g_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_g" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_g" ng-model="lodge_guest_bathrooms_10_3_1_A_g" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_gTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_g_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -359,7 +359,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_g_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_g_cm" ng-model="guest_bathrooms_10_3_1_A_g_cm" ng-focus="check_guest_bathrooms_10_3_1_A_g()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_g_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_g_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_g_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_g()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -370,7 +370,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_h" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_h" ng-model="guest_bathrooms_10_3_1_A_h" value="2" ng-checked="guest_bathrooms_10_3_1_A_hTT" ng-focus="check_guest_bathrooms_10_3_1_A_h_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_h" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_h" ng-model="lodge_guest_bathrooms_10_3_1_A_h" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_hTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_h_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -378,7 +378,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_h_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_h_cm" ng-model="guest_bathrooms_10_3_1_A_h_cm" ng-focus="check_guest_bathrooms_10_3_1_A_h()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_h_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_h_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_h_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_h()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -389,7 +389,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_i" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_i" ng-model="guest_bathrooms_10_3_1_A_i" value="2" ng-checked="guest_bathrooms_10_3_1_A_iTT" ng-focus="check_guest_bathrooms_10_3_1_A_i_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_i" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_i" ng-model="lodge_guest_bathrooms_10_3_1_A_i" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_iTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_i_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -397,7 +397,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_i_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_i_cm" ng-model="guest_bathrooms_10_3_1_A_i_cm" ng-focus="check_guest_bathrooms_10_3_1_A_i()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_i_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_i_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_i_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_i()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -408,7 +408,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_j" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_j" ng-model="guest_bathrooms_10_3_1_A_j" value="1" ng-checked="guest_bathrooms_10_3_1_A_jTT" ng-focus="check_guest_bathrooms_10_3_1_A_j_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_j" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_j" ng-model="lodge_guest_bathrooms_10_3_1_A_j" value="1" ng-checked="lodge_guest_bathrooms_10_3_1_A_jTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_j_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -416,7 +416,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_j_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_j_cm" ng-model="guest_bathrooms_10_3_1_A_j_cm" ng-focus="check_guest_bathrooms_10_3_1_A_j()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_j_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_j_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_j_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_j()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -427,7 +427,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_k" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_k" ng-model="guest_bathrooms_10_3_1_A_k" value="3" ng-checked="guest_bathrooms_10_3_1_A_kTT" ng-focus="check_guest_bathrooms_10_3_1_A_k_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_k" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_k" ng-model="lodge_guest_bathrooms_10_3_1_A_k" value="3" ng-checked="lodge_guest_bathrooms_10_3_1_A_kTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_k_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -435,7 +435,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_k_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_k_cm" ng-model="guest_bathrooms_10_3_1_A_k_cm" ng-focus="check_guest_bathrooms_10_3_1_A_k()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_k_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_k_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_k_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_k()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -446,7 +446,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_l" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_l" ng-model="guest_bathrooms_10_3_1_A_l" value="2" ng-checked="guest_bathrooms_10_3_1_A_lTT" ng-focus="check_guest_bathrooms_10_3_1_A_l_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_l" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_l" ng-model="lodge_guest_bathrooms_10_3_1_A_l" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_lTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_l_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -454,7 +454,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_l_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_l_cm" ng-model="guest_bathrooms_10_3_1_A_l_cm" ng-focus="check_guest_bathrooms_10_3_1_A_l()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_l_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_l_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_l_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_l()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -465,7 +465,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_m" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_m" ng-model="guest_bathrooms_10_3_1_A_m" value="1" ng-checked="guest_bathrooms_10_3_1_A_mTT" ng-focus="check_guest_bathrooms_10_3_1_A_m_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_m" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_m" ng-model="lodge_guest_bathrooms_10_3_1_A_m" value="1" ng-checked="lodge_guest_bathrooms_10_3_1_A_mTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_m_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -473,7 +473,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_m_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_m_cm" ng-model="guest_bathrooms_10_3_1_A_m_cm" ng-focus="check_guest_bathrooms_10_3_1_A_m()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_m_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_m_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_m_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_m()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -484,7 +484,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_n" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_n" ng-model="guest_bathrooms_10_3_1_A_n" value="1" ng-checked="guest_bathrooms_10_3_1_A_nTT" ng-focus="check_guest_bathrooms_10_3_1_A_n_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_n" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_n" ng-model="lodge_guest_bathrooms_10_3_1_A_n" value="1" ng-checked="lodge_guest_bathrooms_10_3_1_A_nTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_n_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -492,7 +492,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_n_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_n_cm" ng-model="guest_bathrooms_10_3_1_A_n_cm" ng-focus="check_guest_bathrooms_10_3_1_A_n()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_n_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_n_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_n_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_n()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -503,7 +503,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_o" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_o" ng-model="guest_bathrooms_10_3_1_A_o" value="3" ng-checked="guest_bathrooms_10_3_1_A_oTT" ng-focus="check_guest_bathrooms_10_3_1_A_o_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_o" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_o" ng-model="lodge_guest_bathrooms_10_3_1_A_o" value="3" ng-checked="lodge_guest_bathrooms_10_3_1_A_oTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_o_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -511,7 +511,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_o_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_o_cm" ng-model="guest_bathrooms_10_3_1_A_o_cm" ng-focus="check_guest_bathrooms_10_3_1_A_o()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_o_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_o_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_o_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_o()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -522,7 +522,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_p" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_p" ng-model="guest_bathrooms_10_3_1_A_p" value="2" ng-checked="guest_bathrooms_10_3_1_A_pTT" ng-focus="check_guest_bathrooms_10_3_1_A_p_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_p" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_p" ng-model="lodge_guest_bathrooms_10_3_1_A_p" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_pTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_p_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -530,7 +530,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_p_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_p_cm" ng-model="guest_bathrooms_10_3_1_A_p_cm" ng-focus="check_guest_bathrooms_10_3_1_A_p()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_p_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_p_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_p_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_p()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -541,7 +541,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_q" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_q" ng-model="guest_bathrooms_10_3_1_A_q" value="2" ng-checked="guest_bathrooms_10_3_1_A_qTT" ng-focus="check_guest_bathrooms_10_3_1_A_q_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_q" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_q" ng-model="lodge_guest_bathrooms_10_3_1_A_q" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_qTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_q_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -549,7 +549,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_q_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_q_cm" ng-model="guest_bathrooms_10_3_1_A_q_cm" ng-focus="check_guest_bathrooms_10_3_1_A_q()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_q_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_q_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_q_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_q()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -560,7 +560,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_r" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_r" ng-model="guest_bathrooms_10_3_1_A_r" value="3" ng-checked="guest_bathrooms_10_3_1_A_rTT" ng-focus="check_guest_bathrooms_10_3_1_A_r_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_r" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_r" ng-model="lodge_guest_bathrooms_10_3_1_A_r" value="3" ng-checked="lodge_guest_bathrooms_10_3_1_A_rTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_r_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -568,7 +568,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_r_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_r_cm" ng-model="guest_bathrooms_10_3_1_A_r_cm" ng-focus="check_guest_bathrooms_10_3_1_A_r()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_r_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_r_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_r_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_r()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -579,7 +579,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_s" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_s" ng-model="guest_bathrooms_10_3_1_A_s" value="3" ng-checked="guest_bathrooms_10_3_1_A_sTT" ng-focus="check_guest_bathrooms_10_3_1_A_s_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_s" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_s" ng-model="lodge_guest_bathrooms_10_3_1_A_s" value="3" ng-checked="lodge_guest_bathrooms_10_3_1_A_sTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_s_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -587,7 +587,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_s_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_s_cm" ng-model="guest_bathrooms_10_3_1_A_s_cm" ng-focus="check_guest_bathrooms_10_3_1_A_s()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_s_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_s_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_s_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_s()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -598,7 +598,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_t" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_t" ng-model="guest_bathrooms_10_3_1_A_t" value="2" ng-checked="guest_bathrooms_10_3_1_A_tTT" ng-focus="check_guest_bathrooms_10_3_1_A_t_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_t" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_t" ng-model="lodge_guest_bathrooms_10_3_1_A_t" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_A_tTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_t_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -606,7 +606,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_t_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_t_cm" ng-model="guest_bathrooms_10_3_1_A_t_cm" ng-focus="check_guest_bathrooms_10_3_1_A_t()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_t_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_t_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_t_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_t()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -617,7 +617,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_u" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_u" ng-model="guest_bathrooms_10_3_1_A_u" value="3" ng-checked="guest_bathrooms_10_3_1_A_uTT" ng-focus="check_guest_bathrooms_10_3_1_A_u_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_u" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_u" ng-model="lodge_guest_bathrooms_10_3_1_A_u" value="3" ng-checked="lodge_guest_bathrooms_10_3_1_A_uTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_u_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -625,7 +625,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_u_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_u_cm" ng-model="guest_bathrooms_10_3_1_A_u_cm" ng-focus="check_guest_bathrooms_10_3_1_A_u()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_u_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_u_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_u_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_u()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -636,7 +636,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_v" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_v" ng-model="guest_bathrooms_10_3_1_A_v" value="3" ng-checked="guest_bathrooms_10_3_1_A_vTT" ng-focus="check_guest_bathrooms_10_3_1_A_v_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_v" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_v" ng-model="lodge_guest_bathrooms_10_3_1_A_v" value="3" ng-checked="lodge_guest_bathrooms_10_3_1_A_vTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_v_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -644,7 +644,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_3_1_A_v_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_v_cm" ng-model="guest_bathrooms_10_3_1_A_v_cm" ng-focus="check_guest_bathrooms_10_3_1_A_v()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_v_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_v_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_v_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_v()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -655,7 +655,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_3_1_A_w" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_3_1_A_w" ng-model="guest_bathrooms_10_3_1_A_w" value="3" ng-checked="guest_bathrooms_10_3_1_A_wTT" ng-focus="check_guest_bathrooms_10_3_1_A_w_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_A_w" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_3_1_A_w" ng-model="lodge_guest_bathrooms_10_3_1_A_w" value="3" ng-checked="lodge_guest_bathrooms_10_3_1_A_wTT" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_w_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -663,7 +663,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_3_1_A_w_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_A_w_cm" ng-model="guest_bathrooms_10_3_1_A_w_cm" ng-focus="check_guest_bathrooms_10_3_1_A_w()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_A_w_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_A_w_cm" ng-model="lodge_guest_bathrooms_10_3_1_A_w_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_A_w()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -688,14 +688,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_B_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_3_1_B" ng-model="guest_bathrooms_10_3_1_B" value="2" ng-checked="guest_bathrooms_10_3_1_B_a" ng-focus="check_guest_bathrooms_10_3_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_B_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_3_1_B" ng-model="lodge_guest_bathrooms_10_3_1_B" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_B_a" ng-focus="check_lodge_guest_bathrooms_10_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_3_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_B_cm" ng-model="guest_bathrooms_10_3_1_B_cm" ng-focus="check_guest_bathrooms_10_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_B_cm" ng-model="lodge_guest_bathrooms_10_3_1_B_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -706,7 +706,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_B_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_B" ng-model="guest_bathrooms_10_3_1_B" value="5" ng-checked="guest_bathrooms_10_3_1_B_b" ng-focus="check_guest_bathrooms_10_3_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_B_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_B" ng-model="lodge_guest_bathrooms_10_3_1_B" value="5" ng-checked="lodge_guest_bathrooms_10_3_1_B_b" ng-focus="check_lodge_guest_bathrooms_10_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -722,7 +722,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_B_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_B" ng-model="guest_bathrooms_10_3_1_B" value="8" ng-checked="guest_bathrooms_10_3_1_B_c" ng-focus="check_guest_bathrooms_10_3_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_B_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_B" ng-model="lodge_guest_bathrooms_10_3_1_B" value="8" ng-checked="lodge_guest_bathrooms_10_3_1_B_c" ng-focus="check_lodge_guest_bathrooms_10_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -753,14 +753,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_C_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_3_1_C" ng-model="guest_bathrooms_10_3_1_C" value="0" ng-checked="guest_bathrooms_10_3_1_C_a" ng-focus="check_guest_bathrooms_10_3_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_C_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_3_1_C" ng-model="lodge_guest_bathrooms_10_3_1_C" value="0" ng-checked="lodge_guest_bathrooms_10_3_1_C_a" ng-focus="check_lodge_guest_bathrooms_10_3_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_3_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_C_cm" ng-model="guest_bathrooms_10_3_1_C_cm" ng-focus="check_guest_bathrooms_10_3_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_C_cm" ng-model="lodge_guest_bathrooms_10_3_1_C_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -771,7 +771,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_C_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_C" ng-model="guest_bathrooms_10_3_1_C" value="6" ng-checked="guest_bathrooms_10_3_1_C_b" ng-focus="check_guest_bathrooms_10_3_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_C_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_C" ng-model="lodge_guest_bathrooms_10_3_1_C" value="6" ng-checked="lodge_guest_bathrooms_10_3_1_C_b" ng-focus="check_lodge_guest_bathrooms_10_3_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -801,14 +801,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_D_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_3_1_D" ng-model="guest_bathrooms_10_3_1_D" value="2" ng-checked="guest_bathrooms_10_3_1_D_a" ng-focus="check_guest_bathrooms_10_3_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_D_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_3_1_D" ng-model="lodge_guest_bathrooms_10_3_1_D" value="2" ng-checked="lodge_guest_bathrooms_10_3_1_D_a" ng-focus="check_lodge_guest_bathrooms_10_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_3_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_D_cm" ng-model="guest_bathrooms_10_3_1_D_cm" ng-focus="check_guest_bathrooms_10_3_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_D_cm" ng-model="lodge_guest_bathrooms_10_3_1_D_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -819,7 +819,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_D_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_D" ng-model="guest_bathrooms_10_3_1_D" value="4" ng-checked="guest_bathrooms_10_3_1_D_b" ng-focus="check_guest_bathrooms_10_3_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_D_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_D" ng-model="lodge_guest_bathrooms_10_3_1_D" value="4" ng-checked="lodge_guest_bathrooms_10_3_1_D_b" ng-focus="check_lodge_guest_bathrooms_10_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -835,7 +835,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_D_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_D" ng-model="guest_bathrooms_10_3_1_D" value="7" ng-checked="guest_bathrooms_10_3_1_D_c" ng-focus="check_guest_bathrooms_10_3_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_D_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_D" ng-model="lodge_guest_bathrooms_10_3_1_D" value="7" ng-checked="lodge_guest_bathrooms_10_3_1_D_c" ng-focus="check_lodge_guest_bathrooms_10_3_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -867,14 +867,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_E_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_3_1_E" ng-model="guest_bathrooms_10_3_1_E" value="0" ng-checked="guest_bathrooms_10_3_1_E_a" ng-focus="check_guest_bathrooms_10_3_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_E_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_3_1_E" ng-model="lodge_guest_bathrooms_10_3_1_E" value="0" ng-checked="lodge_guest_bathrooms_10_3_1_E_a" ng-focus="check_lodge_guest_bathrooms_10_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_3_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_E_cm" ng-model="guest_bathrooms_10_3_1_E_cm" ng-focus="check_guest_bathrooms_10_3_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_E_cm" ng-model="lodge_guest_bathrooms_10_3_1_E_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -885,7 +885,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_E_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_E" ng-model="guest_bathrooms_10_3_1_E" value="5" ng-checked="guest_bathrooms_10_3_1_E_b" ng-focus="check_guest_bathrooms_10_3_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_E_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_E" ng-model="lodge_guest_bathrooms_10_3_1_E" value="5" ng-checked="lodge_guest_bathrooms_10_3_1_E_b" ng-focus="check_lodge_guest_bathrooms_10_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -901,7 +901,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_E_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_E" ng-model="guest_bathrooms_10_3_1_E" value="8" ng-checked="guest_bathrooms_10_3_1_E_c" ng-focus="check_guest_bathrooms_10_3_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_E_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_E" ng-model="lodge_guest_bathrooms_10_3_1_E" value="8" ng-checked="lodge_guest_bathrooms_10_3_1_E_c" ng-focus="check_lodge_guest_bathrooms_10_3_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -932,14 +932,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_F_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_3_1_F" ng-model="guest_bathrooms_10_3_1_F" value="0" ng-checked="guest_bathrooms_10_3_1_F_a" ng-focus="check_guest_bathrooms_10_3_1_F_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_F_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_3_1_F" ng-model="lodge_guest_bathrooms_10_3_1_F" value="0" ng-checked="lodge_guest_bathrooms_10_3_1_F_a" ng-focus="check_lodge_guest_bathrooms_10_3_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_3_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_3_1_F_cm" ng-model="guest_bathrooms_10_3_1_F_cm" ng-focus="check_guest_bathrooms_10_3_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_3_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_3_1_F_cm" ng-model="lodge_guest_bathrooms_10_3_1_F_cm" ng-focus="check_lodge_guest_bathrooms_10_3_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -950,7 +950,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_F_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_F" ng-model="guest_bathrooms_10_3_1_F" value="5" ng-checked="guest_bathrooms_10_3_1_F_b" ng-focus="check_guest_bathrooms_10_3_1_F_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_F_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_F" ng-model="lodge_guest_bathrooms_10_3_1_F" value="5" ng-checked="lodge_guest_bathrooms_10_3_1_F_b" ng-focus="check_lodge_guest_bathrooms_10_3_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -966,7 +966,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_3_1_F_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_3_1_F" ng-model="guest_bathrooms_10_3_1_F" value="8" ng-checked="guest_bathrooms_10_3_1_F_c" ng-focus="check_guest_bathrooms_10_3_1_F_cm()" />
+		<input id="lodge_guest_bathrooms_10_3_1_F_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_3_1_F" ng-model="lodge_guest_bathrooms_10_3_1_F" value="8" ng-checked="lodge_guest_bathrooms_10_3_1_F_c" ng-focus="check_lodge_guest_bathrooms_10_3_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -986,7 +986,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="24" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_4_1_text" name="guest_bathrooms_10_4_1_text" ng-model="guest_bathrooms_10_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_4_1_text" name="lodge_guest_bathrooms_10_4_1_text" ng-model="lodge_guest_bathrooms_10_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1010,14 +1010,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_A_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_4_1_A" ng-model="guest_bathrooms_10_4_1_A" value="2" ng-checked="guest_bathrooms_10_4_1_A_a" ng-focus="check_guest_bathrooms_10_4_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_A_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_4_1_A" ng-model="lodge_guest_bathrooms_10_4_1_A" value="2" ng-checked="lodge_guest_bathrooms_10_4_1_A_a" ng-focus="check_lodge_guest_bathrooms_10_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_4_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_4_1_A_cm" ng-model="guest_bathrooms_10_4_1_A_cm" ng-focus="check_guest_bathrooms_10_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_4_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_4_1_A_cm" ng-model="lodge_guest_bathrooms_10_4_1_A_cm" ng-focus="check_lodge_guest_bathrooms_10_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1028,7 +1028,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_A_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_A" ng-model="guest_bathrooms_10_4_1_A" value="5" ng-checked="guest_bathrooms_10_4_1_A_b" ng-focus="check_guest_bathrooms_10_4_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_A_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_A" ng-model="lodge_guest_bathrooms_10_4_1_A" value="5" ng-checked="lodge_guest_bathrooms_10_4_1_A_b" ng-focus="check_lodge_guest_bathrooms_10_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1044,7 +1044,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_A_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_A" ng-model="guest_bathrooms_10_4_1_A" value="10" ng-checked="guest_bathrooms_10_4_1_A_c" ng-focus="check_guest_bathrooms_10_4_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_A_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_A" ng-model="lodge_guest_bathrooms_10_4_1_A" value="10" ng-checked="lodge_guest_bathrooms_10_4_1_A_c" ng-focus="check_lodge_guest_bathrooms_10_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1075,14 +1075,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_B_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_4_1_B" ng-model="guest_bathrooms_10_4_1_B" value="2" ng-checked="guest_bathrooms_10_4_1_B_a" ng-focus="check_guest_bathrooms_10_4_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_B_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_4_1_B" ng-model="lodge_guest_bathrooms_10_4_1_B" value="2" ng-checked="lodge_guest_bathrooms_10_4_1_B_a" ng-focus="check_lodge_guest_bathrooms_10_4_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_4_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_4_1_B_cm" ng-model="guest_bathrooms_10_4_1_B_cm" ng-focus="check_guest_bathrooms_10_4_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_4_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_4_1_B_cm" ng-model="lodge_guest_bathrooms_10_4_1_B_cm" ng-focus="check_lodge_guest_bathrooms_10_4_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1093,7 +1093,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_B_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_B" ng-model="guest_bathrooms_10_4_1_B" value="4" ng-checked="guest_bathrooms_10_4_1_B_b" ng-focus="check_guest_bathrooms_10_4_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_B_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_B" ng-model="lodge_guest_bathrooms_10_4_1_B" value="4" ng-checked="lodge_guest_bathrooms_10_4_1_B_b" ng-focus="check_lodge_guest_bathrooms_10_4_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1109,7 +1109,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_B_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_B" ng-model="guest_bathrooms_10_4_1_B" value="7" ng-checked="guest_bathrooms_10_4_1_B_c" ng-focus="check_guest_bathrooms_10_4_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_B_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_B" ng-model="lodge_guest_bathrooms_10_4_1_B" value="7" ng-checked="lodge_guest_bathrooms_10_4_1_B_c" ng-focus="check_lodge_guest_bathrooms_10_4_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1140,14 +1140,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_C_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_4_1_C" ng-model="guest_bathrooms_10_4_1_C" value="2" ng-checked="guest_bathrooms_10_4_1_C_a" ng-focus="check_guest_bathrooms_10_4_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_C_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_4_1_C" ng-model="lodge_guest_bathrooms_10_4_1_C" value="2" ng-checked="lodge_guest_bathrooms_10_4_1_C_a" ng-focus="check_lodge_guest_bathrooms_10_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_4_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_4_1_C_cm" ng-model="guest_bathrooms_10_4_1_C_cm" ng-focus="check_guest_bathrooms_10_4_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_4_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_4_1_C_cm" ng-model="lodge_guest_bathrooms_10_4_1_C_cm" ng-focus="check_lodge_guest_bathrooms_10_4_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1158,7 +1158,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_C_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_C" ng-model="guest_bathrooms_10_4_1_C" value="5" ng-checked="guest_bathrooms_10_4_1_C_b" ng-focus="check_guest_bathrooms_10_4_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_C_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_C" ng-model="lodge_guest_bathrooms_10_4_1_C" value="5" ng-checked="lodge_guest_bathrooms_10_4_1_C_b" ng-focus="check_lodge_guest_bathrooms_10_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1174,7 +1174,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_C_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_C" ng-model="guest_bathrooms_10_4_1_C" value="8" ng-checked="guest_bathrooms_10_4_1_C_c" ng-focus="check_guest_bathrooms_10_4_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_C_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_C" ng-model="lodge_guest_bathrooms_10_4_1_C" value="8" ng-checked="lodge_guest_bathrooms_10_4_1_C_c" ng-focus="check_lodge_guest_bathrooms_10_4_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1206,14 +1206,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_D_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_4_1_D" ng-model="guest_bathrooms_10_4_1_D" value="0" ng-checked="guest_bathrooms_10_4_1_D_a" ng-focus="check_guest_bathrooms_10_4_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_D_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_4_1_D" ng-model="lodge_guest_bathrooms_10_4_1_D" value="0" ng-checked="lodge_guest_bathrooms_10_4_1_D_a" ng-focus="check_lodge_guest_bathrooms_10_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_4_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_4_1_D_cm" ng-model="guest_bathrooms_10_4_1_D_cm" ng-focus="check_guest_bathrooms_10_4_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_4_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_4_1_D_cm" ng-model="lodge_guest_bathrooms_10_4_1_D_cm" ng-focus="check_lodge_guest_bathrooms_10_4_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1224,7 +1224,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_D_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_D" ng-model="guest_bathrooms_10_4_1_D" value="5" ng-checked="guest_bathrooms_10_4_1_D_b" ng-focus="check_guest_bathrooms_10_4_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_D_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_D" ng-model="lodge_guest_bathrooms_10_4_1_D" value="5" ng-checked="lodge_guest_bathrooms_10_4_1_D_b" ng-focus="check_lodge_guest_bathrooms_10_4_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1254,14 +1254,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_E_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_4_1_E" ng-model="guest_bathrooms_10_4_1_E" value="0" ng-checked="guest_bathrooms_10_4_1_E_a" ng-focus="check_guest_bathrooms_10_4_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_E_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_4_1_E" ng-model="lodge_guest_bathrooms_10_4_1_E" value="0" ng-checked="lodge_guest_bathrooms_10_4_1_E_a" ng-focus="check_lodge_guest_bathrooms_10_4_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_4_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_4_1_E_cm" ng-model="guest_bathrooms_10_4_1_E_cm" ng-focus="check_guest_bathrooms_10_4_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_4_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_4_1_E_cm" ng-model="lodge_guest_bathrooms_10_4_1_E_cm" ng-focus="check_lodge_guest_bathrooms_10_4_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1272,7 +1272,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_E_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_E" ng-model="guest_bathrooms_10_4_1_E" value="3" ng-checked="guest_bathrooms_10_4_1_E_b" ng-focus="check_guest_bathrooms_10_4_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_E_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_E" ng-model="lodge_guest_bathrooms_10_4_1_E" value="3" ng-checked="lodge_guest_bathrooms_10_4_1_E_b" ng-focus="check_lodge_guest_bathrooms_10_4_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1288,7 +1288,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_E_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_E" ng-model="guest_bathrooms_10_4_1_E" value="5" ng-checked="guest_bathrooms_10_4_1_E_c" ng-focus="check_guest_bathrooms_10_4_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_E_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_E" ng-model="lodge_guest_bathrooms_10_4_1_E" value="5" ng-checked="lodge_guest_bathrooms_10_4_1_E_c" ng-focus="check_lodge_guest_bathrooms_10_4_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1320,14 +1320,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_F_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_4_1_F" ng-model="guest_bathrooms_10_4_1_F" value="0" ng-checked="guest_bathrooms_10_4_1_F_a" ng-focus="check_guest_bathrooms_10_4_1_F_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_F_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_4_1_F" ng-model="lodge_guest_bathrooms_10_4_1_F" value="0" ng-checked="lodge_guest_bathrooms_10_4_1_F_a" ng-focus="check_lodge_guest_bathrooms_10_4_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_4_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_4_1_F_cm" ng-model="guest_bathrooms_10_4_1_F_cm" ng-focus="check_guest_bathrooms_10_4_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_4_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_4_1_F_cm" ng-model="lodge_guest_bathrooms_10_4_1_F_cm" ng-focus="check_lodge_guest_bathrooms_10_4_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1338,7 +1338,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_F_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_F" ng-model="guest_bathrooms_10_4_1_F" value="3" ng-checked="guest_bathrooms_10_4_1_F_b" ng-focus="check_guest_bathrooms_10_4_1_F_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_F_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_F" ng-model="lodge_guest_bathrooms_10_4_1_F" value="3" ng-checked="lodge_guest_bathrooms_10_4_1_F_b" ng-focus="check_lodge_guest_bathrooms_10_4_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1354,7 +1354,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_4_1_F_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_4_1_F" ng-model="guest_bathrooms_10_4_1_F" value="5" ng-checked="guest_bathrooms_10_4_1_F_c" ng-focus="check_guest_bathrooms_10_4_1_F_cm()" />
+		<input id="lodge_guest_bathrooms_10_4_1_F_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_4_1_F" ng-model="lodge_guest_bathrooms_10_4_1_F" value="5" ng-checked="lodge_guest_bathrooms_10_4_1_F_c" ng-focus="check_lodge_guest_bathrooms_10_4_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1376,7 +1376,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="24" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_5_1_text" name="guest_bathrooms_10_5_1_text" ng-model="guest_bathrooms_10_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_5_1_text" name="lodge_guest_bathrooms_10_5_1_text" ng-model="lodge_guest_bathrooms_10_5_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1402,7 +1402,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_5_1_A_a" class="sum_lodge" type="checkbox" name="guest_bathrooms_10_5_1_A_a" ng-model="guest_bathrooms_10_5_1_A_a" value="2" ng-checked="guest_bathrooms_10_5_1_A_aTT" ng-focus="check_guest_bathrooms_10_5_1_A_a_cm()"/>
+		<input id="lodge_guest_bathrooms_10_5_1_A_a" class="sum_lodge" type="checkbox" name="lodge_guest_bathrooms_10_5_1_A_a" ng-model="lodge_guest_bathrooms_10_5_1_A_a" value="2" ng-checked="lodge_guest_bathrooms_10_5_1_A_aTT" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1418,7 +1418,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_5_1_A_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_A_a_cm" ng-model="guest_bathrooms_10_5_1_A_a_cm" ng-focus="check_guest_bathrooms_10_5_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_A_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_A_a_cm" ng-model="lodge_guest_bathrooms_10_5_1_A_a_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1430,7 +1430,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_5_1_A_b" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_5_1_A_b" ng-model="guest_bathrooms_10_5_1_A_b" value="2" ng-checked="guest_bathrooms_10_5_1_A_bTT" ng-focus="check_guest_bathrooms_10_5_1_A_b_cm()"/>
+		<input id="lodge_guest_bathrooms_10_5_1_A_b" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_5_1_A_b" ng-model="lodge_guest_bathrooms_10_5_1_A_b" value="2" ng-checked="lodge_guest_bathrooms_10_5_1_A_bTT" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1438,7 +1438,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_5_1_A_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_A_b_cm" ng-model="guest_bathrooms_10_5_1_A_b_cm" ng-focus="check_guest_bathrooms_10_5_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_A_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_A_b_cm" ng-model="lodge_guest_bathrooms_10_5_1_A_b_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1450,7 +1450,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_5_1_A_c" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_5_1_A_c" ng-model="guest_bathrooms_10_5_1_A_c" value="2" ng-checked="guest_bathrooms_10_5_1_A_cTT" ng-focus="check_guest_bathrooms_10_5_1_A_c_cm()"/>
+		<input id="lodge_guest_bathrooms_10_5_1_A_c" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_5_1_A_c" ng-model="lodge_guest_bathrooms_10_5_1_A_c" value="2" ng-checked="lodge_guest_bathrooms_10_5_1_A_cTT" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1458,7 +1458,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_5_1_A_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_A_c_cm" ng-model="guest_bathrooms_10_5_1_A_c_cm" ng-focus="check_guest_bathrooms_10_5_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_A_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_A_c_cm" ng-model="lodge_guest_bathrooms_10_5_1_A_c_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1469,7 +1469,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_5_1_A_d" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_5_1_A_d" ng-model="guest_bathrooms_10_5_1_A_d" value="2" ng-checked="guest_bathrooms_10_5_1_A_dTT" ng-focus="check_guest_bathrooms_10_5_1_A_d_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_A_d" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_5_1_A_d" ng-model="lodge_guest_bathrooms_10_5_1_A_d" value="2" ng-checked="lodge_guest_bathrooms_10_5_1_A_dTT" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1477,7 +1477,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_5_1_A_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_A_d_cm" ng-model="guest_bathrooms_10_5_1_A_d_cm" ng-focus="check_guest_bathrooms_10_5_1_A_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_A_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_A_d_cm" ng-model="lodge_guest_bathrooms_10_5_1_A_d_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1488,7 +1488,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_5_1_A_e" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_5_1_A_e" ng-model="guest_bathrooms_10_5_1_A_e" value="2" ng-checked="guest_bathrooms_10_5_1_A_eTT" ng-focus="check_guest_bathrooms_10_5_1_A_e_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_A_e" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_5_1_A_e" ng-model="lodge_guest_bathrooms_10_5_1_A_e" value="2" ng-checked="lodge_guest_bathrooms_10_5_1_A_eTT" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_e_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -1496,7 +1496,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_5_1_A_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_A_e_cm" ng-model="guest_bathrooms_10_5_1_A_e_cm" ng-focus="check_guest_bathrooms_10_5_1_A_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_A_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_A_e_cm" ng-model="lodge_guest_bathrooms_10_5_1_A_e_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_A_e()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -1522,14 +1522,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_B_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_5_1_B" ng-model="guest_bathrooms_10_5_1_B" value="3" ng-checked="guest_bathrooms_10_5_1_B_a" ng-focus="check_guest_bathrooms_10_5_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_B_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_5_1_B" ng-model="lodge_guest_bathrooms_10_5_1_B" value="3" ng-checked="lodge_guest_bathrooms_10_5_1_B_a" ng-focus="check_lodge_guest_bathrooms_10_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_5_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_B_cm" ng-model="guest_bathrooms_10_5_1_B_cm" ng-focus="check_guest_bathrooms_10_5_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_B_cm" ng-model="lodge_guest_bathrooms_10_5_1_B_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1540,7 +1540,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_B_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_5_1_B" ng-model="guest_bathrooms_10_5_1_B" value="5" ng-checked="guest_bathrooms_10_5_1_B_b" ng-focus="check_guest_bathrooms_10_5_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_B_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_5_1_B" ng-model="lodge_guest_bathrooms_10_5_1_B" value="5" ng-checked="lodge_guest_bathrooms_10_5_1_B_b" ng-focus="check_lodge_guest_bathrooms_10_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1556,7 +1556,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_B_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_5_1_B" ng-model="guest_bathrooms_10_5_1_B" value="7" ng-checked="guest_bathrooms_10_5_1_B_c" ng-focus="check_guest_bathrooms_10_5_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_B_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_5_1_B" ng-model="lodge_guest_bathrooms_10_5_1_B" value="7" ng-checked="lodge_guest_bathrooms_10_5_1_B_c" ng-focus="check_lodge_guest_bathrooms_10_5_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1588,14 +1588,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_C_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_5_1_C" ng-model="guest_bathrooms_10_5_1_C" value="0" ng-checked="guest_bathrooms_10_5_1_C_a" ng-focus="check_guest_bathrooms_10_5_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_C_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_5_1_C" ng-model="lodge_guest_bathrooms_10_5_1_C" value="0" ng-checked="lodge_guest_bathrooms_10_5_1_C_a" ng-focus="check_lodge_guest_bathrooms_10_5_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_5_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_C_cm" ng-model="guest_bathrooms_10_5_1_C_cm" ng-focus="check_guest_bathrooms_10_5_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_C_cm" ng-model="lodge_guest_bathrooms_10_5_1_C_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1606,7 +1606,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_C_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_5_1_C" ng-model="guest_bathrooms_10_5_1_C" value="5" ng-checked="guest_bathrooms_10_5_1_C_b" ng-focus="check_guest_bathrooms_10_5_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_C_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_5_1_C" ng-model="lodge_guest_bathrooms_10_5_1_C" value="5" ng-checked="lodge_guest_bathrooms_10_5_1_C_b" ng-focus="check_lodge_guest_bathrooms_10_5_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1637,14 +1637,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_D_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_5_1_D" ng-model="guest_bathrooms_10_5_1_D" value="0" ng-checked="guest_bathrooms_10_5_1_D_a" ng-focus="check_guest_bathrooms_10_5_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_D_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_5_1_D" ng-model="lodge_guest_bathrooms_10_5_1_D" value="0" ng-checked="lodge_guest_bathrooms_10_5_1_D_a" ng-focus="check_lodge_guest_bathrooms_10_5_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_5_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_D_cm" ng-model="guest_bathrooms_10_5_1_D_cm" ng-focus="check_guest_bathrooms_10_5_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_D_cm" ng-model="lodge_guest_bathrooms_10_5_1_D_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1655,7 +1655,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_D_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_5_1_D" ng-model="guest_bathrooms_10_5_1_D" value="5" ng-checked="guest_bathrooms_10_5_1_D_b" ng-focus="check_guest_bathrooms_10_5_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_D_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_5_1_D" ng-model="lodge_guest_bathrooms_10_5_1_D" value="5" ng-checked="lodge_guest_bathrooms_10_5_1_D_b" ng-focus="check_lodge_guest_bathrooms_10_5_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1687,14 +1687,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_E_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_5_1_E" ng-model="guest_bathrooms_10_5_1_E" value="2" ng-checked="guest_bathrooms_10_5_1_E_a" ng-focus="check_guest_bathrooms_10_5_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_E_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_5_1_E" ng-model="lodge_guest_bathrooms_10_5_1_E" value="2" ng-checked="lodge_guest_bathrooms_10_5_1_E_a" ng-focus="check_lodge_guest_bathrooms_10_5_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_5_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_E_cm" ng-model="guest_bathrooms_10_5_1_E_cm" ng-focus="check_guest_bathrooms_10_5_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_E_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_E_cm" ng-model="lodge_guest_bathrooms_10_5_1_E_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_E()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1705,7 +1705,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_E_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_5_1_E" ng-model="guest_bathrooms_10_5_1_E" value="5" ng-checked="guest_bathrooms_10_5_1_E_b" ng-focus="check_guest_bathrooms_10_5_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_E_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_5_1_E" ng-model="lodge_guest_bathrooms_10_5_1_E" value="5" ng-checked="lodge_guest_bathrooms_10_5_1_E_b" ng-focus="check_lodge_guest_bathrooms_10_5_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1721,7 +1721,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_E_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_5_1_E" ng-model="guest_bathrooms_10_5_1_E" value="8" ng-checked="guest_bathrooms_10_5_1_E_c" ng-focus="check_guest_bathrooms_10_5_1_E_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_E_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_5_1_E" ng-model="lodge_guest_bathrooms_10_5_1_E" value="8" ng-checked="lodge_guest_bathrooms_10_5_1_E_c" ng-focus="check_lodge_guest_bathrooms_10_5_1_E_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1752,14 +1752,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_F_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_5_1_F" ng-model="guest_bathrooms_10_5_1_F" value="3" ng-checked="guest_bathrooms_10_5_1_F_a" ng-focus="check_guest_bathrooms_10_5_1_F_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_F_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_5_1_F" ng-model="lodge_guest_bathrooms_10_5_1_F" value="3" ng-checked="lodge_guest_bathrooms_10_5_1_F_a" ng-focus="check_lodge_guest_bathrooms_10_5_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_5_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_5_1_F_cm" ng-model="guest_bathrooms_10_5_1_F_cm" ng-focus="check_guest_bathrooms_10_5_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_5_1_F_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_5_1_F_cm" ng-model="lodge_guest_bathrooms_10_5_1_F_cm" ng-focus="check_lodge_guest_bathrooms_10_5_1_F()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1770,7 +1770,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_5_1_F_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_5_1_F" ng-model="guest_bathrooms_10_5_1_F" value="5" ng-checked="guest_bathrooms_10_5_1_F_b" ng-focus="check_guest_bathrooms_10_5_1_F_cm()" />
+		<input id="lodge_guest_bathrooms_10_5_1_F_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_5_1_F" ng-model="lodge_guest_bathrooms_10_5_1_F" value="5" ng-checked="lodge_guest_bathrooms_10_5_1_F_b" ng-focus="check_lodge_guest_bathrooms_10_5_1_F_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1791,7 +1791,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="13" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_6_1_text" name="guest_bathrooms_10_6_1_text" ng-model="guest_bathrooms_10_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_6_1_text" name="lodge_guest_bathrooms_10_6_1_text" ng-model="lodge_guest_bathrooms_10_6_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -1817,14 +1817,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_A_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_6_1_A" ng-model="guest_bathrooms_10_6_1_A" value="5" ng-checked="guest_bathrooms_10_6_1_A_a" ng-focus="check_guest_bathrooms_10_6_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_A_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_6_1_A" ng-model="lodge_guest_bathrooms_10_6_1_A" value="5" ng-checked="lodge_guest_bathrooms_10_6_1_A_a" ng-focus="check_lodge_guest_bathrooms_10_6_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_6_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_6_1_A_cm" ng-model="guest_bathrooms_10_6_1_A_cm" ng-focus="check_guest_bathrooms_10_6_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_6_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_6_1_A_cm" ng-model="lodge_guest_bathrooms_10_6_1_A_cm" ng-focus="check_lodge_guest_bathrooms_10_6_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1835,7 +1835,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_A_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_6_1_A" ng-model="guest_bathrooms_10_6_1_A" value="10" ng-checked="guest_bathrooms_10_6_1_A_b" ng-focus="check_guest_bathrooms_10_6_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_A_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_6_1_A" ng-model="lodge_guest_bathrooms_10_6_1_A" value="10" ng-checked="lodge_guest_bathrooms_10_6_1_A_b" ng-focus="check_lodge_guest_bathrooms_10_6_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1851,7 +1851,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_A_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_6_1_A" ng-model="guest_bathrooms_10_6_1_A" value="20" ng-checked="guest_bathrooms_10_6_1_A_c" ng-focus="check_guest_bathrooms_10_6_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_A_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_6_1_A" ng-model="lodge_guest_bathrooms_10_6_1_A" value="20" ng-checked="lodge_guest_bathrooms_10_6_1_A_c" ng-focus="check_lodge_guest_bathrooms_10_6_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1882,14 +1882,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_B_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_6_1_B" ng-model="guest_bathrooms_10_6_1_B" value="5" ng-checked="guest_bathrooms_10_6_1_B_a" ng-focus="check_guest_bathrooms_10_6_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_B_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_6_1_B" ng-model="lodge_guest_bathrooms_10_6_1_B" value="5" ng-checked="lodge_guest_bathrooms_10_6_1_B_a" ng-focus="check_lodge_guest_bathrooms_10_6_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_6_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_6_1_B_cm" ng-model="guest_bathrooms_10_6_1_B_cm" ng-focus="check_guest_bathrooms_10_6_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_6_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_6_1_B_cm" ng-model="lodge_guest_bathrooms_10_6_1_B_cm" ng-focus="check_lodge_guest_bathrooms_10_6_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1900,7 +1900,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_B_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_6_1_B" ng-model="guest_bathrooms_10_6_1_B" value="10" ng-checked="guest_bathrooms_10_6_1_B_b" ng-focus="check_guest_bathrooms_10_6_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_B_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_6_1_B" ng-model="lodge_guest_bathrooms_10_6_1_B" value="10" ng-checked="lodge_guest_bathrooms_10_6_1_B_b" ng-focus="check_lodge_guest_bathrooms_10_6_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1916,7 +1916,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_B_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_6_1_B" ng-model="guest_bathrooms_10_6_1_B" value="15" ng-checked="guest_bathrooms_10_6_1_B_c" ng-focus="check_guest_bathrooms_10_6_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_B_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_6_1_B" ng-model="lodge_guest_bathrooms_10_6_1_B" value="15" ng-checked="lodge_guest_bathrooms_10_6_1_B_c" ng-focus="check_lodge_guest_bathrooms_10_6_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1946,14 +1946,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_C_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_6_1_C" ng-model="guest_bathrooms_10_6_1_C" value="5" ng-checked="guest_bathrooms_10_6_1_C_a" ng-focus="check_guest_bathrooms_10_6_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_C_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_6_1_C" ng-model="lodge_guest_bathrooms_10_6_1_C" value="5" ng-checked="lodge_guest_bathrooms_10_6_1_C_a" ng-focus="check_lodge_guest_bathrooms_10_6_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_6_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_6_1_C_cm" ng-model="guest_bathrooms_10_6_1_C_cm" ng-focus="check_guest_bathrooms_10_6_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_6_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_6_1_C_cm" ng-model="lodge_guest_bathrooms_10_6_1_C_cm" ng-focus="check_lodge_guest_bathrooms_10_6_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -1964,7 +1964,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_C_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_6_1_C" ng-model="guest_bathrooms_10_6_1_C" value="7" ng-checked="guest_bathrooms_10_6_1_C_b" ng-focus="check_guest_bathrooms_10_6_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_C_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_6_1_C" ng-model="lodge_guest_bathrooms_10_6_1_C" value="7" ng-checked="lodge_guest_bathrooms_10_6_1_C_b" ng-focus="check_lodge_guest_bathrooms_10_6_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -1980,7 +1980,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_6_1_C_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_6_1_C" ng-model="guest_bathrooms_10_6_1_C" value="15" ng-checked="guest_bathrooms_10_6_1_C_c" ng-focus="check_guest_bathrooms_10_6_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_6_1_C_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_6_1_C" ng-model="lodge_guest_bathrooms_10_6_1_C" value="15" ng-checked="lodge_guest_bathrooms_10_6_1_C_c" ng-focus="check_lodge_guest_bathrooms_10_6_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2001,7 +2001,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="15" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_7_1_text" name="guest_bathrooms_10_7_1_text" ng-model="guest_bathrooms_10_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_7_1_text" name="lodge_guest_bathrooms_10_7_1_text" ng-model="lodge_guest_bathrooms_10_7_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2026,14 +2026,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_A_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_7_1_A" ng-model="guest_bathrooms_10_7_1_A" value="0" ng-checked="guest_bathrooms_10_7_1_A_a" ng-focus="check_guest_bathrooms_10_7_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_A_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_7_1_A" ng-model="lodge_guest_bathrooms_10_7_1_A" value="0" ng-checked="lodge_guest_bathrooms_10_7_1_A_a" ng-focus="check_lodge_guest_bathrooms_10_7_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_7_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_7_1_A_cm" ng-model="guest_bathrooms_10_7_1_A_cm" ng-focus="check_guest_bathrooms_10_7_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_7_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_7_1_A_cm" ng-model="lodge_guest_bathrooms_10_7_1_A_cm" ng-focus="check_lodge_guest_bathrooms_10_7_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2044,7 +2044,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_A_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_7_1_A" ng-model="guest_bathrooms_10_7_1_A" value="5" ng-checked="guest_bathrooms_10_7_1_A_b" ng-focus="check_guest_bathrooms_10_7_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_A_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_7_1_A" ng-model="lodge_guest_bathrooms_10_7_1_A" value="5" ng-checked="lodge_guest_bathrooms_10_7_1_A_b" ng-focus="check_lodge_guest_bathrooms_10_7_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2075,14 +2075,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_B_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_7_1_B" ng-model="guest_bathrooms_10_7_1_B" value="0" ng-checked="guest_bathrooms_10_7_1_B_a" ng-focus="check_guest_bathrooms_10_7_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_B_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_7_1_B" ng-model="lodge_guest_bathrooms_10_7_1_B" value="0" ng-checked="lodge_guest_bathrooms_10_7_1_B_a" ng-focus="check_lodge_guest_bathrooms_10_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_7_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_7_1_B_cm" ng-model="guest_bathrooms_10_7_1_B_cm" ng-focus="check_guest_bathrooms_10_7_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_7_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_7_1_B_cm" ng-model="lodge_guest_bathrooms_10_7_1_B_cm" ng-focus="check_lodge_guest_bathrooms_10_7_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2093,7 +2093,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_B_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_7_1_B" ng-model="guest_bathrooms_10_7_1_B" value="5" ng-checked="guest_bathrooms_10_7_1_B_b" ng-focus="check_guest_bathrooms_10_7_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_B_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_7_1_B" ng-model="lodge_guest_bathrooms_10_7_1_B" value="5" ng-checked="lodge_guest_bathrooms_10_7_1_B_b" ng-focus="check_lodge_guest_bathrooms_10_7_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2125,14 +2125,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_C_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_7_1_C" ng-model="guest_bathrooms_10_7_1_C" value="1" ng-checked="guest_bathrooms_10_7_1_C_a" ng-focus="check_guest_bathrooms_10_7_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_C_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_7_1_C" ng-model="lodge_guest_bathrooms_10_7_1_C" value="1" ng-checked="lodge_guest_bathrooms_10_7_1_C_a" ng-focus="check_lodge_guest_bathrooms_10_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_7_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_7_1_C_cm" ng-model="guest_bathrooms_10_7_1_C_cm" ng-focus="check_guest_bathrooms_10_7_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_7_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_7_1_C_cm" ng-model="lodge_guest_bathrooms_10_7_1_C_cm" ng-focus="check_lodge_guest_bathrooms_10_7_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2143,7 +2143,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_C_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_7_1_C" ng-model="guest_bathrooms_10_7_1_C" value="3" ng-checked="guest_bathrooms_10_7_1_C_b" ng-focus="check_guest_bathrooms_10_7_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_C_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_7_1_C" ng-model="lodge_guest_bathrooms_10_7_1_C" value="3" ng-checked="lodge_guest_bathrooms_10_7_1_C_b" ng-focus="check_lodge_guest_bathrooms_10_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2159,7 +2159,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_C_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_7_1_C" ng-model="guest_bathrooms_10_7_1_C" value="5" ng-checked="guest_bathrooms_10_7_1_C_c" ng-focus="check_guest_bathrooms_10_7_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_C_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_7_1_C" ng-model="lodge_guest_bathrooms_10_7_1_C" value="5" ng-checked="lodge_guest_bathrooms_10_7_1_C_c" ng-focus="check_lodge_guest_bathrooms_10_7_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2189,14 +2189,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_D_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_7_1_D" ng-model="guest_bathrooms_10_7_1_D" value="1" ng-checked="guest_bathrooms_10_7_1_D_a" ng-focus="check_guest_bathrooms_10_7_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_D_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_7_1_D" ng-model="lodge_guest_bathrooms_10_7_1_D" value="1" ng-checked="lodge_guest_bathrooms_10_7_1_D_a" ng-focus="check_lodge_guest_bathrooms_10_7_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_7_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_7_1_D_cm" ng-model="guest_bathrooms_10_7_1_D_cm" ng-focus="check_guest_bathrooms_10_7_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_7_1_D_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_7_1_D_cm" ng-model="lodge_guest_bathrooms_10_7_1_D_cm" ng-focus="check_lodge_guest_bathrooms_10_7_1_D()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2207,7 +2207,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_D_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_7_1_D" ng-model="guest_bathrooms_10_7_1_D" value="3" ng-checked="guest_bathrooms_10_7_1_D_b" ng-focus="check_guest_bathrooms_10_7_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_D_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_7_1_D" ng-model="lodge_guest_bathrooms_10_7_1_D" value="3" ng-checked="lodge_guest_bathrooms_10_7_1_D_b" ng-focus="check_lodge_guest_bathrooms_10_7_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2223,7 +2223,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_7_1_D_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_7_1_D" ng-model="guest_bathrooms_10_7_1_D" value="5" ng-checked="guest_bathrooms_10_7_1_D_c" ng-focus="check_guest_bathrooms_10_7_1_D_cm()" />
+		<input id="lodge_guest_bathrooms_10_7_1_D_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_7_1_D" ng-model="lodge_guest_bathrooms_10_7_1_D" value="5" ng-checked="lodge_guest_bathrooms_10_7_1_D_c" ng-focus="check_lodge_guest_bathrooms_10_7_1_D_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2244,7 +2244,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="17" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_8_1_text" name="guest_bathrooms_10_8_1_text" ng-model="guest_bathrooms_10_8_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_8_1_text" name="lodge_guest_bathrooms_10_8_1_text" ng-model="lodge_guest_bathrooms_10_8_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2270,7 +2270,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_8_1_A_a" class="sum_lodge" type="checkbox" name="guest_bathrooms_10_8_1_A_a" ng-model="guest_bathrooms_10_8_1_A_a" value="3" ng-checked="guest_bathrooms_10_8_1_A_aTT" ng-focus="check_guest_bathrooms_10_8_1_A_a_cm()"/>
+		<input id="lodge_guest_bathrooms_10_8_1_A_a" class="sum_lodge" type="checkbox" name="lodge_guest_bathrooms_10_8_1_A_a" ng-model="lodge_guest_bathrooms_10_8_1_A_a" value="3" ng-checked="lodge_guest_bathrooms_10_8_1_A_aTT" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_a_cm()"/>
 		<!--div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2286,7 +2286,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_8_1_A_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_A_a_cm" ng-model="guest_bathrooms_10_8_1_A_a_cm" ng-focus="check_guest_bathrooms_10_8_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_A_a_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_A_a_cm" ng-model="lodge_guest_bathrooms_10_8_1_A_a_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_a()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -2298,7 +2298,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_8_1_A_b" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_8_1_A_b" ng-model="guest_bathrooms_10_8_1_A_b" value="3" ng-checked="guest_bathrooms_10_8_1_A_bTT" ng-focus="check_guest_bathrooms_10_8_1_A_b_cm()"/>
+		<input id="lodge_guest_bathrooms_10_8_1_A_b" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_8_1_A_b" ng-model="lodge_guest_bathrooms_10_8_1_A_b" value="3" ng-checked="lodge_guest_bathrooms_10_8_1_A_bTT" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_b_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2306,7 +2306,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_8_1_A_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_A_b_cm" ng-model="guest_bathrooms_10_8_1_A_b_cm" ng-focus="check_guest_bathrooms_10_8_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_A_b_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_A_b_cm" ng-model="lodge_guest_bathrooms_10_8_1_A_b_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_b()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2318,7 +2318,7 @@
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_8_1_A_c" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_8_1_A_c" ng-model="guest_bathrooms_10_8_1_A_c" value="2" ng-checked="guest_bathrooms_10_8_1_A_cTT" ng-focus="check_guest_bathrooms_10_8_1_A_c_cm()"/>
+		<input id="lodge_guest_bathrooms_10_8_1_A_c" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_8_1_A_c" ng-model="lodge_guest_bathrooms_10_8_1_A_c" value="2" ng-checked="lodge_guest_bathrooms_10_8_1_A_cTT" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_c_cm()"/>
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2326,7 +2326,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_8_1_A_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_A_c_cm" ng-model="guest_bathrooms_10_8_1_A_c_cm" ng-focus="check_guest_bathrooms_10_8_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_A_c_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_A_c_cm" ng-model="lodge_guest_bathrooms_10_8_1_A_c_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_c()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2337,7 +2337,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_8_1_A_d" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_8_1_A_d" ng-model="guest_bathrooms_10_8_1_A_d" value="3" ng-checked="guest_bathrooms_10_8_1_A_dTT" ng-focus="check_guest_bathrooms_10_8_1_A_d_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_A_d" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_8_1_A_d" ng-model="lodge_guest_bathrooms_10_8_1_A_d" value="3" ng-checked="lodge_guest_bathrooms_10_8_1_A_dTT" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_d_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2345,7 +2345,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_8_1_A_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_A_d_cm" ng-model="guest_bathrooms_10_8_1_A_d_cm" ng-focus="check_guest_bathrooms_10_8_1_A_d()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_A_d_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_A_d_cm" ng-model="lodge_guest_bathrooms_10_8_1_A_d_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_d()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2356,7 +2356,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_8_1_A_e" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_8_1_A_e" ng-model="guest_bathrooms_10_8_1_A_e" value="3" ng-checked="guest_bathrooms_10_8_1_A_eTT" ng-focus="check_guest_bathrooms_10_8_1_A_e_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_A_e" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_8_1_A_e" ng-model="lodge_guest_bathrooms_10_8_1_A_e" value="3" ng-checked="lodge_guest_bathrooms_10_8_1_A_eTT" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_e_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2364,7 +2364,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_8_1_A_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_A_e_cm" ng-model="guest_bathrooms_10_8_1_A_e_cm" ng-focus="check_guest_bathrooms_10_8_1_A_e()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_A_e_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_A_e_cm" ng-model="lodge_guest_bathrooms_10_8_1_A_e_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_e()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2375,7 +2375,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_8_1_A_f" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_8_1_A_f" ng-model="guest_bathrooms_10_8_1_A_f" value="3" ng-checked="guest_bathrooms_10_8_1_A_fTT" ng-focus="check_guest_bathrooms_10_8_1_A_f_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_A_f" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_8_1_A_f" ng-model="lodge_guest_bathrooms_10_8_1_A_f" value="3" ng-checked="lodge_guest_bathrooms_10_8_1_A_fTT" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_f_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2383,7 +2383,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue">
-  <input id="guest_bathrooms_10_8_1_A_f_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_A_f_cm" ng-model="guest_bathrooms_10_8_1_A_f_cm" ng-focus="check_guest_bathrooms_10_8_1_A_f()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_A_f_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_A_f_cm" ng-model="lodge_guest_bathrooms_10_8_1_A_f_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_f()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2394,7 +2394,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-icon p-curve p-pulse">
-		<input id="guest_bathrooms_10_8_1_A_g" class="sum_lodge" type="checkbox"  name="guest_bathrooms_10_8_1_A_g" ng-model="guest_bathrooms_10_8_1_A_g" value="3" ng-checked="guest_bathrooms_10_8_1_A_gTT" ng-focus="check_guest_bathrooms_10_8_1_A_g_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_A_g" class="sum_lodge" type="checkbox"  name="lodge_guest_bathrooms_10_8_1_A_g" ng-model="lodge_guest_bathrooms_10_8_1_A_g" value="3" ng-checked="lodge_guest_bathrooms_10_8_1_A_gTT" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_g_cm()" />
 		<div class="state p-success" style="width:13px!important">
 		<i class="icon mdi mdi-check"></i>
 		<label></label>
@@ -2402,7 +2402,7 @@
 	</div>
   </td>
   <td style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_8_1_A_g_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_A_g_cm" ng-model="guest_bathrooms_10_8_1_A_g_cm" ng-focus="check_guest_bathrooms_10_8_1_A_g()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_A_g_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_A_g_cm" ng-model="lodge_guest_bathrooms_10_8_1_A_g_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_A_g()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 
@@ -2427,14 +2427,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_8_1_B_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_8_1_B" ng-model="guest_bathrooms_10_8_1_B" value="2" ng-checked="guest_bathrooms_10_8_1_B_a" ng-focus="check_guest_bathrooms_10_8_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_B_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_8_1_B" ng-model="lodge_guest_bathrooms_10_8_1_B" value="2" ng-checked="lodge_guest_bathrooms_10_8_1_B_a" ng-focus="check_lodge_guest_bathrooms_10_8_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="guest_bathrooms_10_8_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_B_cm" ng-model="guest_bathrooms_10_8_1_B_cm" ng-focus="check_guest_bathrooms_10_8_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_B_cm" ng-model="lodge_guest_bathrooms_10_8_1_B_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2445,7 +2445,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_8_1_B_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_8_1_B" ng-model="guest_bathrooms_10_8_1_B" value="3" ng-checked="guest_bathrooms_10_8_1_B_b" ng-focus="check_guest_bathrooms_10_8_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_B_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_8_1_B" ng-model="lodge_guest_bathrooms_10_8_1_B" value="3" ng-checked="lodge_guest_bathrooms_10_8_1_B_b" ng-focus="check_lodge_guest_bathrooms_10_8_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2461,7 +2461,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_8_1_B_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_8_1_B" ng-model="guest_bathrooms_10_8_1_B" value="5" ng-checked="guest_bathrooms_10_8_1_B_c" ng-focus="check_guest_bathrooms_10_8_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_B_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_8_1_B" ng-model="lodge_guest_bathrooms_10_8_1_B" value="5" ng-checked="lodge_guest_bathrooms_10_8_1_B_c" ng-focus="check_lodge_guest_bathrooms_10_8_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2490,14 +2490,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_8_1_C_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_8_1_C" ng-model="guest_bathrooms_10_8_1_C" value="2" ng-checked="guest_bathrooms_10_8_1_C_a" ng-focus="check_guest_bathrooms_10_8_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_C_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_8_1_C" ng-model="lodge_guest_bathrooms_10_8_1_C" value="2" ng-checked="lodge_guest_bathrooms_10_8_1_C_a" ng-focus="check_lodge_guest_bathrooms_10_8_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_8_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_8_1_C_cm" ng-model="guest_bathrooms_10_8_1_C_cm" ng-focus="check_guest_bathrooms_10_8_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_8_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_8_1_C_cm" ng-model="lodge_guest_bathrooms_10_8_1_C_cm" ng-focus="check_lodge_guest_bathrooms_10_8_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2508,7 +2508,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_8_1_C_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_8_1_C" ng-model="guest_bathrooms_10_8_1_C" value="3" ng-checked="guest_bathrooms_10_8_1_C_b" ng-focus="check_guest_bathrooms_10_8_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_C_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_8_1_C" ng-model="lodge_guest_bathrooms_10_8_1_C" value="3" ng-checked="lodge_guest_bathrooms_10_8_1_C_b" ng-focus="check_lodge_guest_bathrooms_10_8_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2524,7 +2524,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_8_1_C_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_8_1_C" ng-model="guest_bathrooms_10_8_1_C" value="5" ng-checked="guest_bathrooms_10_8_1_C_c" ng-focus="check_guest_bathrooms_10_8_1_C_cm()" />
+		<input id="lodge_guest_bathrooms_10_8_1_C_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_8_1_C" ng-model="lodge_guest_bathrooms_10_8_1_C" value="5" ng-checked="lodge_guest_bathrooms_10_8_1_C_c" ng-focus="check_lodge_guest_bathrooms_10_8_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2545,7 +2545,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="9" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="guest_bathrooms_10_9_1_text" name="guest_bathrooms_10_9_1_text" ng-model="guest_bathrooms_10_9_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_guest_bathrooms_10_9_1_text" name="lodge_guest_bathrooms_10_9_1_text" ng-model="lodge_guest_bathrooms_10_9_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -2569,14 +2569,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_9_1_A_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_9_1_A" ng-model="guest_bathrooms_10_9_1_A" value="0" ng-checked="guest_bathrooms_10_9_1_A_a" ng-focus="check_guest_bathrooms_10_9_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_9_1_A_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_9_1_A" ng-model="lodge_guest_bathrooms_10_9_1_A" value="0" ng-checked="lodge_guest_bathrooms_10_9_1_A_a" ng-focus="check_lodge_guest_bathrooms_10_9_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="4" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_9_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_9_1_A_cm" ng-model="guest_bathrooms_10_9_1_A_cm" ng-focus="check_guest_bathrooms_10_9_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_9_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_9_1_A_cm" ng-model="lodge_guest_bathrooms_10_9_1_A_cm" ng-focus="check_lodge_guest_bathrooms_10_9_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2587,7 +2587,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_9_1_A_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_9_1_A" ng-model="guest_bathrooms_10_9_1_A" value="4" ng-checked="guest_bathrooms_10_9_1_A_b" ng-focus="check_guest_bathrooms_10_9_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_9_1_A_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_9_1_A" ng-model="lodge_guest_bathrooms_10_9_1_A" value="4" ng-checked="lodge_guest_bathrooms_10_9_1_A_b" ng-focus="check_lodge_guest_bathrooms_10_9_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2603,7 +2603,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_9_1_A_c" class="sum_lodge" type="radio"  name="guest_bathrooms_10_9_1_A" ng-model="guest_bathrooms_10_9_1_A" value="8" ng-checked="guest_bathrooms_10_9_1_A_c" ng-focus="check_guest_bathrooms_10_9_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_9_1_A_c" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_9_1_A" ng-model="lodge_guest_bathrooms_10_9_1_A" value="8" ng-checked="lodge_guest_bathrooms_10_9_1_A_c" ng-focus="check_lodge_guest_bathrooms_10_9_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2619,7 +2619,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_9_1_A_d" class="sum_lodge" type="radio"  name="guest_bathrooms_10_9_1_A" ng-model="guest_bathrooms_10_9_1_A" value="15" ng-checked="guest_bathrooms_10_9_1_A_d" ng-focus="check_guest_bathrooms_10_9_1_A_cm()" />
+		<input id="lodge_guest_bathrooms_10_9_1_A_d" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_9_1_A" ng-model="lodge_guest_bathrooms_10_9_1_A" value="15" ng-checked="lodge_guest_bathrooms_10_9_1_A_d" ng-focus="check_lodge_guest_bathrooms_10_9_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -2650,14 +2650,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_9_1_B_a" class="sum_lodge" type="radio" name="guest_bathrooms_10_9_1_B" ng-model="guest_bathrooms_10_9_1_B" value="0" ng-checked="guest_bathrooms_10_9_1_B_a" ng-focus="check_guest_bathrooms_10_9_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_9_1_B_a" class="sum_lodge" type="radio" name="lodge_guest_bathrooms_10_9_1_B" ng-model="lodge_guest_bathrooms_10_9_1_B" value="0" ng-checked="lodge_guest_bathrooms_10_9_1_B_a" ng-focus="check_lodge_guest_bathrooms_10_9_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="guest_bathrooms_10_9_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="guest_bathrooms_10_9_1_B_cm" ng-model="guest_bathrooms_10_9_1_B_cm" ng-focus="check_guest_bathrooms_10_9_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_guest_bathrooms_10_9_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_guest_bathrooms_10_9_1_B_cm" ng-model="lodge_guest_bathrooms_10_9_1_B_cm" ng-focus="check_lodge_guest_bathrooms_10_9_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -2668,7 +2668,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="guest_bathrooms_10_9_1_B_b" class="sum_lodge" type="radio"  name="guest_bathrooms_10_9_1_B" ng-model="guest_bathrooms_10_9_1_B" value="5" ng-checked="guest_bathrooms_10_9_1_B_b" ng-focus="check_guest_bathrooms_10_9_1_B_cm()" />
+		<input id="lodge_guest_bathrooms_10_9_1_B_b" class="sum_lodge" type="radio"  name="lodge_guest_bathrooms_10_9_1_B" ng-model="lodge_guest_bathrooms_10_9_1_B" value="5" ng-checked="lodge_guest_bathrooms_10_9_1_B_b" ng-focus="check_lodge_guest_bathrooms_10_9_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>

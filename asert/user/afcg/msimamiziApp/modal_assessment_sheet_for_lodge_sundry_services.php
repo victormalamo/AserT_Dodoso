@@ -22,7 +22,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="10" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_14_1_1_text" name="sundry_services_14_1_1_text" ng-model="sundry_services_14_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 140%; resize:none; font-size:14px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_sundry_services_14_1_1_text" name="lodge_sundry_services_14_1_1_text" ng-model="lodge_sundry_services_14_1_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 140%; resize:none; font-size:14px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -47,14 +47,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_1_1_A_a" class="sum_lodge" type="radio" name="sundry_services_14_1_1_A" ng-model="sundry_services_14_1_1_A" value="0" ng-checked="sundry_services_14_1_1_A_a" ng-focus="check_sundry_services_14_1_1_A_cm()" />
+		<input id="lodge_sundry_services_14_1_1_A_a" class="sum_lodge" type="radio" name="lodge_sundry_services_14_1_1_A" ng-model="lodge_sundry_services_14_1_1_A" value="0" ng-checked="lodge_sundry_services_14_1_1_A_a" ng-focus="check_lodge_sundry_services_14_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="sundry_services_14_1_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="sundry_services_14_1_1_A_cm" ng-model="sundry_services_14_1_1_A_cm" ng-focus="check_sundry_services_14_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_sundry_services_14_1_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_sundry_services_14_1_1_A_cm" ng-model="lodge_sundry_services_14_1_1_A_cm" ng-focus="check_lodge_sundry_services_14_1_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -65,7 +65,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_1_1_A_b" class="sum_lodge" type="radio"  name="sundry_services_14_1_1_A" ng-model="sundry_services_14_1_1_A" value="2" ng-checked="sundry_services_14_1_1_A_b" ng-focus="check_sundry_services_14_1_1_A_cm()" />
+		<input id="lodge_sundry_services_14_1_1_A_b" class="sum_lodge" type="radio"  name="lodge_sundry_services_14_1_1_A" ng-model="lodge_sundry_services_14_1_1_A" value="2" ng-checked="lodge_sundry_services_14_1_1_A_b" ng-focus="check_lodge_sundry_services_14_1_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -95,14 +95,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_1_1_B_a" class="sum_lodge" type="radio" name="sundry_services_14_1_1_B" ng-model="sundry_services_14_1_1_B" value="1" ng-checked="sundry_services_14_1_1_B_a" ng-focus="check_sundry_services_14_1_1_B_cm()" />
+		<input id="lodge_sundry_services_14_1_1_B_a" class="sum_lodge" type="radio" name="lodge_sundry_services_14_1_1_B" ng-model="lodge_sundry_services_14_1_1_B" value="1" ng-checked="lodge_sundry_services_14_1_1_B_a" ng-focus="check_lodge_sundry_services_14_1_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="sundry_services_14_1_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="sundry_services_14_1_1_B_cm" ng-model="sundry_services_14_1_1_B_cm" ng-focus="check_sundry_services_14_1_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_sundry_services_14_1_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_sundry_services_14_1_1_B_cm" ng-model="lodge_sundry_services_14_1_1_B_cm" ng-focus="check_lodge_sundry_services_14_1_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -113,7 +113,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_1_1_B_b" class="sum_lodge" type="radio"  name="sundry_services_14_1_1_B" ng-model="sundry_services_14_1_1_B" value="5" ng-checked="sundry_services_14_1_1_B_b" ng-focus="check_sundry_services_14_1_1_B_cm()" />
+		<input id="lodge_sundry_services_14_1_1_B_b" class="sum_lodge" type="radio"  name="lodge_sundry_services_14_1_1_B" ng-model="lodge_sundry_services_14_1_1_B" value="5" ng-checked="lodge_sundry_services_14_1_1_B_b" ng-focus="check_lodge_sundry_services_14_1_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -143,14 +143,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_1_1_C_a" class="sum_lodge" type="radio" name="sundry_services_14_1_1_C" ng-model="sundry_services_14_1_1_C" value="0" ng-checked="sundry_services_14_1_1_C_a" ng-focus="check_sundry_services_14_1_1_C_cm()" />
+		<input id="lodge_sundry_services_14_1_1_C_a" class="sum_lodge" type="radio" name="lodge_sundry_services_14_1_1_C" ng-model="lodge_sundry_services_14_1_1_C" value="0" ng-checked="lodge_sundry_services_14_1_1_C_a" ng-focus="check_lodge_sundry_services_14_1_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="sundry_services_14_1_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="sundry_services_14_1_1_C_cm" ng-model="sundry_services_14_1_1_C_cm" ng-focus="check_sundry_services_14_1_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_sundry_services_14_1_1_C_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_sundry_services_14_1_1_C_cm" ng-model="lodge_sundry_services_14_1_1_C_cm" ng-focus="check_lodge_sundry_services_14_1_1_C()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -161,7 +161,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_1_1_C_b" class="sum_lodge" type="radio"  name="sundry_services_14_1_1_C" ng-model="sundry_services_14_1_1_C" value="3" ng-checked="sundry_services_14_1_1_C_b" ng-focus="check_sundry_services_14_1_1_C_cm()" />
+		<input id="lodge_sundry_services_14_1_1_C_b" class="sum_lodge" type="radio"  name="lodge_sundry_services_14_1_1_C" ng-model="lodge_sundry_services_14_1_1_C" value="3" ng-checked="lodge_sundry_services_14_1_1_C_b" ng-focus="check_lodge_sundry_services_14_1_1_C_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -184,7 +184,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="4" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_14_2_1_text" name="sundry_services_14_2_1_text" ng-model="sundry_services_14_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_sundry_services_14_2_1_text" name="lodge_sundry_services_14_2_1_text" ng-model="lodge_sundry_services_14_2_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -209,14 +209,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_2_1_A_a" class="sum_lodge" type="radio" name="sundry_services_14_2_1_A" ng-model="sundry_services_14_2_1_A" value="0" ng-checked="sundry_services_14_2_1_A_a" ng-focus="check_sundry_services_14_2_1_A_cm()" />
+		<input id="lodge_sundry_services_14_2_1_A_a" class="sum_lodge" type="radio" name="lodge_sundry_services_14_2_1_A" ng-model="lodge_sundry_services_14_2_1_A" value="0" ng-checked="lodge_sundry_services_14_2_1_A_a" ng-focus="check_lodge_sundry_services_14_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="sundry_services_14_2_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="sundry_services_14_2_1_A_cm" ng-model="sundry_services_14_2_1_A_cm" ng-focus="check_sundry_services_14_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_sundry_services_14_2_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_sundry_services_14_2_1_A_cm" ng-model="lodge_sundry_services_14_2_1_A_cm" ng-focus="check_lodge_sundry_services_14_2_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -227,7 +227,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_2_1_A_b" class="sum_lodge" type="radio"  name="sundry_services_14_2_1_A" ng-model="sundry_services_14_2_1_A" value="10" ng-checked="sundry_services_14_2_1_A_b" ng-focus="check_sundry_services_14_2_1_A_cm()" />
+		<input id="lodge_sundry_services_14_2_1_A_b" class="sum_lodge" type="radio"  name="lodge_sundry_services_14_2_1_A" ng-model="lodge_sundry_services_14_2_1_A" value="10" ng-checked="lodge_sundry_services_14_2_1_A_b" ng-focus="check_lodge_sundry_services_14_2_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -250,7 +250,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="8" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_14_3_1_text" name="sundry_services_14_3_1_text" ng-model="sundry_services_14_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_sundry_services_14_3_1_text" name="lodge_sundry_services_14_3_1_text" ng-model="lodge_sundry_services_14_3_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -275,14 +275,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_3_1_A_a" class="sum_lodge" type="radio" name="sundry_services_14_3_1_A" ng-model="sundry_services_14_3_1_A" value="0" ng-checked="sundry_services_14_3_1_A_a" ng-focus="check_sundry_services_14_3_1_A_cm()" />
+		<input id="lodge_sundry_services_14_3_1_A_a" class="sum_lodge" type="radio" name="lodge_sundry_services_14_3_1_A" ng-model="lodge_sundry_services_14_3_1_A" value="0" ng-checked="lodge_sundry_services_14_3_1_A_a" ng-focus="check_lodge_sundry_services_14_3_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col_sub_section">
-  <input id="sundry_services_14_3_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="sundry_services_14_3_1_A_cm" ng-model="sundry_services_14_3_1_A_cm" ng-focus="check_sundry_services_14_3_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_sundry_services_14_3_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_sundry_services_14_3_1_A_cm" ng-model="lodge_sundry_services_14_3_1_A_cm" ng-focus="check_lodge_sundry_services_14_3_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -293,7 +293,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col_sub_section">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_3_1_A_b" class="sum_lodge" type="radio"  name="sundry_services_14_3_1_A" ng-model="sundry_services_14_3_1_A" value="10" ng-checked="sundry_services_14_3_1_A_b" ng-focus="check_sundry_services_14_3_1_A_cm()" />
+		<input id="lodge_sundry_services_14_3_1_A_b" class="sum_lodge" type="radio"  name="lodge_sundry_services_14_3_1_A" ng-model="lodge_sundry_services_14_3_1_A" value="10" ng-checked="lodge_sundry_services_14_3_1_A_b" ng-focus="check_lodge_sundry_services_14_3_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -324,14 +324,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_3_1_B_a" class="sum_lodge" type="radio" name="sundry_services_14_3_1_B" ng-model="sundry_services_14_3_1_B" value="15" ng-checked="sundry_services_14_3_1_B_a" ng-focus="check_sundry_services_14_3_1_B_cm()" />
+		<input id="lodge_sundry_services_14_3_1_B_a" class="sum_lodge" type="radio" name="lodge_sundry_services_14_3_1_B" ng-model="lodge_sundry_services_14_3_1_B" value="15" ng-checked="lodge_sundry_services_14_3_1_B_a" ng-focus="check_lodge_sundry_services_14_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="3" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="sundry_services_14_3_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="sundry_services_14_3_1_B_cm" ng-model="sundry_services_14_3_1_B_cm" ng-focus="check_sundry_services_14_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_sundry_services_14_3_1_B_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_sundry_services_14_3_1_B_cm" ng-model="lodge_sundry_services_14_3_1_B_cm" ng-focus="check_lodge_sundry_services_14_3_1_B()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -342,7 +342,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_3_1_B_b" class="sum_lodge" type="radio" name="sundry_services_14_3_1_B" ng-model="sundry_services_14_3_1_B" value="20" ng-checked="sundry_services_14_3_1_B_b" ng-focus="check_sundry_services_14_3_1_B_cm()" />
+		<input id="lodge_sundry_services_14_3_1_B_b" class="sum_lodge" type="radio" name="lodge_sundry_services_14_3_1_B" ng-model="lodge_sundry_services_14_3_1_B" value="20" ng-checked="lodge_sundry_services_14_3_1_B_b" ng-focus="check_lodge_sundry_services_14_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -358,7 +358,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_3_1_B_c" class="sum_lodge" type="radio"  name="sundry_services_14_3_1_B" ng-model="sundry_services_14_3_1_B" value="30" ng-checked="sundry_services_14_3_1_B_c" ng-focus="check_sundry_services_14_3_1_B_cm()" />
+		<input id="lodge_sundry_services_14_3_1_B_c" class="sum_lodge" type="radio"  name="lodge_sundry_services_14_3_1_B" ng-model="lodge_sundry_services_14_3_1_B" value="30" ng-checked="lodge_sundry_services_14_3_1_B_c" ng-focus="check_lodge_sundry_services_14_3_1_B_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
@@ -386,7 +386,7 @@
  
   <!--td style="vertical-align:middle" class="border-mdblue"></td-->
   <td rowspan="4" style="vertical-align:top" align="left" class="border-mdblue last_row_col">
-  <textarea id="sundry_services_14_4_1_text" name="sundry_services_14_4_1_text" ng-model="sundry_services_14_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
+  <textarea id="lodge_sundry_services_14_4_1_text" name="lodge_sundry_services_14_4_1_text" ng-model="lodge_sundry_services_14_4_1_text" style="display: block; padding: 0; margin: 0; border: 0; width: 100%; resize:none; font-size:12px!important" rows="4" placeholder="Type here.." class=""></textarea>
   </td>
 </tr>
 
@@ -412,14 +412,14 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_4_1_A_a" class="sum_lodge" type="radio" name="sundry_services_14_4_1_A" ng-model="sundry_services_14_4_1_A" value="0" ng-checked="sundry_services_14_4_1_A_a" ng-focus="check_sundry_services_14_4_1_A_cm()" />
+		<input id="lodge_sundry_services_14_4_1_A_a" class="sum_lodge" type="radio" name="lodge_sundry_services_14_4_1_A" ng-model="lodge_sundry_services_14_4_1_A" value="0" ng-checked="lodge_sundry_services_14_4_1_A_a" ng-focus="check_lodge_sundry_services_14_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
 	</div>
   </td>
   <td rowspan="2" style="vertical-align:middle; text-align:center; background-color:rgba(0,0,0,.05)" align="center" class="border-mdblue last_row_col">
-  <input id="sundry_services_14_4_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="sundry_services_14_4_1_A_cm" ng-model="sundry_services_14_4_1_A_cm" ng-focus="check_sundry_services_14_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
+  <input id="lodge_sundry_services_14_4_1_A_cm" class="sum_lodge_cm assessor_custom_marks_field" type="text" name="lodge_sundry_services_14_4_1_A_cm" ng-model="lodge_sundry_services_14_4_1_A_cm" ng-focus="check_lodge_sundry_services_14_4_1_A()" ng-pattern="/^[0-9\.\]+$/"/>
   </td>
 </tr>
 <tr ng-class=""> 
@@ -430,7 +430,7 @@
   
   <td style="vertical-align:middle; padding-right:0px!important" align="center" class="border-mdblue last_row_col">
 	<div class="pretty p-default p-round p-pulse">
-		<input id="sundry_services_14_4_1_A_b" class="sum_lodge" type="radio"  name="sundry_services_14_4_1_A" ng-model="sundry_services_14_4_1_A" value="30" ng-checked="sundry_services_14_4_1_A_b" ng-focus="check_sundry_services_14_4_1_A_cm()" />
+		<input id="lodge_sundry_services_14_4_1_A_b" class="sum_lodge" type="radio"  name="lodge_sundry_services_14_4_1_A" ng-model="lodge_sundry_services_14_4_1_A" value="30" ng-checked="lodge_sundry_services_14_4_1_A_b" ng-focus="check_lodge_sundry_services_14_4_1_A_cm()" />
 		<div class="state p-success-o" style="width:13px!important">
 		<label></label>
 		</div>
